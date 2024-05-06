@@ -1,0 +1,33 @@
+filters:
+- pandoc-xnos
+# - pandoc-eqnos
+- citeproc
+# cite-method: citeproc # citeproc, natbib, or biblatex
+# citeproc: true
+
+variables:
+  xnos-cleveref: True
+  tablenos-caption-name: Πίνακας
+  secnos-cleveref: True
+  secnos-plus-name: sec.
+  secnos-star-name: sec.
+  fignos-plus-name: Εικόνα
+  fignos-star-name: Εικόνα
+
+
+file-scope: false # Parse each file individually before combining for multifile documents. This will allow footnotes in different files with the same identifiers to work as expected. If this option is set, footnotes and links will not work across files.
+from: markdown
+
+input-files: [0-frontmatter/0-frontmatter.md, chapter-1/1-introduction.md, bibliography/bibliography.md] #, chapter-2/2-html.md, chapter-3/3-html.md, chapter-4/4-css-a.md, chapter-5/5-css-layout.md, chapter-6/6-bootstrap.md, chapter-7/7-javascript-part-1.md, chapter-8/8-javascript-part-2.md, chapter-9/9-javascript-functions-objects.md, chapter-10/10-javascript-async-events.md, chapter-11/11-server-side-programming.md, chapter-12/12-express.js.md, chapter-13/13-node-databases.md, chapter-14/14-session.md, answers/answers.md]
+
+log-file: log/pdf.log.json
+output-file: output/thesis_master.pdf
+pdf-engine: xelatex
+template: templates/eisvogel.tex
+reference-location: block # block, section, or document
+resource-path: [., chapter-1, chapter-2, chapter-3, chapter-4, chapter-5, chapter-6] #, chapter-7, chapter-8, chapter-9, chapter-10, chapter-11, chapter-12, chapter-13, chapter-14]
+standalone: true
+to: pdf
+top-level-division: chapter # part, chapter, section, or default:
+verbosity: WARNING # ERROR, WARNING, or INFO
+highlight-style: tango
