@@ -8,18 +8,39 @@ https://www.researchgate.net/publication/325046233_Games_for_Teaching_Computing_
 ## 2.2 Quantum Physics Games
 
 ### Desktop and Web Games
-Platforms: Decodoku, QPlayLearn, finnishgamejam / itch.io, quantumgames.aalto, ibm
+[List Of Quantum Games](https://kiedos.art/quantum-games-list/)
 
-1) [finnishgamejam](https://www.finnishgamejam.com/):
-    - Game jam for game developers.
+1) [Finnish Game Jam](https://www.finnishgamejam.com/)
+    - Competition for game developers.
     - Desktop games: User must download the source files and build the game.
-    - Web games.
+    - Browser games.
     - Most of the games are available on [itch.io](https://itch.io/):
-    - Games hosted on finnishgamejam/itch.io are not designed for educational purposes.
-    The target of this jam is to create games with limited time and resources but with unlimited creativity [[link](https://www.finnishgamejam.com/about/)].
+    - Games created by Finnish Game Jam are not designed for educational purposes.
+    - The target of this competition is to create games with limited time and resources but with unlimited creativity [[link](https://www.finnishgamejam.com/about/)].
 
-3) [QPlayLearn](https://qplaylearn.com/about)
+2) [QPlayLearn](https://qplaylearn.com/)
     - Platform with web-based educational games.
+    - Uses interactive tools to make the learning process more effective and entertaining for different target groups [[link](https://qplaylearn.com/about)].
+
+3) [Quantum Games Course by Aalto University](https://quantumgames.aalto.fi/)
+    - Course offered by Aalto University
+    - Games are not designed for educational purposes.
+    - This course is designed to teach students how to design and develop games and also learn the basic concepts of quantum computing.
+
+4) [Science At Home](https://www.scienceathome.org/)
+    - Aarhus university
+    - Browser and desktop educational games
+    - Diverse team of scientists, designers and game developers that create scientific games, aiming at teaching by game-play [[link](https://www.scienceathome.org/about-us/)]
+
+5) github / gitlab
+    - Lots of desktop games. Most of them use Jupyter Notebooks.
+    - The majority of these games are not designed for educational purposes. They have been developed in the context of competitions or workshops.
+
+6) [Decodoku](https://itch.io/profile/decodoku)
+    - Has created a lot of quantum games. The games are hosted on itch.io.
+    - The games does not have an educational purpose.
+    - Most of them are designed to run on the [IBM Quantum Platform](https://quantum.ibm.com/)
+    - Browser and desktop games
 
 ### Mobile Games
 1) Google Play Store (for android devices)
