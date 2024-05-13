@@ -41,5 +41,25 @@
 
 ## 3.4 Rules
 
+
+## Categorization
+[link1](https://docs.gamerefinery.com/en/articles/2278730-what-are-categories-genres-and-subgenres)
+[link2](https://docs.gamerefinery.com/en/collections/112330-game-categories-genres-subgenres)<br>
+Category:
+  - **Sports & Driving**
+  - **Casual**
+
+Genre:
+  - **Sports & Driving/Sports**: Games all about sports or sport-themed action
+    * [link](https://docs.gamerefinery.com/en/articles/2278764-sports)
+  - **Casual/Puzzle**: Games focusing on puzzle solving, trivia or traditional board game mechanics
+    * [link](https://docs.gamerefinery.com/en/articles/2278748-puzzle)
+
+Subgenre:
+  - **Sports & Driving/Sports/Arcade Sports**: Based on a real life sport (golf), but with casual feel (unrealistic physics modelling, inaccurate rules).
+    * Same link as above
+  - **Casual/Puzzle/Action Puzzle**: Puzzle games that require speed, aiming and/or directing a character or object in order to solve puzzles.
+    * Same link as above
+
 ## Άλλα
 - το genre του παιχνιδιού που σχεδιάζουμε είναι τύπου puzzle: Ο παίκτης πρέπει να βρει τις σωστές πύλες με τις οποίες πρέπει να αλληλεπιδράσει η μπάλα, έτσι ώστε να μεγιστοποιήσει την πιθανότητα νίκης
