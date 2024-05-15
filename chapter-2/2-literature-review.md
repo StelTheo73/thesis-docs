@@ -44,40 +44,39 @@ https://www.researchgate.net/publication/325046233_Games_for_Teaching_Computing_
 
 ### 2.2.2 Mobile Games
 #### Google Play Store (for android devices)
-    - [Quantum](https://play.google.com/store/apps/details?id=brychta.stepan.quantum_en)
-        * Educational app
-        * 13 chapters
-        * 4 tests - 60 different questions
-    - [QuantumQ](https://play.google.com/store/apps/details?id=com.ph.quantumq)
-        * Puzzle game with theory
-        * Quantum gates and quantum circuits
-    - [Learn Quantum Physics](https://play.google.com/store/apps/details?id=com.codeworld.learnquantumphysics)
-        * Educational app
-        * Designed for students and professionals
-    - [Quantum Computing](https://play.google.com/store/apps/details?id=hu.hexadecimal.quantum)
-        * Educational app
-    - [Quantum 3](https://play.google.com/store/apps/details?id=com.gellab.quantum3):
-        * Educational game designed by Michigan State University
-        * Puzzle game
-        * Particle physics
+  - [Quantum](https://play.google.com/store/apps/details?id=brychta.stepan.quantum_en)
+    * Educational app
+    * 13 chapters
+    * 4 tests - 60 different questions
+  - [QuantumQ](https://play.google.com/store/apps/details?id=com.ph.quantumq)
+    * Puzzle game with theory
+    * Quantum gates and quantum circuits
+  - [Learn Quantum Physics](https://play.google.com/store/apps/details?id=com.codeworld.learnquantumphysics)
+    * Educational app
+    * Designed for students and professionals
+  - [Quantum Computing](https://play.google.com/store/apps/details?id=hu.hexadecimal.quantum)
+    * Educational app
+  - [Quantum 3](https://play.google.com/store/apps/details?id=com.gellab.quantum3):
+    * Educational game designed by Michigan State University
+    * Puzzle game
+    * Particle physics
 
 #### App Store (for iOS devices)
-    - [Quantum Mechanics](https://apps.apple.com/tr/app/quantum-mechanics-theories/id1159692911?l=tr)
-        * Educational app
-        * Particle physics
-    - [Qika Quantum Game](https://apps.apple.com/tr/app/qika-quantum-game/id1546543567): Qika is a quantum game which you need to apply quantum gates to qubits in the grid. You need to change the states of qubits by applying gates in order to reach the target measurement.
-        * Puzzle game
-        * Applying quantum gates to qubits on order to reach a target measurement !!! Basic concept of our game !!!
-    - [Quantum 3](https://play.google.com/store/apps/details?id=com.gellab.quantum3):
-        * Same as android game
-        * Educational game designed by Michigan State University
-        * Puzzle game
-        * Particle physics
-    - [Quantum Kate AR](https://apps.apple.com/ae/app/quantum-kate-ar/id1471200027):
-        * Educational game
-        * Casual -> Simulation -> Adventure game
-        * Particle physics
-
+  - [Quantum Mechanics](https://apps.apple.com/tr/app/quantum-mechanics-theories/id1159692911?l=tr)
+    * Educational app
+    * Particle physics
+  - [Qika Quantum Game](https://apps.apple.com/tr/app/qika-quantum-game/id1546543567): Qika is a quantum game which you need to apply quantum gates to qubits in the grid. You need to change the states of qubits by applying gates in order to reach the target measurement.
+    * Puzzle game
+    * Applying quantum gates to qubits on order to reach a target measurement !!! Basic concept of our game !!!
+  - [Quantum 3](https://play.google.com/store/apps/details?id=com.gellab.quantum3):
+    * Same as android game
+    * Educational game designed by Michigan State University
+    * Puzzle game
+    * Particle physics
+  - [Quantum Kate AR](https://apps.apple.com/ae/app/quantum-kate-ar/id1471200027):
+    * Educational game
+    * Casual -> Simulation -> Adventure game
+    * Particle physics
 
 ## 2.3 Why a mobile game?
 
