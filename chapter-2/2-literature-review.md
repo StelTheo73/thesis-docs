@@ -28,7 +28,7 @@ https://www.researchgate.net/publication/325046233_Games_for_Teaching_Computing_
     - This course is designed to teach students how to design and develop games and also learn the basic concepts of quantum computing.
 
 4) [Science At Home](https://www.scienceathome.org/)
-    - Aarhus university
+    - Aarhus University
     - Browser and desktop educational games
     - Diverse team of scientists, designers and game developers that create scientific games, aiming at teaching by game-play [[link](https://www.scienceathome.org/about-us/)]
 
@@ -41,6 +41,14 @@ https://www.researchgate.net/publication/325046233_Games_for_Teaching_Computing_
     - The games does not have an educational purpose.
     - Most of them are designed to run on the [IBM Quantum Platform](https://quantum.ibm.com/)
     - Browser and desktop games
+
+Conclusions:
+  - Educational or not?
+  - Quantum Computing or Particle Physics?
+  - Designed by professionals, universities or just for fun?
+  - Desktop or web?
+  - Programming language - Technologies?
+Consider adding table
 
 ### 2.2.2 Mobile Games
 #### Google Play Store (for android devices)
@@ -77,6 +85,14 @@ https://www.researchgate.net/publication/325046233_Games_for_Teaching_Computing_
     * Educational game
     * Casual -> Simulation -> Adventure game
     * Particle physics
+
+  Conclusions:
+    - Educational or not?
+    - Quantum Computing or Particle Physics?
+    - Designed by professional, Universities or just for fun?
+    - Android or iOS?
+    - Programming language - Technologies?
+Consider adding table
 
 ## 2.3 Why a mobile game?
 
