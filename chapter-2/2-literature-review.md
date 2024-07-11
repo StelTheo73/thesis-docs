@@ -103,7 +103,7 @@ https://www.researchgate.net/figure/Core-educational-value-of-mobile-games_fig5_
 https://www.linkedin.com/pulse/top-7-reasons-using-mobile-apps-education-e-learning-industry-ved-raj
 
 <!-- - Επιθυμούμε να φτιάξουμε ένα παιχνίδι το οποίο μπορεί να παίζεται εύκολα, χωρίς να
-χρειάζεται να είναι ο χρήστης μπροστά στον υπολογιστή του.
+χρειάζεται να είναι ο χρήστης μπροστά στον υπολογιστή του, ακόμα και κατά τη διάρκεια μία διάλεξης.
 - Ένα mobile game μπορεί να παιχθεί από περισσότερα άτομα. -->
 
 
