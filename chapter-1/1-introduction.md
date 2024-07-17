@@ -35,6 +35,8 @@ The aim of this thesis is to familiarize the learners with the basic principles 
 
 In order to play this educational game, one does not need to have a university background in mathematics or a strong background in quantum physics. The game can be played by anyone who is interested in learning how quantum gates work and how they affect quantum bits.
 
-For this purpose, a classic game with simple mechanisms and low complexity should be chosen, whose rules and objectives should be adapted to the topic of quantum computing.
+In addition, it is desirable that the game could be played at any time and in any place, without the need of equipment or a computer. The aim is that the user can play even when he has limited time (e.g. travelling, waiting for public transportation, etc.), and for the game to be suitable for playing in a class, in the context of a lecture.
 
-## 1.4 Thesis Structure
+For these reasons, a classic digital game, for mobile devices, with simple mechanisms and low complexity should be chosen, whose rules and objectives should be adapted to the topic of quantum computing.
+
+## 1.5 Thesis Structure
