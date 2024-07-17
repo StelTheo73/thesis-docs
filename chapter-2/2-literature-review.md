@@ -1,13 +1,21 @@
 
 
-# 2 Literature Review
+# Literature Review
 
-## 2.1 Computer Science Games for Higher Education
+## Computer Science Games for Higher Education
 https://www.researchgate.net/publication/325046233_Games_for_Teaching_Computing_in_Higher_Education_-_A_Systematic_Review
 
-## 2.2 Quantum Physics Games
+## Quantum Physics Games
 
-### 2.2.1 Desktop and Web Games
+### Desktop and Web Games
+:memo: **Name**: Name of the game
+:memo: **Created By**: Name of the creator (university or institution or student or individual) e.g. Student at University of Aalto
+:memo: **URL**: Where the game is hosted
+:memo: **Educational**: Was the game designed for educational purposes? True/False
+:memo: **Competition**: Was the game created for a competition? True/False
+:memo: **Course**: Was the game created in the scope of a course? True/False
+:memo: **Platform**: Desktop or Web
+
 [List Of Quantum Games](https://kiedos.art/quantum-games-list/)
 
 1) [Finnish Game Jam](https://www.finnishgamejam.com/)
@@ -50,7 +58,7 @@ Conclusions:
   - Programming language - Technologies?
 Consider adding table
 
-### 2.2.2 Mobile Games
+### Mobile Games
 #### Google Play Store (for android devices)
   - [Quantum](https://play.google.com/store/apps/details?id=brychta.stepan.quantum_en)
     * Educational app
@@ -94,7 +102,7 @@ Consider adding table
     - Programming language - Technologies?
 Consider adding table
 
-## 2.3 Why a mobile game?
+## Why a mobile game?
 
 https://www.ncfe.org.uk/all-articles/how-educational-games-are-changing-the-way-we-learn/
 
@@ -107,7 +115,7 @@ https://www.linkedin.com/pulse/top-7-reasons-using-mobile-apps-education-e-learn
 - Ένα mobile game μπορεί να παιχθεί από περισσότερα άτομα. -->
 
 
-## 2.4 Mobile Games Development Technologies
+## Mobile Games Development Technologies
 Short description of the technologies.
 
 web based (js) OR android based (?) OR iOS based (consider also developing 3 separate apps for web/android/iOS?)
@@ -115,7 +123,7 @@ cross-platform game: Use a cross-platform framework like flutter or react-native
 
 
 
-## 2.5 Why Flutter
+## Why Flutter
 Why we selected flutter?
 - cross-platform: Υπήρχαν πιο πολλές εφαρμογές android. Εμείς θέλουμε όλοι οι χρήστες να μπορούν να παίξουν, ανεξάρτητα από τη συσκευή που έχουν.
 - Άλλα πλεονεκτήματα flutter π.χ. απόδοση/ταχύτητα σε σχέση με τις άλλες επιλογές???
