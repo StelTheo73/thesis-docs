@@ -123,7 +123,7 @@ cross-platform game: Use a cross-platform framework like flutter or react-native
 
 
 
-## Why Flutter
+## Why Flutter?
 Why we selected flutter?
 - cross-platform: Υπήρχαν πιο πολλές εφαρμογές android. Εμείς θέλουμε όλοι οι χρήστες να μπορούν να παίξουν, ανεξάρτητα από τη συσκευή που έχουν.
 - Άλλα πλεονεκτήματα flutter π.χ. απόδοση/ταχύτητα σε σχέση με τις άλλες επιλογές???

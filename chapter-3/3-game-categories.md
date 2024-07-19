@@ -18,8 +18,8 @@ This genre contains traditional casino and gambling games. It has five subgenres
 #### Bingo
 Games about playing bingo with others are included in this subgenre.
 
-#### Poker/Cards
-Includes card games, such as poker or blackjack.
+#### Cards
+Includes casino card games, such as poker or blackjack.
 
 #### Slots
 This subgenre includes casino games with slot machines.
@@ -27,7 +27,7 @@ This subgenre includes casino games with slot machines.
 #### Casual Casino
 Includes games that combine gambling elements with casual gameplay. For example, a game may have a casual casino-style gameplay (e.g. using slot machines) along with elements such as town building.
 
-#### Other Casino
+#### Other
 Casino games that cannot be part of the categories above.
 
 ## Category #2: Casual Games
@@ -45,7 +45,7 @@ These games require timing and precise and fast reactions. The gameplay focuses 
 #### Steer
 Includes games that require timing and reaction and the gameplay focuses on steering an object either by tilting the device or with some fingers.
 
-#### Swipe/Drag
+#### Swipe / Drag
 The gameplay focuses on swiping fingers or dragging and releasing objects.
 
 #### IO
@@ -54,12 +54,105 @@ The main idea behind these games is for the player to grow by destroying other p
 #### Other
 Includes hyper casual games that don't belong to any of the subgenres described above.
 
-### Genre #2.2: AR/Location Based
+### Genre #2.2: AR / Location Based
+These games utilize augmented reality elements and location technology. This category does not have subgenres.
 
 ### Genre #2.3: Arcade
+These games have straightforward controls and mechanics for short and casual playing sessions.
+
+#### Platformer
+Casual platformer jumper games, where the player has to get through stages by jumping, running or gliding, while avoiding obstacles and/or enemies.
+
+#### Shoot Them Up / Beat Them Up
+Includes arcade style shooting and fighting games, with simple controls and lots of action, with no real emphasis on precise aiming or tactics.
+
+#### Tower Defense
+These games use tower defense mechanics. Main goal of the players is to prevent the enemies from reaching a certain point or target on the screen. Usually the enemies come in waves of increasing difficulty.
+
+#### Board Games
+Includes classic board game titles, either direct conversions of traditional board games to mobile versions, or games that utilize board games mechanics.
+
+#### Other
+Arcade games that do not fit in any other subgenre.
 
 ### Genre #2.4: Lifestyle
+These are games that revolve around lifestyle themes, such as decorating, fashion or customizing the look and style of models.
+
+#### Customization
+This subgenre includes games that focus on customizing or designing things, such as wardrobes or rooms.
+
+#### Interactive Story
+These games have very light mechanics and emphasize on interactive storytelling. Players' decisions affect the progress of the story.
+
+#### Music / Band
+Includes games where music and rhythm are affecting theme and mechanics. There are many customization options regarding style and look.
 
 ### Genre #2.5: Simulation
+These are casual games focusing on constructing and developing farms, cities, worlds or entities, while completing several tasks and side quests to progress in the game.
+
+#### Adventures
+In these games, players are focusing on completing tasks and collecting various items in order to process. The mechanics are often pretty lightweight, as they are limited to tapping or dragging objects. Emphasis is placed on the story and collecting aspects.
+
+#### Breeding
+Includes games that revolve around breeding creatures with each other, in order to get new, better creatures (e.g. breed two dragons to get a stronger dragon)
+
+#### Tycoon / Crafting
+The mechanics of these games revolve around construction and resource management.
+
+#### Sandbox
+The players of these games are free to roam the world of the game. They can craft things that will help them survive or grow. Emphasis is placed on user-generated content.
+
+#### Time Management
+Includes games where the players have to complete various tasks quickly, accurately and in the right order.
+
+#### Idler
+'Idler mechanics' means that the game plays itself even if the application is closed. When the application is open, players can see progress happening all the time - even if they are not doing anything themselves (e.g. crops growing, money or energy keeps generating etc.).
 
 ### Genre #2.6: Puzzle
+These games are focusing on puzzle solving or trivia and often use traditional board game mechanics.
+
+#### Match-Three Puzzle
+In these games players have to match pieces together to clear them from the board.
+
+#### Bubble Shooter
+They are Match-Three puzzles where you shoot board pieces -instead of swapping them- to make matches and clear the board.
+
+#### Merge Games
+Includes games where the players have to combine similar objects to create new objects of a higher tier. Merging is used to clear boards or upgrade items.
+
+#### Action Puzzle
+This subgenre includes games that require speed, aiming or directing an object in order to solve puzzles.
+
+#### Word Games
+These are games where the players have to solve word puzzles, like constructing or guessing words from given letters.
+
+#### Trivia
+Includes games that test players' general knowledge by asking questions. They often consist of levels of increasing difficulty.
+
+#### Coloring Games
+These games use tap-to-color or swipe-to-color mechanics, allowing players to experience a digital version of a coloring book.
+
+#### Hidden Objects
+Games that revolve around finding and tapping hidden objects in static scenes to progress in the game.
+
+#### Solitaire
+Includes solitaire games, as well as Mahjong Solitaire.
+
+#### Other
+Games focused on puzzle solving that do not belong to any of the subgenres described above.
+
+## Category #3: Mid-Core
+
+### Genre #3.1: Shooter
+
+### Genre #3.2: Card Games
+
+### Genre #3.3: Role Playing Games (RPG)
+
+### Genre #3.4: Strategy
+
+## Category #4: Sports and Driving
+
+### Genre #4.1: Sports
+
+### Genre #4.2: Driving

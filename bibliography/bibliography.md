@@ -1,4 +1,4 @@
-# Βιβλιογραφία  {#sec:bibliography}
+# Bibliography {#sec:bibliography}
 
 ::: {#refs}
 :::

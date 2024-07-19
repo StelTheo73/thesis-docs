@@ -1,7 +1,7 @@
 # 1 Introduction
 
 ## Motivation
-Quantum computers can solve complex problems in a minimum of time using a few quantum bits, at the same time as classical computers would take longer than the timescale of human civilization or require billions of classical bits and very expensive hardware.
+Quantum computers can solve complex problems in a minimum of time using a few quantum bits, while classical computers would take longer than the timescale of human civilization or require billions of classical bits and very expensive hardware.
 
 The development and widespread use of quantum computing can help in fields such as pharmaceuticals, cryptography, artificial intelligence, materials science and more. Since quantum computing represents a new era for computer science, opening up new prospects for accelerating scientific discoveries, learning the basic principles of quantum computing is extremely important.
 
