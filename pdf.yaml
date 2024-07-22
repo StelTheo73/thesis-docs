@@ -23,6 +23,8 @@ input-files:
   - chapter-1/1-introduction.md
   - chapter-2/2-literature-review.md
   - chapter-3/3-game-categories.md
+  - chapter-4/4-gamification.md
+  - chapter-5/5-quantum-computing.md
   - bibliography/bibliography.md
 
 log-file: log/pdf.log.json

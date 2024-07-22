@@ -1,7 +1,10 @@
 # 1 Introduction
 
 ## Motivation
-Quantum computers can solve complex problems in a minimum of time using a few quantum bits, while classical computers would take longer than the timescale of human civilization or require billions of classical bits and very expensive hardware.
+https://www.theknowledgeacademy.com/blog/advantages-and-disadvantages-of-quantum-computing/<br>
+https://www.linkedin.com/pulse/pros-cons-quantum-computing-athik-nagappan-1nhef/<br>
+
+Quantum computing utilizes the principles of quantum mechanics to process information and solve complex problems exponentially faster that classical computers. Quantum bits can exist in multiple states at the same time, offering great computational power, beyond the limits of classical computers.
 
 The development and widespread use of quantum computing can help in fields such as pharmaceuticals, cryptography, artificial intelligence, materials science and more. Since quantum computing represents a new era for computer science, opening up new prospects for accelerating scientific discoveries, learning the basic principles of quantum computing is extremely important.
 
