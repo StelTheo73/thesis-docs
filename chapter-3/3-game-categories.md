@@ -199,10 +199,37 @@ This subgenre includes games that combine [casual tower defense](#tower-defence-
 The games of this genre focus on resource management, building construction or army development. At the same time, players can make alliances or fight against other player and clans.
 
 #### 4X Strategy
-This subgenre includes games that
+This subgenre includes games that focus on 'Exploring - Expanding - Exploiting and Exterminating'. Players have to focus on things like technology research, resource and troops management, open world exploration, base construction and fighting rivals.
+
+#### Build and Battle
+These are games where the players develop their bases, manage resources and create armies to battle both AI and human opponents. Battle mechanics emphasize on tactical thinking, which includes the proper deployment and direction of troops or spell casting.
+
+#### Asymmetric Survival
+Includes synchronous PVP games that use an asymmetric setup in team composition (e.g. 1 versus 4). Usually one side has the role of hunter and the other players/sides are hunted.
+
+#### Tactical Battler
+Includes games where players battle against non-playable characters (NPCs) or other players in a closed arena setup. These games also involve collecting and developing various aspects.
+
+#### Multiplayer Battle Arena
+These games focus on destroying the opposing team, together with your own team, in a closed arena setting.
 
 ## Category #4: Sports and Driving
+This category contains two distinct genres, sports and driving.
 
 ### Genre #4.1: Sports
+Games in this genre are all about sports or sport-themed action.
+
+#### Arcade Sports
+These games are based on a real-life sport, but with a very casual feel, for example with unrealistic physics or not using the exact rules of the sport in question.
+
+#### Realistic Sports
+This subgenre includes games that have realistic physics and graphics and an accurate rule-set of the sport in question.
 
 ### Genre #4.2: Driving
+Games in this genre are all about racing with cars, motorcycles or other vehicles or have a racing-theme action.
+
+#### Arcade Driving
+Includes racing games with an arcade setup with unrealistic physics.
+
+#### Realistic Driving
+These racing games have realistic physics.
