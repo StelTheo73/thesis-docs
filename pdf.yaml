@@ -22,8 +22,8 @@ input-files:
   - 0-frontmatter/0-frontmatter.md
   - chapter-1/1-introduction.md
   - chapter-2/2-literature-review.md
-  - chapter-3/3-game-categories.md
-  - chapter-4/4-gamification.md
+  - chapter-3/3-gamification.md
+  - chapter-4/4-game-categories.md
   - chapter-5/5-quantum-computing.md
   - bibliography/bibliography.md
 

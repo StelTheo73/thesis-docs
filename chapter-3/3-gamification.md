@@ -6,7 +6,7 @@ Gamification is the integration of game elements, such as point systems, leaderb
 On the other hand, game-based learning is the design of learning activities so that the characteristics and principles of games are a key feature of these activities.
 
 ## Game Elements
-University of Waterloo [link to University of Waterloo] categorizes game elements into three main categories: Point Systems, Badges and Leaderboards.
+University of Waterloo **link to University of Waterloo** categorizes game elements into three main categories: Point Systems, Badges and Leaderboards.
 
 ### Point Systems
 Points or Experience Systems reward students for completing tasks, just like conventional grades. They can introduce some useful features in learning environments, such as:
@@ -30,13 +30,15 @@ Using badges can be a great way to reward learners for their work and keep them 
 The use of leaderboards is a great way to motivate learners, by providing them with constant feedback of where they rank in comparison to other group members. There are two types of leaderboards, absolute and relative.
 
 #### Absolute {.unnumbered}
-Absolute leaderboards rank all learners by some global measures, such as collected points. When this type of ranking is used, consideration must be given to the feeling of disappointment or discrimination that may be created against those in the bottom positions.
+https://scholar.google.com/scholar_lookup?hl=en&volume=63&publication_year=2013&pages=380-92&journal=Computers+%26+Education&author=A.+Dom%C3%ADnguez&author=J.+Saenz-De-Navarrete&author=L.+De-Marcos&author=L.+Fern%C3%A1ndez-Sanz&author=C.+Pag%C3%A9s&author=J.+Mart%C3%ADnez-Herr%C3%A1iz&title=Gamifying+Learning+Experiences%3A+Practical+Implications+and+Outcomes **Dominguez et al. 2013**<br>
+
+Absolute leaderboards rank all learners by some global measures, such as collected points. When this type of ranking is used, consideration must be given to the feeling of disappointment or discrimination that may be created against those in the bottom positions **Dominguez et al. 2013**.
 
 #### Relative {.unnumbered}
 Relative leaderboards rank and group learners according to relative criteria. A common example is a view in which learners see only those students who are directly above or below them, solving the disappointment and discrimination issues.
 
 ## Gamification Strategies
-There are three types of gamification strategies, Online Strategies, Classroom Strategies and Out-of-class Strategies [link to University of Waterloo]
+There are three types of gamification strategies, Online Strategies, Classroom Strategies and Out-of-class Strategies **link to University of Waterloo**
 
 ### Online Strategies
 
@@ -51,7 +53,7 @@ Instead of presenting a set of seemingly unrelated questions, the usage of inter
 #### Jeopardy {.unnumbered}
 https://en.wikipedia.org/wiki/Jeopardy!<br>
 
-Jeopardy-style [link to wikipedia] games can be used for chapter reviewing or midterm preparation and can provide enjoyment and enhance cooperation among learners in a familiar game structure.
+Jeopardy-style **link to wikipedia** games can be used for chapter reviewing or midterm preparation and can provide enjoyment and enhance cooperation among learners in a familiar game structure.
 
 #### Classroom Response Systems {.unnumbered}
 Using classroom response systems can simplify the process of gathering responses from an entire class and can encourage participation by incorporating game elements such as point systems or leaderboards.
@@ -65,6 +67,8 @@ This strategy includes all games that are designed for educational purposes and 
 These environments use commercially available games designed for entertainment purposes. Learners can play these games for fun and then discuss gaming experiences with other learners.
 
 ## Pitfalls
-http://www.tandfonline.com/doi/abs/10.1080/87567555.2017.1295016<br>
+http://www.tandfonline.com/doi/abs/10.1080/87567555.2017.1295016 **Moore-Ruso et al. 2017**<br>
+https://scholar.google.com/scholar_lookup?hl=en&publication_year=2013&author=K.+Berkling&author=C.+Thomas&title=Gamification+of+a+Software+Engineering+Course+and+a+Detailed+Analysis+of+the+Factors+that+Lead+to+its+Failure **Berkling and Thomas 2013**<br>
+https://scholar.google.com/scholar_lookup?hl=en&volume=8&publication_year=2012&pages=223-30&journal=Games%2B+Learning%2B+Society&issue=1&author=S.+Nicholson&title=A+User-Centered+Theoretical+Framework+for+Meaningful+Gamification **Nicholson 2012**
 
-There are some potential pitfalls that instructors may encounter when designing game-based learning activities [refer research as Moore-Russo et al. 2017]. First, game elements may not be connected to learning objectives. For game-based learning activities to be successful, learners must be able to retain and apply the knowledge they have been exposed to through the game.
+There are some potential pitfalls that instructors may encounter when designing game-based learning activities **refer research as Moore-Russo et al. 2017**. First, game elements may not be connected to learning objectives. Quite often the assignments are introduced without planning how they support the learning objectives. Also, sometimes the learning objectives are connected, but the context of the game is not. Thus, learners cannot retain knowledge or relate it to the subject. For game-based learning activities to be successful, learners must be able to retain and apply the knowledge they have been exposed to through the game. Furthermore, when students are focused on passing high stakes examinations, participating in a gamified environment can be seen as an unnecessary obstacle **refer to Berkling and Thomas**. Learners who are used to learning and being assessed by conventional teaching methods and are focused on achieving high grades may feel deprived in a gamified environment. They will fill uncertainty, discomfort and may find it difficult to adapt to new rules. Another common pitfall is to capture the imagination of students and inspire them. In order to avoid this, opportunities for play, exploration and collaboration for new goals must be introduced **refer to Nicholson 2012**.
