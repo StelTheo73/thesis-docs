@@ -113,24 +113,4 @@ https://www.linkedin.com/pulse/top-7-reasons-using-mobile-apps-education-e-learn
 <!-- - Επιθυμούμε να φτιάξουμε ένα παιχνίδι το οποίο μπορεί να παίζεται εύκολα, χωρίς να
 χρειάζεται να είναι ο χρήστης μπροστά στον υπολογιστή του, ακόμα και κατά τη διάρκεια μία διάλεξης.
 - Ένα mobile game μπορεί να παιχθεί από περισσότερα άτομα. -->
-
-
-## Mobile Games Development Technologies
-Short description of the technologies.
-
-web based (js) OR android based (?) OR iOS based (consider also developing 3 separate apps for web/android/iOS?)
-cross-platform game: Use a cross-platform framework like flutter or react-native
-
-
-
-## Why Flutter?
-Why we selected flutter?
-- cross-platform: Υπήρχαν πιο πολλές εφαρμογές android. Εμείς θέλουμε όλοι οι χρήστες να μπορούν να παίξουν, ανεξάρτητα από τη συσκευή που έχουν.
-- Άλλα πλεονεκτήματα flutter π.χ. απόδοση/ταχύτητα σε σχέση με τις άλλες επιλογές???
-- Επιπλέον της υποστήριξης από android και iOS, η εφαρμογή μπορεί εύκολα να διατεθεί και ως desktop ή web app.
-- Βιβλιοθήκες για κβαντικούς υπολογισμούς (συμβατές με το Dart version 3)
-    * https://pub.dev/packages/qartvm
-    * https://pub.dev/packages/quantools
-- Βιβλιοθήκες για πίνακες
-    * https://api.flutter.dev/flutter/vector_math/vector_math-library.html
-    * https://pub.dev/packages/advance_math (supports complex numbers and matrices)
+<!-- Consider moving these on last chapter of introduction -->
