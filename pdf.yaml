@@ -1,8 +1,10 @@
 filters:
 - pandoc-xnos
 # - pandoc-eqnos
-- citeproc
-# cite-method: citeproc # citeproc, natbib, or biblatex
+# References duplicated in bibliography
+# https://github.com/quarto-dev/quarto-cli/issues/2393
+# - citeproc
+cite-method: citeproc # citeproc, natbib, or biblatex
 # citeproc: true
 
 variables:
