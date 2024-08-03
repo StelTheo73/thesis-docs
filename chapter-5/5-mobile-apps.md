@@ -85,8 +85,7 @@ Objective-C has more complex and verbose syntax than Swift. It uses square brack
 --> Cross Platform Approach --> why? --> Single code base, reduced costs of development and maintenance, very good user experience and sufficient performance
 --> Flame engine --> why?
 
-https://medium.com/@evincedevelop/top-10-cross-platform-app-development-frameworks-for-2024-1d812fdfc776 **See ##Cross-Platform for reference - Medium**<br>
-
+see [@medium_cross_platform]
 
 Why we selected flutter?
 - cross-platform: Υπήρχαν πιο πολλές εφαρμογές android. Εμείς θέλουμε όλοι οι χρήστες να μπορούν να παίξουν, ανεξάρτητα από τη συσκευή που έχουν.

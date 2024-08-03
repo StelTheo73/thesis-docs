@@ -70,7 +70,7 @@ header-right: "\\rightmark"
 first-chapter: 1
 biblatex: true
 bibliography: bibliography/bibliography.bib
-reference-section-title: 'Βιβλιογραφία'
+# reference-section-title: 'Βιβλιογραφία'
 mainfont: "Linux Libertine O"
 CJKmainfont: Noto Serif CJK SC
 sansfont: "Linux Biolinum O"
