@@ -131,3 +131,8 @@ docker build -t sintoris/pandocker:twemoji .
 ```shell
 docker push sintoris/pandocker:twemoji
 ```
+
+### Link citations to bibliography
+```
+docker run --rm -u `id -u`:`id -g` -v `pwd`:/pandoc sintoris/pandocker:twemoji -d pdf.yaml -N -M link-citations=true --citeproc
+```
