@@ -1,10 +1,7 @@
 # Gamification and Game-Based Learning
-Gamification is the integration of game elements, such as point systems, leaderboards, badges or other game-related elements, into conventional learning activities in order to increase student engagement and motivation. In other words, it integrates game elements into existing learning activities.
-
-On the other hand, game-based learning is the design of learning activities so that the characteristics and principles of games are a key feature of these activities.
+In traditional teaching methods, textbooks and lectures are used and students are assessed through projects, assignments and examinations. Gamification is the integration of game elements, such as point systems, leaderboards, badges or other game-related elements, into conventional learning activities in order to increase student engagement and motivation. On the other hand, game-based learning is the design of learning activities so that the characteristics and principles of games are a key feature of these activities. Game elements can be categorized into three categories, which are presented below. [@spie_quantum_games], [@uwaterloo_gamification]
 
 ## Game Elements
-University of Waterloo [@uwaterloo_gamification] categorizes game elements into three main categories: Point Systems, Badges and Leaderboards.
 
 ### Point Systems
 Points or Experience Systems reward students for completing tasks, just like conventional grades. They can introduce some useful features in learning environments, such as:
