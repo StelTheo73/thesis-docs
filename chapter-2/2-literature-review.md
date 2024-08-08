@@ -3,9 +3,20 @@
 ## Computer Science Games for Higher Education
 https://www.researchgate.net/publication/325046233_Games_for_Teaching_Computing_in_Higher_Education_-_A_Systematic_Review
 
-## Educational Games for Quantum Computing and Quantum Physics
+## Games for Quantum Computing and Quantum Physics
+In the literature we can find many games for quantum computers or quantum physics, which have been developed in different contexts. There are games developed in the context of competitions, as university coursework, by research groups, by universities, by companies, by independent enthusiasts and by professors or professional engineers. By extension, there are games that have not been developed for serious purposes, competition games, games designed for research purposes, commercial games and educational games. [@aalto_quantum_games], [@spie_quantum_games]
 
-  **COMPANIES**
+
+To prwto paixnidi .....
+introduction: https://www.researchgate.net/publication/373686105_The_History_of_Quantum_Games --> paragraph IIIA
+--> READ THIS ARTICLE, LOT'S OF DATAAAA!!!
+
+add this one https://mmpant.com/author/mmpant/
+
+list: [@kiedos_quantum_games_list]
+
+**COMPANIES**
+
   * IBM
     - Quantum Composer: https://quantum.ibm.com/composer/files/new
     - Hello Quantum Project: IBM & University of Basel
@@ -40,6 +51,7 @@ https://www.researchgate.net/publication/325046233_Games_for_Teaching_Computing_
 
   * Canon Lab Org
     - https://www.canonlab.org/quander
+    - [@kiedos_quantum_games_list] [@aalto_quantum_games]
 
   * Quantum Flytrap
     - https://www.quantumlah.org/
@@ -49,6 +61,7 @@ https://www.researchgate.net/publication/325046233_Games_for_Teaching_Computing_
     - [@spie_quantum_games] -> 4.4
 
 **UNIVERSITIES**
+
   * Aalto University
     - https://quantumgames.aalto.fi/
     - Course offered by Aalto University
