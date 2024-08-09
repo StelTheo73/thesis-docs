@@ -4,14 +4,15 @@
 https://www.researchgate.net/publication/325046233_Games_for_Teaching_Computing_in_Higher_Education_-_A_Systematic_Review
 
 ## Games for Quantum Computing and Quantum Physics
-In the literature we can find many games for quantum computers or quantum physics, which have been developed in different contexts. There are games developed in the context of competitions, as university coursework, by research groups, by universities, by companies, by independent enthusiasts and by professors or professional engineers. By extension, there are games that have not been developed for serious purposes, competition games, games designed for research purposes, commercial games and educational games. [@aalto_quantum_games], [@spie_quantum_games]
+In the literature we can find many games for quantum computers or quantum physics, which have been developed in different contexts. There are games developed in the context of competitions, as university coursework, by research groups, by universities, by companies, by independent enthusiasts and by professors or professional engineers. By extension, there are games that have not been developed for serious purposes, competition games, games designed for research purposes, commercial games and educational games. [@piispanen_quantum_games_history], [@spie_quantum_games]
 
+The earliest quantum game that can be found in the literature is an Atari arcade game called 'Quantum' created in 1982 [@piispanen_quantum_games_history]. To date, more than 300 games related to quantum physics, digital and not, have been created [@piispanen_defining_quantum_games]. This section summarizes digital games that have been created for educational purposes by companies or universities and are still playable.
 
 To prwto paixnidi .....
 introduction: https://www.researchgate.net/publication/373686105_The_History_of_Quantum_Games --> paragraph IIIA
 --> READ THIS ARTICLE, LOT'S OF DATAAAA!!!
 
-add this one https://mmpant.com/author/mmpant/
+add this one https://mmpant.com/author/mmpant/ --> https://mmpant.com/2024/04/05/quantum-games/
 
 list: [@kiedos_quantum_games_list]
 
@@ -51,12 +52,12 @@ list: [@kiedos_quantum_games_list]
 
   * Canon Lab Org
     - https://www.canonlab.org/quander
-    - [@kiedos_quantum_games_list] [@aalto_quantum_games]
+    - [@kiedos_quantum_games_list] [@piispanen_quantum_games_history]
 
   * Quantum Flytrap
     - https://www.quantumlah.org/
     - https://quantumflytrap.com/virtual-lab
-    - Supported by Centre for quantum technolodgies - National University of Singapore
+    - Supported by Centre for quantum Technologies - National University of Singapore
     - https://www.quantumlah.org/
     - [@spie_quantum_games] -> 4.4
 
@@ -67,6 +68,7 @@ list: [@kiedos_quantum_games_list]
     - Course offered by Aalto University
     - Games are not designed for educational purposes.
     - This course is designed to teach students how to design and develop games and also learn the basic concepts of quantum computing.
+    - [@piispanen_quantum_games_history] [@kiedos_quantum_games_list]
 
   * Science At Home
     - https://www.scienceathome.org/about-us/
