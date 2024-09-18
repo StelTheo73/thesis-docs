@@ -20,7 +20,7 @@ Cross-platform apps have the ability to operate on different operating systems w
 
 Multiplatform apps reduce the cost for building and maintaining an application that targets different platforms. On the other hand, there are some performance issues and the access to device-specific features is limited, because they are not interacting directly with the operating system or the hardware. [@techopedia_cross_platform], [@aws_mobile_app_development]
 
-Some of the most popular frameworks for multiplatform development are [Flutter](https://docs.flutter.dev/), [React-Native](https://reactnative.dev/), [Ionic](https://ionicframework.com/docs) and [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html) [@medium_cross_platform], [@jetbrains_cross_platform].
+According to Statista, the most popular frameworks for multiplatform development are [Flutter](https://docs.flutter.dev/) and [React-Native](https://reactnative.dev/) and [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html).
 
 ### Hybrid-Web Applications
 A hybrid-web application combines the elements of native and web apps. They are essentially web apps that have a native app shell. They are build with standard web technologies, like [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and are bundled as native app packages. Hybrid apps are executed inside a container, which wraps the applications and acts as a bridge between the application and the operating system. [@techtarget_hybrid_app], [@teska_containerization]
@@ -60,40 +60,19 @@ Objective-C has more complex and verbose syntax than Swift. It uses square brack
 (flutter vs react-native vs ionic vs kotlin multiplatform)
 
 #### Flutter {.unnumbered}
+Flutter is a user interface (UI) SDK developed and released by Google in 2017. It can be used to create natively compiled mobile, web and desktop apps from a single codebase. It uses its own rendering engine to draw widgets on the screen, unlike other UI frameworks that rely on the platform's rendering engine or manipulate the platform's built-in UI stack. Flutter also provides access to native APIs. The [Dart](https://en.wikipedia.org/wiki/Dart_(programming_language)) programming language is used to write applications in Flutter and the applications are compiled ahead-of-time (AOT) on all platforms except the web, where the code is transpiled to JavaScript or WebAssembly. [@wikipedia_flutter], @[jetbrains_cross_platform], @[medium_cross_platform]
 
 #### React-Native {.unnumbered}
+React-Native is a UI SDK released by Meta Platforms (formerly Facebook Inc.) in 2015 and can be used to develop apps for mobile devices, Android TV, tvOS, web applications and desktop applications. Its components wrap existing native code and can interact with native APIs. React-Native apps are written in JavaScript or TypeScript. @[wikipedia_react_native], @[jetbrains_cross_platform], @[medium_cross_platform]
 
-#### Ionic {.unnumbered}
+#### Comparison {.unnumbered}
+React-Native is easier to learn, because it uses JavaScript as a programming language and has greater community support. On the other hand, Flutter has better documentation and its command line interface (CLI) offers tools that allow Continuous Integration (CI) and Continuous Development (CD) to be created more easily than React-Native. Flutter's CLI also offers the ability to automate application deployment in the app stores. Both frameworks feature hot-reload functionality, which allows developers to see changes instantly while modifying their code, without having to recompile.
 
-#### Kotlin-Multiplatform {.unnumbered}
-
-
-
-
-
-
-
-
-## Game Engines
-
-
-
-
+Flutter uses its own on widgets and libraries and its own rendering engine and compiles directly to native code, while React-Native depends on the underlying platform and uses multiple JavaScript layers before compiling to native code. Also, React-Native requires the developers to use third-party libraries, both for development and testing. These facts make Flutter significantly faster than React-Native, while allowing Flutter to use less CPU and memory, have a smaller package size and have more consistent UI across platforms. [@radix_flutter_vs_react_native], [@medium_flutter_vs_react_native]
 
 ## Platform, Framework and Game Engine Choice
---> iOS and Android --> why? --> target all users
---> Cross Platform Approach --> why? --> Single code base, reduced costs of development and maintenance, very good user experience and sufficient performance
---> Flame engine --> why?
+The application that will be developed will be a cross-platform mobile application, in order to target users using both Android and iOS. We chose to develop a cross-platform application to get optimal performance, not rely on browser limitations and have a single codebase. This choice also reduces development and maintenance costs and provides a great user experience.
 
-see [@medium_cross_platform]
+Between Flutter and React-Native, we chose to use Flutter, because it is lighter, faster, produces smaller packages and automates the application deployment in the stores. Also, Flutter has its own game engine, the Flame engine, which will make the development of our game easier.
 
-Why we selected flutter?
-- cross-platform: Υπήρχαν πιο πολλές εφαρμογές android. Εμείς θέλουμε όλοι οι χρήστες να μπορούν να παίξουν, ανεξάρτητα από τη συσκευή που έχουν.
-- Άλλα πλεονεκτήματα flutter π.χ. απόδοση/ταχύτητα σε σχέση με τις άλλες επιλογές???
-- Επιπλέον της υποστήριξης από android και iOS, η εφαρμογή μπορεί εύκολα να διατεθεί και ως desktop ή web app.
-- Βιβλιοθήκες για κβαντικούς υπολογισμούς (συμβατές με το Dart version 3)
-    * https://pub.dev/packages/qartvm
-    * https://pub.dev/packages/quantools
-- Βιβλιοθήκες για πίνακες
-    * https://api.flutter.dev/flutter/vector_math/vector_math-library.html
-    * https://pub.dev/packages/advance_math (supports complex numbers and matrices)
+In addition, Flutter has libraries (e.g. [qartvm](https://pub.dev/packages/qartvm), [quantools](https://pub.dev/packages/quantools)) for performing quantum calculations and simulating quantum circuits, which may be useful in the game development process, while there are no corresponding libraries in React-Native
