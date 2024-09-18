@@ -27,6 +27,8 @@ input-files:
   - chapter-3/3-gamification.md
   - chapter-4/4-game-categories.md
   - chapter-5/5-mobile-apps.md
+  - chapter-6/6-quantum-computing.md
+  - chapter-7/7-game-description.md
   - bibliography/bibliography.md
 
 log-file: log/pdf.log.json
@@ -41,7 +43,8 @@ resource-path:
   - chapter-3
   - chapter-4
   - chapter-5
-  # - chapter-6
+  - chapter-6
+  - chapter-7
 standalone: true
 to: pdf
 top-level-division: chapter # part, chapter, section, or default:
