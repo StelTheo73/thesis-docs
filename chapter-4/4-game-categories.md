@@ -27,7 +27,7 @@ Includes games that combine gambling elements with casual gameplay. For example,
 #### Other {.unnumbered}
 Casino games that cannot be part of the categories above.
 
-## Category #2: Casual Games
+## Category #2: Casual
 This category contains six genres.
 
 ### Genre #2.1: Hyper Casual
