@@ -48,7 +48,7 @@ header-includes:
         ```{=latex}
         \usepackage{cleveref}
         % pandoc-fignos: change the caption name
-        \renewcommand{\figurename}{Εικόνα}
+        \renewcommand{\figurename}{Image}
         ```
 # \usepackage{caption}
 
@@ -79,12 +79,15 @@ lof: true # List of figures
 lot: true # List of tables
 # geometry: [a4paper, bindingoffset=0mm, inner=20mm, outer=20mm, top=20mm, bottom=20mm] # See https://ctan.org/pkg/geometry for more options
 fignos-cleveref: False
-fignos-plus-name: Εικόνα
-fignos-star-name: Εικόνα
-fignos-caption-name: Εικόνα
+fignos-plus-name: Image
+fignos-star-name: Image
+fignos-caption-name: Image
 fignos-caption-separator: period
 fignos-number-by-section: False
-secnos-plus-name: Ενότητα
-secnos-star-name: Ενότητα
+secnos-plus-name: Section
+secnos-star-name: Section
 caption-labelformat: original
+tablenos-plus-name: Table
+tablenos-star-name: Table
+tablenos-caption-name: Table
 ---

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="131.51pt" width="159.4pt" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 159.402 131.507" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <desc>https://commons.wikimedia.org/wiki/File:Qcircuit_SWAP.svg</desc>
+ <defs>
+  <symbol id="glyph0-1" overflow="visible">
+   <path d="m19.375-13.844l-9.9531-9.922c-0.6094-0.593-0.7031-0.687-1.1094-0.687-0.4844 0-0.9844 0.437-0.9844 0.984 0 0.36 0.0938 0.453 0.6407 1l9.9692 10.016-9.9692 10.016c-0.5469 0.5464-0.6407 0.6401-0.6407 0.9995 0 0.54688 0.5 0.98438 0.9844 0.98438 0.4063 0 0.5-0.09376 1.1094-0.68748l9.9061-9.9214 10.313 10.312c0.093 0.04688 0.453 0.29688 0.75 0.29688 0.593 0 0.984-0.4375 0.984-0.98438 0-0.1094 0-0.3125-0.141-0.5625-0.046-0.0938-7.968-7.9062-10.468-10.453l9.125-9.109c0.25-0.313 1-0.954 1.25-1.25 0.047-0.094 0.234-0.297 0.234-0.657 0-0.547-0.391-0.984-0.984-0.984-0.407 0-0.61 0.187-1.157 0.75z"/>
+  </symbol>
+ </defs>
+ <g>
+  <use xlink:href="#glyph0-1" height="131.507" width="159.40199" y="33.375999" x="60.327999"/>
+ </g>
+ <path stroke-linejoin="round" d="m79.703 20.922h-69.738" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.99" fill="none"/>
+ <path stroke-linejoin="round" d="m149.44 20.922h-69.734" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.99" fill="none"/>
+ <g>
+  <use xlink:href="#glyph0-1" height="131.507" width="159.40199" y="123.041" x="60.327999"/>
+ </g>
+ <g stroke-linejoin="round" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.99" fill="none">
+  <path d="m79.703 110.59h-69.738"/>
+  <path d="m79.703 110.59v-89.664"/>
+  <path d="m149.44 110.59h-69.734"/>
+ </g>
+</svg>

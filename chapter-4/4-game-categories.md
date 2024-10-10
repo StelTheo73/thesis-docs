@@ -2,7 +2,9 @@
 
 Gamerefinery has developed a flexible three-layer classification that allows mobile games to be easily grouped under distinctive genres [@gamerefinery_game_categories]. Each game is classified into a subgenre, according to its features and mechanics. This subgenre belongs to one genre, which in turn belongs to one category. This three-layered approach acts as a helpful taxonomy for market and game research, as it provides game developers a singular unified approach to categorizing games.
 
-![Game Categories, Genres and Subgenres according to GameRefinery](chapter-3/GENRES-12_2019.png){#fig:fig1}
+![Game Categories, Genres and Subgenres according to GameRefinery](chapter-4/GENRES-12_2019.png){#fig:fig1}
+
+The image is sourced from [@gamerefinery_game_categories].
 
 There are 4 categories, Casino games, Sports, Mid-core and Casual games. Each category has genres, which will be described in detail below. At the genre level, the differences between the games begin to become apparent. At the third level, the subgenre level, the mechanisms of the games become distinct.
 

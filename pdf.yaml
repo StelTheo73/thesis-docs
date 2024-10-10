@@ -9,12 +9,14 @@ cite-method: citeproc # citeproc, natbib, or biblatex
 
 variables:
   xnos-cleveref: True
-  tablenos-caption-name: Πίνακας
+  tablenos-caption-name: Table
+  tablenos-plus-name: Table
+  tablenos-star-name: Table
   secnos-cleveref: True
   secnos-plus-name: sec.
   secnos-star-name: sec.
-  fignos-plus-name: Εικόνα
-  fignos-star-name: Εικόνα
+  fignos-plus-name: Image
+  fignos-star-name: Image
 
 
 file-scope: false # Parse each file individually before combining for multifile documents. This will allow footnotes in different files with the same identifiers to work as expected. If this option is set, footnotes and links will not work across files.
