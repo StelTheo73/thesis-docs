@@ -1,20 +1,20 @@
 # Educational Game Development
 
-Στα προηγούμενα κεφάλαια συζητήταμε για το gamification και παρουσιάσαμε βασική θεωρία για κβαντική υπολογιστική και μερικές από τις πιο γνωστές κβαντικές πύλες. Στη συνέχεια θα παρουσιάσουμε το εκπαιδευτικό παιχνίδι που δημιουργήθηκε, προκειμένου οι εκπαιδευόμενοι να μάθουν την έννοια της υπέρθεσης και να εξοικειωθούν με τη χρήση ορισμένων κβαντικών πυλών.
+In the previous chapters, we discussed gamification and presented the basic theory of quantum computing and some of the most well-known quantum gates. Next, we will present the educational game we designed to teach learners the concept of superposition and to familiarize them with the effects of some quantum games.
 
-Το παιχνίδι που αναπτύχθηκε ονομάζεται _Qubity_ και είναι μία παραλλαγή του arcade video game _Space Invaders_. Συνδυάζει τα χαρακτηριστικά ενός "Shoot 'em up" game με την επίλυση puzzle. Το παιχνίδι απευθύνεται σε φοιτητές πανεπιστημίου, καθώς σε ορισμένα επίπεδα απαιτείται η γνώση μιγαδικών αριθμών για την επίλυση του puzzle. Ωστόσο, στα αντίστοιχα επίπεδα υπάρχει η απαραίτητη θεωρία για την επίλυση του puzzle, οπότε ένας παίκτης με ευχέρια σε μαθηματικές πράξεις θα μπορούσε να ολοκληρώσει το επίπεδο ακόμη και αν δε γνωρίζει μιγαδικούς αριθμούς.
+The game developed is called _Qubity_ and is a variant of the arcade video game _Space Invaders_. It combines the characteristics of a "Shoot 'em Up" game with puzzle solving. The game is aimed at university students, as some levels require knowledge of complex numbers to solve the puzzle. However, the levels present the necessary theory for solving the puzzle, so a player with a flair for mathematics could complete the level without having any knowledge of complex numbers, as demonstrated by the evaluation of the game.
 
 ## Game Description
 
-Το παιχνίδι αποτελείται από 30 επίπεδα, στα οποία ο παίκτης καλείται να λύσει ένα puzzle χρησιμοποιώντας ορισμένες κβαντικές πύλες - ένα υποσύνολο όσων παρουσιάζονται στο κεφάλαιο 6. Ο παίκτης χειρίζεται ένα διαστημόπλοιο, του οποίου η θέση καθορίζεται από την κατάσταση ενός κβαντικού καταχωρητή. Ο παίκτης μπορεί να αλλάξει τη θέση του διαστημοπλοίου επιδρώντας σε κάποιο qubit με μία από τις διαθέσιμες κβαντικές πύλες.
+The game consists of 30 levels, in which the player is asked to solve a puzzle using certain quantum gates -a subset of those presented in chapter 6. The player operates a spaceship whose position is determined by the state of a quantum register. The player can change the position of the spaceship by manipulating a qubit with one of the available quantum gates.
 
-Τα πρώτα 17 επίπεδα έχουν καταχωρητή του ενός qubit και οι διαθέσιμες πύλες είναι οι Pauli-X, Pauli-Y, Pauli-Z και Hadamard. Τα υπόλοιπα 13 επίπεδα έχουν καταχωρητή των 2 qubit και οι διαθέσιμες πύλες είναι οι Pauli-X, Pauli-Z και Hadamard. Σε κάθε επίπεδο υπάρχουν 2, 4 ή 8 διαφορετικές καταστάσεις στις οποίες μπορεί να βρεθεί το διαστημόπλοιο, ανάλογα με το πλήθος των qubit και τις διαθέσιμες πύλες.
+The first 17 levels have a single qubit register and the available gates are Pauli-X, Pauli-Y, Pauli-Z and Hadamard. The remaining 13 levels have a 2-qubit register and the available gates are Pauli-X, Pauli-Z and Hadamard. In each level there are 2, 4, or 8 different states in which the spaceship can be in, depending on the number of qubits and the available gates.
 
-< Εικόνα από κάποιο level >
+< Picture of a level >
 
-Σε κάθε επίπεδο, υπάρχουν ένας ή περισσότεροι αστεροειδείς - στόχοι. Ο παίκτης πρέπει να μετακινήσει το διαστημόπλοιο κάτω από τους στόχους, αλλάζοντας την κατάσταση του καταχωρητή. Στη συνέχεια πρέπει να καταστρέψει τους αστεροειδείς, εκτοξεύοντας πυραύλους. Αρκετά επίπεδα έχουν παραπάνω από μία λύσεις, όμως για να συλλεχθούν οι μέγιστοι πόντοι πρέπει να χρησιμοποιηθεί ο ελάχιστος αριθμός πυλών και όσο το δυνατόν λιγότεροι πύραυλοι.
+In each level, there are one or more asteroid targets. The player shall move the spaceship under the targets by altering the state of the register. Then, they have to destroy the asteroid by launching missiles. Several levels have more than one solution, but to score maximum points they must use the minimum number of gates and as few missiles as possible.
 
-Το παιχνίδι συνοδεύεται από ένα quiz 12 ερωτήσεων, προκειμένου οι παίκτες να ελέγχουν τις γνώσεις που απέκτησαν παίζοντας το παιχνίδι.
+The game is accompanied by a 12-question quiz that allows players to test their knowledge gained by the game.
 
 ## Screens
 
@@ -22,29 +22,27 @@
 
 < image >
 
-Από την αρχική οθόνη της εφαρμογής, ο χρήστης έχει πρόσβαση στα επίπεδα του παιχνιδιού, στα διαθέσιμα διαστημόπλοια, στο quiz, σε ένα επίπεδο επείδιξης και στις ρυθμίσεις.
+From the app's home screen, the user can access the game levels, available spaceships, the quiz, a tutorial level and game settings.
 
 ### Levels
 
 < image >
 
-Σε αυτή την οθόνη ο παίκτης μπορείν να επιλέξει κάποιο από τα διαθέσιμα επίπεδα. Στην κάρτα κάθε επιπέδου, φαίνονται ο αριθμός των qubit, οι διαθέσιμες πύλες και το σκορ. Ο παίκτης είναι ελεύθερος να επιλέξει όποιο επίπεδο επιθυμεί.
+On this screen the player can select any of the available levels. Each level's card shows the number of qubits, the available gates and the score.
 
 ### Spaceships
 
 < image >
 
-Από αυτή την οθόνη ο παίκτης μπορεί να επιλέξει ένα από τα διαθέσιμα διαστημόπλοια. Τα διαστημόπλοια έχουν διακοσμητικό χαρακτήρα, καθώς όλα έχουν τις ίδιες δυνατότητες, αποτελούν όμως μία επιβράβευση για την πρόοδο του παίκτη στο παιχνίδι. Αρχικά είναι διαθέσιμα μόνο 3, νέα διαστημόπλοια ξεκλειδώνουν μετά την ολοκλήρωση των επιπέδων 5, 10, 15, 20 και 25.
+From this screen the player can select one of the available spaceships. The spaceships are decorative in nature, as they all have the same capabilities, but are a reward for the player's progress in the game. Initially only 3 are available, new spaceships are unlocked after completing more levels.
 
 ### Quiz
 
 < image >
 
-Αυτή η οθόνη δίνει πρόσβαση στο quiz ελέγχου γνώσεων. Ο παίκτης μπορεί να απαντήσει σε ένα σύντομο quiz 12 ερωτήσεων ή να δει τη βαθμολογία του από προηγούμενες προσπάθειες.
+This screen gives access to the knowledge check quiz. The player can answer a short quiz or view their score from previous attempts. Each quiz consists of 12 questions, 3 theoretical and 9 related to quantum gates.
 
-Κάθε quiz αποτελείται από 12 ερωτήσεις, 3 θεωρητικές και 9 σχετικές με κβαντικές πύλες, όπως αναφέρεται και στην εισαγωγή του κεφαλαίου.
-
-Από τη βασική θεωρία που παρουσιάζεται στο προηγούμενο κεφάλαιο και στα slides του παιχνιδιού, το quiz ελέγχει εάν ο παίκτης γνωρίζει το όνομα της βασικής μονάδας πληροφορίας στους κβαντικούς υπολογιστές, τον ορισμό της υπέρθεσης και το όνομα της πύλης που μεταφέρει ένα qubit σε κατάσταση υπέρθεσης. Όλες οι υπόλοιπες ερωτήσεις εξετάζουν την κατανόηση του τρόπου δράσης των κβαντικών πυλών, ζητώντας από το χρήστη να κάνει κάποιον απλό κβαντικό υπολογισμό ή να επιλέξει τη σωστή πύλη για την πραγματοποίηση κάποιας πράξης.
+From the basic theory presented in the previous chapter and in the game slides, the quiz tests whether the player knows the name of the basic information unit in quantum computers, the definition of superposition and the name of the fate that carries a qubit into a superposition state. All other questions test the user's understanding of how quantum gates work, asking the user to perform a simple quantum calculation or select the correct gate to perform an action.
 
 < image : quiz form >
 
@@ -56,57 +54,53 @@
 
 < image >
 
-Αυτή η οθόνη φορτώνει ένα επίπεδο επίδειξης, για το οποίο δεν υπολογίζεται βαθμολογία. Αρχικά παρουσιάζονται μερικά slides με βασική θεωρία κβαντικών υπολογιστών. Συγκεκριμένα παρουσιάζονται στον παίκτη η βασική θεωρία γύρω από τα qubits, τους κβαντικούς καταχωρητές και τις κβαντικές πύλες, καθώς και έννοια την υπερθεσης. Τα slides αποτελούνται από σύντομες προτάσεις που παρουσιάζουν, συνοπτικά, τη θεωρία που αναφέρθηκε στο κεφάλαιο 6. Στη συνέχεια υπάρχουν 4 overlays με οδηγίες, τα οποία παρουσιάζουν στον παίκτη τον τρόπο χειρισμού του διαστημοπλοίου και τη διαδικασία εξουδετέρωσης τον στόχων.
+This screen loads a tutorial level, for which no score is calculated. First, a few slides are presented with basic quantum computing theory. In particular, the player is introduced to basic theory around qubits, quantum registers and quantum gates, as well as the concept of superposition. The slides consist of short sentences that summarize the theory discussed in chapter 6. Then there are 4 overlays with instructions, which demonstrate to the player how to use the gates to control the spaceship and how to destroy the asteroids.
 
 ### Settings
 
 < image >
 
-Από αυτή την οθόνη, ο χρήστης μπορεί να επιλέξει μεταξύ των διαθέσιμων γλωσσών και να διαγράψει την πρόοδο του στο παιχνίδι. Διαθέσιμες γλώσσες είναι τα αγγλικά και τα ελληνικά, με προεπιλεγμένη την πρώτη.
+From this screen, the user can choose between the available languages and delete their progress in the game. Available languages are English and Greek, with the former being the default.
 
 ## Levels
 
-Κάθε επίπεδο έχει διαφορετικό αριθμό πιθανών καταστάσεων, ανάλογα με τις διαθέσιμες πύλες και των αριμθό των qubits.
+Each level has a different number of possible states, depending on the available gates and the number of qubits.
 
-Στην αρχή ορισμένων επιπέδων υπάρχουν μερικά slide με θεωρία που αφορά τις κβαντικές πύλες που είναι διαθέσιμες στο επίπεδο. Τα πρώτα επίπεδα είναι πολύ απλά, καθώς απαιτούν μόνο 1 εφαρμογή μίας πύλης, ώστε να μεταβεί ο καταχωρητής στην κατάσταση στόχο. Όσο προχωράμε στο παιχνίδι, ο αριθμός των πυλών και των εφαρμογών αυξάνεται. Σε ορισμένα επίπεδα, οι πύλες πρέπει να εφαρμοστούν με συγκεκριμένη σειρά, ενώ υπάρχουν και πύλες που δε χρειάζεται να χρησιμοποιηθούν. Ο παίκτης πρέπει να χρησιμοπιήσει τις γνωσεις του για να λύσει το γρίφο χρησιμοποιώντας τον ελάχιστο αριθμό πυλών.
+At the beginning of some levels, there are some slides with theory about the quantum gates available in this level. The first levels are very simple, requiring only 1 use of a gate to put the register into the target state. As the game progresses, the number of gates and combinations increases. In some levels there are gates that do not to be used. The player needs to use what they have learned to solve the puzzle using the minimum number of gates.
 
-Όπως φαίνεται στις παρακάτω εικόνες, σε κάθε επίπεδο υπάρχει η δυνατότητα εμφάνισης βοήθειας, εάν ο παίκτης δυσκολευτεί. Η βοήθεια περιλαμβάνει μερικά slides με θεωρία ή με τη δράση των πυλών του επιπέδου, μαζί με κάποια παραδείγματα.
+< image x3: pause menu + theory slide + gate example slide >.
 
-< image x3: pause menu + theory slide + gate example slide >
+The first 9 levels introduce the Pauli Gates (X, Y and Z). In level 10, the theory of superposition is reintroduced to increase information retention. Also, Hadamard Gate (H) is introduced. In the next 7 levels, the player is asked to solve the puzzle by combining his previous knowledge of X and H gates.
 
-Στο επίπεδο επίδειξης παρουσιάζεται ο ορισμός του qubit, η έννοια της υπέρθεσης και ορίζονται οι κβαντικές πύλες και οι κβαντικοί καταχωρητές. Στη συνέχεια εμφανίζονται overlays με οδηγίες για τον τρόπο χειρισμού του διαστημοπλοίου.
-
-Στα πρώτα 9 επίπεδα επιδεικνύονται οι πύλες Pauli (X, Y και Ζ). Στο επίπεδο 10 παρουσιάζεται ξανά η θεωρία της υπέρθεσης, ώστε να αυξηθεί το retention πληφορορίας, και παρουσιάζεται η λειτουργία της πύλης Hadamard (Η). Στα επόμενα 7 επίπεδα, ο παίκτης καλείται να λύσει το puzzle συνδυάζοντας τις προηγούμενες γνώσεις του για τις πύλες Η και Χ.
-
-Από το επίπεδο 18, ο αριθμός των qubit αυξάνεται σε 2. Από το επίπεδο αυτό, δεν παρουσιάζεται νέα θεωρία, απλά ο παίκτης καλείται να συνδυάσει προηγούμενες γνώσεις για να λύσει τα puzzle. Επιπλέον, το επίπεδο δυσκολίας αυξάνεται, επειδή ο παίκτης πρέπει να αποφασίσει σε ποιο qubit θα εφαρμόσει την πύλη.
+From level 18, the number of qubits is increased to 2. From this level, no new theory is introduced; the player is just asked to combine their previous knowledge to solve the puzzles. In addition, the level of difficulty increases as the player has to decide which qubit to apply the gate to.
 
 ## Development
 
-Η ανάπτυξη του παιχνιδιού ξεκίνησε τον Νοέμβριο του 2024. Για τη δημιουργία των γραφικών στοιχείων της εφαρμογής χρησιμοποιήθηκε το σύστημα [_Material Desing 3_](https://m3.material.io/) της Google και το [_Flame Game Engine_](https://flame-engine.org/). Τα διαστημόπλοια, οι αστεροειδείς, οι πύλες και διάφορα άλλα γραφικά στοιχεία -με τα οποία δημιουργήθηκαν sprite components- είναι εικόνες από την ιστοσελίδα [_Freepik_](https://www.freepik.com/). Το background image δημιουργήθηκε από το [_ChatGPT_](https://chatgpt.com/) και επεξεργάστηκε ελαφρώς.
+Development of the game began in November 2024. Google's [_Material Design 3_](https://m3.material.io/) and [_Flame Game Engine_](https://flame-engine.org/) were user to create the graphical elements of the application. The spaceships, asteroids, gates and several other bitmaps used to create the sprite components of the game are from [_Freepik_](https://www.freepik.com/). The background image was created by [_ChatGPT_](https://chatgpt.com/) and was slightly modified.
 
-Αρχικά επιλέχθηκαν οι κβαντικές πύλες που θα παρουσιαστούν μέσω του παιχνιδιού και δημιουργήθηκαν 30 σενάρια τα οποία αποτέλεσαν τα επίπεδα του παιχνιδιού. Καθε σενάριο αποτελείται από την αρχική κατάσταση του κβαντικού καταχωρητή (αρχική θέση του διαστημόπλοιου), την κατάσταση στόχο (θέσεις των αστεροειδών-στόχων) και τον ελάχιστο αριθμό πυλών που πρέπει να χρησιμοποιηθεί για να βρεθεί ο καταχωρητής στην κατάσταση στόχο. Τα σενάρια έχουν κωδικοποιηθεί σε ένα αρχείο YAML, με τρόπο που είναι human-readable και ταυτόχρονα καθιστά εύκολη την προσθήκη νέων επιπέδων.
+The first step was the selection of the quantum gates that would be presented in the game, and 30 scenarios were created to form the levels of the game. Each scenario consists of the initial state of the quantum register (initial position of the spaceship), the target state (positions of the target asteroids), the available gates and the minimum number of gates to be used to solve the puzzle. The scenarios are encoded in a YAML file in a manner that is human-readable while allowing for easy addition of new levels.
 
 < image: diagrams.net >
 
 < image: level 30 >
 
-Στη συνέχεια σχεδιάστηκε ένα πρωτότυπο επίπεδο στην εφαρμογή diagrams.net, το οποίο αποτέλεσε τη βάση για τη δημιουργία της γραφικής διεπαφής του παιχνιδιού. Όπως φαίνεται στις παραπάνω εικόνες, η αρχική προσέγγιση δεν περιλάμβανε γραφικό στοιχείο για τον κβαντικό καταχωρητή, αλλά 2 διακριτά qubit, επάνω στα οποία θα εφαρμοζόταν η κβαντική πύλη. Επιπλέον, υπήρχαν δύο κουμπιά, ένα για την εφαρμογή της πύλης και ένα για την εκτόξευση των πυράυλων. Η κατάσταση-στόχος ήταν τοποθετημένη στο επάνω μέρος της οθόνος. Τέλος, οι στόχοι ήταν εχθρικά διαστημόπλοια, όπως στο original παιχνίδι _Space Invaders_.
+A prototype level was then designed in [_diagrams.net_](https://app.diagrams.net/), which formed the foundation for creating the game's graphical interface. As shown in the images above, the original approach did not include a graphical element for the quantum register, but rather 2 discrete qubits to which the quantum gate would be applied. There were also two buttons, one for applying the gate and one for launching the missiles. The target state was placed at the top of the screen. Finally, the targets were enemy spaceships, as in the original _Space Invaders_ game.
 
-Την πρώτη βδομάδα του Δεκεμβρίου, τα βασικά στοιχεία της γραφικής διεπαφής ήταν έτοιμα και ο χειρισμός του διαστημοπλοίου ήταν λειτουργικός. Τότε, έλαβε χώρα ο πρώτος κύκλος αξιολόγησης, ο οποίος συμπεριλάμβανε 5 χρήστες. Από τα σχόλια τους έγιναν οι παρακάτω διορθώσεις:
+By the first week of December, the basic elements of the user interface were in place and the spaceship control mechanism was working. Then, user testing was conducted, involving 5 users. Based on their feedback, the following corrections were made:
 
-1. Δημιουργήθηκε ένα γραφικό στοιχείο που αντιπροσώπευε έναν κβαντικό καταχωρητή με μία ή δύο εξόδους και αντικατέστησε τα διακριτά qubits. Οι έξοδοι του καταχωρητή αντιπροσωπεύουν το πρώτο ή το δεύτερο qubit.
+1. A graphical element was created to represent a quantum register with one or two outputs, replacing the discrete qubits. The outputs of the register represent the first or the second qubit.
 
-2. Το κουμπί εφαρμογής αφαιρέθηκε και η δράση της πύλης στον καταχωρητή εφαρμόζεται μόλις επιλεγεί κάποια από τις εξόδους του καταχωρητή.
+2. The apply button has been removed. The gate action is applied to the register as soon as one of the register outputs is selected.
 
-3. Οι στόχοι αντικαταστήθηκαν με αστεροειδείς.
+3. Targets were replaced with asteroids.
 
-4. Άλλαξε η εμφάνιση της κατάστασης-στόχου, ώστε να είναι πιο εύκολο για το χρήστη να καταλάβει που πρέπει να τοποθετηθεί το διαστημόπλοιό του.
+4. An overlay has been added to show the current level ID, gate used and missiles launched.
 
-5. Προστέθηκε ένα overlay το οποίο δείχνει τον αριθμό του επιπέδου, της πύλες που έχουν χρησιμοποιηθεί και τους πυραύλους που έχουν εκτοξευθεί.
+5. The target state display has been changed to make it easier of the player to understand where they need to place their spaceship.
 
-Την τελευτσία εβδομάδα του Δεκεμβρίου, προστέθηκε υποστήριξη για ελληνικά, δημιουργήθηκε ένα επίπεδο επίδειξης και προστέθηκαν slides με θεωρία στην αρχή ορισμένων επιπέδων, καθώς και μενού βοήθειας σε κάθε επίπεδο. Τέλος, δημιουργήθηκαν οι ερωτήσεις για το κουίζ καθώς και η οθόνες quiz menu, quiz και quiz history.
+In the last week of December, Greek language support was added, the tutorial level was created, and theory slides were added at the beginning of some levels. Also, a help menu was added on each level. Finally, quiz questions were created, as well as the quiz menu, quiz and quiz history screens.
 
-Τις επόμενες ημέρες επιλύθηκαν διάφορα bugs και διορθωθηκαν ατέλειες στο UI, ύστερα από έλεγχο της εφαρμογής από 2 τυπικούς χρήστες.
+In the following days, several bugs were fixed and UI issues were addresses after the application was tested by 2 regular users.
 
 ## Score
 
@@ -124,11 +118,15 @@
 
 ## Αξιολόγηση Παιχνιδιού
 
-Στην αξιολόγηση του παιχνιδιού, η οποία έγινε σε δύο φάσεις, συμμετείχαν εθελοντικά 8 άτομα. Επιλέχθηκαν 8 φοιτητές Πανεπιστημίου, οι οποίοι δήλωσαν ότι έχουν γνώση προχωρημένων μαθηματικών, με τέσσερεις από αυτούς να έχουν γνώση μιγαδικών αριθμών.
+Στην αξιολόγηση του παιχνιδιού, η οποία έγινε σε δύο φάσεις, συμμετείχαν εθελοντικά 10 άτομα. Επιλέχθηκαν 10 φοιτητές Πανεπιστημίου, οι οποίοι δήλωσαν ότι έχουν γνώση προχωρημένων μαθηματικών, με τέσσερεις από αυτούς να έχουν γνώση μιγαδικών αριθμών.
 
-Στην πρώτη φάση, διαμοιράσθηκε το παιχνίδι στους παίκτες και τους ζητήθηκε να ολοκληρώουν το quiz πριν παίξουν κάποιο επίπεδο, στη συνέχεια να παίξουν το επίπεδο επίδειξης και έπειτα να ολοκληρώσουν τα 30 επίπεδα του παιχνιδιού. Οι παίκτες είχαν όσο χρόνο ήθελαν στη διάθεση τους και τους ζητήθηκε να καταγράψουν το χρόνο που απαιτήθηκε για να ολοκληρώσουν τα 30 επίπεδα. Δεν δόθηκαν επιπλέον διευρκινίσεις για τον τρόπο λειτουργίας του παιχνιδιού, ούτε κάποια εξωτερική βοήθεια για την επίλυση κάποιου επιπέδου.
+Στην πρώτη φάση, διαμοιράσθηκε το παιχνίδι στους παίκτες και τους ζητήθηκε να ολοκληρώουν το quiz πριν παίξουν κάποιο επίπεδο, στη συνέχεια να παίξουν το επίπεδο επίδειξης και έπειτα να ολοκληρώσουν τα 30 επίπεδα του παιχνιδιού. Οι παίκτες είχαν όσο χρόνο ήθελαν στη διάθεση τους και τους ζητήθηκε να καταγράψουν το χρόνο που απαιτήθηκε για να ολοκληρώσουν τα 30 επίπεδα. Δεν δόθηκαν επιπλέον διευρκινίσεις για τον τρόπο λειτουργίας του παιχνιδιού, ούτε κάποια εξωτερική βοήθεια για την επίλυση κάποιου επιπέδου. Στη συνέχεια παρουσιάζονται τα αποτελέσματα της πρώτης φάσης αξιολόγησης:
 
-Στη δεύτερη φάση, οι ίδιοι παίκτες συμμετείχαν σε ένα focus group. Οι ερωτήσεις που κλήθηκαν να συζητήσουν αφορούσαν τέσσερεις τομείς, το User Interface & User Experience (UI/UX), τους Μηχανισμούς του παιχνιδιού, τη Δυσκολία και την Βαθμολόγηση & Επιβράβευση. Επιπλέον, αφέθηκαν ελεύθεροι να συζητήσουν μεταξύ τους και να σχολιάσουν τη συνολική τους εμπειρία για την εφαρμογή.
+< image from stat. analysis here >
+
+Η πρώτη φάση έδειξε ότι...
+
+Στη δεύτερη φάση, 8 από τους 10 παίκτες της πρώτης φάσης, συμμετείχαν σε ένα focus group. Οι ερωτήσεις που κλήθηκαν να συζητήσουν αφορούσαν τέσσερεις τομείς, το User Interface & User Experience (UI/UX), τους Μηχανισμούς του παιχνιδιού, τη Δυσκολία και την Βαθμολόγηση & Επιβράβευση. Επιπλέον, αφέθηκαν ελεύθεροι να συζητήσουν μεταξύ τους και να σχολιάσουν τη συνολική τους εμπειρία για την εφαρμογή.
 
 Focus Group --> 4 τομείς --> UI/UX, Mechanics, Difficulty, Score & Rewards
 
