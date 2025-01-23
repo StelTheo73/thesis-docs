@@ -104,60 +104,78 @@ In the following days, several bugs were fixed and UI issues were addresses afte
 
 ## Score
 
-Για να αποφευχθεί το common pitfall (κεφ. 3) που μπορεί να οδηγήσει σε απογοήτευση του παίκτη, δεν υλοποιήθηκε point system leaderboard που τον συγκρίνει με άλλους παίκτες. Σε κάθε επίπεδο, ο παίκτης λαμβάνει από μισό έως 3 αστέρια, με άριστα τα 3, ανάλογα με το πλήθος των πυλών και των πυραύλων που χρησιμοποίησε. Το βέλτιστο σκορ το λαμβάνει όταν χρησιμοποιήσει ακριβώς τόσους πυραύλους όσους και οι στόχοι κάθε επιπέδου και επιπλεόν όταν χρησιμοποιήσει τόσες πύλες όσες απαιτεί η βέλτιστη λύση κάθε επιπέδου.
+In order to avoid the [common pitfall](#scoring-pitfall) that can lead to player frustration, no scoring system has been used to compare the player with other players. For each level, the player receives between half and three stars, with a perfect score of three. The optimal score is achieved by using exactly as many missiles as the targets of each level, and also by using as many gates as the optimal solution of each level requires.
 
-Επιπλεόν, για να αυξηθεί το κίνητρο του παίκτη, όσο προχωράει στο παιχνίδι και ολοκληρώνει επίπεδα, περισσότερα διαστημόπλοια γίνονται διαθέσιμα ως επιβράβευση. Όταν ξεκλειδώσει κάποιο διαστημόπλοιο, εμφανίζεται ένα ενημερωτικό toast.
+To further motivate players as they progress through the game and complete levels, more spaceships become available as rewards. When a spaceship is unlocked, an informative toast is displayed.
+
+< image of stars + toast >
 
 ## Quiz
 
-Προκειμένου να μετρηθεί η εκπαιδευτική ικανότητα του παιχνιδιού, σχεδιάστηκε ένα κουίζ 12 ερωτήσεων. Το quiz αποτελείται από 3 θεωρητικές ερωτήσεις και 9 ερωτήσεις υπολογισμού δράσης κβαντικής πύλης. Οι θεωρητικές ερωτήσεις αφορούν θεωρία η οποία έχει παρουσιαστεί στον παίκτη μέσα από slides. Οι ερωτήσεις υπολογισμού δράσης κβαντικής πύλης ζητάνε από τον παίκτη να υπολογίσει τη νέα κατάσταση ενός qubit / quantum register αφού δράσει επάνω του μία πύλη ή ζητάνε να επιλεχθεί η κατάλληλη πύλη για να ολοκληρωθεί ένας υπολογισμός.
-
-Οι ερωτήσεις αφορούν αποκλειστικά θεωρία που παρουσιάστηκε μέσα από τα slides των επιπέδων ή ζητάνε απλούς κβαντικούς υπολογισμούς, με στόχο να αποδείξουν ότι ο παίκτης έμαθε να χρησιμοποιεί -ορισμένες από- τις πύλες που παρουσιάστηκαν στο κεφάλαιο 6 και κατανόησε την έννοια της υπέρθεσης.
+To measure the educational value of the game, a 12-question quiz was designed. The quiz consists of 3 theoretical questions and 9 questions regarding quantum gates actions. The theoretical questions relate to the theory presented to the player via slides. The quantum gate questions ask the player to calculate the new state of a qubit after the gate has been applied to it, or ask the player to select the appropriate gate to perform a quantum calculation. The questions are designed to prove that the player has learned to use -some of- the gates introduced in chapter 6 and understands the concept of superposition.
 
 < image from quiz menu, quiz and quiz history >
 
-## Αξιολόγηση Παιχνιδιού
+## Evaluation
 
-Στην αξιολόγηση του παιχνιδιού, η οποία έγινε σε δύο φάσεις, συμμετείχαν εθελοντικά 10 άτομα. Επιλέχθηκαν 10 φοιτητές Πανεπιστημίου, οι οποίοι δήλωσαν ότι έχουν γνώση προχωρημένων μαθηματικών, με τέσσερεις από αυτούς να έχουν γνώση μιγαδικών αριθμών.
+10 university students volunteered to participate in the evaluation of the game, which was carried out in 2 phases. The volunteers claimed to have a strong background in mathematics, with 4 of them having knowledge of complex numbers.
 
-Στην πρώτη φάση, διαμοιράσθηκε το παιχνίδι στους παίκτες και τους ζητήθηκε να ολοκληρώουν το quiz πριν παίξουν κάποιο επίπεδο, στη συνέχεια να παίξουν το επίπεδο επίδειξης και έπειτα να ολοκληρώσουν τα 30 επίπεδα του παιχνιδιού. Οι παίκτες είχαν όσο χρόνο ήθελαν στη διάθεση τους και τους ζητήθηκε να καταγράψουν το χρόνο που απαιτήθηκε για να ολοκληρώσουν τα 30 επίπεδα. Δεν δόθηκαν επιπλέον διευρκινίσεις για τον τρόπο λειτουργίας του παιχνιδιού, ούτε κάποια εξωτερική βοήθεια για την επίλυση κάποιου επιπέδου. Στη συνέχεια παρουσιάζονται τα αποτελέσματα της πρώτης φάσης αξιολόγησης:
+In the first phase, the game was shared with the players, and they were asked to complete the quiz before playing the game. Then, they were asked to complete the tutorial level and then complete the 30 levels of the game and retake the quiz. Players were given as much time as they wanted and were asked to record how long it took to complete the game. There was no further guidance on how the game works and no external help was provided to solve the levels. The results of the first evaluation phase are presented below:
 
 < image from stat. analysis here >
 
-Η πρώτη φάση έδειξε ότι...
+As shown in the graphs above, the average score on the quiz was 8.33% before playing the game and 85% after completing the game. It is clear that players improved their knowledge of quantum computing by playing the game.
 
-Στη δεύτερη φάση, 8 από τους 10 παίκτες της πρώτης φάσης, συμμετείχαν σε ένα focus group. Οι ερωτήσεις που κλήθηκαν να συζητήσουν αφορούσαν τέσσερεις τομείς, το User Interface & User Experience (UI/UX), τους Μηχανισμούς του παιχνιδιού, τη Δυσκολία και την Βαθμολόγηση & Επιβράβευση. Επιπλέον, αφέθηκαν ελεύθεροι να συζητήσουν μεταξύ τους και να σχολιάσουν τη συνολική τους εμπειρία για την εφαρμογή.
+Statistical analysis showed no correlation between the time required to complete the game and the improvement in the quiz score. The average time needed to complete the game was 21 minutes. This makes the game suitable to be played in the context of a college lecture to increase student engagement in the classroom or to allow students to test their knowledge in a fun and interactive way.
 
-Focus Group --> 4 τομείς --> UI/UX, Mechanics, Difficulty, Score & Rewards
+In the second phage, 8 out of 10 players from the fist phase participated in a focus group. The questions they were asked to discuss were related to 4 areas; _User Interface & User Experience_ (UI & UX), _Game Mechanics_, _Difficulty_ and _Scoring & Rewards_. They were also free to discuss with each other and comment on their overall experience of the application. Below are the focus group findings by area:
 
-Focus Group Notes
+Ακολουθούν τα συμπεράσματα του focus group ανά τομέα:
 
-**UI/UX**
+### User Interface & User Experience
 
-- Ένας παίκτης ζήτησε να υπάρξει ένα επιπλέον slide στο tutorial ή στο πρώτο επίπεδο που να εξηγεί πως γίνεται υπολογίζεται στο σκορ του κάθε επιπέδου
+- One player requested an extra slide in the tutorial or in the first level, explaining how each level's score is calculated.
 
-- Ένας παίκτης ζήτησε το _Next Level_ button να έχει διαφορετικό χρώμα από τα υπόλοιπα (στο overlay που εμφανίζεται)
+- One player requested that the _Next Level_ button should be a different color to others (on the level completion overlay).
 
-- Ένας παίκτης ζήτησε να υπάρξει ομαδοποίηση των επιπέδων στο μενού επιλογής ανάλογα με το βαθμό δυσκολίας
+- One player requested to group levels in the level selection menu by difficulty.
 
-- Οι παίκτες συμφώνησαν ότι το μενού του παιχνιδιού είναι εύχρηστο και το navigation λειτουργεί σωστά και έχει προβλέψιμη συμπεριφορά.
+- Players agreed that the game menu was east to use and that the navigation worked well and was predictable.
 
-**Game Mechanics**
+- Players agreed that the state of the application was flawless and was updating correctly.
 
-- Οι παίκτες βρήκαν τα mechanics απλά και συνηθισμένα και σχολίασαν ότι ο απλός χειρισμός τους βοήθησε να εστιάσουν στην επίλυση των puzzle.
+- Some players requested to add background music and sounds when launching missiles and hitting the targets.
 
-**Δυσκολία**
+### Game Mechanics
 
-- Οι παίκτες συμφώνησαν ότι το παιχνίδι είναι εύκολο και προορίζεται για χρήστες που δεν έχουν γνώσεις κβαντικών υπολογιστών. Μπόρεσαν όλοι να ολοκληρώσουν και τα 30 επίπεδα. Είπαν ότι θα ήθελαν να δοκιμάσουν και επίπεδα μεγαλύτερης δυσκολίας.
+- Players found the mechanics simple and casual and commented that this simplicity helped them focus on solving the puzzles.
 
-- Οι περισσότεροι παίκτες είπαν ότι το δυσκολότερο επίπεδο ήταν το 30, καθώς απαιτούσε συνδυασμό 3 πυλών για να λυθεί το puzzle.
+### Difficulty
 
-- Ένας παίκτης δεν κατανόησε τον τρόπο λειτουργίας της πύλης Hadamard σε 2 qubit. Οι μισοί παίκτες δήλωσαν ότι θα ήθελαν παραπάνω πληροφορία για την υπέρθεση, όμως συμφώνησαν ότι η θεωρία που παρουσιάζεται είναι αρκετή για να επιλυθούν τα puzzle.
+- Players agreed that the game is easy and intended of users with no quantum computer experience. All of them could complete all 30 levels. They said they would like to try more difficult puzzles.
 
-- Ένας παίκτης πρότεινε να υπάρχουν hints που μπορούν να χρησιμοποιηθούν εάν κάποιος δυσκολεύεται να λύσει ένα puzzle
+- Most players said that the hardest level was level 30 (the final one), as it required a combination of 3 gates to solve the puzzle.
 
-**Επιβραβεύσεις**
+- One player did not understand how the Hadamard gate acts on 2 qubits. Half of the players said they would like more information about superposition, but agreed that the theory presented was sufficient to solve the puzzles.
 
-- Οι παίκτες συμφώνησαν ότι η ύπαρξη του score τους έκανε να επιθυμούν να βελτιωθούν. 7 στους 8 παίκτες προσπάθησαν να ολοκληρώσουν όλα τα επίπεδα με 3 αστέρια.
+- One player suggested that there should be hints to use in case you find it difficult to solve the puzzle.
 
-- Οι παίκτες συμφώνησαν ότι το ξεκλείδωμα νέων διαστημοπλοίων όσο προχωρούσαν στο παιχνίδι και η εμφάνιση του ενημερωτικού toast κατά την ολοκλήρωηση των επιπέδων, τους έδινε μία αίσθηση επιβράβευσης και τους παρακινούσε να συνεχίσουν να παίζουν.
+### Scoring & Rewards
+
+- Players agreed that having a score system encouraged them to improve. 7 out of 8 players tried to complete all levels with 3 stars.
+
+- Players agreed that they felt rewarded and motivated to keep playing by unlocking new spaceships as they progressed.
+
+## Conclusions
+
+Based on the feedback and data collected from the initial evaluation and focus group, several conclusions can be drawn:
+
+1. The number of participants is small, only 10 people, so a complementary evaluation phase with a larger number of participants is suggested, for more reliable conclusions. However, the result of the initial evaluation is promising.
+
+2. The duration of the game makes it suitable to be used as a teaching tool in the context of a lecture.
+
+3. The UX should be improved, based on the feedback from the focus group.
+
+4. The theory around superposition should be extended.
+
+5. The game could be extended with more levels and quantum gates.
