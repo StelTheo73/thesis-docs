@@ -10,7 +10,7 @@ The game consists of 30 levels, in which the player is asked to solve a puzzle u
 
 The first 17 levels have a single qubit register and the available gates are Pauli-X, Pauli-Y, Pauli-Z and Hadamard. The remaining 13 levels have a 2-qubit register and the available gates are Pauli-X, Pauli-Z and Hadamard. In each level there are 2, 4, or 8 different states in which the spaceship can be in, depending on the number of qubits and the available gates.
 
-< Picture of a level >
+![Screenshot from Level 16](chapter-7/image001_level_16.jpg){#fig:fig701 height=50%}
 
 In each level, there are one or more asteroid targets. The player shall move the spaceship under the targets by altering the state of the register. Then, they have to destroy the asteroid by launching missiles. Several levels have more than one solution, but to score maximum points they must use the minimum number of gates and as few missiles as possible.
 
@@ -20,19 +20,19 @@ The game is accompanied by a 12-question quiz that allows players to test their 
 
 ### Home Screen
 
-< image >
+![Home Screen](chapter-7/image002_home_screen.jpg){#fig:fig702 height=50%}
 
 From the app's home screen, the user can access the game levels, available spaceships, the quiz, a tutorial level and game settings.
 
 ### Levels
 
-< image >
+![Levels Screen](chapter-7/image003_levels_screen.jpg){#fig:fig703 height=50%}
 
 On this screen the player can select any of the available levels. Each level's card shows the number of qubits, the available gates and the score.
 
 ### Spaceships
 
-< image >
+![Spaceships Screen](chapter-7/image004_spaceships_screen.jpg){#fig:fig704 height=50%}
 
 From this screen the player can select one of the available spaceships. The spaceships are decorative in nature, as they all have the same capabilities, but are a reward for the player's progress in the game. Initially only 3 are available, new spaceships are unlocked after completing more levels.
 
@@ -40,25 +40,25 @@ From this screen the player can select one of the available spaceships. The spac
 
 < image >
 
+![Quiz Screen](chapter-7/image005_quiz_screen.jpg){#fig:fig705 height=50%}
+
 This screen gives access to the knowledge check quiz. The player can answer a short quiz or view their score from previous attempts. Each quiz consists of 12 questions, 3 theoretical and 9 related to quantum gates.
 
-From the basic theory presented in the previous chapter and in the game slides, the quiz tests whether the player knows the name of the basic information unit in quantum computers, the definition of superposition and the name of the fate that carries a qubit into a superposition state. All other questions test the user's understanding of how quantum gates work, asking the user to perform a simple quantum calculation or select the correct gate to perform an action.
+![Quiz Form](chapter-7/image006_quiz_form.jpg){#fig:fig706 height=50%}
 
-< image : quiz form >
+![Quiz Results](chapter-7/image007_quiz_results.jpg){#fig:fig707 height=50%}
 
-< image : quiz result >
-
-< image : quiz history >
+![Quiz History](chapter-7/image008_quiz_history.jpg){#fig:fig708 height=50%}
 
 ### Tutorial
 
-< image >
+![Tutorial Screen](chapter-7/image009_tutorial.jpg){#fig:fig709 height=50%}
 
 This screen loads a tutorial level, for which no score is calculated. First, a few slides are presented with basic quantum computing theory. In particular, the player is introduced to basic theory around qubits, quantum registers and quantum gates, as well as the concept of superposition. The slides consist of short sentences that summarize the theory discussed in chapter 6. Then there are 4 overlays with instructions, which demonstrate to the player how to use the gates to control the spaceship and how to destroy the asteroids.
 
 ### Settings
 
-< image >
+![Settings Screen](chapter-7/image010_settings_screen.jpg){#fig:fig710 height=50%}
 
 From this screen, the user can choose between the available languages and delete their progress in the game. Available languages are English and Greek, with the former being the default.
 
@@ -68,7 +68,7 @@ Each level has a different number of possible states, depending on the available
 
 At the beginning of some levels, there are some slides with theory about the quantum gates available in this level. The first levels are very simple, requiring only 1 use of a gate to put the register into the target state. As the game progresses, the number of gates and combinations increases. In some levels there are gates that do not to be used. The player needs to use what they have learned to solve the puzzle using the minimum number of gates.
 
-< image x3: pause menu + theory slide + gate example slide >.
+![Theory Slide](chapter-7/image011_theory_slide.jpg){#fig:fig711 height=50%}
 
 The first 9 levels introduce the Pauli Gates (X, Y and Z). In level 10, the theory of superposition is reintroduced to increase information retention. Also, Hadamard Gate (H) is introduced. In the next 7 levels, the player is asked to solve the puzzle by combining his previous knowledge of X and H gates.
 
@@ -80,9 +80,9 @@ Development of the game began in November 2024. Google's [_Material Design 3_](h
 
 The first step was the selection of the quantum gates that would be presented in the game, and 30 scenarios were created to form the levels of the game. Each scenario consists of the initial state of the quantum register (initial position of the spaceship), the target state (positions of the target asteroids), the available gates and the minimum number of gates to be used to solve the puzzle. The scenarios are encoded in a YAML file in a manner that is human-readable while allowing for easy addition of new levels.
 
-< image: diagrams.net >
+![Wireframe](chapter-7/image012_wireframe.png){#fig:fig712 height=50%}
 
-< image: level 30 >
+![Screenshot from Level 30](chapter-7/image013_level_30.jpg){#fig:fig713 height=50%}
 
 A prototype level was then designed in [_diagrams.net_](https://app.diagrams.net/), which formed the foundation for creating the game's graphical interface. As shown in the images above, the original approach did not include a graphical element for the quantum register, but rather 2 discrete qubits to which the quantum gate would be applied. There were also two buttons, one for applying the gate and one for launching the missiles. The target state was placed at the top of the screen. Finally, the targets were enemy spaceships, as in the original _Space Invaders_ game.
 
@@ -108,13 +108,11 @@ In order to avoid the [common pitfall](#scoring-pitfall) that can lead to player
 
 To further motivate players as they progress through the game and complete levels, more spaceships become available as rewards. When a spaceship is unlocked, an informative toast is displayed.
 
-< image of stars + toast >
+![Level score & spaceship reward](chapter-7/image014_score_and_reward.jpg){#fig:fig714 height=50%}
 
 ## Quiz
 
 To measure the educational value of the game, a 12-question quiz was designed. The quiz consists of 3 theoretical questions and 9 questions regarding quantum gates actions. The theoretical questions relate to the theory presented to the player via slides. The quantum gate questions ask the player to calculate the new state of a qubit after the gate has been applied to it, or ask the player to select the appropriate gate to perform a quantum calculation. The questions are designed to prove that the player has learned to use -some of- the gates introduced in chapter 6 and understands the concept of superposition.
-
-< image from quiz menu, quiz and quiz history >
 
 ## Evaluation
 
@@ -122,15 +120,13 @@ To measure the educational value of the game, a 12-question quiz was designed. T
 
 In the first phase, the game was shared with the players, and they were asked to complete the quiz before playing the game. Then, they were asked to complete the tutorial level and then complete the 30 levels of the game and retake the quiz. Players were given as much time as they wanted and were asked to record how long it took to complete the game. There was no further guidance on how the game works and no external help was provided to solve the levels. The results of the first evaluation phase are presented below:
 
-< image from stat. analysis here >
+![Statistical Analysis](chapter-7/image015_evaluation.jpeg){#fig:fig715 height=50%}
 
 As shown in the graphs above, the average score on the quiz was 8.33% before playing the game and 85% after completing the game. It is clear that players improved their knowledge of quantum computing by playing the game.
 
 Statistical analysis showed no correlation between the time required to complete the game and the improvement in the quiz score. The average time needed to complete the game was 21 minutes. This makes the game suitable to be played in the context of a college lecture to increase student engagement in the classroom or to allow students to test their knowledge in a fun and interactive way.
 
 In the second phage, 8 out of 10 players from the fist phase participated in a focus group. The questions they were asked to discuss were related to 4 areas; _User Interface & User Experience_ (UI & UX), _Game Mechanics_, _Difficulty_ and _Scoring & Rewards_. They were also free to discuss with each other and comment on their overall experience of the application. Below are the focus group findings by area:
-
-Ακολουθούν τα συμπεράσματα του focus group ανά τομέα:
 
 ### User Interface & User Experience
 
