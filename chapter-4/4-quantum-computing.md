@@ -1,5 +1,7 @@
 # Quantum Computing
 
+In the previous chapter we introduced the techniques of gamification and the benefits of game-based learning. We will then discuss the basic theory around quantum computing, which provided the information needed to design the theory slides presented in the game and on which the game mechanics are based.
+
 Quantum computers are computers that perform calculations by taking advantage of quantum phenomena, such as superposition and entanglement. The quantum properties of the microcosm provide the ability to store and process larger amounts of information and perform specific calculations at higher speeds than conventional computers. Information is processed using quantum gates and quantum algorithms, analogs of which cannot exist in conventional computers. [@karafyllidis_book], [@wikipedia_quantum_computing]
 
 ## Quantum Bits

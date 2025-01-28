@@ -1,5 +1,6 @@
 # Educational Game Development
 
+TODO: CHANGE INTRO
 In the previous chapters, we discussed gamification and presented the basic theory of quantum computing and some of the most well-known quantum gates. Next, we will present the educational game we designed to teach learners the concept of superposition and to familiarize them with the effects of some quantum games.
 
 The game developed is called _Qubity_ and is a variant of the arcade video game _Space Invaders_. It combines the characteristics of a "Shoot 'em Up" game with puzzle solving. The game is aimed at university students, as some levels require knowledge of complex numbers to solve the puzzle. However, the levels present the necessary theory for solving the puzzle, so a player with a flair for mathematics could complete the level without having any knowledge of complex numbers, as demonstrated by the evaluation of the game.

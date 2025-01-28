@@ -74,6 +74,22 @@ This strategy includes all games that are designed for educational purposes and 
 
 These environments use commercially available games designed for entertainment purposes. Learners can play these games for fun and then discuss gaming experiences with other learners.
 
+## Benefits of Game Based Learning
+
+First, game-based learning is more appealing to children, as it appears to be a game on the surface, but in the background it has the ability to stimulate children's curiosity and capture their imagination. It is a friendlier and more accessible mean of engaging young learners with a subject than traditional methods, as it is fun and motivating.
+
+Game-based learning also has the ability to enhance critical thinking and problem-solving, as they involve human instinct to compete and desire to succeed. Because learners often compete with other players, they have to collaborate and share ideas. They must listen to and evaluate the opinions of other players and take into account the tactics of opposing teams.
+
+Games often require users to react quicker to stimuli, make critical decisions in a short period of time and combine knowledge acquired during the game to solve complex problems. Due to their repetitive and interactive nature, they have the ability to improve retention and increase the brain's capacity to memorize things.
+
+Also, as games are flexible, they can be adapted to different learning styles, levels and paces, meeting individual needs and can also give instant feedback about where gaps in knowledge are or provide specific tasks for the user to help cover these areas. In this way, they can further help learners to identify their strengths and weaknesses.
+
+Comparing games to traditional textbooks, although the latter have been used for many years with success, their revision and renewal takes a long time and is difficult and costly. The cost of reprinting, redistributing and recycling or storing old textbooks must be taken into account. Even in the case of digital textbooks, there is a significant cost of disposal and renewal. By contrast, games are very versatile, their rules can be adapted easily, and their content can be changed quickly to keep pace with technological and scientific progress.
+
+In summary, game-based learning offers a modern, engaging and flexible approach to education. It is a great way to improve learners' critical thinking and problem-solving skills, boost their creativity and keep them engaged and motivated. Also, unlike traditional textbooks, it can be quickly and cost-effectively updated, in order to reflect new information and technological progress.
+
+[@bedrock_learning_game_based_learning], [@game_designing_game_based_learning]
+
 ## Pitfalls {#scoring-pitfall}
 
 There are some potential pitfalls that instructors may encounter when designing game-based learning activities [@moore-ruso_2017]. First, game elements may not be connected to learning objectives. Quite often the assignments are introduced without planning how they support the learning objectives. Also, sometimes the learning objectives are connected, but the context of the game is not. Thus, learners cannot retain knowledge or relate it to the subject. For game-based learning activities to be successful, learners must be able to retain and apply the knowledge they have been exposed to through the game. Furthermore, when students are focused on passing high stakes examinations, participating in a gamified environment can be seen as an unnecessary obstacle [@berkling_and_tomas_2013]. Learners who are used to learning and being assessed by conventional teaching methods and are focused on achieving high grades may feel deprived in a gamified environment. They will fill uncertainty, discomfort and may find it difficult to adapt to new rules. Another common pitfall is to capture the imagination of students and inspire them. In order to avoid this, opportunities for play, exploration and collaboration for new goals must be introduced [@nicholson_2012].
