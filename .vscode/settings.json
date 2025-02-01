@@ -1,14 +1,10 @@
 {
-    "remark.format": {
-        "options.listItemIndent": "one"
-    },
-    "latex-workshop.latex.autoBuild.run": "never",
-    "markdownlint.run": "onSave",
-    "githubPullRequests.remotes":[
-        "origin",
-        "upstream",
-        "main"
-    ],
-    "cSpell.enabled": true,
-    "cSpell.words": []
+  "remark.format": {
+    "options.listItemIndent": "one"
+  },
+  "latex-workshop.latex.autoBuild.run": "never",
+  "markdownlint.run": "onSave",
+  "githubPullRequests.remotes": ["origin", "upstream", "main"],
+  "cSpell.enabled": true,
+  "cSpell.words": ["Gamification"]
 }
