@@ -143,7 +143,7 @@ The identity quantum gate does not affect the state of the qubit. Its symbol is 
 
 Table: Identity Gate Truth Table {#tbl:tbl602}
 
-![Identity Gate Circuit Diagram](chapter-6/I.svg){#fig:fig601}
+![Identity Gate Circuit Diagram](chapter-4/I.svg){#fig:fig601}
 
 ### Pauli-X
 The quantum X gate functions similarly to the classical NOT gate, rotating the state vector by 180 degrees around the X-axis. This operation changes the state from $|0\rangle$ to $|1\rangle$ and vice versa.
@@ -156,7 +156,7 @@ The quantum X gate functions similarly to the classical NOT gate, rotating the s
 
 Table: Pauli-X Gate Truth Table {#tbl:tbl603}
 
-![Pauli-X Gate Circuit Diagram](chapter-6/X.svg){#fig:fig602}
+![Pauli-X Gate Circuit Diagram](chapter-4/X.svg){#fig:fig602}
 
 ### Pauli-Y
 The quantum Y gate operates similarly to the X gate but rotates the state vector by 180 degrees around the Y-axis. It changes the state from $|0\rangle$ to $|1\rangle$ and vice versa, and additionally shifts the phase of the $|0\rangle$ state by 90 degrees and the phase of the $|1\rangle$ state by -90 degrees.
@@ -169,7 +169,7 @@ The quantum Y gate operates similarly to the X gate but rotates the state vector
 
 Table: Pauli-Y Gate Truth Table {#tbl:tbl604}
 
-![Pauli-Y Gate Circuit Diagram](chapter-6/Y.svg){#fig:fig603}
+![Pauli-Y Gate Circuit Diagram](chapter-4/Y.svg){#fig:fig603}
 
 ### Pauli-Z
 The quantum Z gate rotates the state vector by 180 degrees around the Z-axis. It shifts the phase of the $|1\rangle$ state by 180 degrees and does not affect the state of the $|0\rangle$ state.
@@ -182,7 +182,7 @@ The quantum Z gate rotates the state vector by 180 degrees around the Z-axis. It
 
 Table: Pauli-Z Gate Truth Table {#tbl:tbl605}
 
-![Pauli-Z Gate Circuit Diagram](chapter-6/Z.svg){#fig:fig604}
+![Pauli-Z Gate Circuit Diagram](chapter-4/Z.svg){#fig:fig604}
 
 ### Phase
 The S gate shifts the phase of the $|1\rangle$ state by 90 degrees.
@@ -195,7 +195,7 @@ The S gate shifts the phase of the $|1\rangle$ state by 90 degrees.
 
 Table: Phase Gate Truth Table {#tbl:tbl606}
 
-![Phase Gate Circuit Diagram](chapter-6/S.svg){#fig:fig605}
+![Phase Gate Circuit Diagram](chapter-4/S.svg){#fig:fig605}
 
 ### Hadamard
 The Hadamard gate, when acting on a qubit in one of the two basis states, places it in a superposition of the two basis states. Conversely, when it acts on a qubit that is in a superposition of the two basis states, it returns it to one of the basis states.
@@ -210,7 +210,7 @@ The Hadamard gate, when acting on a qubit in one of the two basis states, places
 
 Table: Hadamard Gate Truth Table {#tbl:tbl607}
 
-![Hadamard Gate Circuit Diagram](chapter-6/H.svg){#fig:fig606 height=20%}
+![Hadamard Gate Circuit Diagram](chapter-4/H.svg){#fig:fig606 height=20%}
 
 ### Controlled-NOT
 The CNOT gate inverts the target bit when the control bit is set to 1. It functions as an X gate controlled by the control bit.
@@ -225,7 +225,7 @@ The CNOT gate inverts the target bit when the control bit is set to 1. It functi
 
 Table: Controlled-NOT Gate Truth Table - Second bit as control bit {#tbl:tbl608}
 
-![CNOT Gate Circuit Diagram - Second bit as Control bit](chapter-6/CNOT_2.svg){#fig:fig607 height=50%}
+![CNOT Gate Circuit Diagram - Second bit as Control bit](chapter-4/CNOT_2.svg){#fig:fig607 height=50%}
 
 | $|q_{control} q_{target}\rangle$                            | $|q_{control} q_{target}\rangle$                    |
 |---------------------------------------------------------|---------------------------------------------------------|
@@ -237,7 +237,7 @@ Table: Controlled-NOT Gate Truth Table - Second bit as control bit {#tbl:tbl608}
 
 Table: Controlled-NOT Gate Truth Table - First bit as control bit {#tbl:tbl609}
 
-![CNOT Gate Circuit Diagram - First bit as Control bit](chapter-6/CNOT_R.svg){#fig:fig608 height=50%}
+![CNOT Gate Circuit Diagram - First bit as Control bit](chapter-4/CNOT_R.svg){#fig:fig608 height=50%}
 
 ### Swap
 The SWAP gate exchanges the states of two qubits.
@@ -252,7 +252,7 @@ The SWAP gate exchanges the states of two qubits.
 
 Table: SWAP Gate Truth Table {#tbl:tbl610}
 
-![SWAP Gate Circuit Diagram](chapter-6/SWAP.svg){#fig:fig609}
+![SWAP Gate Circuit Diagram](chapter-4/SWAP.svg){#fig:fig609}
 
 ## References {.unnumbered}
 The details about quantum gates and the tables are based on the following sources:
