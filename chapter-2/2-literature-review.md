@@ -1,29 +1,28 @@
 # Literature Review
 
-Μετά τον καθορισμό του στόχου, δηλαδή της δημιουργίας ενός εκπαιδευτικού παιχνιδιού για εκμάθηση κβαντικών υπολογιστών, ξεκίνησε η μελέτη της διαθέσιμης βιβλιογραφίας. Η μελέτη της βιβλιογραφίας στόχευσε την αξιολόγηση του gamification ως τρόπο μάθησης, την καταγραφή των τεχνικών gamification και την εύρεση παιχνιδιών σχετικών με κβαντική φυσική και κβαντικούς υπολογιστές.
+Once the goal of creating an educational game for learning quantum computing was established, a review of the available literature began. The aim of the literature review was to evaluate gamification as a learning modality, to document gamification techniques, and to find games related to quantum physics and quantum computing.
 
-Σε αυτό το κεφάλαιο θα παρουσιάσουμε συνοπτικά τα συμπεράσματα που εξάγαμε από τη βιβλιογραφική έρευνα γύρω από το gamification ως τρόπο μάθησης διαφόρων επιστημών. Επίσης, θα καταγράψουμε παιχνίδια σχετικά με κβαντική φυσική και κβαντικούς υπολογιστές, εκπαιδευτικά και μη, τα οποία αποτέλεσαν έμπνευση για τη δημιουργία του παιχνδιού μας.
+In this chapter, we summarise the conclusions of the literature review on gamification as a learning approach in different sciences. We will also list games related to quantum physics and quantum computing, both educational and non-educational, which have been the inspiration for the creation of our game.
 
 ## Computer Science Games for Higher Education
 
-Σύμφωνα με τους [@battistella_games_for_teaching_computing], τα παινχίδια που σχεδιάζονται πρέπει να είναι ελκυστικά και να παρέχουν κίνητρο στους παίκτες ώστε να συνεχίζουν να παίζουν. Η μελέτη τους εξέτασε περισσότεα από 100 παιχνίδια σχετικά με την επιστήμη των υπολογιστών, η πλειοψηφία των οποίων ήταν ψηφιακά παιχνίδια. Το 97% των ψηφιακών εκπαιδευτικών παιχνιδιών ήταν παιχνίδια για υπολογιστές, με μόλις 1 παιχνίδι να προορίζεται για κινητές συσκευές. Η παρατήρηση αυτή υποδηλώνει μία σημαντική έλλειψη στα διαθέσιμα παιχνίδια για κινητές συσκευές.
+According to [@battistella_games_for_teaching_computing], educational games have to be engaging and motivate learners to keep playing. Their study looked at more than 100 games related to computer science, the majority of which were digital games. 97% of the digital educational games were computer games, while only 1 game was designed for mobile devices. This observation suggests a significant lack of games available for mobile devices.
 
 ![Distribution of games per genre](chapter-2/game_distribution.png){#fig:fig201 height=50%}
 
-Στην παραπάνω εικόνα, η οποία προέρχεται από την προαναφεθείσα έρευνα, φαίνεται η κατανομή των παιχνιδιών ανά genre. Το δημοφιλέστερο genre είναι τα simulation games, και ακολουθούν τα puzzle και τα adventure games. Σύμφωνα με τους ερευνητές, τα περισσότερα παχνίδια είναι single-player, γεγονός που δεν ενισχύει τη συνεργασία ή των υγιή ανταγωνισμό μεταξύ των συμμετεχόντων.
+The figure above, taken from the aforementioned study, shows the distribution of games per genre. The most popular genre is simulation games, followed by puzzle games and adventure games. According to the researchers, most games are single-player that don't encourage cooperation or healthy competition between learners.
 
-## Puzzle Games
+## Educational Puzzle Games
 
-Όπως εξηγήθηκε στο εισαγωγικό κεφάλαιο, επιθυμούμε το παιχνίδι να έχει εύκολο χειρισμό και απλά mechanics. Η δημιουργία ενός simulation game, που είναι ο πιο δημοφιλής τύπος παιχνδιού, σύμφωνα με την παραπάνω έρευνα, ίσως οδηγήσει σε πολύπλοκα mechanics τα οποία θα αποσπάσουν τον παίκτη από τον πραγματικό στόχο.
-Για το λόγο αυτό, αποφασίσαμε να εξετάσουμε το δεύτερο δημοφιλέστερο τύπο παιχνιδιού, τα puzzle games.
+As we explained in the introductory chapter, we want the game to be easy to use and have simple mechanics. Creating a simulation game, which is the most popular genre, may lead to complex mechanics that distract the player from the educational goal. For this reason, we decided to investigate further the second most popular genre: puzzle games.
 
-Η έρευνα του [@fakokunde_puzzle_games] σε 141 άτομα, έδειξε ότι τα puzzle game ενισχύσον το information retention, ανεξαρτητα από το φύλο και το cognitive style των learner. Δύο ακόμη μελέτες επάνω σε puzzle games ([@idika_puzzle_games], [@srijampana_puzzle_games]), επιβεβαιώνουν ότι το information retention μπορεί να βελτιωθεί σημαντικά μέσω αυτού του τύπου παιχνιδιού. Επιπλέον, αναφέρουν ότι ενισχύουν την ενεργή ενασχόληση των learner με το αντικείμενο και την βαθύτερη κατανόηση του αντικειμένου.
+Research by [@fakokunde_puzzle_games] on 141 subjects showed that puzzle games improved information retention, regardless of the learners' gender and cognitive style. Two other studies on puzzle games on puzzle games, [@idika_puzzle_games], [@srijampana_puzzle_games], confirm that this type of game can significantly improve information retention. They also report that they increase learners' active engagement with the material and enhance their understanding of the subject.
 
 ## Games for Quantum Computing and Quantum Physics
 
 In the literature we can find many games for quantum computers or quantum physics, which have been developed in different contexts. The earliest quantum game that can be found in the literature is an Atari arcade game called 'Quantum' created in 1982 [@piispanen_quantum_games_history]. To date, more than 300 games related to quantum physics, digital and not, have been created [@piispanen_defining_quantum_games]. There are games developed in the context of competitions, as university coursework, by research groups, by universities, by companies, by independent enthusiasts and by professors or professional engineers. By extension, there are games that have not been developed for serious purposes, competition games, games designed for research purposes, commercial games and educational games. [@piispanen_quantum_games_history], [@spie_quantum_games] Due to the large number of educational games found in the literature, in this section we will focus on games developed by companies or universities with an educational purpose and are still playable.
 
-Τα παιχνίδια που θα παρουσιαστούν στη συνέχεια προέρχονται από τις προαναφερθείσες μελέτες και από τη λίστα που έχει δημιουργήσει η [@kiedos_quantum_games_list]
+The games presented below are taken from the aforementioned studies and from the catalog on the _kiedos.art_ website. [@kiedos_quantum_games_list]
 
 **COMPANIES**
 
@@ -71,7 +70,7 @@ In the literature we can find many games for quantum computers or quantum physic
 - Quantum Flytrap
   - https://www.quantumlah.org/
   - https://quantumflytrap.com/virtual-lab
-  - Supported by Centre for quantum Technologies - National University of Singapore
+  - Supported by Center for quantum Technologies - National University of Singapore
   - https://www.quantumlah.org/
   - [@spie_quantum_games] -> 4.4
 
@@ -118,4 +117,4 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4258302
 
 ## Conclusions
 
-Όπως διαπιστώνεται από την βιβλιογραφική έρευνα, τα διαθέσιμα παιχνίδια για κινητές συσκεύες είναι περιορισμένα. Αυτό το κενό στην αγορά έρχεται να ενισχύσει την επιθυμία μας για ανάπτυξη ενός παιχνιδιού για κινητές συσκευές, καθώς θα είναι εύκολη η ενασχόληση με το παιχίδι κατά τη διάρκεια μίας διάλεξης ή σε στιγμές που ο χρήστης δεν έχει εύκολη πρόσβαση σε υπολογιστή, όπως εξηγήθηκε και στο εισαγωγικό κεφάλαιο της εργασίας. Τέλος, λόγω της ισχυρής ενίσχυσης του information retention από τα puzzle games, μας οδηγεί στην απόφαση να δημιουργήσουμε ένα παιχνίδι τύπου puzzle.
+As the literature review demonstrates, the number of games available for mobile devices is limited. This gap in the market reinforces our desire to develop a game for mobile devices, as it will be easy to engage with the game during a lecture or at times when the user does not have access to a computer, as explained in the introductory chapter as well. Because we are not interested in improving collaboration or other teamwork skills at this stage, we will not consider creating a multiplayer game. Finally, the strong boost to information retention from puzzle games leads us to the decision to create a puzzle game.

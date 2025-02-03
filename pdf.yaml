@@ -31,6 +31,7 @@ input-files:
   - chapter-5/5-mobile-apps.md
   - chapter-6/6-conceptual-design.md
   - chapter-7/7-game-description.md
+  - chapter-8/8-evaluation.md
   - bibliography/bibliography.md
 
 log-file: log/pdf.log.json
@@ -47,6 +48,7 @@ resource-path:
   - chapter-5
   - chapter-6
   - chapter-7
+  - chapter-8
 standalone: true
 to: pdf
 top-level-division: chapter # part, chapter, section, or default:
