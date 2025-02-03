@@ -24,86 +24,55 @@ In the literature we can find many games for quantum computers or quantum physic
 
 The games presented below are taken from the aforementioned studies and from the catalog on the _kiedos.art_ website. [@kiedos_quantum_games_list]
 
-**COMPANIES**
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+--------------------+
+| Game Name                                                                                       | Creator                                   | &nbsp;Platform | &nbsp;Genre        |
++:================================================================================================+:=========================================:+:==============:+:===================+
+| [Quander](https://www.canonlab.org/quander)                                                     | Canon Lab Org (by University of Chicago)  | Web            | Puzzle             |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+--------------------+
+| [Collapsing Qubits](https://www.canonlab.org/collapsingqubits)                                  | Canon Lab Org (by University of Chicago)  | Board Game     | Cards              |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+--------------------+
+| [The Qubit Game](https://quantumai.google/education/thequbitgame)                               | Google (Quantum AI Lab)                   | Web            | Simulation         |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+--------------------+
+| [Quantum Computing Playground](https://experiments.withgoogle.com/quantum-computing-playground) | Google                                    | Web            | Virtual Lab        |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+--------------------+
+| [Quantum Composer](https://quantum.ibm.com/composer)                                            | IBM                                       | Web            | Virtual Lab        |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+--------------------+
+| [Hello Quantum](https://hello-quantum.soft112.com)                                              | IBM & University of Basel                 | Web            | Puzzle             |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+--------------------+
+| [Particel in a box]( https://qplaylearn.com/projects/quantum-physics)                           | QPlayLearn                                | Web            | Simulation, Puzzle |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+--------------------+
+| [Quantum Playground](https://qplaylearn.com/projects/quantum-state)                             | QPlayLearn                                | Web            | Simulation         |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+--------------------+
+| [Q|Cards>](https://qplaylearn.com/projects/qubit)                                               | QPlayLearn                                | Web            |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+
+| [TiqTaqToe](https://qplaylearn.com/projects/superposition)                                      | QPlayLearn                                | Web            |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+
+| [Psi and Delta](https://qplaylearn.com/projects/wave-like-behaviour)                            | QPlayLearn                                | Web            |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+
+| [Quantum Solitaire](https://qplaylearn.com/projects/entanglement)                               | QPlayLearn                                | Web            |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+
+| [Escape Quantum](https://qplaylearn.com/projects/quantum-measurement)                           | QPlayLearn                                | Web            |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+
+| [Potatoes Quest](https://qplaylearn.com/projects/tunneling)                                     | QPlayLearn                                | Web            |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+
+| [QWiz](https://qplaylearn.com/projects/quantum-technologies)                                    | QPlayLearn                                | Web            |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+
+| [Saving Photoland](https://qplaylearn.com/projects/time-frequency-modes)                        | QPlayLearn                                | Web            |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+
+| [Quantum Odyssey](https://ed.quantum.ieee.org/quantum-odyssey)                                  | Quarks Interactive                        | Web            |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+
+| [Quantum Flytrap](https://quantumflytrap.com/virtual-lab)                                       | National University of Singapore          | Web            |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+
+| [Quantum Pattern Matching](https://www.scienceathome.org/games/quantum-pattern-matching)*       | Science At Home (by University of Aarhus) | Desktop & Web  |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+
+| [Quantum Moves 2](https://www.scienceathome.org/games/quantum-moves-2)                          | Science At Home (by University of Aarhus) | Desktop & Web  |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+
+| [Rydbergator](https://www.scienceathome.org/games/rydbergator)                                  | Science At Home (by University of Aarhus) | Desktop & Web  |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+
+| [Network Game](https://www.scienceathome.org/games/network-game)                                | Science At Home (by University of Aarhus) | Web            |
++-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------+
 
-- IBM
-
-  - Quantum Composer: https://quantum.ibm.com/composer/files/new
-  - Hello Quantum Project: IBM & University of Basel
-    - https://hello-quantum.soft112.com/
-    - [@spie_quantum_games] --> 4.1 Hello Quantum/Hello Qiskit
-
-- Google
-
-  - The Qubit Game: https://quantumai.google/education/thequbitgame, https://blog.google/technology/research/world-quantum-day-meet-our-researchers-and-play-qubit-game/
-  - Experiments with Google --> Quantum Computing Playground: https://experiments.withgoogle.com/quantum-computing-playground, https://en.wikipedia.org/wiki/Google_Chrome_Experiments
-
-- QPlayLearn
-
-  - https://qplaylearn.com/about
-  - Uses interactive tools to make the learning process more effective and entertaining for different target groups.
-  - Platform with web-based educational games. Created by universities or individuals
-    - Particle in a box: https://qplaylearn.com/projects/quantum-physics
-    - Quantum Playground: https://qplaylearn.com/projects/quantum-state
-    - Q|Cards>: https://qplaylearn.com/projects/qubit
-    - TiqTaqToe: https://qplaylearn.com/projects/superposition
-    - Psi and Delta: https://qplaylearn.com/projects/wave-like-behaviour
-    - Quantum Solitaire: https://qplaylearn.com/projects/entanglement
-    - Escape Quantum: https://qplaylearn.com/projects/quantum-measurement
-    - Potatoes Quest: https://qplaylearn.com/projects/tunneling
-    - QWiz: https://qplaylearn.com/projects/quantum-technologies
-    - Saving Photonland: https://qplaylearn.com/projects/time-frequency-modes
-  - [@spie_quantum_games] --> 4.3
-
-- Quarks Interactive
-
-  - Game: Quantum Odyssey
-  - https://ed.quantum.ieee.org/quantum-odyssey/
-  - https://www.quarksinteractive.com/
-  - [@spie_quantum_games] --> 4.5
-
-- Canon Lab Org
-
-  - https://www.canonlab.org/quander
-  - [@kiedos_quantum_games_list] [@piispanen_quantum_games_history]
-
-- Quantum Flytrap
-  - https://www.quantumlah.org/
-  - https://quantumflytrap.com/virtual-lab
-  - Supported by Center for quantum Technologies - National University of Singapore
-  - https://www.quantumlah.org/
-  - [@spie_quantum_games] -> 4.4
-
-**UNIVERSITIES**
-
-- Aalto University
-
-  - https://quantumgames.aalto.fi/
-  - Course offered by Aalto University
-  - Games are not designed for educational purposes.
-  - This course is designed to teach students how to design and develop games and also learn the basic concepts of quantum computing.
-  - [@piispanen_quantum_games_history] [@kiedos_quantum_games_list]
-
-- Science At Home
-
-  - https://www.scienceathome.org/about-us/
-  - Aarhus University
-  - Browser and desktop educational games
-  - Diverse team of scientists, designers and game developers that create scientific games, aiming at teaching by game-play
-  - [@spie_quantum_games] -> 4.6
-
-- Applied Research Laboratories at the University of Texas at Austin
-  - Virtual Quantum Optics Library
-  - [@spie_quantum_games] -> 4.7
-
-Consider:
-2 tables -> games & virtual labs
--> game table: name, creator, url, platform (desktop/web), concept (entanglement, superposition etc), category/genre/subgenre
-
--> Say that game categories are described later on thesis
-
-**!Consider a chapter explaining how an educational game should be designed!**
-https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4258302
+[*] Under development
 
 ### Desktop & Web Games
 
