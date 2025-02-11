@@ -79,9 +79,9 @@ lof: true # List of figures
 lot: true # List of tables
 # geometry: [a4paper, bindingoffset=0mm, inner=20mm, outer=20mm, top=20mm, bottom=20mm] # See https://ctan.org/pkg/geometry for more options
 fignos-cleveref: False
-fignos-plus-name: Image
-fignos-star-name: Image
-fignos-caption-name: Image
+fignos-plus-name: Figure
+fignos-star-name: Figure
+fignos-caption-name: Figure
 fignos-caption-separator: period
 fignos-number-by-section: False
 secnos-plus-name: Section

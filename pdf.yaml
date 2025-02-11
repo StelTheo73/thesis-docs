@@ -15,8 +15,8 @@ variables:
   secnos-cleveref: True
   secnos-plus-name: sec.
   secnos-star-name: sec.
-  fignos-plus-name: Image
-  fignos-star-name: Image
+  fignos-plus-name: Figure
+  fignos-star-name: Figure
 
 
 file-scope: false # Parse each file individually before combining for multifile documents. This will allow footnotes in different files with the same identifiers to work as expected. If this option is set, footnotes and links will not work across files.
