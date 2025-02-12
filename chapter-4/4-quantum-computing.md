@@ -5,6 +5,7 @@ In the previous chapter we introduced the techniques of gamification and the ben
 Quantum computers are computers that perform calculations by taking advantage of quantum phenomena, such as superposition and entanglement. The quantum properties of the microcosm provide the ability to store and process larger amounts of information and perform specific calculations at higher speeds than conventional computers. Information is processed using quantum gates and quantum algorithms, analogs of which cannot exist in conventional computers. [@karafyllidis_book], [@wikipedia_quantum_computing]
 
 ## Quantum Bits
+
 Quantum computers store information as bits. A quantum bit is a two-state system based on properties of the microcosm such as spin, energy state or the way particles oscillate and is the basic unit of information storage. [@wikipedia_quantum_computing]
 
 State 0 is represented as $|0\rangle$ and state 1 as $|1\rangle$ and are called basic or basis states and are orthogonal to each other. Because the two states belong to a vector space, [Hilbert space](https://en.wikipedia.org/wiki/Hilbert_space), they can be multiplied by a number and added together, and the result will be a valid state. Superposition is based on this fact. [@wikipedia_quantum_computing]
@@ -68,6 +69,7 @@ The term $e^{i\phi_a}$ is called the global phase and is a mathematical artifact
 [@karafyllidis_book]
 
 ### Superposition
+
 Superposition is based on the addition of two states, similar to how we would add two waves, and gives quantum computers the ability to perform parallel computations.
 
 A classical bit can have two distinct states, 0 or 1, and can be stored by any system that has two distinct states, closed or open. All information is analyzed, stored, and processed as a sequence of 0s and 1s by classical computers.
@@ -78,8 +80,8 @@ The outcome of the measurement is impossible to predict with certainty, as all w
 
 [@aws_quantum_computing], [@karafyllidis_book]
 
-
 ### Quantum Entanglement
+
 Quantum entanglement is defined as the state of two quantum systems when it cannot be written as a tensor product of their basic states. Quantum entanglement is a physical resource that can be used for the development of quantum algorithms and the execution of quantum computations. There is no classical analog of this state. When two systems are entangled, measuring the state of one reveals the state of the other, regardless of the distance between them. Essentially, the state of one quantum system depends on the state of the other. [@aws_quantum_computing], [@karafyllidis_book]
 
 ### Decoherence
@@ -97,6 +99,7 @@ $$
 [@karafyllidis_book]
 
 ## Quantum Gates
+
 https://quantum.microsoft.com/en-us/insights/education/concepts/single-qubit-gates#:~:text=The%20Y%20gate%20performs%20a,essential%20for%20many%20quantum%20algorithms.
 
 https://www.sharetechnote.com/html/QC/QuantumComputing_Gate_X.html
@@ -130,9 +133,10 @@ The table below presents some of the most well-known quantum gates and the effec
 | Swap                                                | 2                      | SWAP                             | $\begin{pmatrix} 1 & 0 & 0 & 0\\ 0 & 0 & 1 & 0\\ 0 & 1 & 0 & 0\\ 0 & 0 & 0 & 1\end{pmatrix}$                                      |
 +-----------------------------------------------------+------------------------+----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 
-Table: Quantum Gates [@wikipedia_quantum_gates] {#tbl:tbl601}
+Table: Quantum Gates. [@wikipedia_quantum_gates] {#tbl:tbl601}
 
 ### Identity
+
 The identity quantum gate does not affect the state of the qubit. Its symbol is often omitted in quantum circuits.
 
 | $|q_i\rangle$             | $|q_o\rangle$             |
@@ -141,11 +145,12 @@ The identity quantum gate does not affect the state of the qubit. Its symbol is 
 | $|1\rangle$               | $|1\rangle$               |
 | $a|0\rangle + b|1\rangle$ | $a|0\rangle + b|1\rangle$ |
 
-Table: Identity Gate Truth Table {#tbl:tbl602}
+Table: Identity Gate Truth Table. {#tbl:tbl602}
 
-![Identity Gate Circuit Diagram](chapter-4/I.svg){#fig:fig601}
+![Identity Gate Circuit Diagram.](chapter-4/I.svg){#fig:fig601}
 
 ### Pauli-X
+
 The quantum X gate functions similarly to the classical NOT gate, rotating the state vector by 180 degrees around the X-axis. This operation changes the state from $|0\rangle$ to $|1\rangle$ and vice versa.
 
 | $|q_i\rangle$             | $|q_o\rangle$             |
@@ -154,11 +159,12 @@ The quantum X gate functions similarly to the classical NOT gate, rotating the s
 | $|1\rangle$               | $|0\rangle$               |
 | $a|0\rangle + b|1\rangle$ | $a|1\rangle + b|0\rangle$ |
 
-Table: Pauli-X Gate Truth Table {#tbl:tbl603}
+Table: Pauli-X Gate Truth Table. {#tbl:tbl603}
 
-![Pauli-X Gate Circuit Diagram](chapter-4/X.svg){#fig:fig602}
+![Pauli-X Gate Circuit Diagram.](chapter-4/X.svg){#fig:fig602}
 
 ### Pauli-Y
+
 The quantum Y gate operates similarly to the X gate but rotates the state vector by 180 degrees around the Y-axis. It changes the state from $|0\rangle$ to $|1\rangle$ and vice versa, and additionally shifts the phase of the $|0\rangle$ state by 90 degrees and the phase of the $|1\rangle$ state by -90 degrees.
 
 | $|q_i\rangle$             | $|q_o\rangle$                |
@@ -167,11 +173,12 @@ The quantum Y gate operates similarly to the X gate but rotates the state vector
 | $|1\rangle$               | $-i|0\rangle$                |
 | $a|0\rangle + b|1\rangle$ | $ia|1\rangle - ib|0\rangle$  |
 
-Table: Pauli-Y Gate Truth Table {#tbl:tbl604}
+Table: Pauli-Y Gate Truth Table. {#tbl:tbl604}
 
-![Pauli-Y Gate Circuit Diagram](chapter-4/Y.svg){#fig:fig603}
+![Pauli-Y Gate Circuit Diagram.](chapter-4/Y.svg){#fig:fig603}
 
 ### Pauli-Z
+
 The quantum Z gate rotates the state vector by 180 degrees around the Z-axis. It shifts the phase of the $|1\rangle$ state by 180 degrees and does not affect the state of the $|0\rangle$ state.
 
 | $|q_i\rangle$             | $|q_o\rangle$                |
@@ -180,11 +187,12 @@ The quantum Z gate rotates the state vector by 180 degrees around the Z-axis. It
 | $|1\rangle$               | $-|1\rangle$                 |
 | $a|0\rangle + b|1\rangle$ | $a|0\rangle - b|1\rangle$    |
 
-Table: Pauli-Z Gate Truth Table {#tbl:tbl605}
+Table: Pauli-Z Gate Truth Table. {#tbl:tbl605}
 
-![Pauli-Z Gate Circuit Diagram](chapter-4/Z.svg){#fig:fig604}
+![Pauli-Z Gate Circuit Diagram.](chapter-4/Z.svg){#fig:fig604}
 
 ### Phase
+
 The S gate shifts the phase of the $|1\rangle$ state by 90 degrees.
 
 | $|q_i\rangle$             | $|q_o\rangle$                |
@@ -193,11 +201,12 @@ The S gate shifts the phase of the $|1\rangle$ state by 90 degrees.
 | $|1\rangle$               | $i|1\rangle$                 |
 | $a|0\rangle + b|1\rangle$ | $a|0\rangle + ib|1\rangle$   |
 
-Table: Phase Gate Truth Table {#tbl:tbl606}
+Table: Phase Gate Truth Table. {#tbl:tbl606}
 
-![Phase Gate Circuit Diagram](chapter-4/S.svg){#fig:fig605}
+![Phase Gate Circuit Diagram.](chapter-4/S.svg){#fig:fig605}
 
 ### Hadamard
+
 The Hadamard gate, when acting on a qubit in one of the two basis states, places it in a superposition of the two basis states. Conversely, when it acts on a qubit that is in a superposition of the two basis states, it returns it to one of the basis states.
 
 | $|q_i\rangle$                                               | $|q_o\rangle$                                                                               |
@@ -208,11 +217,12 @@ The Hadamard gate, when acting on a qubit in one of the two basis states, places
 | $\frac{1}{\sqrt{2}}|0\rangle - \frac{1}{\sqrt{2}}|1\rangle$ | $|1\rangle$                                                                                 |
 | $a|0\rangle + b|1\rangle$                                   | $\frac{1}{\sqrt{2}}\left(a+b)\right|0\rangle + \frac{1}{\sqrt{2}}\left(a-b)\right|1\rangle$ |
 
-Table: Hadamard Gate Truth Table {#tbl:tbl607}
+Table: Hadamard Gate Truth Table. {#tbl:tbl607}
 
-![Hadamard Gate Circuit Diagram](chapter-4/H.svg){#fig:fig606 height=20%}
+![Hadamard Gate Circuit Diagram.](chapter-4/H.svg){#fig:fig606 height=20%}
 
 ### Controlled-NOT
+
 The CNOT gate inverts the target bit when the control bit is set to 1. It functions as an X gate controlled by the control bit.
 
 | $|q_{control} q_{target}\rangle$                            | $|q_{control} q_{target}\rangle$                    |
@@ -223,9 +233,9 @@ The CNOT gate inverts the target bit when the control bit is set to 1. It functi
 | $|11\rangle$                                            | $|10\rangle$                                            |
 | $a|00\rangle + b|01\rangle + c|10\rangle + d|11\rangle$ | $a|00\rangle + b|01\rangle + c|11\rangle + d|10\rangle$ |
 
-Table: Controlled-NOT Gate Truth Table - Second bit as control bit {#tbl:tbl608}
+Table: Controlled-NOT Gate Truth Table - Second bit as control bit. {#tbl:tbl608}
 
-![CNOT Gate Circuit Diagram - Second bit as Control bit](chapter-4/CNOT_2.svg){#fig:fig607 height=50%}
+![CNOT Gate Circuit Diagram - Second bit as Control bit.](chapter-4/CNOT_2.svg){#fig:fig607 height=50%}
 
 | $|q_{control} q_{target}\rangle$                            | $|q_{control} q_{target}\rangle$                    |
 |---------------------------------------------------------|---------------------------------------------------------|
@@ -235,11 +245,12 @@ Table: Controlled-NOT Gate Truth Table - Second bit as control bit {#tbl:tbl608}
 | $|11\rangle$                                            | $|00\rangle$                                            |
 | $a|00\rangle + b|01\rangle + c|10\rangle + d|11\rangle$ | $a|00\rangle + b|11\rangle + c|10\rangle + d|11\rangle$ |
 
-Table: Controlled-NOT Gate Truth Table - First bit as control bit {#tbl:tbl609}
+Table: Controlled-NOT Gate Truth Table - First bit as control bit. {#tbl:tbl609}
 
-![CNOT Gate Circuit Diagram - First bit as Control bit](chapter-4/CNOT_R.svg){#fig:fig608 height=50%}
+![CNOT Gate Circuit Diagram - First bit as Control bit.](chapter-4/CNOT_R.svg){#fig:fig608 height=50%}
 
 ### Swap
+
 The SWAP gate exchanges the states of two qubits.
 
 | $|q_{i1} q_{i0}\rangle$                                 | $|q_{01} q_{o0}\rangle$                                 |
@@ -250,11 +261,12 @@ The SWAP gate exchanges the states of two qubits.
 | $|11\rangle$                                            | $|11\rangle$                                            |
 | $a|00\rangle + b|01\rangle + c|10\rangle + d|11\rangle$ | $a|00\rangle + b|10\rangle + c|01\rangle + d|11\rangle$ |
 
-Table: SWAP Gate Truth Table {#tbl:tbl610}
+Table: SWAP Gate Truth Table. {#tbl:tbl610}
 
-![SWAP Gate Circuit Diagram](chapter-4/SWAP.svg){#fig:fig609}
+![SWAP Gate Circuit Diagram.](chapter-4/SWAP.svg){#fig:fig609}
 
 ## References {.unnumbered}
+
 The details about quantum gates and the tables are based on the following sources:
 
   * [@karafyllidis_book]
