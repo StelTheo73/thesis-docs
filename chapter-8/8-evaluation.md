@@ -1,5 +1,34 @@
 # Evaluation
 
+* diagram pre test -> main game -> post test -> focus group -> analysh
+
+* prologos: skopos na kanw evaluate against twn stoxwn tou kefalaiou 1 kai twn stoxwn tou conceptual design
+
+* prepei na epanalabw tous stoxous kai na aitiologhsw me poia me8odo metrhsa tous stoxous
+
+* req1: ma8hsiaka apotelesmatiko
+* req2: euxaristo kai kalh empeiria paixnidiou
+* req3: na mhn apoprosanatolizei apo to ma8hsiako apotelesma
+
+* 8a metrhsw me mia peiramatikh meleth (study). Poia me8odologia? Pre-Post test me8ologia
+---> pre/post test of participants command of the domain (quantum computing)
+---> prepei na grapsw pws proekypsan oi erwthseis? Prepei na apodei3w oti to quiz einai egkuro --> giati einai egkyo? syne8esa ena quiz me bash apodekta/dhmofilh test sto net + erwthseis apo to eclass apo to ma8hma tou kuriou Sgarba
+---> we have to argue in favor of the proposiotion that the in-game quiz is suitable and useful to gauge the players knowledge of the domain (den einai standardized alla einai ena kalo test, εξηγώντας τον τρόπο με τον οποίο κατασκευάστηκε)
+
+* καθορίζεις το task που δίνεις στους παίχτες σου
+----> αυτό έχει τα χαρακτηριστικά: δεν είναι time-limited
+----> να παίξουν όλο το παιχνίδι (αν γίνεται)
+
+* na dw ean o xronos sxetizetai me th beltiwsh tou score
+
+* plots
+---> to sunexomeno giagramma prepei na fugei
+---> prepei na ftia3w bar chart with confident intervals gia pre test score kai post test score
+---> score kai xronos post-test -> uparxei sysxetish ?
+---> score kai xronos pre-test -> yparxei sysxetish ?
+
+---> na tous dwsw to test prin kai meta na tous dwsw to test meta apo mish wra xwris na pai3oun --> estw 5 atoma
+
 ## Quiz
 
 To measure the educational value of the game, a 12-question quiz was designed. The quiz consists of 3 theoretical questions and 9 questions regarding quantum gates actions. The theoretical questions relate to the theory presented to the player via slides. The quantum gate questions ask the player to calculate the new state of a qubit after the gate has been applied to it, or ask the player to select the appropriate gate to perform a quantum calculation. The questions are designed to prove that the player has learned to use -some of- the gates introduced in chapter 4 and understands the concept of superposition.
