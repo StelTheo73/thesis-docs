@@ -1,14 +1,14 @@
 # Literature Review
 
-Once the goal of creating an educational game for learning quantum computing was established, a review of the available literature began. The aim of the literature review was to evaluate gamification as a learning modality, to document gamification techniques, and to find games related to quantum physics and quantum computing.
+Once the goal of creating an educational game for learning quantum computing was established, a review of the available literature began. The aim of the literature review was to evaluate Game-Based Learning (GBL) as a learning modality, to document GBL techniques, and to find games related to quantum physics and quantum computing.
 
-In this chapter, we summarize the conclusions of the literature review on gamification as a learning approach in different sciences. We will also list games related to quantum physics and quantum computing, both educational and non-educational, which have been the inspiration for the creation of our game.
+In this chapter, we summarize the conclusions of the literature review on GBL as a learning approach in different sciences. We will also list games related to quantum physics and quantum computing, both educational and non-educational, which have been the inspiration for the creation of our game.
 
 ## Computer Science Games for Higher Education
 
 In order to choose a game genre, we studied the available literature to see the approach of other researchers and to choose the most appropriate genre, according to the specifications we set in section 1.3.
 
-According to Batisstella [-@battistella_games_for_teaching_computing], educational games have to be engaging and motivate learners to keep playing. Their study looked at more than 100 games related to computer science, the majority of which were digital games. 97% of the digital educational games were computer games, while only 1 game was designed for mobile devices. This observation suggests a significant lack of games available for mobile devices.
+According to _Batisstella_ [-@battistella_games_for_teaching_computing], educational games have to be engaging and motivate learners to keep playing. Their study looked at more than 100 games related to computer science, the majority of which were digital games. 97% of the digital educational games were computer games, while only 1 game was designed for mobile devices. This observation suggests a significant lack of games available for mobile devices.
 
 ![Distribution of games per genre.](chapter-2/game_distribution.png){#fig:fig201 height=50%}
 
@@ -18,7 +18,7 @@ The figure above, taken from the aforementioned study, shows the distribution of
 
 As we explained in σεψτιον 1.3, we want the game to be easy to use and have simple mechanics. Creating a simulation game, which is the most popular genre, may lead to complex mechanics that distract the player from the educational goal. For this reason, we decided to investigate further the second most popular genre: puzzle games.
 
-Research by Fakokunde [-@fakokunde_puzzle_games] on 141 subjects showed that puzzle games improved information retention, regardless of the learners' gender and cognitive style. Two other studies on puzzle games on puzzle games, [@idika_puzzle_games], [@srijampana_puzzle_games], confirm that this type of game can significantly improve information retention. They also report that they increase learners' active engagement with the material and enhance their understanding of the subject.
+Research by _Fakokunde_ [-@fakokunde_puzzle_games] on 141 subjects showed that puzzle games improved information retention, regardless of the learners' gender and cognitive style. Two other studies on puzzle games on puzzle games, [@idika_puzzle_games], [@srijampana_puzzle_games], confirm that this type of game can significantly improve information retention. They also report that they increase learners' active engagement with the material and enhance their understanding of the subject.
 
 ## Educational Games for Quantum Mechanics
 
