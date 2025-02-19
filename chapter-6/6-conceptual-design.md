@@ -24,7 +24,6 @@ Finally, we decided to adopt the graceful failure approach to allow users to exp
 
 ## Development Process
 
-After defining the genre, mechanics and GBL elements we would use in the game, we designed the game development process. The process follows a waterfall model. We started with an initial wireframe representing a level of the game that we would implement (application prototype) and evaluate with typical users. Then, based on the user feedback, we would refine the prototype to create the first version of the application.
+After defining the genre, mechanics and GBL elements we would use in the game, we designed the game development process. The process follows a waterfall model. We started with an initial wireframe representing a level of the game that we would implement (application prototype) and evaluate it with regular users. Then, based on their feedback, we would refine the prototype to create the first version of the application. This process would continue until we had a satisfactory result.
 
-===========================================================================================================
-TODO: In chapter 7 intro, connect with chapter 6. Also, do not forget to mention the loop between prototype and first evaluation round -> Prototype -> Evaluation -> Improve Prototype -> Start Development
+![Design & Prototype Creation Flow.](chapter-6/image001_design_flow.png){#fig:fig601 height=50%}
