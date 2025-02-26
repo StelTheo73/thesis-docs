@@ -10,9 +10,9 @@ In order to choose a game genre, we studied the available literature to see the 
 
 According to _Batisstella_ [-@battistella_games_for_teaching_computing], educational games have to be engaging and motivate learners to keep playing. Their study looked at more than 100 games related to computer science, the majority of which were digital games. 97% of the digital educational games were computer games, while only 1 game was designed for mobile devices. This observation suggests a significant lack of games available for mobile devices.
 
-![Distribution of games per genre.](chapter-2/game_distribution.png){#fig:fig201 height=50%}
+![Distribution of games per genre.](chapter-2/game_distribution_pie.png){#fig:fig201 height=50%}
 
-The figure above, taken from the aforementioned study, shows the distribution of games per genre. The most popular genre is simulation games, followed by puzzle games and adventure games. According to the researchers, most games are single-player that don't encourage cooperation or healthy competition between learners.
+The figure above, based on the aforementioned study, shows the distribution of games per genre. The most popular genre is simulation games, followed by puzzle games and adventure games. According to the researchers, most games are single-player that don't encourage cooperation or healthy competition between learners.
 
 ## Educational Puzzle Games
 
@@ -95,7 +95,7 @@ _Quantum 3_ is available in stores, so we downloaded it on a device to study it.
 
 At the beginning of some levels there is a short presentation of the theory and instructions for that level. After the player has completed the level, the score is displayed. The player receives between one and three stars. The maximum score is achieved if the player completes the level in the minimum number of moves. When the level is completed, the player has the option of proceeding to the next level or returning to the home screen.
 
-The game attempts to teach the player the composition of subatomic particles from quarks. Each level is a 2-dimensional match-3 puzzle. The player has to match three polugons of different colors to compose subatomic particles. There is no free choice of levels, a new level is unlocked each time the player completes the previous one. The game has very simple mechanics, as there are only 2 moves, selecting 3 polygons and swaping 2 polygons. It also offers the option of shuffling the board if no move is available.
+The game attempts to teach the player the composition of subatomic particles from quarks. Each level is a 2-dimensional match-3 puzzle. The player has to match three polygons of different colors to compose subatomic particles. There is no free choice of levels, a new level is unlocked each time the player completes the previous one. The game has very simple mechanics, as there are only 2 moves, selecting 3 polygons and swapping 2 polygons. It also offers the option of shuffling the board if no move is available.
 
 ## Conclusions
 
