@@ -24,7 +24,7 @@ keywords-el:
     - Παιχνίδι για κινητά
     - Flutter
 keywords-en:
-    - Game-based Learning
+    - Game-Based Learning
     - Quantum Computing
     - Quantum Mechanics
     - Mobile Game

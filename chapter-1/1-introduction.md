@@ -18,13 +18,4 @@ The fourth and final objective is to make the game suitable to be played in the 
 
 ## Thesis Structure
 
-* 20 tou mhnos brady na steilw ena email me to keimeno
-
-* se oles tis eikones na balw figure anti gia image + na balw thn phgh sto description tou image
-* Epishs na balw teleies stis lezantes twn eikonwn.
-
 * ta link na einai footnote ana selida
-
-* na ftia3w sto excel thn eikona apo batistella gt den exei kalh analysh
-
-* to 5 kai to 6 mhpws prepei na pane anapoda??? na to dw afou grapsw to 6
