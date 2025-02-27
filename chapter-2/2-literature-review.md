@@ -45,7 +45,7 @@ The games presented below are taken from the aforementioned studies and from the
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
 | [Quantum Playground](https://qplaylearn.com/projects/quantum-state)                             | QPlayLearn                                | Web                        | Simulation         |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Q|Cards>](https://qplaylearn.com/projects/qubit)                                               | QPlayLearn                                | Board Game, Android, iOS   | Cards, Puzzle      |
+| [Q|Cards$\rangle$](https://qplaylearn.com/projects/qubit)                                       | QPlayLearn                                | Board Game, Android, iOS   | Cards, Puzzle      |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
 | [TiqTaqToe](https://qplaylearn.com/projects/superposition)                                      | QPlayLearn                                | Web                        | Strategy           |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+

@@ -4,7 +4,7 @@ As we discussed in the previous chapter, we want to create an educational puzzle
 
 ## What is Game-Based Learning
 
-Game-based learning is a very old practice; it did not start with the advance of modern technology. It can be defined as the technique of being educated by playing games. It integrates the characteristics and principles of games such as elements of competition, rewards and active user engagement, into learning activities. Games can be an interactive tool that can simplify challenging concepts and help learners understand complex ideas, engaging them into educational content. [@elearning_industry_game_based_learning], [@game_designing_game_based_learning], [@uwaterloo_gamification]
+Game-based learning is a very old practice; it did not start with the advance of modern technology. It can be defined as the technique of being educated by playing games. It integrates the characteristics and principles of games such as elements of competition, rewards and active user engagement, into learning activities. Games can be an interactive tool that can simplify challenging concepts and help learners understand complex ideas, engaging them into educational content. [@elearning_industry_game_based_learning], [@game_designing_game_based_learning].
 
 ## Benefits of Game Based Learning
 
