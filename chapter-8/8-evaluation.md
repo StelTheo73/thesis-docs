@@ -18,10 +18,31 @@ To support the first phase and the implementation of the quiz, we relied on _Coo
 
 As suggested in the literature, participants were asked to complete the pre-test before interacting with the game to get an overview of their previous knowledge. Then, they were asked to complete the tutorial level and then complete the 30 levels of the game and retake the quiz. Players were given as much time as they wanted and were asked to record how long it took to complete the game. There was no further guidance on how the game works and no external help was provided to solve the levels. The _Normalized Gain_ metric was used to measure efficiency, as suggested in the literature [@cooksey-jonsson-pre-post], [@kagan-normalized-gain]. In addition, we tried to determine whether the knowledge of complex numbers and the time it took each player to complete the game affected the learning outcome.
 
-In the second phase, 8 out of 10 players from the fist phase participated in the focus group. The questions they were asked to discuss were related to 4 areas; _User Interface & User Experience_ (UI & UX), _Game Mechanics_, _Difficulty_ and _Scoring & Rewards_. They were also free to discuss with each other and comment on their overall experience of the application.
-Τα συμπεράσματα που εξάχθηκαν από το focus group πρόκειται να χρησιμοποιηθούν στο μέλλον για περαιτέρω βελτίωση του παιχνιδιού.
+In the second phase, 8 out of 10 players from the fist phase participated in the focus group. The questions they were asked to discuss were related to 4 areas; _User Interface & User Experience_ (UI & UX), _Game Mechanics_, _Difficulty_ and _Scoring & Rewards_. They were also free to discuss with each other and comment on their overall experience of the application. The findings from the focus group will be used to improve the game in the future.
 
 ## Phase 1: Statistical Analysis of Quiz Results
+
+In this section, we analyze the quiz results using statistical methods to evaluate the effectiveness of the game as a learning tool. Key metrics used in this analysis include the p-value, Pearson correlation coefficient, and Average Normalized Gain.
+
+- **P-value**: The null hypothesis in this context is the assumption that there is no significant difference between the initial and final quiz scores of the participants. It suggests that any observed difference in scores is due to random chance rather than the effectiveness of the game as a learning tool. The p-value is used to test this hypothesis, with a lower p-value indicating stronger evidence against the null hypothesis.
+
+- **Pearson Correlation Coefficient (Pearson r)**: A measure of the linear correlation between two variables, ranging from -1 to 1. A value closer to 1 indicates a strong positive correlation, while a value closer to -1 indicates a strong negative correlation. A value close to 0 indicates that there is little to no linear correlation between the two variables.
+
+- **Average Normalized Gain ($\langle g \rangle$)**: A metric used to measure the effectiveness of an educational process, calculated as the ratio of the actual average gain to the maximum possible average gain. A higher value indicates greater effectiveness.
+
+The normalized gain for each individual player is calculated as follows:
+
+$$
+g = \frac{post\% - pre\%}{100\% - pre\%}
+$$
+
+The Average Normalized Gain is defined as:
+
+$$
+\langle g \rangle = \frac{\langle post\% \rangle - \langle pre\% \rangle }{100\% - \langle pre\% \rangle}
+$$
+
+where the brackets indicate the averages. [@cooksey-jonsson-pre-post], [@kagan-normalized-gain]
 
 ![Significance of Score Improvement](chapter-8/image001_scores.png){#fig:fig801 height=40%}
 
@@ -45,11 +66,12 @@ In the second phase, 8 out of 10 players from the fist phase participated in the
 4. **Impact of Knowledge of Complex Numbers on Final Scores (p-value: 0.0648)**:
     The p-value of 0.0648 is slightly above the common significance threshold of 0.05. This means that there is not enough evidence to conclude that there is a statistically significant difference in the average final scores between those who know complex numbers and those who don't at the 5% significance level.
 
-5. **Average Normalized Gain (\<g\>) of 0.69**:
-    The average normalized gain (\<g\>) of 0.69 indicates a substantial improvement in the players' knowledge after playing the game. According to the literature, an average gain above 0.25 is considered effective [@cooksey-jonsson-pre-post], making this result particularly significant. This demonstrates the game's effectiveness as an educational tool and highlights its potential to significantly enhance learning outcomes.
+5. **Average Normalized Gain ($\langle g \rangle$) of 0.69**:
+    The average normalized gain ($\langle g \rangle$) of 0.69 indicates a substantial improvement in the players' knowledge after playing the game. According to the literature, an average gain above 0.25 is considered effective [@cooksey-jonsson-pre-post], making this result particularly significant. This demonstrates the game's effectiveness as an educational tool and highlights its potential to significantly enhance learning outcomes.
 
 ## Phase 2: Focus Group
-Below are the focus group findings by area:
+
+In this section we will present the focus group findings by area.
 
 ### User Interface & User Experience
 
@@ -59,7 +81,7 @@ Below are the focus group findings by area:
 
 - One player requested to group levels in the level selection menu by difficulty.
 
-- Players agreed that the game menu was east to use and that the navigation worked well and was predictable.
+- Players agreed that the game menu was easy to use and that the navigation worked well and was predictable.
 
 - Players agreed that the state of the application was flawless and was updating correctly.
 
@@ -99,7 +121,7 @@ Based on the feedback and data collected from the initial evaluation and focus g
 
 5. The average time needed to complete the game was 21 minutes. This makes the game suitable to be played in the context of a college lecture to increase student engagement in the classroom or to allow students to test their knowledge in a fun and interactive way.
 
-6. The average normalized gain (\<g\>) of 0.69 demonstrates the game's effectiveness as an educational tool.
+6. The average normalized gain ($\langle g \rangle$) of 0.69 demonstrates the game's effectiveness as an educational tool.
 
 7. The number of participants is small, only 10 people, so a complementary evaluation phase with a larger number of participants is suggested, for more reliable conclusions. However, the result of the initial evaluation is promising.
 
