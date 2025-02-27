@@ -2,7 +2,7 @@
 
 ## Motivation
 
-Quantum computing utilizes the principles of quantum mechanics to process information and solve complex problems exponentially faster that classical computers. Quantum bits can exist in multiple states at the same time, offering great computational power, beyond the limits of classical computers. The development and widespread use of quantum computing can help in fields such as pharmaceuticals, cryptography, artificial intelligence, materials science and more. [@knowledgeacademy_quantum_computing], [@nagappan_quantum_computing], [@decodoku_quantum_games] Since quantum computing represents a new era for computer science, opening up new prospects for accelerating scientific discoveries, learning the basic principles of quantum computing is extremely important. The reason for my involvement with quantum computing was the course "Quantum Computing", which was offered by the Electrical and Computer Engineering Department at the University of Patras.
+Quantum computing utilizes the principles of quantum mechanics to process information and solve complex problems exponentially faster that classical computers. Quantum bits can exist in multiple states at the same time, offering great computational power, beyond the limits of classical computers. The development and widespread use of quantum computing can help in fields such as pharmaceuticals, cryptography, artificial intelligence, materials science and more. [@knowledgeacademy_quantum_computing], [@nagappan_quantum_computing], [@decodoku_quantum_games] Since quantum computing represents a new era for computer science, opening up new prospects for accelerating scientific discoveries, learning the basic principles of quantum computing is extremely important. The reason for my involvement with quantum computing was the course 'Quantum Computing', which was offered by the Electrical and Computer Engineering Department at the University of Patras.
 
 ## Research Objectives
 
@@ -18,4 +18,6 @@ The fourth and final objective is to make the game suitable to be played in the 
 
 ## Thesis Structure
 
+TODO:
 * ta link na einai footnote ana selida
+* add a diagram with thesis structure
