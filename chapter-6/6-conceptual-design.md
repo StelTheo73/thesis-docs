@@ -1,4 +1,4 @@
-# Game Conceptual Design & Development
+# Conceptual Design & Development
 
 Having explored the available educational games for quantum computers, studied GBL techniques and the basic theory around quantum computers, and chosen the framework and game engine we will use to develop the application, it is time to discuss the process that was followed to design the game up to the creation of the early prototype. Furthermore, in the last section of this chapter we will present the development timeline. The diagram below shows the process of conceptual design and implementation of the application prototype.
 
@@ -62,18 +62,18 @@ The final layout and functionality of the screens will be presented in Chapter 7
 
 ## Level Wireframe
 
+![Wireframe](chapter-6/image003_wireframe.png){#fig:fig630 height=50%}
+
 A prototype level (wireframe) was then designed in [_diagrams.net_](https://app.diagrams.net/), which formed the foundation for creating the game's graphical interface. As shown in the images above, the original approach did not include a graphical element for the quantum register, but rather 2 discrete qubits to which the quantum gate would be applied. There were also two buttons, one for applying the gate and one for launching the missiles. The target state was placed at the top of the screen. Finally, the targets were enemy spaceships, as in the original _Space Invaders_ game.
 
-![Wireframe](chapter-6/image003_wireframe.png){#fig:fig630 height=50%}
 
 ## Development Timeline
 
-TODO: CREATE THE TIMELINE
-![Development Timeline.](chapter-6/image004_development_timeline){#fig:fig604 height=50%}
+![Development Timeline.](chapter-6/image004_development_timeline.png){#fig:fig604 height=80%}
 
 Development of the game began in November 2024. The game developed is called _Qubity_ and, as mentioned before, is a variant of the arcade video game _Space Invaders_. Google's [_Material Design 3_](https://m3.material.io/) and [_Flame Game Engine_](https://flame-engine.org/) were user to create the graphical elements of the application. The spaceships, asteroids, gates and several other bitmaps used to create the sprite components of the game are from [_Freepik_](https://www.freepik.com/). The background image was created by [_ChatGPT_](https://chatgpt.com/) and was slightly modified.
 
-The first step was the creation of 30 scenarios (puzzles) to form the levels of the game. The first 17 levels have a single qubit register and the available gates are Pauli-X, Pauli-Y, Pauli-Z and Hadamard. The remaining 13 levels have a 2-qubit register and the available gates are Pauli-X, Pauli-Z and Hadamard. In each level there are 2, 4, or 8 different states in which the spaceship can be in, depending on the number of qubits and the available gates, as described in the previous sections. Each scenario consists of the initial state of the quantum register (initial position of the spaceship), the target state (positions of the target asteroids), the available gates and the minimum number of gates to be used to solve the puzzle. The scenarios are encoded in a YAML file in a manner that is human-readable while allowing for easy addition of new levels.
+The first step was the creation of 30 scenarios (puzzles) to form the levels of the game. The first 17 levels have a single qubit and the available gates are Pauli-X, Pauli-Y, Pauli-Z and Hadamard. The remaining 13 levels have a two qubits and the available gates are Pauli-X, Pauli-Z and Hadamard. In each level there are 2, 4, or 8 different states in which the spaceship can be in, depending on the number of qubits and the available gates, as described in the previous sections. Each scenario consists of the initial state of the qubits (initial position of the spaceship), the target state (positions of the target asteroids), the available gates and the minimum number of gates to be used to solve the puzzle. The scenarios are encoded in a YAML file in a manner that is human-readable while allowing for easy addition of new levels.
 
 ![Screenshot from Level 30.](chapter-6/image005_level_30.jpg){#fig:fig605 height=50%}
 
@@ -89,6 +89,8 @@ By the first week of December, the basic elements of the user interface were in 
 
 5. The target state display has been changed to make it easier of the player to understand where they need to place their spaceship.
 
-In the last week of December, Greek language support was added, the tutorial level was created, and theory slides were added at the beginning of some levels. Also, a help menu was added on each level. Finally, quiz questions were created, as well as the quiz menu, quiz and quiz history screens. The alpha version of our application was ready.
+Also, the quiz-related screens and the 'Tutorial' screen were partially implemented, theory slides were added at the beginning of some levels and help overlays were added on each level.
 
-In the following days, several bugs were fixed, and UI issues were addressed after the application was tested by 2 regular users.
+In the last week of December, Greek language support was added and the 'Tutorial' screen was finalized. Also, quiz questions were created, and the 'Quiz', 'Quiz Form', 'Quiz Results' and 'Quiz History' screens were finalized. The alpha version of our application was ready.
+
+In the following days, several bugs were fixed, and UI issues were addressed after the application was tested by 2 regular users. In addition, the 'Settings' screen was finalized, and some missing translations were added. Finally, the project was restructured a bit, and some performance issues were fixed.
