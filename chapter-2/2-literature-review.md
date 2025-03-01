@@ -29,55 +29,55 @@ The games presented below are taken from the aforementioned studies and from the
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
 | Game Name                                                                                       | Creator                                   | &nbsp;Platform             | &nbsp;Genre        |
 +:================================================================================================+:=========================================:+:==========================:+:===================+
-| [Quander](https://www.canonlab.org/quander)                                                     | Canon Lab Org (by University of Chicago)  | Web                        | Puzzle             |
+| _Quander_^[https://www.canonlab.org/quander]                                                    | Canon Lab Org (by University of Chicago)  | Web                        | Puzzle             |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Collapsing Qubits](https://www.canonlab.org/collapsingqubits)                                  | Canon Lab Org (by University of Chicago)  | Board Game                 | Cards              |
+| _Collapsing Qubits_^[https://www.canonlab.org/collapsingqubits]                                 | Canon Lab Org (by University of Chicago)  | Board Game                 | Cards              |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Quantum Computing Playground](https://experiments.withgoogle.com/quantum-computing-playground) | Google                                    | Web                        | Virtual Lab**      |
+| _Quantum Computing Playground_^[https://experiments.withgoogle.com/quantum-computing-playground]| Google                                    | Web                        | Virtual Lab**      |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [The Qubit Game](https://quantumai.google/education/thequbitgame)                               | Google (Quantum AI Lab)                   | Web                        | Simulation         |
+| _The Qubit Game_^[https://quantumai.google/education/thequbitgame]                              | Google (Quantum AI Lab)                   | Web                        | Simulation         |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Quantum Composer](https://quantum.ibm.com/composer)                                            | IBM                                       | Web                        | Virtual Lab**      |
+| _Quantum Composer_^[https://quantum.ibm.com/composer]                                           | IBM                                       | Web                        | Virtual Lab**      |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Hello Quantum](https://hello-quantum.soft112.com)                                              | IBM & University of Basel                 | Android, iOS               | Puzzle             |
+| _Hello Quantum_^[https://hello-quantum.soft112.com]                                             | IBM & University of Basel                 | Android, iOS               | Puzzle             |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Particel in a box]( https://qplaylearn.com/projects/quantum-physics)                           | QPlayLearn                                | Web                        | Simulation, Puzzle |
+| _Particel in a box_^[httpshttps://qplaylearn.com/projects/quantum-physics]                      | QPlayLearn                                | Web                        | Simulation, Puzzle |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Quantum Playground](https://qplaylearn.com/projects/quantum-state)                             | QPlayLearn                                | Web                        | Simulation         |
+| _Quantum Playground_^[https://qplaylearn.com/projects/quantum-state]                            | QPlayLearn                                | Web                        | Simulation         |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Q|Cards$\rangle$](https://qplaylearn.com/projects/qubit)                                       | QPlayLearn                                | Board Game, Android, iOS   | Cards, Puzzle      |
+| _Q|Cards$\rangle$_^[https://qplaylearn.com/projects/qubit)]                                     | QPlayLearn                                | Board Game, Android, iOS   | Cards, Puzzle      |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [TiqTaqToe](https://qplaylearn.com/projects/superposition)                                      | QPlayLearn                                | Web                        | Strategy           |
+| _TiqTaqToe_^[https://qplaylearn.com/projects/superposition]                                     | QPlayLearn                                | Web                        | Strategy           |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Psi and Delta](https://qplaylearn.com/projects/wave-like-behaviour)                            | QPlayLearn                                | Web                        | Platform, Puzzle   |
+| _Psi and Delta_^[https://qplaylearn.com/projects/wave-like-behaviour/]                          | QPlayLearn                                | Web                        | Platform, Puzzle   |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Quantum Solitaire](https://qplaylearn.com/projects/entanglement)                               | QPlayLearn                                | Web                        | Cards              |
+| _Quantum Solitaire_^[https://qplaylearn.com/projects/entanglement]                              | QPlayLearn                                | Web                        | Cards              |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Escape Quantum](https://qplaylearn.com/projects/quantum-measurement)                           | QPlayLearn                                | Web                        | Puzzle             |
+| _Escape Quantum_^[https://qplaylearn.com/projects/quantum-measurement]                          | QPlayLearn                                | Web                        | Puzzle             |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Potatoes Quest](https://qplaylearn.com/projects/tunneling)                                     | QPlayLearn                                | Web                        | Platform, Puzzle   |
+| _Potatoes Quest_^[https://qplaylearn.com/projects/tunneling]                                    | QPlayLearn                                | Web                        | Platform, Puzzle   |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [QWiz](https://qplaylearn.com/projects/quantum-technologies)                                    | QPlayLearn                                | Web                        | Puzzle             |
+| _QWiz_^[https://qplaylearn.com/projects/quantum-technologies]                                   | QPlayLearn                                | Web                        | Puzzle             |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Saving Photoland](https://qplaylearn.com/projects/time-frequency-modes)                        | QPlayLearn                                | Web                        | Puzzle             |
+| _Saving Photoland_^[https://qplaylearn.com/projects/time-frequency-modes]                       | QPlayLearn                                | Web                        | Puzzle             |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Quantum Odyssey](https://ed.quantum.ieee.org/quantum-odyssey)                                  | Quarks Interactive                        | Web                        | Puzzle             |
+| _Quantum Odyssey_^[https://ed.quantum.ieee.org/quantum-odyssey]                                 | Quarks Interactive                        | Web                        | Puzzle             |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Quantum 3](https://gamedev.msu.edu/quantum3)                                                   | Michigan State University                 | Android, iOS               | Puzzle             |
+| _Quantum 3_^[https://gamedev.msu.edu/quantum3]                                                  | Michigan State University                 | Android, iOS               | Puzzle             |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Quantum Flytrap](https://quantumflytrap.com/virtual-lab)                                       | National University of Singapore          | Web                        | Virtual Lab**      |
+| _Quantum Flytrap_^[https://quantumflytrap.com/virtual-lab]                                      | National University of Singapore          | Web                        | Virtual Lab**      |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Quantum Pattern Matching](https://www.scienceathome.org/games/quantum-pattern-matching)*       | Science At Home (by University of Aarhus) | \-                         | Puzzle             |
+| _Quantum Pattern Matching_*^[https://www.scienceathome.org/games/quantum-pattern-matching]      | Science At Home (by University of Aarhus) | \-                         | Puzzle             |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Quantum Moves 2](https://www.scienceathome.org/games/quantum-moves-2)                          | Science At Home (by University of Aarhus) | Windows, macOS, Web        | Simulation         |
+| _Quantum Moves 2_^[https://www.scienceathome.org/games/quantum-moves-2]                         | Science At Home (by University of Aarhus) | Windows, macOS, Web        | Simulation         |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Rydbergator](https://www.scienceathome.org/games/rydbergator)                                  | Science At Home (by University of Aarhus) | Windows, macOS, Web        | Simulation         |
+| _Rydbergator_^[https://www.scienceathome.org/games/rydbergator]                                 | Science At Home (by University of Aarhus) | Windows, macOS, Web        | Simulation         |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Network Game](https://www.scienceathome.org/games/network-game)                                | Science At Home (by University of Aarhus) | Web                        | Puzzle             |
+| _Network Game_^[https://www.scienceathome.org/games/network-game]                               | Science At Home (by University of Aarhus) | Web                        | Puzzle             |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Meqanic](https://meqanic.com/app/)                                                             | Science At Home (by University of Aarhus) | Web, iOS                   | Puzzle             |
+| _Meqanic_^[https://meqanic.com/app/]                                                            | Science At Home (by University of Aarhus) | Web, iOS                   | Puzzle             |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| [Quantum Kate AR](https://apps.apple.com/ae/app/quantum-kate-ar/id1471200027)                   | University of Southern Denmark            | iOS                        | Simulation         |
+| _Quantum Kate AR_^[https://apps.apple.com/ae/app/quantum-kate-ar/id1471200027]                  | University of Southern Denmark            | iOS                        | Simulation         |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
 
 Table: Educational Games for Quantum Mechanics. {#tbl:tbl201}

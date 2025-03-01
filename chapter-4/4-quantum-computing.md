@@ -8,7 +8,7 @@ Quantum computers are computers that perform calculations by taking advantage of
 
 Quantum computers store information as bits. A quantum bit is a two-state system based on properties of the microcosm such as spin, energy state or the way particles oscillate and is the basic unit of information storage. [@wikipedia_quantum_computing]
 
-State 0 is represented as $|0\rangle$ and state 1 as $|1\rangle$ and are called basic or basis states and are orthogonal to each other. Because the two states belong to a vector space, [Hilbert space](https://en.wikipedia.org/wiki/Hilbert_space), they can be multiplied by a number and added together, and the result will be a valid state. Superposition is based on this fact. [@wikipedia_quantum_computing]
+State 0 is represented as $|0\rangle$ and state 1 as $|1\rangle$ and are called basic or basis states and are orthogonal to each other. Because the two states belong to a vector space, Hilbert space^[https://en.wikipedia.org/wiki/Hilbert_space], they can be multiplied by a number and added together, and the result will be a valid state. Superposition is based on this fact. [@wikipedia_quantum_computing]
 
 Each valid state can be written as:
 $$|q\rangle = a|0\rangle + b|1\rangle$$

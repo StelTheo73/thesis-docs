@@ -10,7 +10,7 @@ The first step in designing the game was to determine the gender. Based on the f
 
 ## Mechanics Definition
 
-The second step was to define the game mechanics. We reasoned that a 2D shooting game could have simple mechanisms, especially if the effect of gravity or other external factors on the missiles is not taken into account. This thinking led us to the decision to create a game with missiles being launched into space from a spaceship. We immediately thought that there was a similar computer game that we could use as a blueprint: [_Space Invaders_](https://en.wikipedia.org/wiki/Space_Invaders)
+The second step was to define the game mechanics. We reasoned that a 2D shooting game could have simple mechanisms, especially if the effect of gravity or other external factors on the missiles is not taken into account. This thinking led us to the decision to create a game with missiles being launched into space from a spaceship. We immediately thought that there was a similar computer game that we could use as a blueprint: _Space Invaders_^[https://en.wikipedia.org/wiki/Space_Invaders]
 
 We then had to decide which element of the game was appropriate to introduce the concepts of quantum computing. We could control 3 variables, the position of the spaceship, the position of the enemy spaceships and the state of the missiles. In terms of controlling the state of the missiles, we thought the game would be similar to Tetris, which is still a puzzle game, but it can get tedious and eventually distract the players from the learning objective, as they have a limited time to manipulate the state of the missiles, so they may randomly affect them, with no time to recall the knowledge they have gained. After rejecting the missile state control, we considered the spaceship position control and decided to control our own spaceship rather than the opposing spaceship.
 
@@ -64,14 +64,14 @@ The final layout and functionality of the screens will be presented in Chapter 7
 
 ![Wireframe](chapter-6/image003_wireframe.png){#fig:fig630 height=50%}
 
-A prototype level (wireframe) was then designed in [_diagrams.net_](https://app.diagrams.net/), which formed the foundation for creating the game's graphical interface. As shown in the images above, the original approach did not include a graphical element for the quantum register, but rather 2 discrete qubits to which the quantum gate would be applied. There were also two buttons, one for applying the gate and one for launching the missiles. The target state was placed at the top of the screen. Finally, the targets were enemy spaceships, as in the original _Space Invaders_ game.
+A prototype level (wireframe) was then designed in _diagrams.net_^[https://app.diagrams.net/], which formed the foundation for creating the game's graphical interface. As shown in the images above, the original approach did not include a graphical element for the quantum register, but rather 2 discrete qubits to which the quantum gate would be applied. There were also two buttons, one for applying the gate and one for launching the missiles. The target state was placed at the top of the screen. Finally, the targets were enemy spaceships, as in the original _Space Invaders_ game.
 
 
 ## Development Timeline
 
 ![Development Timeline.](chapter-6/image004_development_timeline.png){#fig:fig604 height=80%}
 
-Development of the game began in November 2024. The game developed is called _Qubity_ and, as mentioned before, is a variant of the arcade video game _Space Invaders_. Google's [_Material Design 3_](https://m3.material.io/) and [_Flame Game Engine_](https://flame-engine.org/) were user to create the graphical elements of the application. The spaceships, asteroids, gates and several other bitmaps used to create the sprite components of the game are from [_Freepik_](https://www.freepik.com/). The background image was created by [_ChatGPT_](https://chatgpt.com/) and was slightly modified.
+Development of the game began in November 2024. The game developed is called _Qubity_ and, as mentioned before, is a variant of the arcade video game _Space Invaders_. Google's _Material Design 3_^[https://m3.material.io] and _Flame Game Engine_^[https://flame-engine.org/] were user to create the graphical elements of the application. The spaceships, asteroids, gates and several other bitmaps used to create the sprite components of the game are from _Freepik_^[https://www.freepik.com/]. The background image was created by _ChatGPT_^[https://chatgpt.com/] and was slightly modified.
 
 The first step was the creation of 30 scenarios (puzzles) to form the levels of the game. The first 17 levels have a single qubit and the available gates are Pauli-X, Pauli-Y, Pauli-Z and Hadamard. The remaining 13 levels have a two qubits and the available gates are Pauli-X, Pauli-Z and Hadamard. In each level there are 2, 4, or 8 different states in which the spaceship can be in, depending on the number of qubits and the available gates, as described in the previous sections. Each scenario consists of the initial state of the qubits (initial position of the spaceship), the target state (positions of the target asteroids), the available gates and the minimum number of gates to be used to solve the puzzle. The scenarios are encoded in a YAML file in a manner that is human-readable while allowing for easy addition of new levels.
 
@@ -94,3 +94,5 @@ Also, the quiz-related screens and the 'Tutorial' screen were partially implemen
 In the last week of December, Greek language support was added and the 'Tutorial' screen was finalized. Also, quiz questions were created, and the 'Quiz', 'Quiz Form', 'Quiz Results' and 'Quiz History' screens were finalized. The alpha version of our application was ready.
 
 In the following days, several bugs were fixed, and UI issues were addressed after the application was tested by 2 regular users. In addition, the 'Settings' screen was finalized, and some missing translations were added. Finally, the project was restructured a bit, and some performance issues were fixed.
+
+The application code has been published in the following GitHub repository: https://github.com/StelTheo73/qubity/. The application is available as an APK (for installation on Android devices) at the following link: https://github.com/StelTheo73/qubity/blob/main/release/qubity-1.0.0.apk.

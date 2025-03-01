@@ -19,5 +19,4 @@ The fourth and final objective is to make the game suitable to be played in the 
 ## Thesis Structure
 
 TODO:
-* ta link na einai footnote ana selida
 * add a diagram with thesis structure
