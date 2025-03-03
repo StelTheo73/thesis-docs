@@ -1,6 +1,6 @@
 # Game-Based Learning
 
-As we discussed in the previous chapter, we want to create an educational puzzle game, so we need to consider Game-Based Learning (GBL) techniques to integrate the educational process into the game mechanics. Continuing our literature survey, we will present the benefits of GBL and some of the elements that characterize a GBL process.
+As we discussed in the previous chapter, we want to create an educational puzzle game, so we need to consider Game-Based Learning (GBL) techniques to integrate the educational process into the game mechanics. Continuing our literature review, we will present the benefits of GBL and some of the elements that characterize a GBL process.
 
 ## What is Game-Based Learning
 

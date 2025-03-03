@@ -2,7 +2,7 @@
 
 Once the goal of creating an educational game for learning quantum computing was established, a review of the available literature began. The aim of the literature review was to evaluate Game-Based Learning (GBL) as a learning modality, to document GBL techniques, and to find games related to quantum physics and quantum computing.
 
-In this chapter, we summarize the conclusions of the literature review on GBL as a learning approach in different sciences. We will also list games related to quantum physics and quantum computing, both educational and non-educational, which have been the inspiration for the creation of our game.
+In this chapter, we will reason about game gender selection, based on the available literature. Also, we will present a list of educational games related to quantum physics and quantum computing, which have been the inspiration for the creation of our game.
 
 ## Computer Science Games for Higher Education
 
