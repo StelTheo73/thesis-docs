@@ -6,22 +6,24 @@ author-mnr: 1072791
 subject: Διπλωματική
 title: Σχεδιασμός και Ανάπτυξη Ψηφιακού Παιχνιδιού Μάθησης
 title-en: Design and Development of Digital Learning Game
-date: Δεκέμβριος 2024
+date: Μάρτιος 2025
 place: Πάτρα
 school: Πολυτεχνική Σχολή
 department: Ηλεκτρολόγων Μηχανικών \& Τεχνολογίας Υπολογιστών
 supervisor: Σιντόρης Χρήστος, Ε.ΔΙ.Π.
 commitee:
     - Σγάρμπας Κυριάκος, Καθηγητής
+    - Φείδας Χρήστος, Καθηγητής
 director:
-abstract-el: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-abstract-en: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-acknowlegements: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+abstract-el: |+
+    Η Κβαντική Υπολογιστική είναι ένας αναδυόμενος τομέας που απαιτεί βαθιά κατανόηση των θεμελιωδών αρχών της Κβαντομηχανικής, όπως τα qubits, η υπέρθεση και οι κβαντικές πύλες. Η παρούσα διατριβή παρουσιάζει το σχεδιασμό και την ανάπτυξη ενός εκπαιδευτικού παιχνιδιού για κινητά τηλέφωνα με στόχο την εισαγωγή των φοιτητών πανεπιστημίου στα βασικά στοιχεία της Κβαντικής Υπολογιστικής, ως εναλλακτική λύση στις παραδοσιακές εκπαιδευτικές μεθόδους. Το παιχνίδι χρησιμοποιεί τεχνικές μάθησης βασισμένης στο παιχνίδι για να ενισχύσει την ενασχόληση, την κατανόηση και τη διατήρηση πληροφορίας μέσω διαδραστικών puzzle. Το παιχνίδι αναπτύχθηκε με το  Flutter framework και παρέχει μια προσιτή και ευέλικτη μαθησιακή εμπειρία σε διαφορετικές πλατφόρμες κινητών συσκευών. Η διαδικασία αξιολόγησης, η οποία περιελάμβανε στατιστική ανάλυση αποτελεσμάτων μίας Pre-Post Test μελέτης και ένα Focus Group, έδειξε ότι το παιχνίδι βελτίωσε με επιτυχία την κατανόηση των αρχών της Κβαντικής Υπολογιστικής από τους εκπαιδευόμενους. Τα ευρήματα αναδεικνύουν τις δυνατότητες της μάθησης βασισμένης στο παιχνίδι να κάνει τις αφηρημένες επιστημονικές έννοιες πιο προσιτές και ευχάριστες.
+abstract-en: |+
+    Quantum Computing is an emerging field that requires a deep understanding of fundamental principles of Quantum Mechanics, such as qubits, superposition, and quantum gates. This thesis presents the design and development of an educational mobile game aimed at introducing university students to the basics of Quantum Computing, as an alternative to traditional educational methods. The game employs Game-Based Learning (GBL) techniques to enhance engagement, retention, and comprehension through interactive puzzles. Developed using the Flutter framework, the game provides an accessible and flexible learning experience across different mobile platforms. The evaluation process, which included statistical analysis of a Pre-Post Test study and a Focus Group, demonstrated that the game successfully improved learners' understanding of quantum computing principles. The findings highlight the potential of Game-Based Learning in making abstract scientific concepts more approachable and enjoyable.
 keywords-el:
-    - Μάθηση βασισμένη στο παιχνίδι
+    - Μάθηση Βασισμένη στο Παιχνίδι
     - Κβαντική Υπολογιστική
     - Κβαντική Μηχανική
-    - Παιχνίδι για κινητά
+    - Παιχνίδι για Κινητές Συσκευές
     - Flutter
 keywords-en:
     - Game-Based Learning
@@ -29,7 +31,6 @@ keywords-en:
     - Quantum Mechanics
     - Mobile Game
     - Flutter
-# lang: el-GR
 lang: en-US
 book: true
 toc-own-page: true

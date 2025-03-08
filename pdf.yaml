@@ -19,7 +19,10 @@ variables:
   fignos-star-name: Figure
 
 
-file-scope: false # Parse each file individually before combining for multifile documents. This will allow footnotes in different files with the same identifiers to work as expected. If this option is set, footnotes and links will not work across files.
+file-scope: false
+# Parse each file individually before combining for multifile documents.
+# This will allow footnotes in different files with the same identifiers
+# to work as expected. If this option is set, footnotes and links will not work across files.
 from: markdown
 
 input-files:

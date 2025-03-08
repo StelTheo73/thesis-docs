@@ -113,20 +113,18 @@ Based on the feedback and data collected from the initial evaluation and focus g
 
 1. The difference between the initial and final scores is extremely statistically, as indicated by the p-value of 0.0.
 
-2. There is a moderate positive correlation between initial and final scores, suggesting that initial performance is somewhat predictive of final performance.
+2. There is a moderate positive correlation between initial and final scores.
 
 3. The duration of the task has a weak correlation with final scores, indicating that time spent is not a strong predictor of performance.
 
 4. Knowledge of complex numbers does not show a statistically significant difference in final scores at the 5% significance level, but the result is close to being significant and might be considered at a higher threshold.
 
-5. The average time needed to complete the game was 21 minutes. This makes the game suitable to be played in the context of a college lecture to increase student engagement in the classroom or to allow students to test their knowledge in a fun and interactive way.
+5. The average time needed to complete the game was 21 minutes. This makes the game suitable to be played in the context of a university lecture to increase student engagement in the classroom or to allow students to test their knowledge in a fun and interactive way.
 
 6. The average normalized gain ($\langle g \rangle$) of 0.69 demonstrates the game's effectiveness as an educational tool.
 
 7. The number of participants is small, only 10 people, so a complementary evaluation phase with a larger number of participants is suggested, for more reliable conclusions. However, the result of the initial evaluation is promising.
 
-8. The duration of the game makes it suitable to be used as a teaching tool in the context of a lecture.
+8. The presented theory around superposition should be extended.
 
-9. The theory around superposition should be extended.
-
-10. The game could be extended with more levels and quantum gates.
+9. The game could be extended with more levels and quantum gates.
