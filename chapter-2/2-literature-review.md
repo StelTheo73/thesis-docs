@@ -89,7 +89,7 @@ Table: Educational Games for Quantum Mechanics. {#tbl:tbl201}
 
 As shown in the table in the previous section, there are 5 educational games for mobile devices. 4 of them are puzzles and 1 is a simulation. We will focus on the study of puzzle games to see how the researchers approached the topic.
 
-Unfortunately, _Hello Quantum_, _Meqanic_ and _Q|Cards>_ are no longer available in stores, so we were unable to download them to study them. _Meqanic_ was available via online simulators on Apple mobile devices (iPhone and iPad), but we were unable to find a working version; on most simulators the game wouldn't even open, and on others it crashed on the level selection screen.
+Unfortunately, _Hello Quantum_, _Meqanic_ and _Q|Cards$\rangle$_ are no longer available in stores, so we were unable to download them to study them. _Meqanic_ was available via online simulators on Apple mobile devices (iPhone and iPad), but we were unable to find a working version; on most simulators the game wouldn't even open, and on others it crashed on the level selection screen.
 
 _Quantum 3_ is available in stores, so we downloaded it on a device to study it. The game's home screen has 3 options, 'Play', 'Options' and 'Tutorial. The 'Options' screen has basic setting for the game, such as volume control and language selection. There is also a button to clear game progress. The tutorial screen provides basic information about the theory presented in the game, as well as the mechanics of the game.
 
