@@ -16,7 +16,7 @@ The figure above, based on the aforementioned study, shows the distribution of g
 
 ## Educational Puzzle Games
 
-As we explained in σεψτιον 1.3, we want the game to be easy to use and have simple mechanics. Creating a simulation game, which is the most popular genre, may lead to complex mechanics that distract the player from the educational goal. For this reason, we decided to investigate further the second most popular genre: puzzle games.
+As we explained in section 1.3, we want the game to be easy to use and have simple mechanics. Creating a simulation game, which is the most popular genre, may lead to complex mechanics that distract the player from the educational goal. For this reason, we decided to investigate further the second most popular genre: puzzle games.
 
 Research by _Fakokunde_ [-@fakokunde_puzzle_games] on 141 subjects showed that puzzle games improved information retention, regardless of the learners' gender and cognitive style. Two other studies on puzzle games on puzzle games, [@idika_puzzle_games], [@srijampana_puzzle_games], confirm that this type of game can significantly improve information retention. They also report that they increase learners' active engagement with the material and enhance their understanding of the subject.
 
