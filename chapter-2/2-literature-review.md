@@ -41,7 +41,7 @@ The games presented below are taken from the aforementioned studies and from the
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
 | _Hello Quantum_^[https://hello-quantum.soft112.com]                                             | IBM & University of Basel                 | Android, iOS               | Puzzle             |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
-| _Particel in a box_^[httpshttps://qplaylearn.com/projects/quantum-physics]                      | QPlayLearn                                | Web                        | Simulation, Puzzle |
+| _Particle in a box_^[httpshttps://qplaylearn.com/projects/quantum-physics]                      | QPlayLearn                                | Web                        | Simulation, Puzzle |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
 | _Quantum Playground_^[https://qplaylearn.com/projects/quantum-state]                            | QPlayLearn                                | Web                        | Simulation         |
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
