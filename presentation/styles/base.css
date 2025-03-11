@@ -1,21 +1,7 @@
 :root {}
 
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 90%;
-}
-
-footer .footer-flex {
-  height: min-content;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-footer .footer-flex > span {
-  width: 180px;
+.container {
+  display: grid;
 }
 
 hr.divider {
@@ -38,6 +24,13 @@ ol > li {
 
 ul.list-abc {
   list-style: lower-latin;
+}
+
+ul.flex-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 ol > li > ul > li {
