@@ -31,6 +31,18 @@ keywords-en:
     - Quantum Mechanics
     - Mobile Game
     - Flutter
+acknowlegements: |+
+    I would like to thank all the users who participated in the User Testing, Pre-Post Testing and the Focus Group,
+    for their time and valuable feedback.
+    I would also like to thank my friends and fellow students, Arachovitis Georgios and Giannakis Myronas,
+    for their important contribution in editing the texts and images used in the game and their valuable advice in general.
+    Finally, I would like to thank my supervisor, Mr. Sintoris Christos, for his guidance and support throughout the thesis.
+# Θα ήθελα να ευχαριστήσω όλους τους χρήστες που συμμετείχαν στο User Testing, το Pre-Post Testing και το Focus Group,
+# για το χρόνο που μου διέθεσα και για την πολύτιμη ανατροφοδότηση που παρείχαν.
+# Επίσης θα ήθελα να ευχαριστήσω τους φίλους και συμφοιτητές μου, Γιαννάκη Μύρωνα και Αραχωβίτη Γεώργιο, για τη σημαντική αρωγή τους
+# στην επιμέλεια των κειμένων και των εικόνων που χρησιμοποιούνται στο παιχνίδι και τις πολύτιμες συμβουλές τους εν γένει.
+# Τέλος, θα ήθελα να ευχαριστήσω τον επιβλέποντα καθηγητή μου,
+# κ. Σιντόρη Χρήστο, για την καθοδήγηση και την υποστήριξή του καθ' όλη τη διάρκεια της διπλωματικής.
 lang: en-US
 book: true
 toc-own-page: true
