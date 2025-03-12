@@ -34,7 +34,7 @@ keywords-en:
 acknowlegements: |+
     I would like to thank all the users who participated in the User Testing, Pre-Post Testing and the Focus Group,
     for their time and valuable feedback.
-    I would also like to thank my friends and fellow students, Arachovitis Georgios and Giannakis Myronas,
+    I would also like to thank my friends and fellow students, Arachovitis Georgios and Giannakis Myron,
     for their important contribution in editing the texts and images used in the game and their valuable advice in general.
     Finally, I would like to thank my supervisor, Mr. Sintoris Christos, for his guidance and support throughout the thesis.
 # Θα ήθελα να ευχαριστήσω όλους τους χρήστες που συμμετείχαν στο User Testing, το Pre-Post Testing και το Focus Group,
