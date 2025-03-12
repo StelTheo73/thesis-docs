@@ -4,6 +4,22 @@ Having explored the available educational games for quantum computers, studied G
 
 ![Design & Prototype Creation Flow.](chapter-6/image001_design_flow.png){#fig:fig601 height=50%}
 
+TODO
+- remove tech stack selection from the diagram
+- also split 2 diagrams
+  * first the conceptual design (think of it as an expert on educational games)
+    - An educational game consists of (Kalmpourtzis 2018):
+    - narrative, aesthetics, mechanics, technology, pedagogy
+    - steps:
+      * technology selection --> tech stack, already selected from previous chapters
+      * genre selection (puzzle) --> mechanics
+      * mechanics definition --> mechanics
+      * game-based learning elements selection --> mechanics, narrative, aesthetics
+      * educational content selection --> pedagogy
+      * evaluation process design --> pedagogy because it is about the learning outcomes
+  * second the development process (think of it as a developer)
+- don't forget to update the diagram of chapter 1
+
 ## Genre Selection
 
 The first step in designing the game was to determine the gender. Based on the findings in Chapter 2, we decided to make a puzzle game, as it is suitable for increasing information retention while allowing for simple mechanisms.

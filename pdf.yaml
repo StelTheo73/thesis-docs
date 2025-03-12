@@ -33,8 +33,8 @@ input-files:
   - chapter-4/4-quantum-computing.md
   - chapter-5/5-mobile-apps.md
   - chapter-6/6-conceptual-design.md
-  - chapter-7/7-game-screens.md
-  - chapter-8/8-evaluation.md
+  - chapter-7/7-evaluation.md
+  - chapter-8-appendix-A/8-game-screens.md
   - bibliography/bibliography.md
 
 log-file: log/pdf.log.json
@@ -51,7 +51,7 @@ resource-path:
   - chapter-5
   - chapter-6
   - chapter-7
-  - chapter-8
+  - chapter-8-appendix-A
 standalone: true
 to: pdf
 top-level-division: chapter # part, chapter, section, or default:

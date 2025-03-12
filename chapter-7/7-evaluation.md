@@ -8,9 +8,18 @@ In order to measure the learning outcome of the game and to evaluate the user ex
 
 3. The game should be short and require no additional equipment other than a mobile phone, making it suitable to be played during a university lecture or when the student has limited time.
 
+NOTE:
+- na to parousiasw san poiotikh a3iologhsh
+- na e3hghsw proforika ta apotelesmata kai oxi sa statistikh analysh
+- na afairesw ta diagrammata empistosynhs teleiws kai p-value klp
+- epipelon info gia to focus group, px pote egine, poso meta to paixnidi, posh wra krathse, an htan dia zwshs klp
+- na sysxetisw ta apotelesmata tou focus group me ta statistika
+
+- rewrite the conclusions in order to align with the research objectives
+
 ## Evaluation Process Description
 
-![Evaluation Flow](chapter-8/image005_evaluation_flow.png){#fig:fig805 height=50%}
+![Evaluation Flow](chapter-7/image005_evaluation_flow.png){#fig:fig705 height=50%}
 
 10 university students volunteered to participate in the evaluation of the game, which was carried out in 2 phases. The volunteers claimed to have a strong background in mathematics, with 4 of them having knowledge of complex numbers. The first phase used the pre-post test methodology, for which a quiz was designed and incorporated into the game. The second phase was a focus group with some participants from the first phase.
 
@@ -44,15 +53,15 @@ $$
 
 where the brackets indicate the averages. [@cooksey-jonsson-pre-post], [@kagan-normalized-gain]
 
-![Significance of Score Improvement](chapter-8/image001_scores.png){#fig:fig801 height=40%}
+![Significance of Score Improvement](chapter-7/image001_scores.png){#fig:fig701 height=40%}
 
-![Correlation between Initial and Final Scores](chapter-8/image002_score_correlation.png){#fig:fig802 height=40%}
+![Correlation between Initial and Final Scores](chapter-7/image002_score_correlation.png){#fig:fig702 height=40%}
 
-![Correlation between Duration and Final Scores](chapter-8/image003_duration_correlation.png){#fig:fig803 height=40%}
+![Correlation between Duration and Final Scores](chapter-7/image003_duration_correlation.png){#fig:fig703 height=40%}
 
-![Impact of Knowledge of Complex Numbers on Final Scores](chapter-8/image004_complex_numbers.png){#fig:fig804 height=40%}
+![Impact of Knowledge of Complex Numbers on Final Scores](chapter-7/image004_complex_numbers.png){#fig:fig704 height=40%}
 
-![Gain of Averages](chapter-8/image006_average_gain.png){#fig:fig801 height=40%}
+![Gain of Averages](chapter-7/image006_average_gain.png){#fig:fig701 height=40%}
 
 1. **Significance of Score Improvement (p-value: 0.0)**:
     The p-value of 0.0 indicates that the difference between the initial and final scores is extremely statistically significant. This means that the observed difference in scores is highly unlikely to have occurred by chance, and there is strong evidence to suggest that the intervention or factor being tested had a significant impact on the scores.
