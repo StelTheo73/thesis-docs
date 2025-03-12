@@ -50,3 +50,13 @@ src: ./pages/page-06.md
 layout: pageBar
 src: ./pages/page-07.md
 ---
+
+---
+layout: pageBar
+src: ./pages/page-08.md
+---
+
+---
+layout: pageBar
+src: ./pages/page-09.md
+---

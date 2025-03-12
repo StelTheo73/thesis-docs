@@ -3992,6 +3992,18 @@ plantuml-encoder@^1.4.0:
   resolved "https://registry.yarnpkg.com/plantuml-encoder/-/plantuml-encoder-1.4.0.tgz#7899302cf785de956bf1a167e15420feee5975f7"
   integrity sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==
 
+playwright-chromium@^1.51.0:
+  version "1.51.0"
+  resolved "https://registry.yarnpkg.com/playwright-chromium/-/playwright-chromium-1.51.0.tgz#3a34e6d9278a407d83459aef746a8c8a025573a8"
+  integrity sha512-vvTfgpnpy/OHzszS6jtRxvltC0J3x2Eko925FciIC0IN3KC1fg76veqV9AVWIasR+JTq9ZQh9V5Yqz8DPl38Lg==
+  dependencies:
+    playwright-core "1.51.0"
+
+playwright-core@1.51.0:
+  version "1.51.0"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.51.0.tgz#bb23ea6bb6298242d088ae5e966ffcf8dc9827e8"
+  integrity sha512-x47yPE3Zwhlil7wlNU/iktF7t2r/URR3VLbH6EknJd/04Qc/PSJ0EY3CMXipmglLG+zyRxW6HNo2EGbKLHPWMg==
+
 plotly.js-dist@^2.29.1:
   version "2.35.3"
   resolved "https://registry.yarnpkg.com/plotly.js-dist/-/plotly.js-dist-2.35.3.tgz#edbcdd9934e2f0d74e270acf7a72eb789acbf280"
