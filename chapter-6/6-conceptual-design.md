@@ -50,7 +50,7 @@ Together with the definition of the mechanics and the choice of the GBL elements
 
 ## Evaluation Process Design
 
-We also wondered how we could assess the learning outcomes of the game. After reviewing the available literature ([@cooksey-jonsson-pre-post], [@stratton-pre-post]), we decided that a pre-post test study would be appropriate to evaluate the game. For the purposes of this study, a quiz was designed and integrated into the game. At this stage, we simply collected some candidate questions as suggested in the literature. The final selection of questions was made after the construction of the game had been completed and before the quiz screen had been created. In addition, we decided to conduct a focus group to evaluate the structure, usability and difficulty of the game. The structure and content of the two phases (pre-post test and focus group) are presented in detail in chapter 8.
+We also wondered how we could assess the learning outcomes of the game. After reviewing the available literature ([@cooksey-jonsson-pre-post], [@stratton-pre-post]), we decided that a pre-post test study would be appropriate to evaluate the game. For the purposes of this study, a quiz was designed and integrated into the game. At this stage, we simply collected some candidate questions as suggested in the literature. The final selection of questions was made after the construction of the game had been completed and before the quiz screen had been created. In addition, we decided to conduct a focus group to evaluate the structure, usability and difficulty of the game. The structure and content of the two phases (pre-post test and focus group) are presented in detail in Appendix A.
 
 ## Development Process Definition
 
@@ -74,7 +74,7 @@ The 'Quiz' screen will provide the ability to navigate to two sub-screens, the '
 
 Finally, the 'Settings' screen should allow the user to change the language and to reset the progress of the game.
 
-The final layout and functionality of the screens will be presented in Chapter 7.
+The final layout and functionality of the screens will be presented in Appendix A.
 
 ## Level Wireframe
 

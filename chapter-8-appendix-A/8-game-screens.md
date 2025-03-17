@@ -1,4 +1,4 @@
-# Appendix A: Game Screens Presentation
+# Appendix A: Application Screens Presentation
 
 In the previous chapter, we analyzed the conceptual design of our application, defined the development process and evaluation process, and described the development timeline. This chapter focuses on the visual and functional aspects of the game screens. We will present each screen in detail, explaining its purpose and how it contributes to the overall user experience. By understanding the design and functionality of these screens, readers will gain a comprehensive view of how the application operates and how users interact with it.
 

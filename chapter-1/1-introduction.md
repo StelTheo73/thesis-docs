@@ -26,6 +26,8 @@ Chapters 2, 3 and 4 deal with the literature review. More specifically, Chapter 
 
 Chapter 5 reviews and compares the available technologies for mobile application development and justifies the choice of the Flutter framework for our application implementation.
 
-Chapter 6 discusses the conceptual design of the application and the adopted GBL techniques. It also presents the structure of the application, analyses the process of developing the application, and finally defines the evaluation process. Chapter 7 is related to Chapter 6 in that the screens of the application are presented in detail.
+Chapter 6 discusses the conceptual design of the application and the adopted GBL techniques. It also presents the structure of the application, analyses the process of developing the application, and finally defines the evaluation process.
 
-The thesis concludes with Chapter 8, which describes the evaluation process in detail. In this chapter, charts have been included to visualize the data collected and a statistical analysis of the results is also carried out. Finally, the extracted results are presented and some suggestions for the improvement of the application are made.
+The thesis concludes with Chapter 7, which describes the evaluation process in detail. In this chapter, charts have been included to visualize the data collected and a statistical analysis of the results is also carried out. Finally, the extracted results are presented and some suggestions for the improvement of the application are made.
+
+In Appendix A, the screens of the application are presented in detail.

@@ -8,44 +8,31 @@ In order to measure the learning outcome of the game and to evaluate the user ex
 
 3. The game should be short and require no additional equipment other than a mobile phone, making it suitable to be played during a university lecture or when the student has limited time.
 
-NOTE:
-- na to parousiasw san poiotikh a3iologhsh
-- na e3hghsw proforika ta apotelesmata kai oxi sa statistikh analysh
-- na afairesw ta diagrammata empistosynhs teleiws kai p-value klp
-- epipelon info gia to focus group, px pote egine, poso meta to paixnidi, posh wra krathse, an htan dia zwshs klp
-- na sysxetisw ta apotelesmata tou focus group me ta statistika
-
-- rewrite the conclusions in order to align with the research objectives
-
 ## Evaluation Process Description
 
 ![Evaluation Flow](chapter-7/image005_evaluation_flow.png){#fig:fig705 height=50%}
 
 10 university students volunteered to participate in the evaluation of the game, which was carried out in 2 phases. The volunteers claimed to have a strong background in mathematics, with 4 of them having knowledge of complex numbers. The first phase used the pre-post test methodology, for which a quiz was designed and incorporated into the game. The second phase was a focus group with some participants from the first phase.
 
-To support the first phase and the implementation of the quiz, we relied on _Cooksey and Jonsson_ [-@cooksey-jonsson-pre-post] and _Stratton_ [-@stratton-pre-post]. The first step was to create a repository of candidate questions to help structure the quiz. These questions were mainly taken from comprehension quizzes given in the _Quantum Computation_ course at the University of Patras (academic year 2023-24, lecturers: Sgarbas, K. and Kounavis, P.). A subset of these questions was then selected and adapted to the content of the game. The quiz consists of 3 theoretical questions and 9 questions regarding quantum gates actions. Each correct answer awards one point, while each incorrect answer gives zero points. The theoretical questions relate to the theory presented to the player via slides. The quantum gate questions ask the player to calculate the new state of a qubit after the gate has been applied to it, or ask the player to select the appropriate gate to perform a quantum calculation. The questions are designed to prove that the player has learned to use -some of- the gates introduced in chapter 4 and understands the concept of superposition.
+To support the first phase and the implementation of the quiz, we relied on _Cooksey and Jonsson_ [-@cooksey-jonsson-pre-post] and _Stratton_ [-@stratton-pre-post]. The first step was to create a repository of candidate questions to help structure the quiz. These questions were mainly taken from comprehension quizzes given in the _Quantum Computation_ course at the University of Patras (academic year 2023-24, lecturers: Sgarbas, K. and Kounavis, P.). A subset of these questions was then selected and adapted to the content of the game. The quiz consists of 3 theoretical questions and 9 questions regarding quantum gates actions. Each correct answer awards one point, while each incorrect answer gives zero points. The theoretical questions relate to the theory presented to the player via slides. The quantum gates related questions ask the player to calculate the new state of a qubit after the gate has been applied to it, or ask the player to select the appropriate gate to perform a quantum calculation. The questions are designed to prove that the player has learned to use -some of- the gates introduced in chapter 4 and understands the concept of superposition.
 
 As suggested in the literature, participants were asked to complete the pre-test before interacting with the game to get an overview of their previous knowledge. Then, they were asked to complete the tutorial level and then complete the 30 levels of the game and retake the quiz. Players were given as much time as they wanted and were asked to record how long it took to complete the game. There was no further guidance on how the game works and no external help was provided to solve the levels. The _Normalized Gain_ metric was used to measure efficiency, as suggested in the literature [@cooksey-jonsson-pre-post], [@kagan-normalized-gain]. In addition, we tried to determine whether the knowledge of complex numbers and the time it took each player to complete the game affected the learning outcome.
 
 In the second phase, 8 out of 10 players from the fist phase participated in the focus group. The questions they were asked to discuss were related to 4 areas; _User Interface & User Experience_ (UI & UX), _Game Mechanics_, _Difficulty_ and _Scoring & Rewards_. They were also free to discuss with each other and comment on their overall experience of the application. The findings from the focus group will be used to improve the game in the future.
 
-## Phase 1: Statistical Analysis of Quiz Results
+The focus group took place two days after the completion of the pre-post test. It was conducted via Zoom meeting, lasted about 1 hour and was neither recorded nor transcribed. The focus group had no strict structure. The users were free to discuss each of the 4 areas tested for about 10 to 12 minutes per area under the supervision of the researcher who took notes. Follow-up questions were then asked for clarification. In addition, the supervisor encouraged individuals who were not participating as actively to share their views. [@rabiee-focus-group], [@wilkinsos-focus-group]
 
-In this section, we analyze the quiz results using statistical methods to evaluate the effectiveness of the game as a learning tool. Key metrics used in this analysis include the p-value, Pearson correlation coefficient, and Average Normalized Gain.
+## Normalized Gain and Average Normalized Gain
 
-- **P-value**: The null hypothesis in this context is the assumption that there is no significant difference between the initial and final quiz scores of the participants. It suggests that any observed difference in scores is due to random chance rather than the effectiveness of the game as a learning tool. The p-value is used to test this hypothesis, with a lower p-value indicating stronger evidence against the null hypothesis.
+The _Normalized Gain_ metric is used to measure the effectiveness of a learning tool. It is calculated as the ratio of the actual average gain to the maximum possible gain.
 
-- **Pearson Correlation Coefficient (Pearson r)**: A measure of the linear correlation between two variables, ranging from -1 to 1. A value closer to 1 indicates a strong positive correlation, while a value closer to -1 indicates a strong negative correlation. A value close to 0 indicates that there is little to no linear correlation between the two variables.
-
-- **Average Normalized Gain ($\langle g \rangle$)**: A metric used to measure the effectiveness of an educational process, calculated as the ratio of the actual average gain to the maximum possible average gain. A higher value indicates greater effectiveness.
-
-The normalized gain for each individual player is calculated as follows:
+The _Normalized Gain_ for each individual player is calculated as follows:
 
 $$
 g = \frac{post\% - pre\%}{100\% - pre\%}
 $$
 
-The Average Normalized Gain is defined as:
+The _Average Normalized Gain_ is defined as:
 
 $$
 \langle g \rangle = \frac{\langle post\% \rangle - \langle pre\% \rangle }{100\% - \langle pre\% \rangle}
@@ -53,30 +40,25 @@ $$
 
 where the brackets indicate the averages. [@cooksey-jonsson-pre-post], [@kagan-normalized-gain]
 
-![Significance of Score Improvement](chapter-7/image001_scores.png){#fig:fig701 height=40%}
+## Phase 1: Pre-Post Test
 
-![Correlation between Initial and Final Scores](chapter-7/image002_score_correlation.png){#fig:fig702 height=40%}
+In this section we will present the results of the Pre-Post Test. Unfortunately, we do not have that many participants to perform statistical analysis, so we will present the results quantitatively.
 
-![Correlation between Duration and Final Scores](chapter-7/image003_duration_correlation.png){#fig:fig703 height=40%}
+![Score Improvement](chapter-7/image001_scores_no_stat.png){#fig:fig701 height=40%}
 
-![Impact of Knowledge of Complex Numbers on Final Scores](chapter-7/image004_complex_numbers.png){#fig:fig704 height=40%}
+In the image above we can see the players' score in the quiz before playing the game (blue - left bars) and the players' score after they completed the game (orange - right bars). We can observe a significant improvement in players' scores after completing the game. For instance, the average player score before the game was close to 17% and after the game it was over 70%. This is an encouraging result and an indication that the game is effective as a learning tool.
+
+![Correlation between Initial and Final Scores](chapter-7/image002_score_correlation_no_stat.png){#fig:fig702 height=40%}
+
+As part of the analysis of the results, we asked the following question; Does the initial score - and therefore any prior knowledge of the players - affect the final score? In the plot above, we attempt to correlate the initial score with the final score. We observe a moderate positive correlation between the two variables, but due to the small number of participants we cannot draw any definite conclusions.
+
+![Correlation between Duration and Final Scores](chapter-7/image003_duration_correlation_no_stat.png){#fig:fig703 height=40%}
+
+We then examined whether the time taken by players to complete the game affected their understanding of the object and thus their final score. In the previous plot, we observe a weak positive correlation between the two variables, but again, due to the small number of participants, we cannot draw any definite conclusions.
 
 ![Gain of Averages](chapter-7/image006_average_gain.png){#fig:fig701 height=40%}
 
-1. **Significance of Score Improvement (p-value: 0.0)**:
-    The p-value of 0.0 indicates that the difference between the initial and final scores is extremely statistically significant. This means that the observed difference in scores is highly unlikely to have occurred by chance, and there is strong evidence to suggest that the intervention or factor being tested had a significant impact on the scores.
-
-2. **Correlation between Initial and Final Scores (Pearson r: 0.51)**:
-    The Pearson correlation coefficient of 0.51 indicates a moderate positive correlation between the initial and final scores. This suggests that players who had higher initial scores also tended to have higher final scores, but the relationship is not very strong. There are other factors that might be influencing the final scores.
-
-3. **Correlation between Duration and Final Scores (Pearson r: 0.16)**:
-    The Pearson correlation coefficient of 0.16 indicates a weak positive correlation between the duration and final scores. This suggests that the amount of time spent on the task has a minimal impact on the final scores. Other factors are likely more influential in determining the final scores.
-
-4. **Impact of Knowledge of Complex Numbers on Final Scores (p-value: 0.0648)**:
-    The p-value of 0.0648 is slightly above the common significance threshold of 0.05. This means that there is not enough evidence to conclude that there is a statistically significant difference in the average final scores between those who know complex numbers and those who don't at the 5% significance level.
-
-5. **Average Normalized Gain ($\langle g \rangle$) of 0.69**:
-    The average normalized gain ($\langle g \rangle$) of 0.69 indicates a substantial improvement in the players' knowledge after playing the game. According to the literature, an average gain above 0.25 is considered effective [@cooksey-jonsson-pre-post], making this result particularly significant. This demonstrates the game's effectiveness as an educational tool and highlights its potential to significantly enhance learning outcomes.
+The average normalized gain ($\langle g \rangle$) of 0.69 indicates a substantial improvement in the players' knowledge after playing the game. According to the literature, an average gain above 0.25 is considered effective [@cooksey-jonsson-pre-post], making this result particularly significant. This demonstrates the game's effectiveness as an educational tool and highlights its potential to significantly enhance learning outcomes.
 
 ## Phase 2: Focus Group
 
@@ -116,24 +98,18 @@ In this section we will present the focus group findings by area.
 
 - Players agreed that they felt rewarded and motivated to keep playing by unlocking new spaceships as they progressed.
 
-## Final Conclusions
+## Conclusions
 
 Based on the feedback and data collected from the initial evaluation and focus group, several conclusions can be drawn:
 
-1. The difference between the initial and final scores is extremely statistically, as indicated by the p-value of 0.0.
+1. The game is an effective learning tool and successfully introduces the basic concepts of quantum computing to university students. The difference between the pre and post test scores and the _Average Normalized Gain_ of 0.69 indicates a substantial improvement in the players' knowledge after playing the game.
 
-2. There is a moderate positive correlation between initial and final scores.
+2. The average time it took players to complete the game - excluding the quiz - was 21 minutes. This is a good indication that the game is short and can be played during a university lecture or when the student has limited time.
 
-3. The duration of the task has a weak correlation with final scores, indicating that time spent is not a strong predictor of performance.
+3. The game is enjoyable, and the players found the mechanics simple and casual. The navigation works well and is predictable. The state of the application was flawless and was updating correctly.
 
-4. Knowledge of complex numbers does not show a statistically significant difference in final scores at the 5% significance level, but the result is close to being significant and might be considered at a higher threshold.
+4. The difficulty was advantageous for the target audience, but some players requested more difficult puzzles. The players agreed that the game is easy, intended for users with no experience around Quantum Computing.
 
-5. The average time needed to complete the game was 21 minutes. This makes the game suitable to be played in the context of a university lecture to increase student engagement in the classroom or to allow students to test their knowledge in a fun and interactive way.
+5. The incentive system used in the game was found to be motivating and encouraged players to improve.
 
-6. The average normalized gain ($\langle g \rangle$) of 0.69 demonstrates the game's effectiveness as an educational tool.
-
-7. The number of participants is small, only 10 people, so a complementary evaluation phase with a larger number of participants is suggested, for more reliable conclusions. However, the result of the initial evaluation is promising.
-
-8. The presented theory around superposition should be extended.
-
-9. The game could be extended with more levels and quantum gates.
+Overall, the evaluation process was successful and provided valuable feedback that will be used to improve the game in the future. The research objectives are met, and the game can be considered a successful educational tool. The game should be further expanded to include more levels, more complex puzzles, and additional features to enhance the user experience.
