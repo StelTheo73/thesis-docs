@@ -2,7 +2,7 @@
 
 In the previous chapters we introduced the techniques and the benefits of game-based learning, and we selected the genre of our game. We will then discuss the basic theory around quantum computing, which provided the information needed to design the theory slides presented in the game and on which the game mechanics are based.
 
-Quantum computers are computers that perform calculations by taking advantage of quantum phenomena, such as superposition and entanglement. The quantum properties of the microcosm provide the ability to store and process larger amounts of information and perform specific calculations at higher speeds than conventional computers. Information is processed using quantum gates and quantum algorithms, analogs of which cannot exist in conventional computers. [@karafyllidis_book], [@wikipedia_quantum_computing]
+Quantum computers are computers that perform calculations by taking advantage of quantum phenomena, such as superposition and entanglement. The quantum properties of the microcosm provide the ability to store and process larger amounts of information and perform specific calculations at higher speeds than conventional computers. Information is processed using quantum gates and quantum algorithms, analogs of which cannot exist in conventional computers. [@karafyllidis_book; @wikipedia_quantum_computing]
 
 ## Quantum Bits
 
@@ -78,11 +78,11 @@ A quantum system can be in both states simultaneously. Before we measure its sta
 
 The outcome of the measurement is impossible to predict with certainty, as all we know are the probabilities of it being in one of the two basis states, which are given by the square of the probability amplitudes, a and b.
 
-[@aws_quantum_computing], [@karafyllidis_book]
+[@aws_quantum_computing; @karafyllidis_book]
 
 ### Quantum Entanglement
 
-Quantum entanglement is defined as the state of two quantum systems when it cannot be written as a tensor product of their basic states. Quantum entanglement is a physical resource that can be used for the development of quantum algorithms and the execution of quantum computations. There is no classical analog of this state. When two systems are entangled, measuring the state of one reveals the state of the other, regardless of the distance between them. Essentially, the state of one quantum system depends on the state of the other. [@aws_quantum_computing], [@karafyllidis_book]
+Quantum entanglement is defined as the state of two quantum systems when it cannot be written as a tensor product of their basic states. Quantum entanglement is a physical resource that can be used for the development of quantum algorithms and the execution of quantum computations. There is no classical analog of this state. When two systems are entangled, measuring the state of one reveals the state of the other, regardless of the distance between them. Essentially, the state of one quantum system depends on the state of the other. [@aws_quantum_computing; @karafyllidis_book]
 
 ### Decoherence
 Superposition states are unstable and decohere so that the system becomes stable. Decoherence is an irreversible process and can be caused by external factors such as an increase in temperature or radiation. [@aws_quantum_computing]
@@ -104,12 +104,12 @@ https://quantum.microsoft.com/en-us/insights/education/concepts/single-qubit-gat
 
 https://www.sharetechnote.com/html/QC/QuantumComputing_Gate_X.html
 
-Quantum gates are not physical systems like classical gates, but physical processes applied to quantum bits (qubits) and registers that change their state. Additionally, information does not pass through quantum gates as it does with classical gates, since they are not part of any physical circuit with conductors. The information remains within the quantum registers, and the gates act on them by rotating their state vectors. A quantum gate can be a laser pulse or a magnetic field. [@karafyllidis_book], [@wikipedia_quantum_computing]
+Quantum gates are not physical systems like classical gates, but physical processes applied to quantum bits (qubits) and registers that change their state. Additionally, information does not pass through quantum gates as it does with classical gates, since they are not part of any physical circuit with conductors. The information remains within the quantum registers, and the gates act on them by rotating their state vectors. A quantum gate can be a laser pulse or a magnetic field. [@karafyllidis_book; @wikipedia_quantum_computing]
 
-Since quantum bits are vectors in Hilbert space, quantum gates must be operators in Hilbert space. However, not all operators in Hilbert space are suitable for representing quantum gates. For an operator to be characterized as a quantum gate, it must not change the length of the state vector, only its angle, and it must not change the values of the inner products between state vectors. Thus, only unitary operators can constitute quantum gates. [@karafyllidis_book], [@wikipedia_quantum_computing]
+Since quantum bits are vectors in Hilbert space, quantum gates must be operators in Hilbert space. However, not all operators in Hilbert space are suitable for representing quantum gates. For an operator to be characterized as a quantum gate, it must not change the length of the state vector, only its angle, and it must not change the values of the inner products between state vectors. Thus, only unitary operators can constitute quantum gates. [@karafyllidis_book; @wikipedia_quantum_computing]
 
 
-The table below presents some of the most well-known quantum gates and the effects of their actions.
+_Table 6.1_ presents some of the most well-known quantum gates and the effects of their actions.
 
 +-----------------------------------------------------+------------------------+----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 | Name(s)                                             | # of qubits            | Symbol(s)                        | Matrix                                                                                                                            |
@@ -277,4 +277,4 @@ The details about quantum gates and the tables are based on the following source
 
   * [@wikipedia_quantum_gates]
 
-The images are sourced from [@wikipedia_quantum_gates].
+The figures are sourced from [@wikipedia_quantum_gates].

@@ -12,19 +12,19 @@ According to _Batisstella_ [-@battistella_games_for_teaching_computing], educati
 
 ![Distribution of games per genre.](chapter-2/game_distribution_pie.png){#fig:fig201 height=50%}
 
-The figure above, based on the aforementioned study, shows the distribution of games per genre. The most popular genre is simulation games, followed by puzzle games and adventure games. According to the researchers, most games are single-player that don't encourage cooperation or healthy competition between learners.
+_Figure 2.1_, which is based on the aforementioned study, shows the distribution of games per genre. The most popular genre is simulation games, followed by puzzle games and adventure games. According to the researchers, most games are single-player that don't encourage cooperation or healthy competition between learners.
 
 ## Educational Puzzle Games
 
 As we explained in section 1.3, we want the game to be easy to use and have simple mechanics. Creating a simulation game, which is the most popular genre, may lead to complex mechanics that distract the player from the educational goal. For this reason, we decided to investigate further the second most popular genre: puzzle games.
 
-Research by _Fakokunde_ [-@fakokunde_puzzle_games] on 141 subjects showed that puzzle games improved information retention, regardless of the learners' gender and cognitive style. Two other studies on puzzle games on puzzle games, [@idika_puzzle_games], [@srijampana_puzzle_games], confirm that this type of game can significantly improve information retention. They also report that they increase learners' active engagement with the material and enhance their understanding of the subject.
+Research by _Fakokunde_ [-@fakokunde_puzzle_games] on 141 subjects showed that puzzle games improved information retention, regardless of the learners' gender and cognitive style. Two other studies on puzzle games on puzzle games, [@idika_puzzle_games; @srijampana_puzzle_games], confirm that this type of game can significantly improve information retention. They also report that they increase learners' active engagement with the material and enhance their understanding of the subject.
 
 ## Educational Games for Quantum Mechanics
 
-In the literature we can find many games for quantum mechanics, which have been developed in different contexts. The earliest game for quantum mechanics that can be found in the literature is an Atari arcade game called 'Quantum' created in 1982 [@piispanen_quantum_games_history]. To date, more than 300 games related to quantum mechanics, digital and not, have been created [@piispanen_defining_quantum_games]. There are games developed in the context of competitions, as university coursework, by research groups, by universities, by companies, by independent enthusiasts and by professors or professional engineers. By extension, there are games that have not been developed for serious purposes, competition games, games designed for research purposes, commercial games and educational games. [@piispanen_quantum_games_history], [@spie_quantum_games] Due to the large number of educational games found in the literature, in this section we will focus on games developed by companies or universities with an educational purpose.
+In the literature we can find many games for quantum mechanics, which have been developed in different contexts. The earliest game for quantum mechanics that can be found in the literature is an Atari arcade game called 'Quantum' created in 1982 [@piispanen_quantum_games_history]. To date, more than 300 games related to quantum mechanics, digital and not, have been created [@piispanen_defining_quantum_games]. There are games developed in the context of competitions, as university coursework, by research groups, by universities, by companies, by independent enthusiasts and by professors or professional engineers. By extension, there are games that have not been developed for serious purposes, competition games, games designed for research purposes, commercial games and educational games. [@piispanen_quantum_games_history; @spie_quantum_games] Due to the large number of educational games found in the literature, in this section we will focus on games developed by companies or universities with an educational purpose.
 
-The games presented below are taken from the aforementioned studies and from the catalog on the _kiedos.art_ website. [@kiedos_quantum_games_list]
+The games presented int _Table 2.1_ are taken from the aforementioned studies and from the catalog on the _kiedos.art_ website. [@kiedos_quantum_games_list]
 
 +-------------------------------------------------------------------------------------------------+-------------------------------------------+----------------------------+--------------------+
 | Game Name                                                                                       | Creator                                   | &nbsp;Platform             | &nbsp;Genre        |
@@ -87,7 +87,7 @@ Table: Educational Games for Quantum Mechanics. {#tbl:tbl201}
 
 ## Educational Mobile Games for Quantum Mechanics
 
-As shown in the table in the previous section, there are 5 educational games for mobile devices. 4 of them are puzzles and 1 is a simulation. We will focus on the study of puzzle games to see how the researchers approached the topic.
+As shown in _Table 2.1_, there are 5 educational games for mobile devices. 4 of them are puzzles and 1 is a simulation. We will focus on the study of puzzle games to see how the researchers approached the topic.
 
 Unfortunately, _Hello Quantum_, _Meqanic_ and _Q|Cards$\rangle$_ are no longer available in stores, so we were unable to download them to study them. _Meqanic_ was available via online simulators on Apple mobile devices (iPhone and iPad), but we were unable to find a working version; on most simulators the game wouldn't even open, and on others it crashed on the level selection screen.
 

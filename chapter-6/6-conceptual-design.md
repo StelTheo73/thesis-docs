@@ -1,32 +1,18 @@
 # Conceptual Design & Development
 
-Having explored the available educational games for quantum computers, studied GBL techniques and the basic theory around quantum computers, and chosen the framework and game engine we will use to develop the application, it is time to discuss the process that was followed to design the game up to the creation of the early prototype. Furthermore, in the last section of this chapter we will present the development timeline. The diagram below shows the process of conceptual design and implementation of the application prototype.
+Having explored the available educational games for quantum computers, studied GBL techniques and the basic theory around quantum computers, and chosen the framework and game engine we will use to develop the application, it is time to discuss the process that was followed to design the game up to the creation of the early prototype. Furthermore, in the last section of this chapter we will present the development timeline. _Figure 6.1_ shows the process of conceptual design and implementation of the application prototype.
 
 ![Design & Prototype Creation Flow.](chapter-6/image001_design_flow.png){#fig:fig601 height=50%}
 
-TODO
-- remove tech stack selection from the diagram
-- also split 2 diagrams
-  * first the conceptual design (think of it as an expert on educational games)
-    - An educational game consists of (Kalmpourtzis 2018):
-    - narrative, aesthetics, mechanics, technology, pedagogy
-    - steps:
-      * technology selection --> tech stack, already selected from previous chapters
-      * genre selection (puzzle) --> mechanics
-      * mechanics definition --> mechanics
-      * game-based learning elements selection --> mechanics, narrative, aesthetics
-      * educational content selection --> pedagogy
-      * evaluation process design --> pedagogy because it is about the learning outcomes
-  * second the development process (think of it as a developer)
-- don't forget to update the diagram of chapter 1
+According to _Kalmpourtzis_ [-@kalmpourtzis_edu_game_design], the five components of educational game design are: Mechanics, Narrative, Aesthetics, Technology and Pedagogy. These components are interconnected and should be considered when designing a game. The mechanics are the rules and procedures that guide the player's actions and the game's response to them. The narrative is the story that the game tells, the aesthetics are the visual and auditory components that make up the game's look and feel, the technology is the hardware and software that the game runs on, and the pedagogy is the educational theory that the game is based on.
 
-## Genre Selection
+As for the technological part, we discussed it in the previous chapters and decided that we would build a cross-platform application using the Flutter framework and the Flame game engine. We will then present the analysis of the remaining 4 game components. As shown in _Figure 6.1_, the analysis of these elements was done in parallel and led us to define the development process we followed.
+
+## Genre Selection & Mechanics Definition (Mechanics)
 
 The first step in designing the game was to determine the gender. Based on the findings in Chapter 2, we decided to make a puzzle game, as it is suitable for increasing information retention while allowing for simple mechanisms.
 
-## Mechanics Definition
-
-The second step was to define the game mechanics. We reasoned that a 2D shooting game could have simple mechanisms, especially if the effect of gravity or other external factors on the missiles is not taken into account. This thinking led us to the decision to create a game with missiles being launched into space from a spaceship. We immediately thought that there was a similar computer game that we could use as a blueprint: _Space Invaders_^[https://en.wikipedia.org/wiki/Space_Invaders]
+We reasoned that a 2D shooting game, combined with a puzzle game, could have simple mechanisms, especially if the effect of gravity or other external factors on the missiles is not taken into account. This thinking led us to the decision to create a game with missiles being launched into space from a spaceship. We immediately thought that there was a similar computer game that we could use as a blueprint: _Space Invaders_^[https://en.wikipedia.org/wiki/Space_Invaders]
 
 We then had to decide which element of the game was appropriate to introduce the concepts of quantum computing. We could control 3 variables, the position of the spaceship, the position of the enemy spaceships and the state of the missiles. In terms of controlling the state of the missiles, we thought the game would be similar to Tetris, which is still a puzzle game, but it can get tedious and eventually distract the players from the learning objective, as they have a limited time to manipulate the state of the missiles, so they may randomly affect them, with no time to recall the knowledge they have gained. After rejecting the missile state control, we considered the spaceship position control and decided to control our own spaceship rather than the opposing spaceship.
 
@@ -34,9 +20,7 @@ Based on the above, we decided to control the spaceship not with a traditional j
 
 Finally, once the ship is in the correct position, the player must launch missiles to destroy the targets. That requires implementing a moving graphical element and defining the equations of motion in two-dimensional space.
 
-## Game-Based Learning Elements Selection
-
-The last step of the conceptual design was to decide which GBL elements to include in our game.
+## Game-Based Learning Elements Selection (Narratives, Aesthetics)
 
 First, we decided to use narratives to introduce the theory and rules of the game, specifically overlays that appear at the beginning of certain levels and give the student the information needed to complete the level.
 
@@ -44,21 +28,19 @@ We then decided to create an incentive system to increase the student's motivati
 
 Finally, we decided to adopt the graceful failure approach to allow users to experiment and try alternative ways of solving the puzzle. So we decided that there would be no immediate penalty if players made a wrong move, i.e. if they moved the spaceship to the wrong position or if a shot missed. At the end of the level, they will only receive the maximum number of stars if they have used the minimum number of moves to solve the puzzle and if all their missiles hit the target. The opposite scenario will not result in a complete failure, they will simply not receive the maximum number of stars.
 
-## Educational Content Selection
+## Educational Content Selection (Pedagogy)
 
 Together with the definition of the mechanics and the choice of the GBL elements to be used in the game, it was decided which aspects of the basic theory of quantum computing - introduced in Chapter 4 - would be presented in the game. We decided to introduce the concepts of qubit, quantum register and quantum gate at a tutorial level, as these are the most basic concepts. Next, we decided to introduce Pauli gates (Pauli-X, Pauli-Y and Pauli-Z). We decided that the first levels should have registers with one qubit. After the player has become familiar with the operation of these gates, we will introduce the concept of superposition for one-bit registers. Later, when the player also understands superposition, we will use registers with two qubits. There, the player will have to combine their previous knowledge to solve the puzzles.
 
-## Evaluation Process Design
+## Evaluation Process Definition (Pedagogy)
 
-We also wondered how we could assess the learning outcomes of the game. After reviewing the available literature ([@cooksey-jonsson-pre-post], [@stratton-pre-post]), we decided that a pre-post test study would be appropriate to evaluate the game. For the purposes of this study, a quiz was designed and integrated into the game. At this stage, we simply collected some candidate questions as suggested in the literature. The final selection of questions was made after the construction of the game had been completed and before the quiz screen had been created. In addition, we decided to conduct a focus group to evaluate the structure, usability and difficulty of the game. The structure and content of the two phases (pre-post test and focus group) are presented in detail in Appendix A.
+We also wondered how we could assess the learning outcomes of the game. After reviewing the available literature [@cooksey-jonsson-pre-post; @stratton-pre-post], we decided that a Pre-Post test study would be appropriate to evaluate the game. For the purposes of this study, a quiz was designed and integrated into the game. At this stage, we simply collected some candidate questions as suggested in the literature. The final selection of questions was made after the construction of the game had been completed and before the quiz screen had been created. In addition, we decided to conduct a focus group to evaluate the structure, usability and difficulty of the game. Finally, we decided to conduct a usability test to evaluate the game's performance and user experience, using _System Usability Scale_ (SUS) [@avouris-sus, p: 458] and _Game Experience Questionnaire_ (GEQ) [@ijsselsteijn-geq].
 
-## Development Process Definition
-
-After determining the genre, mechanics and GBL elements that would be used in the game, selecting the educational content and designing the evaluation process, we started designing the development process. We decided that our first step would be to define the screens of the application and the navigation flow between them. The next step would be to design a wireframe for a prototype level. The implementation of the first two steps would allow us to create a working prototype, which would then be tested by typical users. Based on their feedback, we will improve the prototype and repeat this process until we have a satisfactory result. Then the alpha version of the game will be ready, and we will be able to conduct extensive user testing.
+ The structure and content of the two phases (Pre-Post tests and focus group) are presented in detail in Chapter 7.
 
 ## Application Structure
 
-The diagram below shows the structure that was chosen for the application.
+_Figure 6.2_ shows the structure that was chosen for the application.
 
 ![Application Structure & Navigation Flow.](chapter-6/image002_app_structure.png){#fig:fig602 height=50%}
 
@@ -78,10 +60,9 @@ The final layout and functionality of the screens will be presented in Appendix 
 
 ## Level Wireframe
 
-![Wireframe](chapter-6/image003_wireframe.png){#fig:fig630 height=50%}
+![Wireframe](chapter-6/image003_wireframe.png){#fig:fig603 height=50%}
 
-A prototype level (wireframe) was then designed in _diagrams.net_^[https://app.diagrams.net/], which formed the foundation for creating the game's graphical interface. As shown in the images above, the original approach did not include a graphical element for the quantum register, but rather 2 discrete qubits to which the quantum gate would be applied. There were also two buttons, one for applying the gate and one for launching the missiles. The target state was placed at the top of the screen. Finally, the targets were enemy spaceships, as in the original _Space Invaders_ game.
-
+A prototype level (wireframe) was then designed in _diagrams.net_^[https://app.diagrams.net/], which formed the foundation for creating the game's graphical interface. As shown in _Figure 6.3_, the original approach did not include a graphical element for the quantum register, but rather 2 discrete qubits to which the quantum gate would be applied. There were also two buttons, one for applying the gate and one for launching the missiles. The target state was placed at the top of the screen. Finally, the targets were enemy spaceships, as in the original _Space Invaders_ game.
 
 ## Development Timeline
 
