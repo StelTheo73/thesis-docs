@@ -90,4 +90,4 @@ In the last week of December, Greek language support was added and the 'Tutorial
 
 In the following days, several bugs were fixed, and UI issues were addressed after the application was tested by 2 regular users. In addition, the 'Settings' screen was finalized, and some missing translations were added. Finally, the project was restructured a bit, and some performance issues were fixed.
 
-The application code has been published in the following GitHub repository: https://github.com/StelTheo73/qubity/. The application is available as an APK (for installation on Android devices) at the following link: https://github.com/StelTheo73/qubity/blob/main/release/qubity-1.0.0.apk.
+The application code has been published in the following GitHub repository: https://github.com/StelTheo73/qubity/. The application is available as an APK (for installation on Android devices) at the following link: https://github.com/StelTheo73/qubity/blob/main/release/.
