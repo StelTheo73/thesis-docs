@@ -1,6 +1,8 @@
 # Evaluation
 
-![Evaluation Flow](chapter-7/image005_evaluation_flow.png){#fig:fig701 height=50%}
+TODO: re-write this paragraph - link better with previous chapters and use DRY.
+
+![Evaluation Flow](chapter-7/image001_evaluation_flow.png){#fig:fig701 height=50%}
 
 In order to measure the learning outcome of the game and to evaluate the user experience, the evaluation process described in _Figure 7.1_ was designed. More specifically, this process was designed to evaluate the achievement of the objectives set out in Chapter 1, namely:
 
@@ -28,35 +30,24 @@ As suggested in the literature, participants were asked to complete the pre-test
 ### Evaluation of the Interactive System
 The participants who completed the Pre-Post Tests were asked to answer the SUS questionnaire.
 
-SUS is a ten-item, 5-point Likert scale questionnaire that measures the usability of a system. The items are scored on a scale from 1 to 5, with 1 being "strongly disagree" and 5 being "strongly agree". The scores are then converted to a score out of 100. Half of the items are positively worded and half are negatively worded. The positively worded items are scored by subtracting 1 from the score, while the negatively worded items are scored by subtracting the score from 5. The scores for each item are then summed and multiplied by 2.5 to convert them to a score out of 100. The SUS score is not a percentage, but it can be interpreted as a percentage for comparison purposes. A score of 68% is considered average, while a score above 80% is considered excellent. [@brooke-sus; @bangor-sus]
+SUS is a 10-item, 5-point Likert scale questionnaire that measures the usability of a system. The items are scored on a scale from 1 to 5, with 1 being "strongly disagree" and 5 being "strongly agree". The scores are then converted to a score out of 100. Half of the items are positively worded and half are negatively worded. The positively worded items are scored by subtracting 1 from the score, while the negatively worded items are scored by subtracting the score from 5. The scores for each item are then summed and multiplied by 2.5 to convert them to a score out of 100. The SUS score is not a percentage, but it can be interpreted as a percentage for comparison purposes. A score of 68% is considered average, while a score above 80% is considered excellent. [@brooke-sus; @bangor-sus] In _Figure 7.2_ we can see the SUS questionnaire.
 
-The SUS score is calculated as follows:
-
-$SUS = 2.5 (20 + \sum {(SUS01, SUS03, SUS05, SUS07, SUS09)} \newline - \sum {(SUS02, SUS04, SUS06, SUS08 SUS10)})$
+![SUS Questionnaire](chapter-7/image002_sus.png){#fig:fig702 height=50%}
 
 ### Evaluation of the Game Experience
-Then, the participants were asked to answer the GUESS-18 questionnaire. The GUESS-18 is a shortened version of the GUESS questionnaire, and is an 18-item, 7-point Likert scale questionnaire that measures the game experience. We chose the shortened version to prevent
+After completing the SUS questionnaire, the participants were asked to answer the GUESS-18 questionnaire. The GUESS-18 is a shortened version of the GUESS questionnaire, and is an 18-item, 7-point Likert scale questionnaire that measures the game experience. We chose the shortened version to prevent survey fatigue. The items are scored on a scale from 1 to 7, with 1 being "strongly disagree" and 7 being "strongly agree". The scores are then converted to a score out of 100. The GUESS-18 questionnaire is divided into 9 sections. Each section has its own score, which can be used to measure the overall game experience. [@phan-guess; @keebler-guess-18] The sections and questions of the GUESS-18 questionnaire are presented in _Figure 7.3_.
 
- The items are scored on a scale from 1 to 7, with 1 being "strongly disagree" and 7 being "strongly agree". The scores are then converted to a score out of 100. The GUESS-18 questionnaire is divided into 9 sections. Each section has its own score, which can be used to measure the overall game experience. The sections and question are presented in Figure 7.1_.
-
-
-
-
-[@tondello-guess; @tondello-guess-18]
-
-
-
-
-
+![GUESS-18 Questionnaire](chapter-7/image003_guess.png){#fig:fig703 height=50%}
 
 ### Focus Group
 8 out of < TODO: add # participants> players from the fist phase participated in the focus group. The questions they were asked to discuss were related to 4 areas; _User Interface & User Experience_ (UI & UX), _Game Mechanics_, _Difficulty_ and _Scoring & Rewards_. They were also free to discuss with each other and comment on their overall experience of the application. The findings from the focus group will be used to improve the game in the future.
 
 The focus group took place two days after the completion of the pre-post test. It was conducted via Zoom meeting, lasted about 1 hour and was neither recorded nor transcribed. The focus group had no strict structure. The users were free to discuss each of the 4 areas tested for about 10 to 12 minutes per area under the supervision of the researcher who took notes. Follow-up questions were then asked for clarification. In addition, the supervisor encouraged individuals who were not participating as actively to share their views. [@rabiee-focus-group; @wilkinsos-focus-group]
 
-## Normalized Gain and Average Normalized Gain
+## Results
 
-The _Normalized Gain_ metric is used to measure the effectiveness of a learning tool. It is calculated as the ratio of the actual average gain to the maximum possible gain.
+### Learning Outcome
+To measure the effectiveness of the application as a learning tool, we used the _Normalized Gain_ metric. It is calculated as the ratio of the actual average gain to the maximum possible gain.
 
 The _Normalized Gain_ for each individual player is calculated as follows:
 
@@ -64,10 +55,50 @@ $$
 g = \frac{post\% - pre\%}{100\% - pre\%}
 $$
 
+Where:
+
+* $pre\%$: player's score in the quiz before playing the game (Pre test)
+
+* $post\%$: player's score in the quiz after playing the game (Post test)
+
+* $100\% - pre\%$: maximum possible gain, since score is capped at 100%
+
 The _Average Normalized Gain_ is defined as:
 
 $$
 \langle g \rangle = \frac{\langle post\% \rangle - \langle pre\% \rangle }{100\% - \langle pre\% \rangle}
 $$
 
-where the brackets indicate the averages. [@cooksey-jonsson-pre-post; @kagan-normalized-gain]
+Where:
+
+* $\langle pre\% \rangle$: average score of all players in the quiz before playing the game (Pre test)
+
+* $\langle post\% \rangle$: average score of all players in the quiz after playing the game (Post test)
+
+[@cooksey-jonsson-pre-post; @kagan-normalized-gain]
+
+### Interactive System
+As described in _Section 7.2_, we used the _SUS_ questionnaire to evaluate the usability of the application. Yhe SUS score for each participant is calculated using the following formula:
+
+$$
+SUS = 2.5 (25 + \sum {(w_{01}, w_{03}, w_{05}, w_{07}, w_{09})} - \sum {(w_{02}, w_{04}, w_{06}, w_{08}, w_{10})})
+$$
+
+Where $w_{i}$ is the weight of the answer to the _i-th_ question (1-5).
+
+To determine the overall SUS score, we calculate the average SUS score across all participants using the formula:
+
+$$
+\langle SUS \rangle = \frac{1}{N} \sum_{i=1}^{N} SUS_{i}
+$$
+
+Where $N$ is the number of participants and $SUS_{i}$ is the SUS score of the _i-th_ participant.
+
+### Game Experience
+TODO: how to score the GUESS-18 questionnaire
+https://www.ruxresearch.com/_files/ugd/c357c3_06d8d7c0416c439ebbf7f25c3c1971c5.pdf
+
+
+### Focus Group
+
+## Conlusions
