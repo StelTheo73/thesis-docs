@@ -14,7 +14,7 @@ _Figure 7.1_ shows the evaluation process we followed.
 
 ![Evaluation Process](chapter-7/image001_evaluation_flow.png){#fig:fig701 height=50%}
 
-< TODO: add # participants > undergraduate university students volunteered to participate in the evaluation of the game, who claimed to have a strong background in mathematics.
+20 undergraduate university students volunteered to participate in the evaluation of the game, who claimed to have a strong background in mathematics and knowledge of complex numbers.
 
 ## Evaluation Process Description
 
@@ -38,11 +38,12 @@ After completing the SUS questionnaire, the participants were asked to answer th
 ![GUESS-18 Questionnaire](chapter-7/image003_guess.png){#fig:fig703 height=50%}
 
 ### Focus Group
-8 out of < TODO: add # participants> players from the fist phase participated in the focus group. The questions they were asked to discuss were related to 4 areas; _User Interface & User Experience_ (UI & UX), _Game Mechanics_, _Difficulty_ and _Scoring & Rewards_. They were also free to discuss with each other and comment on their overall experience of the application. The findings from the focus group will be used to improve the game in the future.
+8 out of 20 players from the fist phase participated in the focus group. The questions they were asked to discuss were related to 4 areas; _User Interface & User Experience_ (UI & UX), _Game Mechanics_, _Difficulty_ and _Scoring & Rewards_. They were also free to discuss with each other and comment on their overall experience of the application. The findings from the focus group will be used to improve the game in the future.
 
 The focus group was conducted via Zoom meeting, lasted about 1 hour and was neither recorded nor transcribed. The focus group had no strict structure. The users were free to discuss each of the 4 areas tested for about 10 to 12 minutes per area under the supervision of the researcher who took notes. Follow-up questions were then asked for clarification. In addition, the supervisor encouraged individuals who were not participating as actively to share their views. [@rabiee-focus-group; @wilkinsos-focus-group]
 
 ## Results
+In this section we present the results of the evaluation process described in _Section 7.2_. The results are divided into four sections: _Learning Outcome_, _Interactive System_, _Game Experience_ and _Focus Group_. Each section presents the results of the evaluation process and discusses the findings. Because of the small sample size, we do not perform any statistical analysis of the results. The results are presented qualitatively and also in graphical form, to help visualize the findings.
 
 ### Learning Outcome
 To measure the effectiveness of the application as a learning tool, we used the _Normalized Gain_ metric. It is calculated as the ratio of the actual average gain to the maximum possible gain.
@@ -75,11 +76,27 @@ Where:
 
 [@cooksey-jonsson-pre-post; @kagan-normalized-gain]
 
+![Score Improvement](chapter-7/image004_scores.png){#fig:fig704 height=40%}
+
+In _Figure 7.4_ we can see the players' score in the quiz before playing the game (blue - left bars) and the players' score after they completed the game (orange - right bars). We can observe a significant improvement in players' scores after completing the game. For instance, the average player score before the game was close to 19% and after the game it was over 75%. This is an encouraging result and an indication that the game is effective as a learning tool.
+
+![Correlation between Initial and Final Scores](chapter-7/image006_score_correlation.png){#fig:fig705 height=40%}
+
+As part of the analysis of the results, we asked the following question; Does the initial score - and therefore any prior knowledge of the players - affect the final score? In _Figure 7.5_, we attempt to correlate the initial score with the final score. We observe a moderate positive correlation between the two variables, but due to the small number of participants we cannot draw any definite conclusions.
+
+![Correlation between Duration and Final Scores](chapter-7/image007_duration_correlation.png){#fig:fig706 height=40%}
+
+We then examined whether the time taken by players to complete the game affected their understanding of the object and thus their final score. In the previous plot, we observe a weak positive correlation between the two variables, but again, due to the small number of participants, we cannot draw any definite conclusions.
+
+![Gain of Averages](chapter-7/image005_gain.png){#fig:fig708 height=40%}
+
+The average normalized gain ($\langle g \rangle$) of 0.72 indicates a substantial improvement in the players' knowledge after playing the game. According to the literature, an average gain above 0.25 is considered effective [@cooksey-jonsson-pre-post], making this result particularly significant. This demonstrates the game's effectiveness as an educational tool and highlights its potential to significantly enhance learning outcomes.
+
 ### Interactive System
-As described in _Section 7.2_, we used the _SUS_ questionnaire to evaluate the usability of the application. Yhe SUS score for each participant is calculated using the following formula:
+As described in _Section 7.2_, we used the _SUS_ questionnaire to evaluate the usability of the application. The SUS score for each participant is calculated using the following formula:
 
 $$
-SUS = 2.5 (25 + \sum {(w_{01}, w_{03}, w_{05}, w_{07}, w_{09})} - \sum {(w_{02}, w_{04}, w_{06}, w_{08}, w_{10})})
+SUS = 2.5 (20 + \sum {(w_{01}, w_{03}, w_{05}, w_{07}, w_{09})} - \sum {(w_{02}, w_{04}, w_{06}, w_{08}, w_{10})})
 $$
 
 Where $w_{i}$ is the weight of the answer to the _i-th_ question (1-5).
@@ -92,11 +109,52 @@ $$
 
 Where $N$ is the number of participants and $SUS_{i}$ is the SUS score of the _i-th_ participant.
 
+[@lewis-sus]
+
+The SUS score of our application is 86.33, which is classified as _Excellent_ on _Bangor's_ adjective rating scale [-@bangor-sus] and corresponds to the highest grade, _A+_, on _Sauro-Lewis_ curved rating scale scale [-@sauro-sus; -@sauro-lewis-sus].
+
 ### Game Experience
 TODO: how to score the GUESS-18 questionnaire
 https://www.ruxresearch.com/_files/ugd/c357c3_06d8d7c0416c439ebbf7f25c3c1971c5.pdf
 
 
 ### Focus Group
+
+In this section we will present the focus group findings by area.
+
+#### User Interface & User Experience {.unnumbered}
+
+- One player requested an extra slide in the tutorial or in the first level, explaining how each level's score is calculated.
+
+- One player requested that the _Next Level_ button should be a different color to others (on the level completion overlay).
+
+- One player requested to group levels in the level selection menu by difficulty.
+
+- Players agreed that the game menu was easy to use and that the navigation worked well and was predictable.
+
+- Players agreed that the state of the application was flawless and was updating correctly.
+
+- Some players requested to add background music and sounds when launching missiles and hitting the targets.
+
+#### Game Mechanics {.unnumbered}
+
+- Players found the mechanics simple and casual and commented that this simplicity helped them focus on solving the puzzles.
+
+#### Difficulty {.unnumbered}
+
+- Players agreed that the game is easy and intended of users with no quantum computer experience. All of them could complete all 30 levels. They said they would like to try more difficult puzzles.
+
+- Most players said that the hardest level was level 30 (the final one), as it required a combination of 3 gates to solve the puzzle.
+
+- One player did not understand how the Hadamard gate acts on 2 qubits. Half of the players said they would like more information about superposition, but agreed that the theory presented was sufficient to solve the puzzles.
+
+- One player suggested that there should be hints to use in case you find it difficult to solve the puzzle.
+
+#### Scoring & Rewards {.unnumbered}
+
+- Players agreed that having a score system encouraged them to improve. 7 out of 8 players tried to complete all levels with 3 stars.
+
+- Players agreed that they felt rewarded and motivated to keep playing by unlocking new spaceships as they progressed.
+
 
 ## Conclusions
