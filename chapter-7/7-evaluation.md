@@ -10,6 +10,18 @@ Building on the conceptual design and development process described in Chapter 6
 
 The evaluation process uses a mix of methods and is divided into two parts: the first part evaluates the learning outcome of the game, while the second part evaluates the interactive system and the game experience. The evaluation of the learning outcome is based on a Pre-Post tests methodology, while the evaluation of the interactive system and game experience are based on questionnaires and a focus group. To evaluate the application as an interactive system used the _System Usability Scale_ questionnaire, while to evaluate the game experience we used the shortened version of the _Game User Experience Satisfaction Scale_ questionnaire, the _GUESS-18_.
 
+In addition to the aforementioned objectives, evaluating the application as an interactive system and as a game will allow us to determine whether the GBL mechanisms and elements we have incorporated into the game, namely:
+
+1. Combination of Puzzle & Shooter mechanics
+
+2. Narratives at the beginning of some levels
+
+3. Incentive system
+
+4. Graceful failure mechanism
+
+are effective and create an enjoyable gaming experience.
+
 _Figure 7.1_ shows the evaluation process we followed.
 
 ![Evaluation Process.](chapter-7/image001_evaluation_flow.png){#fig:fig701 height=50%}
@@ -122,16 +134,23 @@ The SUS score of our application is 86.33, which is classified as _Excellent_ on
 
 ### Game Experience
 
-As described in _Section 7.2_, we used the _GUESS-18_ questionnaire to evaluate the game experience. The ratings within each subscale are averaged to obtain a subscale score, and the composite score of game satisfaction can be calculated by summing subscale scores together. The minimum composite score is 9 and the maximum is 63. The answer to the question _“I feel bored while playing the game” _ in the _Enjoyment_ subscale needs to be reverse coded (i.e. subtract the score from 8). The scores were calculated using the spreadsheet provided by _Keebler_ [-@keebler-guess-18]. The polygon chart in _Figure 7.4_ was created using the same spreadsheet.
+As described in _Section 7.2_, we used the _GUESS-18_ questionnaire to evaluate the game experience. The ratings within each subscale are averaged to obtain a subscale score, and the composite score of game satisfaction can be calculated by summing subscale scores together. The minimum composite score is 9 and the maximum is 63. The answer to the question _“I feel bored while playing the game” _ in the _Enjoyment_ subscale needs to be reverse coded (i.e. subtract the score from 8). The scores were calculated using the spreadsheet created by _Keebler et al._ [-@keebler-guess-18]. The polygon chart in _Figure 7.7_ was created using the same spreadsheet.
 
 ![GUESS-18 Subscale Score.](chapter-7/image008_guess_score.png){#fig:fig706 height=40%}
 
 ![GUESS-18 Subscale Score - Polygon Chart.](chapter-7/image009_guess_chart.png){#fig:fig707 height=40%}
 
-<!-- Means of GUESS Subscales
-Usability	        Narratives	      Play Engrossment	Enjoyment	Creative Freedom	Audio Aesthetics	Personal Gratification	Social Connectivity	  Visual Aesthetics
-6.06666666666667	5.33333333333333	3.9	              6.2	      5.4	              1               	5.96666666666667	      3.89285714285714	    6.4 -->
+The high scores on the _Visual Aesthetics_ (6.4) and _Enjoyment_ (6.2) subscales indicate that the game was enjoyable, fun, and had well-designed and consistent graphics.
 
+The game scored 6 on the _Usability_ subscale, indicates that the game was easy to use and navigate, which is consistent with the SUS questionnaire score.
+
+Furthermore, the score on the _Personal Gratification_ subscale, which is very close to 6, indicates that players felt satisfied playing the game, which is consistent with the high score on the _Enjoyment_ subscale, while indicating that the game's incentive system was effective.
+
+The score for the _Creative Freedom_ subscale (5.4) is satisfactory, as players were able to choose how to solve the game's problems, which is consistent with the approach of the cute failure mechanism incorporated into the game. The score for the _Narratives_ subscale (5.3) indicates that players found the stories incorporated into the games useful, but could be more interesting and add more value to the game.
+
+A relatively lower score on _Play Engrossment_ subscale (3.9) indicates that players were not fully immersed or focused on the gameplay. This could be an area for improvement, perhaps by enhancing the challenge or adding more dynamic elements.
+
+A moderate score on the _Social Connectivity_ subscale (3.9) is expected, since the game is a single-player game and does not have any social features. Finally, the lowest possible score on the _Audio Aesthetics_ subscale (1), is expected, since the game does not have any audio features.
 
 These findings will be compared with the focus group findings.
 
@@ -172,7 +191,6 @@ In this section we will present the focus group findings by area.
 - Players agreed that having a score system encouraged them to improve. 7 out of 8 players tried to complete all levels with 3 stars.
 
 - Players agreed that they felt rewarded and motivated to keep playing by unlocking new spaceships as they progressed.
-
 
 ## Conclusions
 

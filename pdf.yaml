@@ -35,6 +35,8 @@ input-files:
   - chapter-6/6-conceptual-design.md
   - chapter-7/7-evaluation.md
   - chapter-8-appendix-A/8-game-screens.md
+  - chapter-9-appendix-B/9-quiz-questions.md
+  - chapter-10-appendix-C/10-questionnaires.md
   - bibliography/bibliography.md
 
 log-file: log/pdf.log.json
@@ -52,6 +54,8 @@ resource-path:
   - chapter-6
   - chapter-7
   - chapter-8-appendix-A
+  - chapter-9-appendix-B
+  - chapter-10-appendix-C
 standalone: true
 to: pdf
 top-level-division: chapter # part, chapter, section, or default:
