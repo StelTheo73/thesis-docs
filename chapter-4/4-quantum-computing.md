@@ -85,6 +85,7 @@ The outcome of the measurement is impossible to predict with certainty, as all w
 Quantum entanglement is defined as the state of two quantum systems when it cannot be written as a tensor product of their basic states. Quantum entanglement is a physical resource that can be used for the development of quantum algorithms and the execution of quantum computations. There is no classical analog of this state. When two systems are entangled, measuring the state of one reveals the state of the other, regardless of the distance between them. Essentially, the state of one quantum system depends on the state of the other. [@aws_quantum_computing; @karafyllidis_book]
 
 ### Decoherence
+
 Superposition states are unstable and decohere so that the system becomes stable. Decoherence is an irreversible process and can be caused by external factors such as an increase in temperature or radiation. [@aws_quantum_computing]
 
 ## Quantum Registers
@@ -99,10 +100,6 @@ $$
 [@karafyllidis_book]
 
 ## Quantum Gates
-
-https://quantum.microsoft.com/en-us/insights/education/concepts/single-qubit-gates#:~:text=The%20Y%20gate%20performs%20a,essential%20for%20many%20quantum%20algorithms.
-
-https://www.sharetechnote.com/html/QC/QuantumComputing_Gate_X.html
 
 Quantum gates are not physical systems like classical gates, but physical processes applied to quantum bits (qubits) and registers that change their state. Additionally, information does not pass through quantum gates as it does with classical gates, since they are not part of any physical circuit with conductors. The information remains within the quantum registers, and the gates act on them by rotating their state vectors. A quantum gate can be a laser pulse or a magnetic field. [@karafyllidis_book; @wikipedia_quantum_computing]
 
