@@ -36,9 +36,7 @@ Quiz questions are available in the _Appendix B_ section of this thesis. Both SU
 
 The first phase of the evaluation was based on the Pre-Post approach, as described by _Cooksey and Jonsson_ [-@cooksey-jonsson-pre-post] and _Stratton_ [-@stratton-pre-post]. We started by creating a repository of candidate questions to help structure the quiz. These questions were mainly taken from comprehension quizzes given in the _Quantum Computation_ course at the University of Patras (academic year 2023-24, lecturers: Sgarbas, K. and Kounavis, P.). A subset of these questions was then selected and adapted to the content of the game. The quiz consists of 3 theoretical questions and 9 questions regarding quantum gates actions. Each correct answer awards one point, while each incorrect answer gives zero points. The theoretical questions relate to the theory presented to the player via slides. The quantum gates related questions ask the player to calculate the new state of a qubit after the gate has been applied to it, or ask the player to select the appropriate gate to perform a quantum calculation. The questions are designed to prove that the player has learned to use -some of- the gates introduced in chapter 4 and understands the concept of superposition.
 
-The version of the application used in this phase of the evaluation had one difference from the final version available on Github. The quiz results screen had been modified to show only the final score and not the correct or incorrect answers. To automate the process of collecting results, the results were sent to a remote database. The collection of results was anonymous; when the application was first started, a random UUID was generated and sent along with the score for each quiz attempt, making it possible to group the results by user without knowing who each attempt belonged to.
-
-As suggested by _Cooksey and Jonsson_ [-@cooksey-jonsson-pre-post] and _Stratton_ [-@stratton-pre-post], participants were asked to complete the Pre-test before interacting with the game to get an overview of their previous knowledge. Then, they were asked to complete the tutorial level and then complete the 30 levels of the game and retake the quiz. Players were given as much time as they wanted and were asked to record how long it took to complete the game. There was no further guidance on how the game works and no external help was provided to solve the levels. The _Normalized Gain_ metric was used to measure efficiency, as suggested in the literature [@cooksey-jonsson-pre-post; @kagan-normalized-gain].
+As suggested by _Cooksey and Jonsson_ [-@cooksey-jonsson-pre-post] and _Stratton_ [-@stratton-pre-post], participants were asked to complete the Pre-test before interacting with the game to get an overview of their previous knowledge. Then, they were asked to complete the tutorial level and then complete the 30 levels of the game and retake the quiz. Players were given as much time as they wanted and were asked to record how long it took to complete the game, from the moment they started playing the tutorial level until the moment they completed the last level. The time spent on the quiz was not included in this measurement. There was no further guidance on how the game works and no external help was provided to solve the levels. The _Normalized Gain_ metric was used to measure efficiency, as suggested by _Cooksey and Jonsson_ [-@cooksey-jonsson-pre-post] and _McKagan, Sayre and Madsen_ [-@kagan-normalized-gain].
 
 ### Evaluation of the Interactive System
 
@@ -90,27 +88,23 @@ Where:
 
 * $\langle post\% \rangle$: average score of all players in the quiz after playing the game (Post test)
 
-![Score Improvement.](chapter-7/image004_scores.png){#fig:fig702 height=40%}
+![Score Improvement.](chapter-7/image002_scores.png){#fig:fig702 height=40%}
 
-In _Figure 7.2_ we can see the players' score in the quiz before playing the game (blue - left bars) and the players' score after they completed the game (orange - right bars). We can observe a significant improvement in players' scores after completing the game. For instance, the average player score before the game was close to 19% and after the game it was over 75%. This is an encouraging result and an indication that the game is effective as a learning tool.
+![Correlation between Initial and Final Scores.](chapter-7/image004_score_scatter.png){#fig:fig703 height=40%}
 
--> na kanw plot ena fardy confidence interval gia na dei3w oti den eimai poly bebaios
--> paizontas to paixnidi beltiwnetai poly to performance se auto to test
--> h arxikh epidosh den exei megalh sysxetish me thn telikh epidosh
--> gia ta scatter, na pw oti kanw exploratory research, opote auta ta data ta mazeuoume gia na doume ena kinoumaste swsta
--> h megalh diaspora ofeiletai sto background twn learner
+In _Figure 7.2_ we can see the players' score in the quiz before playing the game (blue - left bars) and the players' score after they completed the game (orange - right bars). We can observe a significant improvement in players' scores after completing the game. For instance, the average player score before the game was close to 19% and after the game it was about 75%. This is an encouraging result and an indication that the game is effective as a learning tool.
 
-![Correlation between Initial and Final Scores.](chapter-7/image006_score_correlation.png){#fig:fig703 height=40%}
+Participants who scored above 90% had attended university courses in Physics and Computer Science, making them more familiar with concepts such as superposition, gates, and registers. The two participants with the lowest performance in the Post Test had the same level of mathematical knowledge as the others but had not attended courses in Physics or Computer Science. The remaining participants had the same level of mathematical knowledge and had attended Computer Science courses but did not have the same academic background in Physics as those who achieved a Post Test score above 90%.
 
-As part of the analysis of the results, we asked the following question; Does the initial score - and therefore any prior knowledge of the players - affect the final score? In _Figure 7.3_, we attempt to correlate the initial score with the final score. We observe a moderate positive correlation between the two variables, but due to the small number of participants we cannot draw any definite conclusions.
+We can assume that the highest quiz scores were achieved by those with a strong academic background in Physics and Computer Science, as the concepts examined in the quiz are more closely related to those taught in Physics and Computer Science courses. This hypothesis can be supported by the findings of the focus group, where several users asked for additional information on the concept of superposition. Finally, as part of the analysis of the results, we also asked the following question; Does the initial score - and therefore any prior knowledge of the players - affect the final score? In _Figure 7.3_, we attempt to correlate the initial score with the final score. We observe a moderate positive correlation between the two variables, but due to the small number of participants we cannot draw any definite conclusions.
 
-![Correlation between Duration and Final Scores.](chapter-7/image007_duration_correlation.png){#fig:fig704 height=40%}
+![Correlation between Duration and Final Scores.](chapter-7/image005_duration_scatter.png){#fig:fig704 height=40%}
 
-We then examined whether the time taken by players to complete the game affected their understanding of the object and thus their final score. In the previous plot, we observe a weak positive correlation between the two variables, but again, due to the small number of participants, we cannot draw any definite conclusions.
+The average time it took the players to complete the game was 18 minutes. We then examined whether the time taken by players to complete the game affected their understanding of the object and thus their final score. In _Figure 7.4_, we observe a weak positive correlation between the two variables, but again, due to the small number of participants and the high level of variance, we cannot draw any definite conclusions.
 
-![Gain of Averages.](chapter-7/image005_gain.png){#fig:fig705 height=40%}
+![Normalized Gain.](chapter-7/image003_gain.png){#fig:fig705 height=40%}
 
-The average normalized gain ($\langle g \rangle$) of 0.7 indicates a substantial improvement in the players' knowledge after playing the game. According to the literature, an average gain above 0.25 is considered effective [@cooksey-jonsson-pre-post], making this result particularly significant. This demonstrates the game's effectiveness as an educational tool and highlights its potential to significantly enhance learning outcomes.
+The _Average Normalized Gain_ ($\langle g \rangle$) of 0.7 indicates a substantial improvement in the players' knowledge after playing the game. According to the literature, an average gain above 0.25 is considered effective [@cooksey-jonsson-pre-post], making this result particularly significant. This demonstrates the game's effectiveness as an educational tool and highlights its potential to significantly enhance learning outcomes.
 
 ### Interactive System
 
@@ -130,7 +124,7 @@ $$
 
 Where $N$ is the number of participants and $SUS_{i}$ is the SUS score of the _i-th_ participant.
 
-The SUS score of our application is 86.33, which is classified as _Excellent_ on _Bangor's_ adjective rating scale [-@bangor-sus] and corresponds to the highest grade, _A+_, on _Sauro-Lewis_ curved rating scale[-@sauro-sus; -@sauro-lewis-sus]. These results indicate that the application is highly usable and provides a positive user experience. The findings will be compared with the focus group findings.
+The SUS score of our application is 86.33, which is classified as _Excellent_ on _Bangor's_ adjective rating scale [-@bangor-sus] and corresponds to the highest grade, _A+_, on _Sauro-Lewis_ curved rating scale [-@sauro-sus; -@sauro-lewis-sus]. These results indicate that the application is highly usable and provides a positive user experience. The findings will be compared with the focus group findings.
 
 ### Game Experience
 
