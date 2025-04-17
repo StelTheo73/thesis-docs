@@ -56,7 +56,7 @@ The focus group was conducted via Zoom meeting, lasted about 1 hour and was neit
 
 ## Results
 
-In this section we present the results of the evaluation process described in _Section 7.2_. The results are divided into four sections: _Learning Outcome_, _Interactive System_, _Game Experience_ and _Focus Group_. Each section presents the results of the evaluation process and discusses the findings. Because of the small sample size, we do not perform any statistical analysis of the results. The results are presented qualitatively and also in graphical form, to help visualize the findings.
+In this section we present the results of the evaluation process described in _Section 7.1_. The results are divided into four sections: _Learning Outcome_, _Interactive System_, _Game Experience_ and _Focus Group_. Each section presents the results of the evaluation process and discusses the findings. Because of the small sample size, we do not perform any statistical analysis of the results. The results are presented qualitatively and also in graphical form, to help visualize the findings.
 
 ### Learning Outcome
 
@@ -108,7 +108,7 @@ The _Average Normalized Gain_ ($\langle g \rangle$) of 0.7 indicates a substanti
 
 ### Interactive System
 
-As described in _Section 7.2_, we used the _SUS_ questionnaire to evaluate the usability of the application. The SUS score for each participant is calculated using the following formula [@lewis-sus]:
+As described in _Section 7.1.2_, we used the _SUS_ questionnaire to evaluate the usability of the application. The SUS score for each participant is calculated using the following formula [@lewis-sus]:
 
 $$
 SUS = 2.5 (20 + \sum {(w_{01}, w_{03}, w_{05}, w_{07}, w_{09})} - \sum {(w_{02}, w_{04}, w_{06}, w_{08}, w_{10})})
@@ -128,7 +128,7 @@ The SUS score of our application is 86.33, which is classified as _Excellent_ on
 
 ### Game Experience
 
-As described in _Section 7.2_, we used the _GUESS-18_ questionnaire to evaluate the game experience. The ratings within each subscale are averaged to obtain a subscale score, and the composite score of game satisfaction can be calculated by summing subscale scores together. The minimum composite score is 9 and the maximum is 63. The answer to the question _“I feel bored while playing the game” _ in the _Enjoyment_ subscale needs to be reverse coded (i.e. subtract the score from 8). The scores were calculated using the spreadsheet created by _Keebler et al._ [-@keebler-guess-18]. The polygon chart in _Figure 7.7_ was created using the same spreadsheet.
+As described in _Section 7.1.3_, we used the _GUESS-18_ questionnaire to evaluate the game experience. The ratings within each subscale are averaged to obtain a subscale score, and the composite score of game satisfaction can be calculated by summing subscale scores together. The minimum composite score is 9 and the maximum is 63. The answer to the question _“I feel bored while playing the game” _ in the _Enjoyment_ subscale needs to be reverse coded (i.e. subtract the score from 8). The scores were calculated using the spreadsheet created by _Keebler et al._ [-@keebler-guess-18]. The polygon chart in _Figure 7.7_ was created using the same spreadsheet.
 
 ![GUESS-18 Subscale Score.](chapter-7/image008_guess_score.png){#fig:fig706 height=40%}
 
