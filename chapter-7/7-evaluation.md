@@ -8,7 +8,7 @@ Building on the conceptual design and development process described in Chapter 6
 
 3. The game should be short and require no additional equipment beyond a mobile phone, making it an effective learning tool that can be utilized during a university lecture or when students have limited time.
 
-The evaluation process uses a mix of methods and is divided into two parts: the first part evaluates the learning outcome of the game, while the second part evaluates the interactive system and the game experience. The evaluation of the learning outcome is based on a Pre-Post tests methodology, while the evaluation of the interactive system and game experience are based on questionnaires and a focus group. To evaluate the application as an interactive system used the _System Usability Scale_ questionnaire, while to evaluate the game experience we used the shortened version of the _Game User Experience Satisfaction Scale_ questionnaire, the _GUESS-18_.
+The evaluation process uses a mix of methods and is divided into two parts: the first part evaluates the learning outcome of the game, while the second part evaluates the interactive system and the game experience. The evaluation of the learning outcome is based on a Pre-Post Tests methodology, while the evaluation of the interactive system and game experience are based on questionnaires and a focus group. To evaluate the application as an interactive system used the _System Usability Scale_ questionnaire, while to evaluate the game experience we used the shortened version of the _Game User Experience Satisfaction Scale_ questionnaire, the _GUESS-18_.
 
 In addition to the aforementioned objectives, evaluating the application as an interactive system and as a game will allow us to determine whether the GBL mechanisms and elements we have incorporated into the game, namely:
 
@@ -36,7 +36,7 @@ Quiz questions are available in the _Appendix B_ section of this thesis. Both SU
 
 The first phase of the evaluation was based on the Pre-Post approach, as described by _Cooksey and Jonsson_ [-@cooksey-jonsson-pre-post] and _Stratton_ [-@stratton-pre-post]. We started by creating a repository of candidate questions to help structure the quiz. These questions were mainly taken from comprehension quizzes given in the _Quantum Computation_ course at the University of Patras (academic year 2023-24, lecturers: Sgarbas, K. and Kounavis, P.). A subset of these questions was then selected and adapted to the content of the game. The quiz consists of 3 theoretical questions and 9 questions regarding quantum gates actions. Each correct answer awards one point, while each incorrect answer gives zero points. The theoretical questions relate to the theory presented to the player via slides. The quantum gates related questions ask the player to calculate the new state of a qubit after the gate has been applied to it, or ask the player to select the appropriate gate to perform a quantum calculation. The questions are designed to prove that the player has learned to use -some of- the gates introduced in chapter 4 and understands the concept of superposition.
 
-As suggested by _Cooksey and Jonsson_ [-@cooksey-jonsson-pre-post] and _Stratton_ [-@stratton-pre-post], participants were asked to complete the Pre-test before interacting with the game to get an overview of their previous knowledge. Then, they were asked to complete the tutorial level and then complete the 30 levels of the game and retake the quiz. Players were given as much time as they wanted and were asked to record how long it took to complete the game, from the moment they started playing the tutorial level until the moment they completed the last level. The time spent on the quiz was not included in this measurement. There was no further guidance on how the game works and no external help was provided to solve the levels. The _Normalized Gain_ metric was used to measure efficiency, as suggested by _Cooksey and Jonsson_ [-@cooksey-jonsson-pre-post] and _McKagan, Sayre and Madsen_ [-@kagan-normalized-gain].
+As suggested by _Cooksey and Jonsson_ [-@cooksey-jonsson-pre-post] and _Stratton_ [-@stratton-pre-post], participants were asked to complete the Pre Test before interacting with the game to get an overview of their previous knowledge. Then, they were asked to complete the tutorial level and then complete the 30 levels of the game and retake the quiz. Players were given as much time as they wanted and were asked to record how long it took to complete the game, from the moment they started playing the tutorial level until the moment they completed the last level. The time spent on the quiz was not included in this measurement. There was no further guidance on how the game works and no external help was provided to solve the levels. The _Normalized Gain_ metric was used to measure efficiency, as suggested by _Cooksey and Jonsson_ [-@cooksey-jonsson-pre-post] and _McKagan, Sayre and Madsen_ [-@kagan-normalized-gain].
 
 ### Evaluation of the Interactive System
 
@@ -70,9 +70,9 @@ $$
 
 Where:
 
-* $pre\%$: player's score in the quiz before playing the game (Pre test)
+* $pre\%$: player's score in the quiz before playing the game (Pre Test)
 
-* $post\%$: player's score in the quiz after playing the game (Post test)
+* $post\%$: player's score in the quiz after playing the game (Post Test)
 
 * $100\% - pre\%$: maximum possible gain, since score is capped at 100%
 
@@ -84,9 +84,9 @@ $$
 
 Where:
 
-* $\langle pre\% \rangle$: average score of all players in the quiz before playing the game (Pre test)
+* $\langle pre\% \rangle$: average score of all players in the quiz before playing the game (Pre Test)
 
-* $\langle post\% \rangle$: average score of all players in the quiz after playing the game (Post test)
+* $\langle post\% \rangle$: average score of all players in the quiz after playing the game (Post Test)
 
 ![Score Improvement.](chapter-7/image002_scores.png){#fig:fig702 height=40%}
 
@@ -150,7 +150,11 @@ These findings will be compared with the focus group findings.
 
 ### Focus Group
 
-The focus group findings align closely with the results of the GUESS-18 questionnaire, highlighting both strengths and areas for improvement in the game experience. The high scores on the _Visual Aesthetics_ and _Enjoyment_ subscales of the questionnaire are consistent with the focus group feedback, where players praised the simplicity of the mechanics and the ease of navigation. Similarly, the _Usability_ subscale score aligns with the focus group’s positive remarks about the flawless state of the application and predictable navigation. However, the relatively low scores on _Play Engrossment_ and _Audio Aesthetics_ are echoed in the focus group’s suggestions to add background music and sound effects to enhance immersion. Additionally, the focus group’s request for more challenging puzzles and hints aligns with the moderate score on _Creative Freedom_, suggesting room for improvement in providing more engaging and dynamic gameplay. The high score on the _Personal Gratification_ subscale indicates that players felt satisfied and motivated by the game's reward mechanisms, such as unlocking new spaceships. This is consistent with the focus group feedback, where players agreed that the scoring system encouraged them to improve and that unlocking spaceships provided a sense of reward and motivation to continue playing. Both sources of feedback highlight the success of the incentive system in engaging players and maintaining their interest throughout the game. These findings collectively emphasize the game’s strengths while identifying actionable areas for refinement.
+The focus group findings align closely with the results of the GUESS-18 questionnaire, highlighting both strengths and areas for improvement in the game experience.
+
+The high scores on the _Visual Aesthetics_ and _Enjoyment_ subscales of the questionnaire are consistent with the focus group feedback, where players praised the simplicity of the mechanics and the ease of navigation. Similarly, the _Usability_ subscale score aligns with the focus group’s positive remarks about the flawless state of the application and predictable navigation. The high score on the _Personal Gratification_ subscale indicates that players felt satisfied and motivated by the game's reward mechanisms. This is consistent with the focus group findings, where players agreed that the incentive system encouraged them to improve and that unlocking spaceships provided a sense of reward and motivation to continue playing.
+
+On the other hand, the relatively low scores on _Play Engrossment_ and _Audio Aesthetics_ are echoed in the focus group’s suggestions to add background music and sound effects to enhance immersion. Additionally, the request for more challenging puzzles and hints aligns with the moderate score on _Creative Freedom_, suggesting room for improvement in providing more engaging and dynamic gameplay.
 
 In the following sections we will present the focus group findings by area.
 
@@ -190,4 +194,16 @@ In the following sections we will present the focus group findings by area.
 
 ## Conclusions
 
-TODO: sysxetish apotelesmatwn focus group me SUS kai GUESS-18
+Based on the feedback and data collected from the Pre-Post Tests, questionnaires and focus group, several conclusions can be drawn:
+
+1. The game is an effective learning tool and successfully introduces the basic concepts of quantum computing to university students. The difference between the Pre and Post test scores and the _Average Normalized Gain_ of 0.7 indicates a substantial improvement in the players' knowledge after playing the game.
+
+2. The average time it took players to complete the game - excluding the quiz - was 18 minutes. This is a good indication that the game is short and can be played during a university lecture or when the student has limited time.
+
+3. The game is enjoyable, and the players found the mechanics simple and casual. The navigation works well and is predictable. The state of the application was flawless and was updating correctly.
+
+4. The difficulty was advantageous for the target audience, but some players requested more difficult puzzles. The players agreed that the game is easy, intended for users with no experience around Quantum Computing.
+
+5. The incentive system used in the game was found to be motivating and encouraged players to improve.
+
+Overall, the evaluation process was successful and provided valuable feedback that will be used to improve the game in the future. The research objectives are met, and the game can be considered a successful educational tool. The game should be further expanded to include more levels, more complex puzzles, and additional features to enhance user experience and introduce more advanced concepts of quantum computing. The game should also be tested with a larger sample size to validate the findings.
