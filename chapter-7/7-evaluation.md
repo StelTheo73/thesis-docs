@@ -8,7 +8,7 @@ Building on the conceptual design and development process described in Chapter 6
 
 3. The game should be short and require no additional equipment beyond a mobile phone, making it an effective learning tool that can be utilized during a university lecture or when students have limited time.
 
-The evaluation process uses a mix of methods and is divided into two parts: the first part evaluates the learning outcome of the game, while the second part evaluates the interactive system and the game experience. The evaluation of the learning outcome is based on a Pre-Post Tests methodology, while the evaluation of the interactive system and game experience are based on questionnaires and a focus group. To evaluate the application as an interactive system used the _System Usability Scale_ questionnaire, while to evaluate the game experience we used the shortened version of the _Game User Experience Satisfaction Scale_ questionnaire, the _GUESS-18_.
+The evaluation process uses a mix of methods and is divided into two parts: the first part evaluates the learning outcome of the game, while the second part evaluates the interactive system and the game experience. The evaluation of the learning outcome is based on a Pre-Post Tests methodology, while the evaluation of the interactive system and game experience are based on questionnaires and a focus group. To evaluate the application as an interactive system, we used the _System Usability Scale_ questionnaire, while to evaluate the game experience we used the shortened version of the _Game User Experience Satisfaction Scale_ questionnaire, the _GUESS-18_.
 
 In addition to the aforementioned objectives, evaluating the application as an interactive system and as a game will allow us to determine whether the GBL mechanisms and elements we have incorporated into the game, namely:
 
@@ -22,11 +22,13 @@ In addition to the aforementioned objectives, evaluating the application as an i
 
 are effective and create an enjoyable gaming experience.
 
+Finally, we aimed to examine whether the application enhances information retention. To this end, we repeated the Post Test 2 weeks after the initial tests.
+
 _Figure 7.1_ shows the evaluation process we followed.
 
 ![Evaluation Process.](chapter-7/image001_evaluation_flow.png){#fig:fig701 height=50%}
 
-A group of undergraduate university students, totaling 20, volunteered to participate in the evaluation of the game, all of whom claimed to have a strong background in mathematics and knowledge of complex numbers.
+A group of undergraduate university students, totaling 23, volunteered to participate in the evaluation of the game, all of whom claimed to have a strong background in mathematics and knowledge of complex numbers.
 
 Quiz questions are available in the _Appendix B_ section of this thesis. Both SUS and GUESS-18 questionnaires are available in the _Appendix C_ section of this thesis.
 
@@ -50,9 +52,13 @@ After completing the SUS questionnaire, the participants were asked to answer th
 
 ### Focus Group
 
-8 out of 20 players from the fist phase participated in the focus group. The questions they were asked to discuss were related to 4 areas; _User Interface & User Experience_ (UI & UX), _Game Mechanics_, _Difficulty_ and _Scoring & Rewards_. They were also free to discuss with each other and comment on their overall experience of the application. The findings from the focus group will be used to improve the game in the future.
+A subset of 8 participants from the initial 23 players took part in the focus group. The discussion focused on four key areas: _User Interface & User Experience_ (UI & UX), _Game Mechanics_, _Difficulty_, and _Scoring & Rewards_. Participants were also encouraged to share their overall impressions of the application and engage in open discussions with one another. Insights gathered from the focus group will inform future improvements to the game. The questions they were asked to discuss were related to 4 areas; _User Interface & User Experience_ (UI & UX), _Game Mechanics_, _Difficulty_ and _Scoring & Rewards_. They were also free to discuss with each other and comment on their overall experience of the application. The findings from the focus group will be used to improve the game in the future.
 
 The focus group was conducted via Zoom meeting, lasted about 1 hour and was neither recorded nor transcribed. The focus group had no strict structure. The users were free to discuss each of the 4 areas tested for about 10 to 12 minutes per area under the supervision of the researcher who took notes. Follow-up questions were then asked for clarification. In addition, the supervisor encouraged individuals who were not participating as actively to share their views. [@rabiee-focus-group; @wilkinsos-focus-group]
+
+### Retention Test
+
+Two weeks after the first evaluation, the participants were asked to complete the same quiz they had completed in the first evaluation. A subset of 10 participants from the initial 23 players took part in this test. The aim of this test was to measure the retention of knowledge acquired through the game. The participants were asked to complete the quiz without playing the game again, and they were not given any additional information about the quiz or the game. The time spent on the quiz was not included in this measurement. The results of this test will be compared with the results of the first Pre Test to determine whether the game has a positive effect on information retention.
 
 ## Results
 
@@ -92,7 +98,7 @@ Where:
 
 ![Correlation between Initial and Final Scores.](chapter-7/image004_score_scatter.png){#fig:fig703 height=40%}
 
-In _Figure 7.2_ we can see the players' score in the quiz before playing the game (blue - left bars) and the players' score after they completed the game (orange - right bars). We can observe a significant improvement in players' scores after completing the game. For instance, the average player score before the game was close to 19% and after the game it was about 75%. This is an encouraging result and an indication that the game is effective as a learning tool.
+In _Figure 7.2_ we can see the players' score in the quiz before playing the game (blue - left bars) and the players' score after they completed the game (orange - right bars). We can observe a significant improvement in players' scores after completing the game. For instance, the average player score before the game was about 17% and after the game it was slightly above 75%. This is an encouraging result and an indication that the game is effective as a learning tool.
 
 Participants who scored above 90% had attended university courses in Physics and Computer Science, making them more familiar with concepts such as superposition, gates, and registers. The two participants with the lowest performance in the Post Test had the same level of mathematical knowledge as the others but had not attended courses in Physics or Computer Science. The remaining participants had the same level of mathematical knowledge and had attended Computer Science courses but did not have the same academic background in Physics as those who achieved a Post Test score above 90%.
 
@@ -192,6 +198,14 @@ In the following sections we will present the focus group findings by area.
 
 - Players agreed that they felt rewarded and motivated to keep playing by unlocking new spaceships as they progressed.
 
+### Retention Test
+
+![Retention Test Results.](chapter-7/image010_retention.png){#fig:fig708 height=40%}
+
+The results of the retention test are shown in _Figure 7.8_. The average score of the players in the retention test was about <>%, which is lower than the average score of 75% in the Post Test.
+
+ This indicates that the players retained most of the knowledge acquired through the game, but there was a slight decrease in performance over time. The average score of <>% is still significantly higher than the average score of 17% in the Pre Test, indicating that the game had a positive effect on information retention.
+
 ## Conclusions
 
 Based on the feedback and data collected from the Pre-Post Tests, questionnaires and focus group, several conclusions can be drawn:
@@ -206,4 +220,6 @@ Based on the feedback and data collected from the Pre-Post Tests, questionnaires
 
 5. The incentive system used in the game was found to be motivating and encouraged players to improve.
 
-Overall, the evaluation process was successful and provided valuable feedback that will be used to improve the game in the future. The research objectives are met, and the game can be considered a successful educational tool. The game should be further expanded to include more levels, more complex puzzles, and additional features to enhance user experience and introduce more advanced concepts of quantum computing. The game should also be tested with a larger sample size to validate the findings.
+6. The game had a positive effect on information retention, as indicated by the retention test results. The average score of <>% in the retention test is significantly higher than the average score of 17% in the Pre Test, indicating that players retained most of the knowledge acquired through the game.
+
+Overall, the evaluation process was successful and provided valuable feedback that will be used to improve the game in the future. The research objectives are met, and the game can be considered a successful educational tool, that also provides an enjoyable gaming experience and boosts information retention. The game should be further expanded to include more levels, more complex puzzles, and additional features to enhance user experience and introduce more advanced concepts of quantum computing. The game should also be tested with a larger sample size to validate the findings.
