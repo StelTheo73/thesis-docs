@@ -13,7 +13,7 @@
           Short duration.
         </li>
         <li>
-          Include a tool to measure understanding of the subject matter.
+          Include a tool to measure knowledge retention.
         </li>
       </ul>
     </li>

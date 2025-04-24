@@ -14,7 +14,7 @@ The game will be aimed at university students interested in quantum computing. F
 
 In addition, it is desirable that the game can be played at any time and in any place, without the need for equipment or a computer, simply by using their mobile phone. The third objective is that the user should be able to play even when they have limited time (e.g. traveling, waiting for public transport, etc.), so it should be light and take a short time to play.
 
-The fourth and final objective is to make the game suitable to be played in the context of a university lecture. The game could be distributed to students during the introductory lecture of the course, or it could be used as a tool to test their knowledge from a lecture - for example, whether they understand the operation of the basic quantum gates. For this reason, it should have features that test learners' knowledge, such as a quiz.
+The fourth and final objective is to make the game suitable to be played in the context of a university lecture, used as an educational tool. The game could be distributed to students during the introductory lecture of the course, or it could be used as a tool to measure their knowledge retention after a lecture - for example, whether they understand the operation of the basic quantum gates. For this reason, it should have features that measure learners' knowledge retention, such as a quiz.
 
 ## Thesis Structure
 

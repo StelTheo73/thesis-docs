@@ -28,7 +28,7 @@ _Figure 7.1_ shows the evaluation process we followed.
 
 ![Evaluation Process.](chapter-7/image001_evaluation_flow.png){#fig:fig701 height=50%}
 
-A group of undergraduate university students, totaling 23, volunteered to participate in the evaluation of the game, all of whom claimed to have a strong background in mathematics and knowledge of complex numbers.
+A group of undergraduate university students, totaling 23, volunteered to participate in the evaluation of the game, all of whom claimed to have a strong background in mathematics.
 
 Quiz questions are available in the _Appendix B_ section of this thesis. Both SUS and GUESS-18 questionnaires are available in the _Appendix C_ section of this thesis.
 
@@ -212,7 +212,7 @@ Based on the feedback and data collected from the Pre-Post Tests, questionnaires
 
 1. The game is an effective learning tool and successfully introduces the basic concepts of quantum computing to university students. The difference between the Pre and Post test scores and the _Average Normalized Gain_ of 0.7 indicates a substantial improvement in the players' knowledge after playing the game.
 
-2. The average time it took players to complete the game - excluding the quiz - was 18 minutes. This is a good indication that the game is short and can be played during a university lecture or when the student has limited time.
+2. The average time it took players to complete the game - excluding the quiz - was 18 minutes. This is a good indication that the game is short and can be played during a university lecture (as an educational tool) or when the student has limited time.
 
 3. The game is enjoyable, and the players found the mechanics simple and casual. The navigation works well and is predictable. The state of the application was flawless and was updating correctly.
 

@@ -28,7 +28,7 @@ The following section is based on _Plass, Homer, and Kinzer_ [-@plass_gbl_2015] 
 
 ### Game Mechanics
 
-Mechanics determine the genre of the game and are the key element in linking the educational process to the game. They describe the type of activities the learner has to repeat throughout the game and can be of two types; learning mechanics and assessment mechanic.
+Mechanics determine the genre of the game and are the key element in linking the educational process to the game. They describe the type of activities the learner has to repeat throughout the game and can be of two types; learning mechanics and assessment mechanics.
 
 ### Visual Aesthetic Design
 

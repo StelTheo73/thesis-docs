@@ -21,12 +21,14 @@ abstract-en: |+
     Quantum Computing is an emerging field that requires a deep understanding of fundamental principles of Quantum Mechanics, such as qubits, superposition, and quantum gates. This thesis presents the design and development of an educational mobile game aimed at introducing university students to the basics of Quantum Computing, as an alternative to traditional educational methods. The game employs Game-Based Learning (GBL) techniques to enhance engagement, retention, and comprehension through interactive puzzles. Developed using the Flutter framework, the game provides an accessible and flexible learning experience across different mobile platforms. The evaluation process, which included statistical analysis of a Pre-Post Test study and a Focus Group, demonstrated that the game successfully improved learners' understanding of quantum computing principles. The findings highlight the potential of Game-Based Learning in making abstract scientific concepts more approachable and enjoyable.
 keywords-el:
     - Μάθηση Βασισμένη στο Παιχνίδι
+    - Εκπαιδευτικό Παιχνίδι
     - Κβαντική Υπολογιστική
     - Κβαντική Μηχανική
     - Παιχνίδι για Κινητές Συσκευές
     - Flutter
 keywords-en:
     - Game-Based Learning
+    - Educational Game
     - Quantum Computing
     - Quantum Mechanics
     - Mobile Game
