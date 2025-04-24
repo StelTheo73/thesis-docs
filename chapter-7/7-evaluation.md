@@ -202,9 +202,7 @@ In the following sections we will present the focus group findings by area.
 
 ![Retention Test Results.](chapter-7/image010_retention.png){#fig:fig708 height=40%}
 
-The results of the retention test are shown in _Figure 7.8_. The average score of the players in the retention test was about <>%, which is lower than the average score of 75% in the Post Test.
-
- This indicates that the players retained most of the knowledge acquired through the game, but there was a slight decrease in performance over time. The average score of <>% is still significantly higher than the average score of 17% in the Pre Test, indicating that the game had a positive effect on information retention.
+The results of the retention test are shown in _Figure 7.8_. As mentioned in _Section 7.1.5_, 10 out of 23 participants took part in the retention test. The average score of the players in the retention test was 55%, which is lower than the average score of 75% in the Post Test. The average score of 55% is significantly higher than the average score of 17% in the Pre Test, indicating that players retained most of the knowledge acquired through the game.
 
 ## Conclusions
 
@@ -220,6 +218,6 @@ Based on the feedback and data collected from the Pre-Post Tests, questionnaires
 
 5. The incentive system used in the game was found to be motivating and encouraged players to improve.
 
-6. The game had a positive effect on information retention, as indicated by the retention test results. The average score of <>% in the retention test is significantly higher than the average score of 17% in the Pre Test, indicating that players retained most of the knowledge acquired through the game.
+6. The game had a positive effect on information retention, as indicated by the retention test results. The average score of 55% in the retention test is significantly higher than the average score of 17% in the Pre Test, indicating that players retained most of the knowledge acquired through the game.
 
 Overall, the evaluation process was successful and provided valuable feedback that will be used to improve the game in the future. The research objectives are met, and the game can be considered a successful educational tool, that also provides an enjoyable gaming experience and boosts information retention. The game should be further expanded to include more levels, more complex puzzles, and additional features to enhance user experience and introduce more advanced concepts of quantum computing. The game should also be tested with a larger sample size to validate the findings.
