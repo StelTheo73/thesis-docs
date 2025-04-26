@@ -6,8 +6,7 @@
   <ol>
     <li>Aimed at university students with no prior knowledge of Quantum Mechanics.</li>
     <li>Simple game mechanics and rules.</li>
-    <li>Low complexity.</li>
-    <li>Suitable to be played in the context of a university lecture.
+    <li>Suitable to be used as an educational tool, in the context of a university lecture.
       <ul class='list-abc'>
         <li>
           Short duration.

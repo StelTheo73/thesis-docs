@@ -4,7 +4,7 @@
 
 <div class='section-wrapper container'>
     <div
-      class='image-wrapper item-1-1 white-shadow'
+      class='image-wrapper item-1-1 grey-shadow bg-white-smoke'
       v-click='+1'
       v-motion
       :initial="{ x: -80 }"
@@ -33,13 +33,13 @@
     </div>
     <hr class='item-2'/>
     <div
-      class='image-wrapper item-3-1 white-shadow'
+      class='image-wrapper item-3-1 grey-shadow bg-white-smoke'
       v-click='+2'
       v-motion
       :initial="{ y: -100 }"
       :enter="{ y: 0 }"
     >
-      <img src='../assets/flutter.png' width='200'/>
+      <img src='../assets/flutter-black.png' width='200'/>
       <span id="plus-sign">+</span>
       <img src='../assets/flame.png' width='200'/>
     </div>
@@ -58,7 +58,7 @@
           Flame Game Engine is built on top of Flutter, so we don't have to use a third-party game engine.
         </li>
         <li>
-          We found Dart libraries that can be used to simulate quantum circuits and perform quantum computing operations.
+          We found Dart libraries that can be used to simulate quantum circuits.
         </li>
       </ul>
     </div>

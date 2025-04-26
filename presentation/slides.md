@@ -60,3 +60,13 @@ src: ./pages/page-08.md
 layout: pageBar
 src: ./pages/page-09.md
 ---
+
+---
+layout: pageBar
+src: ./pages/page-10.md
+---
+
+---
+layout: pageBar
+src: ./pages/page-11.md
+---

@@ -1,4 +1,4 @@
-# Application Definition
+# Application Presentation
 
 <p class='slide-subtitle'>Name, Objective and Main Elements</p>
 
@@ -15,10 +15,10 @@
         The game is a 2D puzzle and shooter game, where the player controls a spaceship that can move horizontally across the screen and shoot missiles upwards.
       </p>
       <p>
-        The objective of the game is to destroy all the asteroids that are on the screen.
+        The objective of each level is to destroy all the asteroids on the screen.
       </p>
     </div>
-    <hr class='divider white-shadow' v-click='+1'/>
+    <hr class='divider' v-click='+1'/>
     <div
       class='section-2'
       v-click='+1'
@@ -30,7 +30,7 @@
         The game has 30 levels, each level has a different number of asteroids and different gates available.
       </p>
     </div>
-    <hr class='divider white-shadow' v-click='+1'/>
+    <hr class='divider' v-click='+1'/>
     <div
       class='section-3'
       v-click='+2'
@@ -43,7 +43,7 @@
       </p>
     </div>
   </div>
-  <div class='image-wrapper white-shadow'>
+  <div class='image-wrapper grey-shadow'>
     <img src='../assets/level-30.png'/>
   </div>
 </div>

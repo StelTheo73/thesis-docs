@@ -7,7 +7,6 @@
 hr.divider {
   width: 100%;
   height: 1px;
-  background-color: white;
   margin: 2em 0;
 }
 
@@ -43,6 +42,23 @@ ol.ol-flex {
   justify-content: space-around;
 }
 
+.bg-white-smoke {
+  background-color: whitesmoke;
+}
+
 .white-shadow {
+  box-shadow: 3px 3px 12px 4px rgba(255, 255, 255, 0.3);
+}
+
+.grey-shadow {
+  box-shadow: 3px 3px 12px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Alternate shadows on dark theme */
+.dark .white-shadow {
+  box-shadow: 3px 3px 12px 4px rgba(0, 0, 0, 0.3);
+}
+
+.dark .grey-shadow {
   box-shadow: 3px 3px 12px 4px rgba(255, 255, 255, 0.3);
 }

@@ -11,7 +11,7 @@
         <li v-click>Majority of existing games are Puzzle games</li>
       </ul>
     </li>
-    <li v-click='+4'><p>GBL Elements used in other educational games</p>
+    <li v-click='+4'><p>GBL Elements and Techniques</p>
       <ul>
         <li v-click='+5'>Adaptivity</li>
         <li v-click='+5'>Graceful Failure</li>
@@ -24,7 +24,7 @@
   </ol>
 </div>
 
-<div v-click='+3' class='img-wrapper white-shadow'>
+<div v-click='+3' class='img-wrapper grey-shadow'>
   <img src='../assets/games_per_genre.png' width='450'/>
 </div>
 

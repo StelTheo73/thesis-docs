@@ -12,16 +12,16 @@
         <li v-click='+2'>Superposition</li>
       </ul>
     </li>
-    <li v-click='+3'><p>Limited number of playable educational games for mobile devices</p>
+    <li ><p>Limited number of playable educational games for mobile devices</p>
       <ul>
-        <li v-click='+4'>Only 1 of the mobile games is still playable</li>
-        <li v-click='+5'>Strengthens our desire to create a mobile game</li>
+        <li>Only 1 of the mobile games is still playable</li>
+        <li>Strengthens our desire to create a mobile game</li>
       </ul>
     </li>
   </ol>
 </div>
 
-<div v-click='+3' class='img-wrapper white-shadow'>
+<div v-click='+3' class='img-wrapper grey-shadow'>
   <img src='../assets/games_per_platform.png' width='450'/>
 </div>
 
