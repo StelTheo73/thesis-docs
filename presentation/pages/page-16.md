@@ -1,18 +1,16 @@
 # Evaluation
 
-<p class='slide-subtitle'>Pre-Post Tests results (1/4)</p>
+<p class='slide-subtitle'>Pre-Post Tests results (2/4)</p>
 
 <div class='section-wrapper'>
   <div class='img-wrapper grey-shadow rounded-md'>
-    <img src='../assets/images/evaluation/score.png' class='rounded-md'/>
+    <img src='../assets/images/evaluation/gain.png' class='rounded-md'/>
   </div>
   <div class="text-wrapper">
     <ul class='flex-list'>
       <li>
-        Significant improvement in quiz scores after playing the game.
-      </li>
-      <li>
-        Higher Post Test scores (90% and above) were linked to participants with strong background in Physics and Computer Science.
+        <em>Average Normalized Gain</em> of 0.7, indicates a substantial improvement<br>
+        (well above the 0.25 effectiveness threshold [L]).
       </li>
     </ul>
   </div>

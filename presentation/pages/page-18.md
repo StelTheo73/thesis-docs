@@ -1,18 +1,18 @@
 # Evaluation
 
-<p class='slide-subtitle'>Pre-Post Tests results (1/4)</p>
+<p class='slide-subtitle'>Pre-Post Tests results (4/4)</p>
 
 <div class='section-wrapper'>
   <div class='img-wrapper grey-shadow rounded-md'>
-    <img src='../assets/images/evaluation/score.png' class='rounded-md'/>
+    <img src='../assets/images/evaluation/duration_scatter.png' class='rounded-md'/>
   </div>
   <div class="text-wrapper">
     <ul class='flex-list'>
       <li>
-        Significant improvement in quiz scores after playing the game.
+        Weak positive correlation between completion time and final scores
       </li>
       <li>
-        Higher Post Test scores (90% and above) were linked to participants with strong background in Physics and Computer Science.
+        Average completion time of 18 minutes
       </li>
     </ul>
   </div>
