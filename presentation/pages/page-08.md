@@ -1,50 +1,26 @@
-# Application Presentation
+# Design and Development Process
 
-<p class='slide-subtitle'>Name, Objective and Main Elements</p>
+<p class='slide-subtitle'>Overview</p>
 
 <div class='section-wrapper'>
+  <div class='image-wrapper grey-shadow bg-white-smoke rounded-md'>
+    <img src='../assets/design-flow.png'/>
+  </div>
   <div class='text-wrapper'>
     <div class='section-1'>
       <p>
-        The application we developed is called <em><strong>Qubity</strong></em>.
+        The design and development process followed a waterfall model.
       </p>
       <p>
-        Qubity is inspired by the arcade video-game <em>Space Invaders</em>.
+        We started with the conceptual design, then created a wireframe for a game level, and then defined the application architecture.
       </p>
       <p>
-        The game is a 2D puzzle and shooter game, where the player controls a spaceship that can move horizontally across the screen and shoot missiles upwards.
+        After that, we implemented a prototype of the game, which was then tested and evaluated.
       </p>
       <p>
-        The objective of each level is to destroy all the asteroids on the screen.
+        The evaluation of the prototype led to the final design and development of the application.
       </p>
     </div>
-    <hr class='divider' v-click='+1'/>
-    <div
-      class='section-2'
-      v-click='+1'
-      v-motion
-      :initial="{ y: -80 }"
-      :enter="{ y: 0 }"
-    >
-      <p>
-        The game has 30 levels, each level has a different number of asteroids and different gates available.
-      </p>
-    </div>
-    <hr class='divider' v-click='+1'/>
-    <div
-      class='section-3'
-      v-click='+2'
-      v-motion
-      :initial="{ y: -80 }"
-      :enter="{ y: 0 }"
-    >
-      <p>
-        The player has to solve the puzzle by applying the correct gates to the register, in order to move the spaceship to the correct position and then shoot the missiles to destroy the asteroids.
-      </p>
-    </div>
-  </div>
-  <div class='image-wrapper grey-shadow rounded-xl'>
-    <img src='../assets/level-30.png' class='rounded-xl'/>
   </div>
 </div>
 
@@ -60,16 +36,16 @@
     padding: 0.5em;
     height: max-content;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-self: center;
+  }
+
+  ol > li > p {
+    font-size: larger;
+    text-decoration: underline;
   }
 
   .image-wrapper {
+    padding: 0.5em;
     height: max-content;
-  }
-
-  .image-wrapper img {
-    height: 480px;
-    width: 390px;
   }
 </style>

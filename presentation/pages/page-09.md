@@ -1,25 +1,37 @@
 # Design and Development Process
 
-<p class='slide-subtitle'>Overview</p>
+<p class='slide-subtitle'>Conceptual Design (1/2)</p>
 
 <div class='section-wrapper'>
   <div class='image-wrapper grey-shadow bg-white-smoke rounded-md'>
-    <img src='../assets/design-flow.png'/>
+    <img src='../assets/conceptual-design.png'/>
   </div>
   <div class='text-wrapper'>
     <div class='section-1'>
       <p>
-        The design and development process followed a waterfall model.
+        According to Kalmpourtzis (2018)[L], there are five elements to consider when designing an educational game: Pedagogy, Mechanics, Technology, Aesthetics, and Narratives.
       </p>
       <p>
-        We started with the conceptual design, then created a wireframe for a game level, and then defined the application architecture.
+        Having already chosen the technologies we will use, we proceeded with the design process around 3 dimensions: Pedagogy, Mechanics, and Aesthetics-Narratives.
       </p>
-      <p>
-        After that, we implemented a prototype of the game, which was then tested and evaluated.
-      </p>
-      <p>
-        The evaluation of the prototype led to the final design and development of the application.
-      </p>
+    </div>
+    <hr class='divider' v-click='+1'/>
+    <div class='section-2'
+      v-click='+1'
+      v-motion
+      :initial="{ y: -80 }"
+      :enter="{ y: 0 }"
+    >
+      <ol class='ol-flex'>
+        <li><p><strong>Pedagogy:</strong> Quantum Computing concepts to include in the game</p>
+          <ul>
+            <li>Quantum Bits</li>
+            <li>Quantum Registers</li>
+            <li>Quantum Gates: Pauli-X, Pauli-Y, Pauli-Z, Hadamard</li>
+            <li>Superposition</li>
+          </ul>
+        </li>
+      </ol>
     </div>
   </div>
 </div>
@@ -36,7 +48,12 @@
     padding: 0.5em;
     height: max-content;
     display: flex;
-    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section-2 {
+    display: flex;
   }
 
   ol > li > p {
@@ -47,5 +64,10 @@
   .image-wrapper {
     padding: 0.5em;
     height: max-content;
+  }
+
+  .image-wrapper img {
+    width: 550px;
+    height: 450px;
   }
 </style>

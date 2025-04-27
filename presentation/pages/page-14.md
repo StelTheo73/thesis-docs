@@ -1,55 +1,34 @@
 # Evaluation
 
-<p class='slide-subtitle'>Overview</p>
+<p class='slide-subtitle'>Methodology</p>
 
 <div class='section-wrapper'>
-  <p>image</p>
-  <p>Tools used for each objective</p>
-  <p>Flow</p>
+  <h2>The evaluation process consists of a mix of methods:</h2>
+  <ul class='flex-list'>
+        <li>Pre-Post Tests [L]: Evaluation of learning outcome (23 participants)</li>
+        <li>System Usability Scale Questionnaire [L]: Evaluation of the game as an interactive system (15 participants)</li>
+        <li>Game User Experience Satisfaction Scale [L]: Evaluation of the game experience (15 participants)</li>
+        <li>Focus Group [L]: Qualitative feedback & Confirmation of questionnaire results (8 participants)</li>
+        <li>Post Test Repetition: Evaluation of knowledge retention (10 participants)</li>
+  </ul>
+  <hr v-click='+1' class="divider"/>
+  <p v-click='+1'>
+    To measure the effectiveness of the game as a learning tool, we used the <em>Average Normalized Gain</em> metric [L]:
+  </p>
+  <div v-click='+1' class='img-wrapper grey-shadow bg-white-smoke rounded-md'>
+    <img src='../assets/average_gain.png' class='rounded-md'/>
+  </div>
 </div>
 
-<!-- <div class='section-wrapper'>
-  <ol class='ol-flex'>
-    <li><p>Genre choice: Puzzle Game</p>
-      <ul>
-        <li v-click>Have simple mechanics and rules</li>
-        <li v-click>Information retention boost</li>
-        <li v-click>Majority of existing games are Puzzle games</li>
-      </ul>
-    </li>
-    <li v-click='+4'><p>GBL Elements and Techniques</p>
-      <ul>
-        <li v-click='+5'>Adaptivity</li>
-        <li v-click='+5'>Graceful Failure</li>
-        <li v-click='+6'>Incentive System</li>
-        <li v-click='+6'>Information Visualization with interactive graphic elements</li>
-        <li v-click='+7'>Musical Score</li>
-        <li v-click='+7'>Narratives</li>
-      </ul>
-    </li>
-  </ol>
-</div> -->
-
-<!-- <li v-click><p>Participants:</p>
-  <ul>
-    <li>23 university students</li>
-    <li>The game is enjoyable, simple and doesn't distract the students from the learning objective</li>
-    <li>The game duration is short, so it can e utilized as a learning tool in the context of a university lecture</li>
-    <li>The GBL elements used are effective and create an enjoyable gaming experience</li>
-  </ul>
-</li> -->
-
 <style>
-  ol > li > p {
-    font-weight: bold;
-    font-size: larger;
-    text-decoration: underline;
+  h2 {
+    margin-bottom: 0.5em;
   }
 
   .img-wrapper {
     width: max-content;
     position: absolute;
-    left: 10%;
-    bottom: 9%;
+    left: 30%;
+    padding: 0.5em;
   }
 </style>
