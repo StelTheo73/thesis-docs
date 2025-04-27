@@ -24,8 +24,8 @@
   </ol>
 </div>
 
-<div v-click='+3' class='img-wrapper grey-shadow'>
-  <img src='../assets/games_per_genre.png' width='450'/>
+<div v-click='+3' class='img-wrapper grey-shadow rounded-md'>
+  <img src='../assets/games_per_genre.png' class='rounded-md'/>
 </div>
 
 <style>
@@ -40,5 +40,9 @@
     position: absolute;
     left: 10%;
     bottom: 9%;
+  }
+
+  img {
+    width: 450px;
   }
 </style>

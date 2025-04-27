@@ -43,8 +43,8 @@
       </p>
     </div>
   </div>
-  <div class='image-wrapper grey-shadow'>
-    <img src='../assets/level-30.png'/>
+  <div class='image-wrapper grey-shadow rounded-xl'>
+    <img src='../assets/level-30.png' class='rounded-xl'/>
   </div>
 </div>
 
@@ -65,13 +65,11 @@
   }
 
   .image-wrapper {
-    border-radius: 1em;
     height: max-content;
   }
 
   .image-wrapper img {
     height: 480px;
     width: 390px;
-    border-radius: 1em;
   }
 </style>

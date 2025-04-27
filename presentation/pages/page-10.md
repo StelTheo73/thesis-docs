@@ -3,7 +3,7 @@
 <p class='slide-subtitle'>Conceptual Design (1/2)</p>
 
 <div class='section-wrapper'>
-  <div class='image-wrapper grey-shadow bg-white-smoke'>
+  <div class='image-wrapper grey-shadow bg-white-smoke rounded-md'>
     <img src='../assets/conceptual-design.png'/>
   </div>
   <div class='text-wrapper'>
@@ -62,7 +62,6 @@
   }
 
   .image-wrapper {
-    border-radius: 1em;
     padding: 0.5em;
     height: max-content;
   }

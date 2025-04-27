@@ -4,7 +4,7 @@
 
 <div class='section-wrapper container'>
     <div
-      class='image-wrapper item-1-1 grey-shadow bg-white-smoke'
+      class='image-wrapper item-1-1 grey-shadow bg-white-smoke rounded-md'
       v-click='+1'
       v-motion
       :initial="{ x: -80 }"
@@ -33,7 +33,7 @@
     </div>
     <hr class='item-2'/>
     <div
-      class='image-wrapper item-3-1 grey-shadow bg-white-smoke'
+      class='image-wrapper item-3-1 grey-shadow bg-white-smoke rounded-md'
       v-click='+2'
       v-motion
       :initial="{ y: -100 }"
@@ -87,7 +87,6 @@
     justify-content: center;
     align-items: center;
     padding: 1em;
-    border-radius: 1em;
     height: 180px;
   }
 
