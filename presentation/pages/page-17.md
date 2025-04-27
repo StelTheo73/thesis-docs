@@ -11,9 +11,6 @@
       <li>
         Moderate positive correlation between initial scores and final scores.
       </li>
-      <li>
-        High variance can be explained by the participants' educational background.
-      </li>
     </ul>
   </div>
 </div>
