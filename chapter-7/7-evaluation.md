@@ -130,7 +130,7 @@ $$
 
 Where $N$ is the number of participants and $SUS_{i}$ is the SUS score of the _i-th_ participant.
 
-The SUS score of our application is 86.33, which is classified as _Excellent_ on _Bangor's_ adjective rating scale [-@bangor-sus] and corresponds to the highest grade, _A+_, on _Sauro-Lewis_ curved rating scale [-@sauro-sus; -@sauro-lewis-sus]. These results indicate that the application is highly usable and provides a positive user experience. The findings will be compared with the focus group findings.
+The SUS score of our application is 86.33, which is classified as _Excellent_ on the _Bangor adjective rating scale_ [-@bangor-sus] and corresponds to the highest grade, _A+_, on the _Sauro- curved rating scale_ [-@sauro-sus; -@sauro-lewis-sus]. These results indicate that the application is highly usable and provides a positive user experience. The findings will be compared with the focus group findings.
 
 ### Game Experience
 
@@ -146,7 +146,7 @@ The game scored 6 on the _Usability_ subscale, indicates that the game was easy 
 
 Furthermore, the score on the _Personal Gratification_ subscale, which is very close to 6, indicates that players felt satisfied playing the game, which is consistent with the high score on the _Enjoyment_ subscale, while indicating that the game's incentive system was effective.
 
-The score for the _Creative Freedom_ subscale (5.4) is satisfactory, as players were able to choose how to solve the game's problems, which is consistent with the approach of the cute failure mechanism incorporated into the game. The score for the _Narratives_ subscale (5.3) indicates that players found the stories incorporated into the games useful, but could be more interesting and add more value to the game.
+The score for the _Creative Freedom_ subscale (5.4) is satisfactory, as players were able to choose how to solve the game's problems, which is consistent with the approach of the graceful failure mechanism incorporated into the game. The score for the _Narratives_ subscale (5.3) indicates that players found the stories incorporated into the games useful, but could be more interesting and add more value to the game.
 
 A relatively lower score on _Play Engrossment_ subscale (3.9) indicates that players were not fully immersed or focused on the gameplay. This could be an area for improvement, perhaps by enhancing the challenge or adding more dynamic elements.
 
