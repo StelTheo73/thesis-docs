@@ -1,6 +1,6 @@
 # Evaluation
 
-<p class='slide-subtitle'>Pre-Post Tests results (4/4)</p>
+<p class='slide-subtitle'>GUESS-18 Questionnaire results</p>
 
 <div class='section-wrapper'>
 
@@ -8,13 +8,13 @@
     <ul class='flex-list'>
       <h2>✅ Strengths</h2>
       <li>
-        <strong>Visual Aesthetics (6.4) & Enjoyment (6.2):</strong> enjoyable and visually appealing
+        <strong>Visual Aesthetics (6.4) & Enjoyment (6.2):</strong> enjoyable and visually appealing.
       </li>
       <li>
-        <strong>Usability (6):</strong> ease of use and navigation
+        <strong>Usability (6):</strong> ease of use and navigation.
       </li>
       <li>
-        <strong>Personal Gratification (~6) & Creative Freedom (5.4):</strong> sense of accomplishment and creativity
+        <strong>Personal Gratification (~6) & Creative Freedom (5.4):</strong> sense of accomplishment and creativity.
       </li>
     </ul>
   </div>
@@ -25,14 +25,14 @@
     <ul class='flex-list'>
       <h2>⛔ Weak Spots</h2>
       <li>
-        <strong>Narratives (5.3):</strong> storytelling is good, but could be improved
+        <strong>Narratives (5.3):</strong> storytelling is good, but could be improved.
       </li>
       <!-- I placed narratives at weak spots because some players asked for more information, especially regarding superposition -->
       <li>
-        <strong>Player Engrossment (3.9):</strong> players were not fully focused on the game
+        <strong>Player Engrossment (3.9):</strong> players were not fully focused on the game.
       </li>
       <li>
-        <strong>Social Connectivity (3.9) & Audio Aesthetics (1):</strong> expected, since the game is single-player and has no audio
+        <strong>Social Connectivity (3.9) & Audio Aesthetics (1):</strong> expected, since the game is single-player and has no audio.
       </li>
     </ul>
   </div>

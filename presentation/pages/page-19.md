@@ -1,6 +1,6 @@
 # Evaluation
 
-<p class='slide-subtitle'>System Usability Scale Questionnaire results</p>
+<p class='slide-subtitle'>SUS Questionnaire results</p>
 
 <div class='section-wrapper'>
   <ul class='flex-list'>

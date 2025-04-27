@@ -1,6 +1,6 @@
 # Evaluation
 
-<p class='slide-subtitle'>Results (1/x)</p>
+<p class='slide-subtitle'>Pre-Post Test results (3/4)</p>
 
 <div class='section-wrapper'>
   <div class='img-wrapper grey-shadow rounded-md'>
