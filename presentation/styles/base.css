@@ -21,6 +21,10 @@ ol > li {
   padding: 0.5em;
 }
 
+ul.none {
+  list-style: none;
+}
+
 ul.list-abc {
   list-style: lower-latin;
 }
@@ -61,4 +65,18 @@ ol.ol-flex {
 
 .dark .grey-shadow {
   box-shadow: 3px 3px 12px 4px rgba(255, 255, 255, 0.3);
+}
+
+ul.none li {
+  margin: 0em;
+}
+
+li.check::before {
+  padding-right: 0.5em;
+  content: '✅';
+}
+
+li.warn::before {
+  padding-right: 0.5em;
+  content: '⚠️';
 }

@@ -4,16 +4,22 @@
 
 <div class='section-wrapper'>
 
-  <div class="text-wrapper">
-    <ul class='flex-list'>
-      <h2>✅ Strengths</h2>
-      <li>
+  <div
+    class='text-wrapper grey-shadow rounded-md'
+    v-click='+1'
+    v-motion
+    :initial="{ x: +80 }"
+    :enter="{ x: 0 }"
+  >
+    <ul class='flex-list none'>
+      <h2>Strengths</h2>
+      <li class='check'>
         <strong>Visual Aesthetics (6.4) & Enjoyment (6.2):</strong> enjoyable and visually appealing.
       </li>
-      <li>
+      <li class='check'>
         <strong>Usability (6):</strong> ease of use and navigation.
       </li>
-      <li>
+      <li class='check'>
         <strong>Personal Gratification (~6) & Creative Freedom (5.4):</strong> sense of accomplishment and creativity.
       </li>
     </ul>
@@ -21,17 +27,23 @@
   <div class='img-wrapper grey-shadow rounded-md'>
     <img src='../assets/images/evaluation/guess.png' class='rounded-md'/>
   </div>
-  <div class="text-wrapper">
-    <ul class='flex-list'>
-      <h2>⛔ Weak Spots</h2>
-      <li>
+  <div
+    class='text-wrapper grey-shadow rounded-md'
+    v-click='+1'
+    v-motion
+    :initial="{ x: -80 }"
+    :enter="{ x: 0 }"
+  >
+    <ul class='flex-list none'>
+      <h2>Weak Spots</h2>
+      <li class='warn'>
         <strong>Narratives (5.3):</strong> storytelling is good, but could be improved.
       </li>
       <!-- I placed narratives at weak spots because some players asked for more information, especially regarding superposition -->
-      <li>
+      <li class='warn'>
         <strong>Player Engrossment (3.9):</strong> players were not fully focused on the game.
       </li>
-      <li>
+      <li class='warn'>
         <strong>Social Connectivity (3.9) & Audio Aesthetics (1):</strong> expected, since the game is single-player and has no audio.
       </li>
     </ul>
@@ -49,14 +61,17 @@
 
   .img-wrapper {
     max-width: 600px;
-    height: fit-content;
+    height: 350px;
+    display: flex;
+    justify-content: center;
   }
 
   .text-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 450px;
-    max-width: 280px;
+    max-height: 350px;
+    max-width: 350px;
+    padding: 1em;
   }
 </style>
