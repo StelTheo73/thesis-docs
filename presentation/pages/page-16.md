@@ -10,7 +10,7 @@
     <ul class='flex-list'>
       <li>
         <em>Average Normalized Gain</em> of 0.7, indicates a substantial improvement<br>
-        (well above the 0.25 effectiveness threshold [L]).
+        (well above the 0.25 effectiveness threshold <Link to='23'>[3]</Link>).
       </li>
     </ul>
   </div>

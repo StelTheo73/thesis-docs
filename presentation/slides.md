@@ -125,3 +125,20 @@ src: ./pages/page-21.md
 layout: pageBar
 src: ./pages/page-22.md
 ---
+
+<!-- References ================ -->
+<!-- =========================== -->
+---
+layout: pageBar
+src: ./pages/page-23.md
+---
+
+---
+layout: pageBar
+src: ./pages/page-24.md
+---
+
+---
+layout: pageBar
+src: ./pages/page-25.md
+---
