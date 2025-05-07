@@ -133,7 +133,7 @@ $$
 
 Where $N$ is the number of participants and $SUS_{i}$ is the SUS score of the _i-th_ participant.
 
-The SUS score of our application is 86.33, which is classified as _Excellent_ on the _Bangor adjective rating scale_ [-@bangor-sus] and corresponds to the highest grade, _A+_, on the _Sauro- curved rating scale_ [-@sauro-sus; -@sauro-lewis-sus]. These results indicate that the application is highly usable and provides a positive user experience. The findings will be compared with the focus group findings.
+The SUS score of our application is 86.33, which is classified as _Excellent_ on the _Bangor adjective rating scale_ [-@bangor-sus] and corresponds to the highest grade, _A+_, on the _Sauro-Lewis curved rating scale_ [-@sauro-sus; -@sauro-lewis-sus]. These results indicate that the application is highly usable and provides a positive user experience. The findings will be compared with the focus group findings.
 
 ### Game Experience
 
@@ -223,4 +223,6 @@ Based on the feedback and data collected from the Pre-Post Tests, questionnaires
 
 6. The game had a positive effect on information retention, as indicated by the retention test results. The average score of 55% in the retention test is significantly higher than the average score of 17% in the Pre Test, indicating that players retained most of the knowledge acquired through the game.
 
-Overall, the evaluation process was successful and provided valuable feedback that will be used to improve the game in the future. The research objectives are met, and the game can be considered a successful educational tool, that also provides an enjoyable gaming experience and boosts information retention. The game should be further expanded to include more levels, more complex puzzles, and additional features to enhance user experience and introduce more advanced concepts of quantum computing. The game should also be tested with a larger sample size to validate the findings.
+7. The application is highly usable and provides a positive user experience, as indicated by the SUS score of 86.33, which is classified as _Excellent_ on the _Bangor adjective rating scale_ and corresponds to the highest grade, _A+_, on the _Sauro-Lewis curved rating scale_. This finding is also confirmed by the Focus Group feedback and the high score on the _Usability_ subscale of the GUESS-18 questionnaire.
+
+8. The game experience was positive, with high scores on the _Visual Aesthetics_, _Enjoyment_, _Usability_ and _Personal Gratification_ and average scores on _Creative Freedom_ and _Narratives_ subscales of the GUESS-18 questionnaire. The results where confirmed by the Focus Group findings.
