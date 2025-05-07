@@ -76,9 +76,9 @@ $$
 
 Where:
 
-* $pre\%$: player's score in the quiz before playing the game (Pre Test)
+* $pre\%$: player\'s score in the quiz before playing the game (Pre Test)
 
-* $post\%$: player's score in the quiz after playing the game (Post Test)
+* $post\%$: player\'s score in the quiz after playing the game (Post Test)
 
 * $100\% - pre\%$: maximum possible gain, since score is capped at 100%
 
@@ -98,7 +98,7 @@ Where:
 
 ![Correlation between Pre Test and Post Test Scores.](chapter-7/image004_score_scatter.png){#fig:fig703 height=40%}
 
-In _Figure 7.2_ we can see the players' score in the quiz before playing the game (blue - left bars) and the players' score after they completed the game (orange - right bars). We can observe a significant improvement in players' scores after completing the game. For instance, the average player score before the game was about 17% and after the game it was slightly above 75%. This is an encouraging result and an indication that the game is effective as a learning tool.
+In _Figure 7.2_ we can see the players\' score in the quiz before playing the game (blue - left bars) and the players\' score after they completed the game (orange - right bars). We can observe a significant improvement in players\' scores after completing the game. For instance, the average player score before the game was about 17% and after the game it was slightly above 75%. This is an encouraging result and an indication that the game is effective as a learning tool.
 
 Participants who scored above 90% had attended university courses in Physics and Computer Science, making them more familiar with concepts such as superposition, gates, and registers. The two participants with the lowest performance in the Post Test had the same level of mathematical knowledge as the others but had not attended courses in Physics or Computer Science. The remaining participants had the same level of mathematical knowledge and had attended Computer Science courses but did not have the same academic background in Physics as those who achieved a Post Test score above 90%.
 
@@ -110,7 +110,7 @@ The average time it took the players to complete the game was 18 minutes. We the
 
 ![Normalized Gain.](chapter-7/image003_gain.png){#fig:fig705 height=40%}
 
-The _Average Normalized Gain_ ($\langle g \rangle$) of 0.7 indicates a substantial improvement in the players' knowledge after playing the game. According to the literature, an average gain above 0.25 is considered effective [@cooksey-jonsson-pre-post], making this result particularly significant. This demonstrates the game's effectiveness as an educational tool and highlights its potential to significantly enhance learning outcomes.
+The _Average Normalized Gain_ ($\langle g \rangle$) of 0.7 indicates a substantial improvement in the players\' knowledge after playing the game. According to the literature, an average gain above 0.25 is considered effective [@cooksey-jonsson-pre-post], making this result particularly significant. This demonstrates the game\'s effectiveness as an educational tool and highlights its potential to significantly enhance learning outcomes.
 
 
 Finally, we performed a t-test^[https://www.statskingdom.com/paired-t-test-calculator.html] to compare the Pre Test and Post Test Scores. The Null Hypothesis ($H_0$) states that there is no significant difference between the two means, while the Alternative Hypothesis ($H_1$) states that there is a significant difference. The t-test results in a $t-value$ of $15.591$ and a $p-value$ of less than $0.001$ for a Significance Level $a = 0.05$, indicating that we can reject the Null Hypothesis with high confidence and conclude that the difference between the means is statistically significant. This further supports the effectiveness of the game as a learning tool.
@@ -147,9 +147,9 @@ The high scores on the _Visual Aesthetics_ (6.4) and _Enjoyment_ (6.2) subscales
 
 The game scored 6 on the _Usability_ subscale, indicates that the game was easy to use and navigate, which is consistent with the SUS questionnaire score.
 
-Furthermore, the score on the _Personal Gratification_ subscale, which is very close to 6, indicates that players felt satisfied playing the game, which is consistent with the high score on the _Enjoyment_ subscale, while indicating that the game's incentive system was effective.
+Furthermore, the score on the _Personal Gratification_ subscale, which is very close to 6, indicates that players felt satisfied playing the game, which is consistent with the high score on the _Enjoyment_ subscale, while indicating that the game\'s incentive system was effective.
 
-The score for the _Creative Freedom_ subscale (5.4) is satisfactory, as players were able to choose how to solve the game's problems, which is consistent with the approach of the graceful failure mechanism incorporated into the game. The score for the _Narratives_ subscale (5.3) indicates that players found the stories incorporated into the games useful, but could be more interesting and add more value to the game.
+The score for the _Creative Freedom_ subscale (5.4) is satisfactory, as players were able to choose how to solve the game\'s problems, which is consistent with the approach of the graceful failure mechanism incorporated into the game. The score for the _Narratives_ subscale (5.3) indicates that players found the stories incorporated into the games useful, but could be more interesting and add more value to the game.
 
 A relatively lower score on _Play Engrossment_ subscale (3.9) indicates that players were not fully immersed or focused on the gameplay. This could be an area for improvement, perhaps by enhancing the challenge or adding more dynamic elements.
 
@@ -161,7 +161,7 @@ These findings will be compared with the focus group findings.
 
 The focus group findings align closely with the results of the GUESS-18 questionnaire, highlighting both strengths and areas for improvement in the game experience.
 
-The high scores on the _Visual Aesthetics_ and _Enjoyment_ subscales of the questionnaire are consistent with the focus group feedback, where players praised the simplicity of the mechanics and the ease of navigation. Similarly, the _Usability_ subscale score aligns with the focus group’s positive remarks about the flawless state of the application and predictable navigation. The high score on the _Personal Gratification_ subscale indicates that players felt satisfied and motivated by the game's reward mechanisms. This is consistent with the focus group findings, where players agreed that the incentive system encouraged them to improve and that unlocking spaceships provided a sense of reward and motivation to continue playing.
+The high scores on the _Visual Aesthetics_ and _Enjoyment_ subscales of the questionnaire are consistent with the focus group feedback, where players praised the simplicity of the mechanics and the ease of navigation. Similarly, the _Usability_ subscale score aligns with the focus group’s positive remarks about the flawless state of the application and predictable navigation. The high score on the _Personal Gratification_ subscale indicates that players felt satisfied and motivated by the game\'s reward mechanisms. This is consistent with the focus group findings, where players agreed that the incentive system encouraged them to improve and that unlocking spaceships provided a sense of reward and motivation to continue playing.
 
 On the other hand, the relatively low scores on _Play Engrossment_ and _Audio Aesthetics_ are echoed in the focus group’s suggestions to add background music and sound effects to enhance immersion. Additionally, the request for more challenging puzzles and hints aligns with the moderate score on _Creative Freedom_, suggesting room for improvement in providing more engaging and dynamic gameplay.
 
@@ -169,7 +169,7 @@ In the following sections we will present the focus group findings by area.
 
 #### User Interface & User Experience {.unnumbered}
 
-- One player requested an extra slide in the tutorial or in the first level, explaining how each level's score is calculated.
+- One player requested an extra slide in the tutorial or in the first level, explaining how each level\'s score is calculated.
 
 - One player requested that the _Next Level_ button should be a different color to others (on the level completion overlay).
 
@@ -211,7 +211,7 @@ The results of the retention test are shown in _Figure 7.8_. As mentioned in _Se
 
 Based on the feedback and data collected from the Pre-Post Tests, questionnaires and focus group, several conclusions can be drawn:
 
-1. The game is an effective learning tool and successfully introduces the basic concepts of quantum computing to university students. The difference between the Pre and Post test scores and the _Average Normalized Gain_ of 0.7 indicates a substantial improvement in the players' knowledge after playing the game. The t-test results also indicate that the difference between the means is statistically significant.
+1. The game is an effective learning tool and successfully introduces the basic concepts of quantum computing to university students. The difference between the Pre and Post test scores and the _Average Normalized Gain_ of 0.7 indicates a substantial improvement in the players\' knowledge after playing the game. The t-test results also indicate that the difference between the means is statistically significant.
 
 2. The average time it took players to complete the game - excluding the quiz - was 18 minutes. This is a good indication that the game is short and can be played during a university lecture (as an educational tool) or when the student has limited time.
 

@@ -8,13 +8,13 @@ Mobile games are digital games designed for mobile devices. They can utilize mob
 
 ## Platforms
 
-There are two dominant operating systems for mobile devices, Google's Android and Apple's iOS. iOS is used only on Apple devices while Android is used by several manufacturers.
+There are two dominant operating systems for mobile devices, Google\'s Android and Apple\'s iOS. iOS is used only on Apple devices while Android is used by several manufacturers.
 
 Developing applications on each of these platforms requires the use of different software development kits (SDKs). There are four approaches to mobile app development, which are compared below.
 
 ### Native Applications
 
-A native mobile application is a software application that is designed for a specific operating system platform [@techopedia_native_mobile_app]. Native mobile apps can only work on the platform that they are designed for, because they use the programming languages, frameworks and interfaces that are platform-specific. They run directly on the operating system, so they tend to perform better than other applications that require interaction with the device's operating system or hardware.
+A native mobile application is a software application that is designed for a specific operating system platform [@techopedia_native_mobile_app]. Native mobile apps can only work on the platform that they are designed for, because they use the programming languages, frameworks and interfaces that are platform-specific. They run directly on the operating system, so they tend to perform better than other applications that require interaction with the device\'s operating system or hardware.
 
 Because native apps are compiled directly into machine code, there have to be a different code base for each version of the same application (i.e. iOS or Android version). This is a requirement that significantly increases the cost and time of development and maintenance. [@aws_mobile_app_development; @techopedia_native_mobile_app]
 
@@ -50,11 +50,11 @@ _Java_ is a high-level, class-based, object-oriented programming language that i
 
 #### Kotlin {.unnumbered}
 
-_Kotlin_ is a high-level, statically typed, general-purpose programming language with type interference. _Kotlin_ is designed to interoperate fully with _Java_ and the JVM version of _Kotlin's_ standard library depends on the _Java_ class library. _Kotlin_, released by JetBrains in 2016, aims to address _Java’s_ shortcomings and enhance development productivity. [@wikipedia_kotlin; @medium_kotlin_vs_java_1]
+_Kotlin_ is a high-level, statically typed, general-purpose programming language with type interference. _Kotlin_ is designed to interoperate fully with _Java_ and the JVM version of _Kotlin\'s_ standard library depends on the _Java_ class library. _Kotlin_, released by JetBrains in 2016, aims to address _Java’s_ shortcomings and enhance development productivity. [@wikipedia_kotlin; @medium_kotlin_vs_java_1]
 
 #### Comparison {.unnumbered}
 
-Both _Java_ and _Kotlin_ compile to byte-code for the JVM, offering similar performance. _Java_ applications tend to consume more memory, while _Kotlin_ has more efficient memory management, with inline and extension functions that can reduce memory footprint. _Kotlin_ has better startup time due to type interference, leading to faster initialization. Both languages support multithreading, but _Kotlin's_ co-routines simplify concurrent code handling. _Kotlin_ offers modern features and capabilities for Android development while Java has stronger community support. [@geeksforgeeks_kotlin_vs_java; @medium_kotlin_vs_java_1; @medium_kotlin_vs_java_2]
+Both _Java_ and _Kotlin_ compile to byte-code for the JVM, offering similar performance. _Java_ applications tend to consume more memory, while _Kotlin_ has more efficient memory management, with inline and extension functions that can reduce memory footprint. _Kotlin_ has better startup time due to type interference, leading to faster initialization. Both languages support multithreading, but _Kotlin\'s_ co-routines simplify concurrent code handling. _Kotlin_ offers modern features and capabilities for Android development while Java has stronger community support. [@geeksforgeeks_kotlin_vs_java; @medium_kotlin_vs_java_1; @medium_kotlin_vs_java_2]
 
 ### iOS
 
@@ -74,7 +74,7 @@ _Objective-C_ has more complex and verbose syntax than _Swift_. It uses square b
 
 #### Flutter {.unnumbered}
 
-_Flutter_ is a user interface (UI) SDK developed and released by Google in 2017. It can be used to create natively compiled mobile, web and desktop apps from a single codebase. It uses its own rendering engine to draw widgets on the screen, unlike other UI frameworks that rely on the platform's rendering engine or manipulate the platform's built-in UI stack. _Flutter_ also provides access to native APIs. The _Dart_^[https://en.wikipedia.org/wiki/Dart_(programming_language)] programming language is used to write applications in _Flutter_ and the applications are compiled ahead-of-time (AOT) on all platforms except the web, where the code is transpiled to _JavaScript_ or _WebAssembly_. [@wikipedia_flutter; @jetbrains_cross_platform; @medium_cross_platform]
+_Flutter_ is a user interface (UI) SDK developed and released by Google in 2017. It can be used to create natively compiled mobile, web and desktop apps from a single codebase. It uses its own rendering engine to draw widgets on the screen, unlike other UI frameworks that rely on the platform\'s rendering engine or manipulate the platform\'s built-in UI stack. _Flutter_ also provides access to native APIs. The _Dart_^[https://en.wikipedia.org/wiki/Dart_(programming_language)] programming language is used to write applications in _Flutter_ and the applications are compiled ahead-of-time (AOT) on all platforms except the web, where the code is transpiled to _JavaScript_ or _WebAssembly_. [@wikipedia_flutter; @jetbrains_cross_platform; @medium_cross_platform]
 
 #### React-Native {.unnumbered}
 
@@ -82,7 +82,7 @@ _React-Native_ is a UI SDK released by Meta Platforms (formerly Facebook Inc.) i
 
 #### Comparison {.unnumbered}
 
-_React-Native_ is easier to learn, because it uses JavaScript as a programming language and has greater community support. On the other hand, _Flutter_ has better documentation and its command line interface (CLI) offers tools that allow Continuous Integration (CI) and Continuous Development (CD) to be created more easily than _React-Native_. _Flutter's_ CLI also offers the ability to automate application deployment in the app stores. Both frameworks feature hot-reload functionality, which allows developers to see changes instantly while modifying their code, without having to recompile.
+_React-Native_ is easier to learn, because it uses JavaScript as a programming language and has greater community support. On the other hand, _Flutter_ has better documentation and its command line interface (CLI) offers tools that allow Continuous Integration (CI) and Continuous Development (CD) to be created more easily than _React-Native_. _Flutter\'s_ CLI also offers the ability to automate application deployment in the app stores. Both frameworks feature hot-reload functionality, which allows developers to see changes instantly while modifying their code, without having to recompile.
 
 _Flutter_ uses its own on widgets and libraries and its own rendering engine and compiles directly to native code, while _React-Native_ depends on the underlying platform and uses multiple _JavaScript_ layers before compiling to native code. Also, _React-Native_ requires the developers to use third-party libraries, both for development and testing. These facts make _Flutter_ significantly faster than _React-Native_, while allowing _Flutter_ to use less CPU and memory, have a smaller package size and have more consistent UI across platforms. [@radix_flutter_vs_react_native; @medium_flutter_vs_react_native]
 

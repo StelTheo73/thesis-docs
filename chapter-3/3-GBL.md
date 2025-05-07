@@ -8,17 +8,17 @@ Game-based learning is a very old practice; it did not start with the advance of
 
 ## Benefits of Game Based Learning
 
-First, game-based learning is more appealing to children, as it appears to be a game on the surface, but in the background it has the ability to stimulate children's curiosity and capture their imagination. It is a friendlier and more accessible mean of engaging young learners with a subject than traditional methods, as it is fun and motivating.
+First, game-based learning is more appealing to children, as it appears to be a game on the surface, but in the background it has the ability to stimulate children\'s curiosity and capture their imagination. It is a friendlier and more accessible mean of engaging young learners with a subject than traditional methods, as it is fun and motivating.
 
 Game-based learning also has the ability to enhance critical thinking and problem-solving, as they involve human instinct to compete and desire to succeed. Because learners often compete with other players, they have to collaborate and share ideas. They must listen to and evaluate the opinions of other players and take into account the tactics of opposing teams.
 
-Games often require users to react quicker to stimuli, make critical decisions in a short period of time and combine knowledge acquired during the game to solve complex problems. Due to their repetitive and interactive nature, they have the ability to improve retention and increase the brain's capacity to memorize things.
+Games often require users to react quicker to stimuli, make critical decisions in a short period of time and combine knowledge acquired during the game to solve complex problems. Due to their repetitive and interactive nature, they have the ability to improve retention and increase the brain\'s capacity to memorize things.
 
 Also, as games are flexible, they can be adapted to different learning styles, levels and paces, meeting individual needs and can also give instant feedback about where gaps in knowledge are or provide specific tasks for the user to help cover these areas. In this way, they can further help learners to identify their strengths and weaknesses.
 
 Comparing games to traditional textbooks, although the latter have been used for many years with success, their revision and renewal takes a long time and is difficult and costly. The cost of reprinting, redistributing and recycling or storing old textbooks must be taken into account. Even in the case of digital textbooks, there is a significant cost of disposal and renewal. By contrast, games are very versatile, their rules can be adapted easily, and their content can be changed quickly to keep pace with technological and scientific progress.
 
-In summary, game-based learning offers a modern, engaging and flexible approach to education. It is a great way to improve learners' critical thinking and problem-solving skills, boost their creativity and keep them engaged and motivated. Also, unlike traditional textbooks, it can be quickly and cost-effectively updated, in order to reflect new information and technological progress.
+In summary, game-based learning offers a modern, engaging and flexible approach to education. It is a great way to improve learners\' critical thinking and problem-solving skills, boost their creativity and keep them engaged and motivated. Also, unlike traditional textbooks, it can be quickly and cost-effectively updated, in order to reflect new information and technological progress.
 
 [@bedrock_learning_game_based_learning; @game_designing_game_based_learning]
 
@@ -36,19 +36,19 @@ The Visual Aesthetic Design is the process of representing information with grap
 
 ### Musical Score
 
-The musical score includes the background sounds, the voices and haptic feedback (such as device vibration). These elements are used to direct player's attentions to important events, evoke emotions and provide feedback on player's actions.
+The musical score includes the background sounds, the voices and haptic feedback (such as device vibration). These elements are used to direct player\'s attentions to important events, evoke emotions and provide feedback on player\'s actions.
 
 ### Narrative Design
 
-Unlike traditional textbooks, games allow for nonlinear narratives that evolve based on player's choices. A narrative can be a dialogue, a cutscene, a voice-over or other in-game action. Narratives provide information for learning, characters, events, quests and game rules. Their aim is to increase the player's motivation to continue playing the game.
+Unlike traditional textbooks, games allow for nonlinear narratives that evolve based on player\'s choices. A narrative can be a dialogue, a cutscene, a voice-over or other in-game action. Narratives provide information for learning, characters, events, quests and game rules. Their aim is to increase the player\'s motivation to continue playing the game.
 
 ### Incentive System
 
-The incentive system consists of motivational elements that rewards player's efforts and encourages them. Examples of incentives systems are point systems, leaderboards, stars, badges trophies and any other kind of reward.
+The incentive system consists of motivational elements that rewards player\'s efforts and encourages them. Examples of incentives systems are point systems, leaderboards, stars, badges trophies and any other kind of reward.
 
 ### Adaptivity
 
-Adaptivity refers to the ability of the game to adjust to each learner's profile, enhancing engagement and learning outcomes. To achieve adaptivity, the game should provide mechanisms to modify game elements, such as problem complexity, guidance and feedback, according to player's needs.
+Adaptivity refers to the ability of the game to adjust to each learner\'s profile, enhancing engagement and learning outcomes. To achieve adaptivity, the game should provide mechanisms to modify game elements, such as problem complexity, guidance and feedback, according to player\'s needs.
 
 ### Graceful Failure
 

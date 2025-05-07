@@ -430,8 +430,8 @@ $if(lang)$
   % See issue https://github.com/reutenauer/polyglossia/issues/127
   \renewcommand*\familydefault{\sfdefault}
   $endif$
-  % Load polyglossia as late as possible: uses bidi with RTL langages (e.g. Hebrew, Arabic)  
- 
+  % Load polyglossia as late as possible: uses bidi with RTL langages (e.g. Hebrew, Arabic)
+
  %chris
   \newfontfamily\greekfont[Script=Greek]{$mainfont$}
   \newfontfamily\cjkfont[Script=CJK]{$CJKmainfont$}
@@ -454,7 +454,7 @@ $if(babel-newcommands)$
 $endif$
 \fi
 $endif$
-% custom solution for showing emoji flags: 
+% custom solution for showing emoji flags:
 % a: use twemojis
 \usepackage{twemojis}
 % b
@@ -602,13 +602,13 @@ $endfor$
 $endif$
 
 % chris:
-% need to show dpt title next to logo 
+% need to show dpt title next to logo
 $if(logo-stamp)$
 \usepackage{wrapfig}
 $endif$
 
 % chris:
-% for the certification page 
+% for the certification page
 \usepackage{multicol}
 
 
@@ -687,7 +687,7 @@ $endif$
   % This issue is already fixed (see https://github.com/silkeh/latex-sourcecodepro/pull/5) but the
   % fix is still unreleased.
   % TODO: Remove this workaround when the new version of sourcecodepro is released on CTAN.
- %chris: 
+ %chris:
   % \ifxetex
   %   \makeatletter
   %   \defaultfontfeatures[\ttfamily]
@@ -957,21 +957,21 @@ $if(titlepage)$
         \vskip 2em
         \noindent {\huge \textbf{\textsf{$title$}}}
         \vskip 0.5em
-        \noindent {\huge \textbf{\textsf{$title-en$}}}       
+        \noindent {\huge \textbf{\textsf{$title-en$}}}
 
         \vskip 1.5em
-        \noindent {\Large \textsf{\textbf{$for(author)$$author$$sep$, $endfor$}}\\ 
+        \noindent {\Large \textsf{\textbf{$for(author)$$author$$sep$, $endfor$}}\\
         \noindent {\Large \textsf{Αριθμός Μητρώου: $author-mnr$}}
         \vskip 0.5em
-        
+
         \vspace*{\fill}
         \textbf{Επιβλέπων\\}
-        \textsf{$supervisor$}  
-        \vskip 1em 
+        \textsf{$supervisor$}
+        \vskip 1em
         \textbf{Μέλη Επιτροπής Αξιολόγησης\\}
         \setstretch{1}
-        \textsf{$for(commitee)$$commitee$\\ $endfor$} 
-        \vskip 1em 
+        \textsf{$for(commitee)$$commitee$\\ $endfor$}
+        \vskip 1em
         \textsf{$place$\\$date$}}
 
   \end{center}
@@ -1015,7 +1015,7 @@ $endif$
     \textsf{Ο Διευθυντής του Τομέα} \\
     \vskip 3.5em
     \textsf{$director$} \\
-     
+
     % \blindtext\blindtext
     \end{multicols}
 \end{center}
@@ -1034,10 +1034,10 @@ $if(logo-stamp)$
 
   \large
 	\makebox[1cm][l]{}\\
-  \textbf{\uppercase{$school$}\\ \uppercase{Τμήμα $department$}} 
+  \textbf{\uppercase{$school$}\\ \uppercase{Τμήμα $department$}}
   $endif$
-  
-\normalsize 
+
+\normalsize
  \vspace{9cm}
 
 
@@ -1047,7 +1047,7 @@ $if(logo-stamp)$
 
 \vspace{1cm}
 
-\noindent \textbf{Υπεύθυνη Δήλωση} 
+\noindent \textbf{Υπεύθυνη Δήλωση}
 \vspace{0.3cm}
 
 \noindent Βεβαιώνω ότι είμαι συγγραφέας αυτής της διπλωματικής εργασίας, και ότι κάθε βοήθεια την οποία είχα για την προετοιμασία της είναι πλήρως αναγνωρισμένη και αναφέρεται στην διπλωματική εργασία. Επίσης έχω αναφέρει τις όποιες πηγές από τις οποίες έκανα χρήση δεδομένων, ιδεών ή λέξεων, είτε αυτές αναφέρονται ακριβώς είτε παραφρασμένες. Επίσης, βεβαιώνω ότι αυτή η διπλωματική εργασία προετοιμάστηκε από εμένα προσωπικά ειδικά για τις απαιτήσεις
@@ -1056,8 +1056,8 @@ $if(logo-stamp)$
 \vspace{1cm}
 
 \noindent \textit{(Υπογραφή)} \vspace{-0.5cm}
-    \\[24pt] 
-    \includegraphics[width=0.5\linewidth]{$signature$} \vspace{-0.95cm}\\ 
+    \\[24pt]
+    \includegraphics[width=0.5\linewidth]{$signature$} \vspace{-0.95cm}\\
     ...........................................................................\\
     $author$
 
