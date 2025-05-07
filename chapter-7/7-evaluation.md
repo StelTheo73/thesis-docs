@@ -96,7 +96,7 @@ Where:
 
 ![Score Improvement.](chapter-7/image002_scores.png){#fig:fig702 height=40%}
 
-![Correlation between Initial and Final Scores.](chapter-7/image004_score_scatter.png){#fig:fig703 height=40%}
+![Correlation between Pre Test and Post Test Scores.](chapter-7/image004_score_scatter.png){#fig:fig703 height=40%}
 
 In _Figure 7.2_ we can see the players' score in the quiz before playing the game (blue - left bars) and the players' score after they completed the game (orange - right bars). We can observe a significant improvement in players' scores after completing the game. For instance, the average player score before the game was about 17% and after the game it was slightly above 75%. This is an encouraging result and an indication that the game is effective as a learning tool.
 
@@ -104,13 +104,16 @@ Participants who scored above 90% had attended university courses in Physics and
 
 We can assume that the highest quiz scores were achieved by those with a strong academic background in Physics and Computer Science, as the concepts examined in the quiz are more closely related to those taught in Physics and Computer Science courses. This hypothesis can be supported by the findings of the focus group, where several users asked for additional information on the concept of superposition. Finally, as part of the analysis of the results, we also asked the following question; Does the initial score - and therefore any prior knowledge of the players - affect the final score? In _Figure 7.3_, we attempt to correlate the initial score with the final score. We observe a moderate positive correlation between the two variables, but due to the small number of participants we cannot draw any definite conclusions.
 
-![Correlation between Duration and Final Scores.](chapter-7/image005_duration_scatter.png){#fig:fig704 height=40%}
+![Correlation between Duration and Post Test Scores.](chapter-7/image005_duration_scatter.png){#fig:fig704 height=40%}
 
 The average time it took the players to complete the game was 18 minutes. We then examined whether the time taken by players to complete the game affected their understanding of the object and thus their final score. In _Figure 7.4_, we observe a weak positive correlation between the two variables, but again, due to the small number of participants and the high level of variance, we cannot draw any definite conclusions.
 
 ![Normalized Gain.](chapter-7/image003_gain.png){#fig:fig705 height=40%}
 
 The _Average Normalized Gain_ ($\langle g \rangle$) of 0.7 indicates a substantial improvement in the players' knowledge after playing the game. According to the literature, an average gain above 0.25 is considered effective [@cooksey-jonsson-pre-post], making this result particularly significant. This demonstrates the game's effectiveness as an educational tool and highlights its potential to significantly enhance learning outcomes.
+
+
+Finally, we performed a t-test^[https://www.statskingdom.com/paired-t-test-calculator.html] to compare the Pre Test and Post Test Scores. The Null Hypothesis ($H_0$) states that there is no significant difference between the two means, while the Alternative Hypothesis ($H_1$) states that there is a significant difference. The t-test results in a $t-value$ of $15.591$ and a $p-value$ of less than $0.001$ for a Significance Level $a = 0.05$, indicating that we can reject the Null Hypothesis with high confidence and conclude that the difference between the means is statistically significant. This further supports the effectiveness of the game as a learning tool.
 
 ### Interactive System
 
@@ -208,7 +211,7 @@ The results of the retention test are shown in _Figure 7.8_. As mentioned in _Se
 
 Based on the feedback and data collected from the Pre-Post Tests, questionnaires and focus group, several conclusions can be drawn:
 
-1. The game is an effective learning tool and successfully introduces the basic concepts of quantum computing to university students. The difference between the Pre and Post test scores and the _Average Normalized Gain_ of 0.7 indicates a substantial improvement in the players' knowledge after playing the game.
+1. The game is an effective learning tool and successfully introduces the basic concepts of quantum computing to university students. The difference between the Pre and Post test scores and the _Average Normalized Gain_ of 0.7 indicates a substantial improvement in the players' knowledge after playing the game. The t-test results also indicate that the difference between the means is statistically significant.
 
 2. The average time it took players to complete the game - excluding the quiz - was 18 minutes. This is a good indication that the game is short and can be played during a university lecture (as an educational tool) or when the student has limited time.
 
