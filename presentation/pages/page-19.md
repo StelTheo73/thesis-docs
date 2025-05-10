@@ -9,10 +9,10 @@
         <strong>SUS score:</strong> 86.33
       </li>
       <li class='check mb2'>
-        Classified as <strong>Excellent</strong> on the <em>Bangor adjective rating scale</em> <Link to='23'>[6]</Link>.
+        Classified as <strong>Excellent</strong> on the <em>Bangor adjective rating scale</em> <Link to='20'>[6]</Link>.
       </li>
       <li class='check'>
-        Achieved the highest grade, <strong>A+</strong>, on the <em>Sauro-Lewis curved rating scale</em> <Link to='24'>[12]</Link><Link to='25'>[13]</Link>.
+        Achieved the highest grade, <strong>A+</strong>, on the <em>Sauro-Lewis curved rating scale</em> <Link to='21'>[12]</Link><Link to='22'>[13]</Link>.
       </li>
     </ul>
   </div>

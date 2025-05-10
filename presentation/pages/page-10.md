@@ -28,7 +28,7 @@
         <li v-click='+5'>Graceful failure approach allowing mistakes without immediate penalty</li>
         <li v-click='+6'>Incentive System: awarding 1 to 3 stars based on performance (number of gates and missiles used)</li>
         <li v-click='+6'>Incentive System: Unlocking new spaceships to boost motivation and engagement</li>
-        <li v-click='+6'>Incentive System: No leaderboard to prevent frustration or discrimination among players <Link to='23'>(Dominguez et all. 2013) [2]</Link></li>
+        <li v-click='+6'>Incentive System: No leaderboard to prevent frustration or discrimination among players <Link to='20'>(Dominguez et all. 2013) [2]</Link></li>
       </ul>
     </li>
   </ol>

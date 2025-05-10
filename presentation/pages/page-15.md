@@ -1,18 +1,24 @@
 # Evaluation
 
-<p class='slide-subtitle'>Pre-Post Tests results (1/4)</p>
+<p class='slide-subtitle'>Pre-Post Tests results</p>
 
 <div class='section-wrapper'>
-  <div class='img-wrapper grey-shadow rounded-md'>
-    <img src='../assets/images/evaluation/score.png' class='rounded-md'/>
-  </div>
-  <div class="text-wrapper">
-    <ul class='flex-list'>
-      <li>
-        Significant improvement in quiz scores after playing the game.
+  <div class='grey-shadow rounded-md'>
+    <ul class='flex-list none'>
+      <li class='check mb2'>
+        Pre Test average score of 17% --> Post Test average score of 75%.
       </li>
-      <li>
-        Higher Post Test scores (90% and above) were linked to participants with strong background in Physics and Computer Science.
+      <li class='check mb2'>
+        Paired t-test showed that the difference between Pre and Post Test average scores is significant (p-value < 0.001).
+      </li>
+      <li class='check mb2'>
+        <em>Average Normalized Gain</em> of 0.7, well above the 0.25 effectiveness threshold <Link to='20'>[3]</Link>.
+      </li>
+      <li class='check mb2'>
+        All participants scored more than the Pre Test in the second Post Test (retention test), but lower than the first Post Test.
+      </li>
+      <li class='warn'>
+        Higher Post Test scores (90% and above) linked to participants with strong background in Physics and Computer Science.
       </li>
     </ul>
   </div>
@@ -21,21 +27,18 @@
 <style>
   .section-wrapper {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .img-wrapper {
-    max-width: 800px;
-    height: fit-content;
-  }
-
-  .text-wrapper {
-    display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 450px;
-    max-width: 300px;
+    align-items: center;
+    height: 65%;
+  }
+
+  .section-wrapper div {
+    max-width: max-content;
+    padding: 2em;
+  }
+
+  li.mb2 {
+    margin-bottom: 2em;
   }
 </style>
