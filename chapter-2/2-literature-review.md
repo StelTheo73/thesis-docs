@@ -85,6 +85,12 @@ Table: Educational Games for Quantum Mechanics. {#tbl:tbl201}
 [*] Under development.\
 [**] They are not games in the classical sense, but are treated in the literature as a game-based learning method.
 
+![Educational games for Quantum Mechanics per genre.](chapter-2/games_per_genre.png){#fig:fig202 height=50%}
+
+![Educational games for Quantum Mechanics per platform.](chapter-2/games_per_platform.png){#fig:fig203 height=50%}
+
+In _Figure 2.2_ we can see the distribution of educational games for quantum mechanics per genre. The most popular genre is puzzle games, followed by simulation games. In _Figure 2.3_ we can see the distribution of educational games for quantum mechanics per platform. The most popular platform is web, followed by iOS and Android.
+
 ## Educational Mobile Games for Quantum Mechanics
 
 As shown in _Table 2.1_, there are 5 educational games for mobile devices. 4 of them are puzzles and 1 is a simulation. We will focus on the study of puzzle games to see how the researchers approached the topic.

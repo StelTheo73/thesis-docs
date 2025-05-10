@@ -31,17 +31,27 @@ From literature review, we concluded the following:
 We decided to develop the application with the cross-platform framework Flutter and the Flame Game Engine, after comparing the available programming languages, frameworks and game engines. The application is a variant of the classic arcade game _Space Invaders_ and consists of 30 levels. It is a combination of Puzzle and Shooter game, where the player controls a spaceship, which moves horizontally and launches missiles upwards. The goal of each level is to destroy the asteroids on the screen.
 
 The development of the application followed a Waterfall model, which consists of the following stages:
-   1. Conceptual Design
-   2. Wireframe for a Game Level
-   3. Application Structure Definition
-   4. Prototype Implementation
-   5. Prototype Evaluation and Improvements (Loop between 4 and 5)
-   6. Application Implementation
+
+1. Conceptual Design
+
+2. Wireframe for a Game Level
+
+3. Application Structure Definition
+
+4. Prototype Implementation
+
+5. Prototype Evaluation and Improvements (Loop between 4 and 5)
+
+6. Application Implementation
 
 The evaluation of the application was carried out using a mix of methods:
-   1. **Pre-Post Tests**: Evaluation of learning outcomes and knowledge retention
-   2. **System Usability Scale (SUS) Questionnaire**: Evaluation of the application as an interactive system
-   3. **Game User Experience Satisfaction Scale (GUESS-18) Questionnaire**: Evaluation of game experience
-   4. **Focus Group**: qualitative feedback and validation of questionnaire results
+
+1. **Pre-Post Tests**: Evaluation of learning outcomes and knowledge retention
+
+2. **System Usability Scale (SUS) Questionnaire**: Evaluation of the application as an interactive system
+
+3. **Game User Experience Satisfaction Scale (GUESS-18) Questionnaire**: Evaluation of game experience
+
+4. **Focus Group**: qualitative feedback and validation of questionnaire results
 
 Overall, the evaluation process was successful and provided valuable feedback that will be used to improve the game in the future. The research objectives are met, and the game can be considered a successful educational tool, that also provides an enjoyable gaming experience and boosts information retention. The game should be further expanded to include more levels, more complex puzzles, and additional features to enhance user experience and introduce more advanced concepts of quantum computing. The game should also be tested with a larger sample size to validate the findings.

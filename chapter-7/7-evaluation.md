@@ -108,10 +108,7 @@ We can assume that the highest quiz scores were achieved by those with a strong 
 
 The average time it took the players to complete the game was 18 minutes. We then examined whether the time taken by players to complete the game affected their understanding of the object and thus their final score. In _Figure 7.4_, we observe a weak positive correlation between the two variables, but again, due to the small number of participants and the high level of variance, we cannot draw any definite conclusions.
 
-![Normalized Gain.](chapter-7/image003_gain.png){#fig:fig705 height=40%}
-
-The _Average Normalized Gain_ ($\langle g \rangle$) of 0.7 indicates a substantial improvement in the players\' knowledge after playing the game. According to the literature, an average gain above 0.25 is considered effective [@cooksey-jonsson-pre-post], making this result particularly significant. This demonstrates the game\'s effectiveness as an educational tool and highlights its potential to significantly enhance learning outcomes.
-
+The _Average Normalized Gain_ ($\langle g \rangle$) was 0.7, which indicates a substantial improvement in the players\' knowledge after playing the game. According to the literature, an average gain above 0.25 is considered effective [@cooksey-jonsson-pre-post], making this result particularly significant. This demonstrates the game\'s effectiveness as an educational tool and highlights its potential to significantly enhance learning outcomes.
 
 Finally, we performed a t-test^[https://www.statskingdom.com/paired-t-test-calculator.html] to compare the Pre Test and Post Test Scores. The Null Hypothesis ($H_0$) states that there is no significant difference between the two means, while the Alternative Hypothesis ($H_1$) states that there is a significant difference. The t-test results in a $t-value$ of $15.591$ and a $p-value$ of less than $0.001$ for a Significance Level $a = 0.05$, indicating that we can reject the Null Hypothesis with high confidence and conclude that the difference between the means is statistically significant. This further supports the effectiveness of the game as a learning tool.
 
@@ -137,11 +134,11 @@ The SUS score of our application is 86.33, which is classified as _Excellent_ on
 
 ### Game Experience
 
-As described in _Section 7.1.3_, we used the _GUESS-18_ questionnaire to evaluate the game experience. The ratings within each subscale are averaged to obtain a subscale score, and the composite score of game satisfaction can be calculated by summing subscale scores together. The minimum composite score is 9 and the maximum is 63. The answer to the question _“I feel bored while playing the game” _ in the _Enjoyment_ subscale needs to be reverse coded (i.e. subtract the score from 8). The scores were calculated using the spreadsheet created by _Keebler et al._ [-@keebler-guess-18]. The polygon chart in _Figure 7.7_ was created using the same spreadsheet.
+As described in _Section 7.1.3_, we used the _GUESS-18_ questionnaire to evaluate the game experience. The ratings within each subscale are averaged to obtain a subscale score, and the composite score of game satisfaction can be calculated by summing subscale scores together. The minimum composite score is 9 and the maximum is 63. The answer to the question _“I feel bored while playing the game” _ in the _Enjoyment_ subscale needs to be reverse coded (i.e. subtract the score from 8). The scores were calculated using the spreadsheet created by _Keebler et al._ [-@keebler-guess-18]. The polygon chart in _Figure 7.6_ was created using the same spreadsheet.
 
-![GUESS-18 Subscale Score.](chapter-7/image008_guess_score.png){#fig:fig706 height=40%}
+![GUESS-18 Subscale Score.](chapter-7/image008_guess_score.png){#fig:fig705 height=40%}
 
-![GUESS-18 Subscale Score - Polygon Chart.](chapter-7/image009_guess_chart.png){#fig:fig707 height=40%}
+![GUESS-18 Subscale Score - Polygon Chart.](chapter-7/image009_guess_chart.png){#fig:fig706 height=40%}
 
 The high scores on the _Visual Aesthetics_ (6.4) and _Enjoyment_ (6.2) subscales indicate that the game was enjoyable, fun, and had well-designed and consistent graphics.
 
@@ -203,9 +200,9 @@ In the following sections we will present the focus group findings by area.
 
 ### Retention Test
 
-![Retention Test Results.](chapter-7/image010_retention.png){#fig:fig708 height=40%}
+![Retention Test Results.](chapter-7/image010_retention.png){#fig:fig707 height=40%}
 
-The results of the retention test are shown in _Figure 7.8_. As mentioned in _Section 7.1.5_, 10 out of 23 participants took part in the retention test. The average score of the players in the retention test was 55%, which is lower than the average score of 75% in the Post Test. The average score of 55% is significantly higher than the average score of 17% in the Pre Test, indicating that players retained most of the knowledge acquired through the game.
+The results of the retention test are shown in _Figure 7.7_. As mentioned in _Section 7.1.5_, 10 out of 23 participants took part in the retention test. The average score of the players in the retention test was 55%, which is lower than the average score of 75% in the Post Test. The average score of 55% is significantly higher than the average score of 17% in the Pre Test, indicating that players retained most of the knowledge acquired through the game.
 
 ## Conclusions
 
