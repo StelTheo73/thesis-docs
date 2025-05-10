@@ -23,7 +23,7 @@
     To measure the effectiveness of the game as a learning tool, we used the <em>Average Normalized Gain</em> metric <Link to=''>[3]</Link><Link to=''>[5]</Link>:
   </p>
   <div v-click='+1' class='img-wrapper grey-shadow bg-white-smoke rounded-md'>
-    <img src='../assets/average_gain.png' class='rounded-md'/>
+    <img src='../../assets/average_gain.png' class='rounded-md'/>
   </div>
 </div>
 

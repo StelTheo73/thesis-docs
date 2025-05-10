@@ -1,6 +1,6 @@
 # Evaluation
 
-<p class='slide-subtitle'>SUS Questionnaire results</p>
+<p class='slide-subtitle'>SUS Questionnaire Results</p>
 
 <div class='section-wrapper'>
   <div class='grey-shadow rounded-md'>

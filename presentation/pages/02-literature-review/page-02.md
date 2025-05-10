@@ -1,6 +1,6 @@
 # Literature Review
 
-<p class='slide-subtitle'>Literature Review Outcomes (1 / 2)</p>
+<p class='slide-subtitle'>Literature Review Outcomes (1/2)</p>
 
 <div class='section-wrapper'>
   <ol class='ol-flex'>
@@ -25,7 +25,7 @@
 </div>
 
 <div v-click='+3' class='img-wrapper grey-shadow rounded-md'>
-  <img src='../assets/games_per_genre.png' class='rounded-md'/>
+  <img src='../../assets/games_per_genre.png' class='rounded-md'/>
 </div>
 
 <style>

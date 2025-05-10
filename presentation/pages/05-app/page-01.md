@@ -44,7 +44,7 @@
     </div>
   </div>
   <div class='image-wrapper grey-shadow rounded-xl'>
-    <img src='../assets/level-30.png' class='rounded-xl'/>
+    <img src='../../assets/level-30.png' class='rounded-xl'/>
   </div>
 </div>
 

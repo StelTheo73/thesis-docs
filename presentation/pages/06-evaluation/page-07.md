@@ -1,6 +1,6 @@
 # Evaluation
 
-<p class='slide-subtitle'>Focus Group results</p>
+<p class='slide-subtitle'>Focus Group Results</p>
 
 <div class='section-wrapper'>
   <p>Focus group results align closely with questionnaire results, confirming the game's strengths and weaknesses.</p>

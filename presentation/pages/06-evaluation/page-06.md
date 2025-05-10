@@ -1,6 +1,6 @@
 # Evaluation
 
-<p class='slide-subtitle'>GUESS-18 Questionnaire results</p>
+<p class='slide-subtitle'>GUESS-18 Questionnaire Results</p>
 
 <div class='section-wrapper'>
 
@@ -25,7 +25,7 @@
     </ul>
   </div>
   <div class='img-wrapper grey-shadow rounded-md'>
-    <img src='../assets/images/evaluation/guess.png' class='rounded-md'/>
+    <img src='../../assets/images/evaluation/guess.png' class='rounded-md'/>
   </div>
   <div
     class='text-wrapper grey-shadow rounded-md'

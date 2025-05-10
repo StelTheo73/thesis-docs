@@ -4,7 +4,7 @@
 
 <div class='section-wrapper'>
   <div class='image-wrapper grey-shadow bg-white-smoke rounded-md'>
-    <img src='../assets/conceptual-design.png'/>
+    <img src='../../assets/conceptual-design.png'/>
   </div>
   <div class='text-wrapper'>
     <div class='section-1'>

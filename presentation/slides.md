@@ -24,132 +24,130 @@ meeting: 'Department of Electrical and Computer Engineering, University of Patra
 <!-- =========================== -->
 ---
 layout: pageBar
-src: ./pages/page-02.md
+src: ./pages/01-intro/page-01.md
 ---
 
 
 ---
 layout: pageBar
-src: ./pages/page-03.md
+src: ./pages/01-intro/page-02.md
 ---
 
 <!-- Literature Review ========== -->
 <!-- =========================== -->
 ---
 layout: pageBar
-src: ./pages/page-04.md
+src: ./pages/02-literature-review/page-01.md
 ---
 
 ---
 layout: pageBar
-src: ./pages/page-05.md
+src: ./pages/02-literature-review/page-02.md
 ---
 
 ---
 layout: pageBar
-src: ./pages/page-06.md
+src: ./pages/02-literature-review/page-03.md
 ---
 
 <!-- Tech Stack ========== -->
 <!-- =========================== -->
 ---
 layout: pageBar
-src: ./pages/page-07.md
+src: ./pages/03-tech-stack/page-01.md
 ---
 
 <!-- Design & Development ====== -->
 <!-- =========================== -->
 ---
 layout: pageBar
-src: ./pages/page-08.md
+src: ./pages/04-design-development/page-01.md
 ---
 
 ---
 layout: pageBar
-src: ./pages/page-09.md
+src: ./pages/04-design-development/page-02.md
 ---
 
 ---
 layout: pageBar
-src: ./pages/page-10.md
+src: ./pages/04-design-development/page-03.md
 ---
 
 <!-- App Presentation ========== -->
 <!-- =========================== -->
 ---
 layout: pageBar
-src: ./pages/page-11.md
+src: ./pages/05-app/page-01.md
 ---
 
 ---
 layout: pageBar
-src: ./pages/page-12.md
+src: ./pages/05-app/page-02.md
 ---
 
 <!-- Evaluation ================ -->
 <!-- =========================== -->
 ---
 layout: pageBar
-src: ./pages/page-13.md
+src: ./pages/06-evaluation/page-01.md
 ---
 
 ---
 layout: pageBar
-src: ./pages/page-14.md
+src: ./pages/06-evaluation/page-02.md
 ---
 
 ---
 layout: pageBar
-src: ./pages/page-15.md
+src: ./pages/06-evaluation/page-03.md
 ---
 
 ---
 layout: pageBar
-src: ./pages/page-16.md
+src: ./pages/06-evaluation/page-04.md
 ---
 
 ---
 layout: pageBar
-src: ./pages/page-17.md
+src: ./pages/06-evaluation/page-05.md
 ---
 
 ---
 layout: pageBar
-src: ./pages/page-18.md
+src: ./pages/06-evaluation/page-06.md
 ---
 
 ---
 layout: pageBar
-src: ./pages/page-19.md
+src: ./pages/06-evaluation/page-07.md
 ---
 
 <!-- Conclusions =============== -->
 <!-- =========================== -->
 ---
 layout: pageBar
-src: ./pages/page-20.md
+src: ./pages/07-conclusions/page-01.md
 ---
 
-<!-- Questions ================= -->
-<!-- =========================== -->
 ---
 layout: pageBar
-src: ./pages/page-21.md
+src: ./pages/07-conclusions/page-02.md
 ---
 
 <!-- References ================ -->
 <!-- =========================== -->
 ---
 layout: pageBar
-src: ./pages/page-22.md
+src: ./pages/08-references/page-01.md
 ---
 
 ---
 layout: pageBar
-src: ./pages/page-23.md
+src: ./pages/08-references/page-02.md
 ---
 
 ---
 layout: pageBar
-src: ./pages/page-24.md
+src: ./pages/08-references/page-03.md
 ---

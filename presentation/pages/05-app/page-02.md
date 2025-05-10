@@ -8,7 +8,7 @@
     <div class='video-wrapper grey-shadow rounded-xl'>
       <SlidevVideo autoplay controls>
         <source
-          src='../assets/videos/onboarding.webm'
+          src='../../assets/videos/onboarding.webm'
           type='video/webm'
           class='rounded-xl'
         />
@@ -20,7 +20,7 @@
     <div class='video-wrapper grey-shadow rounded-xl'>
       <SlidevVideo v-click autoplay controls>
         <source
-          src='../assets/videos/tutorial.webm'
+          src='../../assets/videos/tutorial.webm'
           type='video/webm'
           class='rounded-xl'
         />
@@ -32,7 +32,7 @@
     <div class='video-wrapper grey-shadow rounded-xl'>
       <SlidevVideo v-click autoplay controls>
         <source
-          src='../assets/videos/gameplay.webm'
+          src='../../assets/videos/gameplay.webm'
           type='video/webm'
           class='rounded-xl'
         />

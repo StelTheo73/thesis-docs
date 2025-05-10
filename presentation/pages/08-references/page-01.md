@@ -13,7 +13,7 @@
       <a href='https://www.sciencedirect.com/science/article/abs/pii/S0360131513000031' target='_blank'>Access Resource</a>
     </li>
     <li id='ref-3'>
-      Cooksey, K. L., and P. Jonsson. 2022. “Using Pre-/Post-Quizzes Intentionally in Curriculum Development and Evaluation. ”Institution for Scientist & Engineer Educators."
+      Cooksey, K. L., and P. Jonsson. 2022. “Using Pre-Post-Quizzes Intentionally in Curriculum Development and Evaluation. ”Institution for Scientist & Engineer Educators."
       <a href='https://arxiv.org/pdf/2210.01823' target='_blank'>Access Resource</a>
     </li>
     <li id='ref-4'>

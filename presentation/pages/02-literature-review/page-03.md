@@ -1,6 +1,6 @@
 # Literature Review
 
-<p class='slide-subtitle'>Literature Review Outcomes (2 / 2)</p>
+<p class='slide-subtitle'>Literature Review Outcomes (2/2)</p>
 
 <div class='section-wrapper'>
   <ol class='ol-flex' start=3>
@@ -12,7 +12,7 @@
         <li v-click='+2'>Superposition</li>
       </ul>
     </li>
-    <li ><p>Limited number of playable educational games for mobile devices</p>
+    <li v-click='+3'><p>Limited number of playable educational games for mobile devices</p>
       <ul>
         <li>Only 1 of the mobile games is still playable</li>
         <li>Strengthens our desire to create a mobile game</li>
@@ -22,7 +22,7 @@
 </div>
 
 <div v-click='+3' class='img-wrapper grey-shadow rounded-md'>
-  <img src='../assets/games_per_platform.png' class='rounded-md'/>
+  <img src='../../assets/games_per_platform.png' class='rounded-md'/>
 </div>
 
 <style>

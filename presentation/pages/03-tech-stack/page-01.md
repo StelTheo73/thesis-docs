@@ -10,7 +10,7 @@
       :initial="{ x: -80 }"
       :enter="{ x: 0 }"
     >
-      <img src='../assets/cross_platform.png' width='300'/>
+      <img src='../../assets/cross_platform.png' width='300'/>
     </div>
     <div
       class='item-1-2'
@@ -39,9 +39,9 @@
       :initial="{ y: -100 }"
       :enter="{ y: 0 }"
     >
-      <img src='../assets/flutter-black.png' width='200'/>
+      <img src='../../assets/flutter-black.png' width='200'/>
       <span id="plus-sign">+</span>
-      <img src='../assets/flame.png' width='200'/>
+      <img src='../../assets/flame.png' width='200'/>
     </div>
     <div
       class='item-3-2'
