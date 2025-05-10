@@ -20,7 +20,7 @@
   </ul>
   <hr v-click='+1' class="divider"/>
   <p v-click='+1'>
-    To measure the effectiveness of the game as a learning tool, we used the <em>Average Normalized Gain</em> metric <Link to=''>[3]</Link><Link to=''>[5]</Link>:
+    To measure the effectiveness of the game as a learning tool, we used the <em>Average Normalized Gain</em> metric <Link class='ref-link' to=''>[3]</Link><Link class='ref-link' to=''>[5]</Link>:
   </p>
   <div v-click='+1' class='img-wrapper grey-shadow bg-white-smoke rounded-md'>
     <img src='../../assets/average_gain.png' class='rounded-md'/>

@@ -9,7 +9,7 @@
   <div class='text-wrapper'>
     <div class='section-1'>
       <p>
-        According to Kalmpourtzis (2018)<Link to=''>[1]</Link>, there are five elements to consider when designing an educational game: Pedagogy, Mechanics, Technology, Aesthetics, and Narratives.
+        According to Kalmpourtzis (2018)<Link class='ref-link' to=''>[1]</Link>, there are five elements to consider when designing an educational game: Pedagogy, Mechanics, Technology, Aesthetics, and Narratives.
       </p>
       <p>
         Having already chosen the technologies we will use, we proceeded with the design process around 3 dimensions: Pedagogy, Mechanics, and Aesthetics-Narratives.

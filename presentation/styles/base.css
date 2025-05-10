@@ -80,3 +80,17 @@ li.warn::before {
   padding-right: 0.5em;
   content: '⚠️';
 }
+
+/* Links ================================== */
+/* ======================================== */
+.ref-link {
+  color: #36c;
+  text-decoration: none;
+  position: relative;
+  bottom: 1em;
+  font-size: 0.6rem;
+}
+
+.ref-link:hover {
+  text-decoration: underline;
+}

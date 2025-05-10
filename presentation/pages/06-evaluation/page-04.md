@@ -12,7 +12,7 @@
         Paired t-test showed that the difference between Pre and Post Test average scores is significant (p-value < 0.001).
       </li>
       <li class='check mb2'>
-        <em>Average Normalized Gain</em> of 0.7, well above the 0.25 effectiveness threshold <Link to=''>[3]</Link><Link to=''>[5]</Link>.
+        <em>Average Normalized Gain</em> of 0.7, well above the 0.25 effectiveness threshold <Link class='ref-link' to=''>[3]</Link><Link class='ref-link' to=''>[5]</Link>.
       </li>
       <li class='check mb2'>
         All participants scored more than the Pre Test in the second Post Test (retention test), but lower than the first Post Test.
