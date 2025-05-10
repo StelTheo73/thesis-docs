@@ -1,44 +1,41 @@
 # Evaluation
 
-<p class='slide-subtitle'>Pre-Post Tests results</p>
+<p class='slide-subtitle'>Pre-Post Tests 1/2: Preparation </p>
 
 <div class='section-wrapper'>
-  <div class='grey-shadow rounded-md'>
-    <ul class='flex-list none'>
-      <li class='check mb2'>
-        Pre Test average score of 17% --> Post Test average score of 75%.
-      </li>
-      <li class='check mb2'>
-        Paired t-test showed that the difference between Pre and Post Test average scores is significant (p-value < 0.001).
-      </li>
-      <li class='check mb2'>
-        <em>Average Normalized Gain</em> of 0.7, well above the 0.25 effectiveness threshold <Link to='20'>[3]</Link>.
-      </li>
-      <li class='check mb2'>
-        All participants scored more than the Pre Test in the second Post Test (retention test), but lower than the first Post Test.
-      </li>
-      <li class='warn'>
-        Higher Post Test scores (90% and above) linked to participants with strong background in Physics and Computer Science.
-      </li>
-    </ul>
+  <h2>Quiz Preparation</h2>
+  <ul class='flex-list'>
+    <li>
+      Creation of quiz repository with candidate questions [3],[4].
+    </li>
+    <li>
+      Selection of questions based on difficulty and relevance to game content.
+    </li>
+    <li>
+      Quiz consists of 12 questions, 3 theoretical and 9 related to quantum gates operations.
+    </li>
+    <li>
+      Each question has 4 possible answers, with only one correct answer.
+    </li>
+  </ul>
+  <hr v-click='+1' class="divider"/>
+  <p v-click='+1'>
+    To measure the effectiveness of the game as a learning tool, we used the <em>Average Normalized Gain</em> metric <Link to=''>[3]</Link><Link to=''>[5]</Link>:
+  </p>
+  <div v-click='+1' class='img-wrapper grey-shadow bg-white-smoke rounded-md'>
+    <img src='../assets/average_gain.png' class='rounded-md'/>
   </div>
 </div>
 
 <style>
-  .section-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 65%;
+  h2 {
+    margin-bottom: 0.5em;
   }
 
-  .section-wrapper div {
-    max-width: max-content;
-    padding: 2em;
-  }
-
-  li.mb2 {
-    margin-bottom: 2em;
+  .img-wrapper {
+    width: max-content;
+    position: absolute;
+    left: 30%;
+    padding: 0.5em;
   }
 </style>

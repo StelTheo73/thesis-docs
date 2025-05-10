@@ -1,50 +1,53 @@
-# Evaluation
+# Conclusions
 
-<p class='slide-subtitle'>GUESS-18 Questionnaire results</p>
+<p class='slide-subtitle'>Key Findings</p>
 
 <div class='section-wrapper'>
-
-  <div
-    class='text-wrapper grey-shadow rounded-md'
-    v-click='+1'
-    v-motion
-    :initial="{ x: +80 }"
-    :enter="{ x: 0 }"
-  >
+  <div class='text-wrapper grey-shadow rounded-md'>
     <ul class='flex-list none'>
-      <h2>Strengths</h2>
       <li class='check'>
-        <strong>Visual Aesthetics (6.4) & Enjoyment (6.2):</strong> enjoyable and visually appealing.
+        The game is an effective learning tool and successfully introduces quantum computing concepts.
       </li>
       <li class='check'>
-        <strong>Usability (6):</strong> ease of use and navigation.
-      </li>
-      <li class='check'>
-        <strong>Personal Gratification (~6) & Creative Freedom (5.4):</strong> sense of accomplishment and creativity.
+        The average time to complete the game was 18 minutes, making the game suitable to be used as an educational tool during a university lecture.
       </li>
     </ul>
   </div>
-  <div class='img-wrapper grey-shadow rounded-md'>
-    <img src='../assets/images/evaluation/guess.png' class='rounded-md'/>
-  </div>
   <div
     class='text-wrapper grey-shadow rounded-md'
     v-click='+1'
     v-motion
-    :initial="{ x: -80 }"
-    :enter="{ x: 0 }"
+    :initial="{ y: -80 }"
+    :enter="{ y: 0 }"
   >
     <ul class='flex-list none'>
-      <h2>Weak Spots</h2>
-      <li class='warn'>
-        <strong>Narratives (5.3):</strong> storytelling is good, but could be improved.
+      <li class='check'>
+        The game is suitable for users with no prior experience in the field.
       </li>
-      <!-- I placed narratives at weak spots because some players asked for more information, especially regarding superposition -->
+      <li class='check'>
+        The incentive system was effective, enhancing motivation.
+      </li>
+      <li class='check'>
+        The game has a positive impact on information retention.
+      </li>
+    </ul>
+  </div>
+  <div
+    class='text-wrapper grey-shadow rounded-md'
+    v-click='+2'
+    v-motion
+    :initial="{ y: -80 }"
+    :enter="{ y: 0 }"
+  >
+    <ul class='flex-list none'>
       <li class='warn'>
-        <strong>Player Engrossment (3.9):</strong> players were not fully focused on the game.
+        The game should be extended with more challenging puzzles.
       </li>
       <li class='warn'>
-        <strong>Social Connectivity (3.9) & Audio Aesthetics (1):</strong> expected, since the game is single-player and has no audio.
+        Sound effects and background music should be added to enhance immersion.
+      </li>
+      <li class='warn'>
+        More information about superposition should be provided.
       </li>
     </ul>
   </div>
@@ -54,24 +57,16 @@
   .section-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    column-gap: 20px;
-  }
-
-  .img-wrapper {
-    max-width: 600px;
-    height: 350px;
-    display: flex;
-    justify-content: center;
+    justify-content: space-around;
   }
 
   .text-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-height: 350px;
-    max-width: 350px;
+    height: max-content;
+    max-width: 300px;
     padding: 1em;
   }
 </style>

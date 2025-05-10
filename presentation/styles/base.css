@@ -14,7 +14,7 @@ hr.divider {
   width: 90%;
   position: absolute;
   top: 25%;
-  left: 5%
+  left: 5%;
 }
 
 ol > li {
@@ -29,7 +29,7 @@ ul.list-abc {
   list-style: lower-latin;
 }
 
-ul.flex-list {
+ul.flex-list, ol.flex-list {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
