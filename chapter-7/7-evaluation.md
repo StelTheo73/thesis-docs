@@ -160,7 +160,7 @@ The focus group findings align closely with the results of the GUESS-18 question
 
 The high scores on the _Visual Aesthetics_ and _Enjoyment_ subscales of the questionnaire are consistent with the focus group feedback, where players praised the simplicity of the mechanics and the ease of navigation. Similarly, the _Usability_ subscale score aligns with the focus group’s positive remarks about the flawless state of the application and predictable navigation. The high score on the _Personal Gratification_ subscale indicates that players felt satisfied and motivated by the game\'s reward mechanisms. This is consistent with the focus group findings, where players agreed that the incentive system encouraged them to improve and that unlocking spaceships provided a sense of reward and motivation to continue playing.
 
-On the other hand, the relatively low scores on _Play Engrossment_ and _Audio Aesthetics_ are echoed in the focus group’s suggestions to add background music and sound effects to enhance immersion. Additionally, the request for more challenging puzzles and hints aligns with the moderate score on _Creative Freedom_, suggesting room for improvement in providing more engaging and dynamic gameplay.
+On the other hand, the relatively low scores on _Play Engrossment_ and _Audio Aesthetics_ are echoed in the focus group\’s suggestions to add background music and sound effects to enhance immersion. Additionally, the request for more challenging puzzles and hints aligns with the moderate score on _Creative Freedom_, suggesting room for improvement in providing more engaging and dynamic gameplay.
 
 In the following sections we will present the focus group findings by area.
 

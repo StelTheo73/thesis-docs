@@ -6,7 +6,7 @@ author-mnr: 1072791
 subject: Διπλωματική
 title: Σχεδιασμός και Ανάπτυξη Ψηφιακού Παιχνιδιού Μάθησης
 title-en: Design and Development of Digital Learning Game
-date: Μάρτιος 2025
+date: Ιούλιος 2025
 place: Πάτρα
 school: Πολυτεχνική Σχολή
 department: Ηλεκτρολόγων Μηχανικών \& Τεχνολογίας Υπολογιστών

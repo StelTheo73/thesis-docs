@@ -101,10 +101,11 @@ $$
 
 ## Quantum Gates
 
-Quantum gates are not physical systems like classical gates, but physical processes applied to quantum bits (qubits) and registers that change their state. Additionally, information does not pass through quantum gates as it does with classical gates, since they are not part of any physical circuit with conductors. The information remains within the quantum registers, and the gates act on them by rotating their state vectors. A quantum gate can be a laser pulse or a magnetic field. [@karafyllidis_book; @wikipedia_quantum_computing]
+Quantum gates are not physical systems like classical gates, but physical processes applied to quantum bits (qubits) and registers that change their state. Additionally, information does not pass through quantum gates as it does with classical gates, since they are not part of any physical circuit with conductors. The information remains within the quantum registers, and the gates act on them by rotating their state vectors. A quantum gate can be a laser pulse or a magnetic field.
 
-Since quantum bits are vectors in Hilbert space, quantum gates must be operators in Hilbert space. However, not all operators in Hilbert space are suitable for representing quantum gates. For an operator to be characterized as a quantum gate, it must not change the length of the state vector, only its angle, and it must not change the values of the inner products between state vectors. Thus, only unitary operators can constitute quantum gates. [@karafyllidis_book; @wikipedia_quantum_computing]
+Since quantum bits are vectors in Hilbert space, quantum gates must be operators in Hilbert space. However, not all operators in Hilbert space are suitable for representing quantum gates. For an operator to be characterized as a quantum gate, it must not change the length of the state vector, only its angle, and it must not change the values of the inner products between state vectors. Thus, only unitary operators can constitute quantum gates.
 
+[@karafyllidis_book; @wikipedia_quantum_computing; @azure_multi_bit_gates; @azure_single_bit_gates]
 
 _Table 6.1_ presents some of the most well-known quantum gates and the effects of their actions.
 
@@ -261,17 +262,3 @@ The SWAP gate exchanges the states of two qubits.
 Table: SWAP Gate Truth Table. {#tbl:tbl610}
 
 ![SWAP Gate Circuit Diagram.](chapter-4/SWAP.svg){#fig:fig609}
-
-## References {.unnumbered}
-
-The details about quantum gates and the tables are based on the following sources:
-
-  * [@karafyllidis_book]
-
-  * [@azure_multi_bit_gates]
-
-  * [@azure_single_bit_gates]
-
-  * [@wikipedia_quantum_gates]
-
-The figures are sourced from [@wikipedia_quantum_gates].
