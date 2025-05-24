@@ -2,11 +2,11 @@
 
 Building on the conceptual design and development process described in Chapter 6, this chapter focuses on evaluating the application against the objectives we set in chapter 1, namely:
 
-1. The game to be an effective learning tool and to successfully introduce the basic concepts of quantum computing to university students.
+1. The game to be an effective learning tool and to successfully introduce the basic concepts of quantum computing to university students. _(ob1)_
 
-2. The game should be enjoyable and simple so as not to distract the student from the learning objective.
+2. The game should be enjoyable and simple so as not to distract the student from the learning objective. _(ob2)_
 
-3. The game should be short and require no additional equipment beyond a mobile phone, making it an effective learning tool that can be utilized during a university lecture or when students have limited time.
+3. The game should be short and require no additional equipment beyond a mobile phone, making it an effective learning tool that can be utilized during a university lecture or when students have limited time. _(ob3)_, _(ob4)_
 
 The evaluation process uses a mix of methods and is divided into two parts: the first part evaluates the learning outcome of the game, while the second part evaluates the interactive system and the game experience. The evaluation of the learning outcome is based on a Pre-Post Tests methodology, while the evaluation of the interactive system and game experience are based on questionnaires and a focus group. To evaluate the application as an interactive system, we used the _System Usability Scale_ questionnaire, while to evaluate the game experience we used the shortened version of the _Game User Experience Satisfaction Scale_ questionnaire, the _GUESS-18_.
 
@@ -94,23 +94,23 @@ Where:
 
 * $\langle post\% \rangle$: average score of all players in the quiz after playing the game (Post Test)
 
-![Score Improvement.](chapter-7/image002_scores.png){#fig:fig702 height=40%}
-
-![Correlation between Pre Test and Post Test Scores.](chapter-7/image004_score_scatter.png){#fig:fig703 height=40%}
-
 In _Figure 7.2_ we can see the players\' score in the quiz before playing the game (blue - left bars) and the players\' score after they completed the game (orange - right bars). We can observe a significant improvement in players\' scores after completing the game. For instance, the average player score before the game was about 17% and after the game it was slightly above 75%. This is an encouraging result and an indication that the game is effective as a learning tool.
-
-Participants who scored above 90% had attended university courses in Physics and Computer Science, making them more familiar with concepts such as superposition, gates, and registers. The two participants with the lowest performance in the Post Test had the same level of mathematical knowledge as the others but had not attended courses in Physics or Computer Science. The remaining participants had the same level of mathematical knowledge and had attended Computer Science courses but did not have the same academic background in Physics as those who achieved a Post Test score above 90%.
-
-We can assume that the highest quiz scores were achieved by those with a strong academic background in Physics and Computer Science, as the concepts examined in the quiz are more closely related to those taught in Physics and Computer Science courses. This hypothesis can be supported by the findings of the focus group, where several users asked for additional information on the concept of superposition. Finally, as part of the analysis of the results, we also asked the following question; Does the initial score - and therefore any prior knowledge of the players - affect the final score? In _Figure 7.3_, we attempt to correlate the initial score with the final score. We observe a moderate positive correlation between the two variables, but due to the small number of participants we cannot draw any definite conclusions.
-
-![Correlation between Duration and Post Test Scores.](chapter-7/image005_duration_scatter.png){#fig:fig704 height=40%}
-
-The average time it took the players to complete the game was 18 minutes. We then examined whether the time taken by players to complete the game affected their understanding of the object and thus their final score. In _Figure 7.4_, we observe a weak positive correlation between the two variables, but again, due to the small number of participants and the high level of variance, we cannot draw any definite conclusions.
 
 The _Average Normalized Gain_ ($\langle g \rangle$) was 0.7, which indicates a substantial improvement in the players\' knowledge after playing the game. According to the literature, an average gain above 0.25 is considered effective [@cooksey-jonsson-pre-post], making this result particularly significant. This demonstrates the game\'s effectiveness as an educational tool and highlights its potential to significantly enhance learning outcomes.
 
-Finally, we performed a t-test^[https://www.statskingdom.com/paired-t-test-calculator.html] to compare the Pre Test and Post Test Scores. The Null Hypothesis ($H_0$) states that there is no significant difference between the two means, while the Alternative Hypothesis ($H_1$) states that there is a significant difference. The t-test results in a $t-value$ of $15.591$ and a $p-value$ of less than $0.001$ for a Significance Level $a = 0.05$, indicating that we can reject the Null Hypothesis with high confidence and conclude that the difference between the means is statistically significant. This further supports the effectiveness of the game as a learning tool.
+![Score Improvement.](chapter-7/image002_scores.png){#fig:fig702 height=40%}
+
+As part of the analysis of the results, we also asked the following question; Does the initial score - and therefore any prior knowledge of the players - affect the final score? In _Figure 7.3_, we attempt to correlate the initial score with the final score, and we observe a moderate positive correlation between the two variables.
+
+Participants who scored above 90% had attended university courses in Physics and Computer Science, making them more familiar with concepts such as superposition, gates, and registers. The two participants with the lowest performance in the Post Test had the same level of mathematical knowledge as the others but had not attended courses in Physics or Computer Science. The remaining participants had the same level of mathematical knowledge and had attended Computer Science courses but did not have the same academic background in Physics as those who achieved a Post Test score above 90%.
+
+![Correlation between Pre Test and Post Test Scores.](chapter-7/image004_score_scatter.png){#fig:fig703 height=40%}
+
+We then examined whether the time taken by players to complete the game affected their understanding of the object and thus their final score. We don't observe any significant correlation between the time taken to complete the game and the final score, as shown in _Figure 7.4_. The average time it took players to complete the game was 18 minutes.
+
+![Correlation between Duration and Post Test Scores.](chapter-7/image005_duration_scatter.png){#fig:fig704 height=40%}
+
+Finally, we performed a paired t-test^[https://www.statskingdom.com/paired-t-test-calculator.html] to compare the Pre Test and Post Test Scores. The Null Hypothesis ($H_0$) states that there is no significant difference between the two means, while the Alternative Hypothesis ($H_1$) states that there is a significant difference. The t-test results in a $t-value$ of $15.591$ and a $p-value$ of less than $0.001$ for a Significance Level $a = 0.05$, indicating that we can reject the Null Hypothesis with high confidence and conclude that the difference between the means is statistically significant. This further supports the effectiveness of the game as a learning tool.
 
 ### Interactive System
 
@@ -134,7 +134,7 @@ The SUS score of our application is 86.33, which is classified as _Excellent_ on
 
 ### Game Experience
 
-As described in _Section 7.1.3_, we used the _GUESS-18_ questionnaire to evaluate the game experience. The ratings within each subscale are averaged to obtain a subscale score, and the composite score of game satisfaction can be calculated by summing subscale scores together. The minimum composite score is 9 and the maximum is 63. The answer to the question _“I feel bored while playing the game” _ in the _Enjoyment_ subscale needs to be reverse coded (i.e. subtract the score from 8). The scores were calculated using the spreadsheet created by _Keebler et al._ [-@keebler-guess-18]. The polygon chart in _Figure 7.6_ was created using the same spreadsheet.
+As described in _Section 7.1.3_, we used the _GUESS-18_ questionnaire to evaluate the game experience. The ratings within each subscale are averaged to obtain a subscale score, and the composite score of game satisfaction can be calculated by summing subscale scores together. The answer to the question _“I feel bored while playing the game” _ in the _Enjoyment_ subscale needs to be reverse coded (i.e. subtract the score from 8). The scores were calculated using the spreadsheet created by _Keebler et al._ [-@keebler-guess-18]. The polygon chart in _Figure 7.6_ was created using the same spreadsheet.
 
 ![GUESS-18 Subscale Score.](chapter-7/image008_guess_score.png){#fig:fig705 height=40%}
 
@@ -206,20 +206,6 @@ The results of the retention test are shown in _Figure 7.7_. As mentioned in _Se
 
 ## Conclusions
 
-Based on the feedback and data collected from the Pre-Post Tests, questionnaires and focus group, several conclusions can be drawn:
+The findings from the Pre-Post Test, Questionnaires and Focus Group collectively indicate that the game is an effective educational tool for introducing university students to the basic concepts of quantum computing. A significant improvement in knowledge has been observed, with an **Average Normalized Gain of 0.7** and statistically significant differences between the Pre- and Post-Test scores **_(ob1)_**. In addition, retention test results revealed that players **retained much of what they had learned**. Players took an **average of 18 minutes to complete the game** -excluding the quiz-, making it well-suited for short time frames such as university lectures **_(ob3)_, _(ob4)_**. The game was found to be **enjoyable** and **accessible**, with **simple mechanics**, **predictable navigation** and **flawless state management** **_(ob1)_**. The built-in incentive system was **motivating** and **encouraged player improvement** **_(ob1)_**. **Usability was rated as excellent**, supported by a **SUS score of 86.33** and confirmed by positive feedback from the Focus Group and GUESS-18 scores. Overall, the game provided a **highly positive user experience**, scoring high in Visual Aesthetics, Enjoyment, Usability, and Personal Gratification, with moderate ratings in Creative Freedom and Narratives **_(ob1)_**. Finally, the difficulty level was appropriate for beginners, and some participants expressed a desire for more challenging content **_(ob2)_**.
 
-1. The game is an effective learning tool and successfully introduces the basic concepts of quantum computing to university students. The difference between the Pre and Post test scores and the _Average Normalized Gain_ of 0.7 indicates a substantial improvement in the players\' knowledge after playing the game. The t-test results also indicate that the difference between the means is statistically significant.
-
-2. The average time it took players to complete the game - excluding the quiz - was 18 minutes. This is a good indication that the game is short and can be played during a university lecture (as an educational tool) or when the student has limited time.
-
-3. The game is enjoyable, and the players found the mechanics simple and casual. The navigation works well and is predictable. The state of the application was flawless and was updating correctly.
-
-4. The difficulty was advantageous for the target audience, but some players requested more difficult puzzles. The players agreed that the game is easy, intended for users with no experience around Quantum Computing.
-
-5. The incentive system used in the game was found to be motivating and encouraged players to improve.
-
-6. The game had a positive effect on information retention, as indicated by the retention test results. The average score of 55% in the retention test is significantly higher than the average score of 17% in the Pre Test, indicating that players retained most of the knowledge acquired through the game.
-
-7. The application is highly usable and provides a positive user experience, as indicated by the SUS score of 86.33, which is classified as _Excellent_ on the _Bangor adjective rating scale_ and corresponds to the highest grade, _A+_, on the _Sauro-Lewis curved rating scale_. This finding is also confirmed by the Focus Group feedback and the high score on the _Usability_ subscale of the GUESS-18 questionnaire.
-
-8. The game experience was positive, with high scores on the _Visual Aesthetics_, _Enjoyment_, _Usability_ and _Personal Gratification_ and average scores on _Creative Freedom_ and _Narratives_ subscales of the GUESS-18 questionnaire. The results where confirmed by the Focus Group findings.
+All the objectives set in Chapter 1 have been met, and the game can be considered an effective educational tool that provides an enjoyable gaming experience, enhances information retention and can be used in a university lecture context.

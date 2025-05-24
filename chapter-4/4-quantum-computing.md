@@ -107,7 +107,7 @@ Since quantum bits are vectors in Hilbert space, quantum gates must be operators
 
 [@karafyllidis_book; @wikipedia_quantum_computing; @azure_multi_bit_gates; @azure_single_bit_gates]
 
-_Table 6.1_ presents some of the most well-known quantum gates and the effects of their actions.
+_Table 4.1_ presents some of the most well-known quantum gates and the effects of their actions.
 
 +-----------------------------------------------------+------------------------+----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 | Name(s)                                             | # of qubits            | Symbol(s)                        | Matrix                                                                                                                            |

@@ -8,13 +8,13 @@ Quantum computing utilizes the principles of quantum mechanics to process inform
 
 The aim of this thesis is to create an educational game that will familiarize the learners with the basic principles of quantum computing, such as quantum bits and quantum gates. Then we will define some specifications that we would like the game to meet.
 
-First, we want to design a simple and accessible educational game with few rules, clear objectives and easy to understand mechanics. We want learners to focus on the learning object and not get distracted or tired by the complexity of the game.
+First, we want to design a **simple and accessible educational game with few rules, clear objectives and easy to understand mechanics**. We want learners to focus on the learning object and not get distracted or tired by the complexity of the game. _(ob1)_
 
-The game will be aimed at university students interested in quantum computing. For this reason, it will not go into depth, but will introduce basic concepts, such as quantum registers or some basic quantum gates. This is the second requirement for the game manual.
+The game will be **aimed at university students interested in quantum computing, with no previous knowledge of quantum mechanics**. For this reason, it will not go into depth, but will introduce basic concepts, such as quantum registers or some basic quantum gates. This is the second requirement for the game manual. _(ob2)_
 
-In addition, it is desirable that the game can be played at any time and in any place, without the need for equipment or a computer, simply by using their mobile phone. The third objective is that the user should be able to play even when they have limited time (e.g. traveling, waiting for public transport, etc.), so it should be light and take a short time to play.
+In addition, it is desirable that the game **can be played at any time and in any place, without the need for equipment or a computer**, simply by using their mobile phone. The user should be able to play even when they have *limited time* (e.g. traveling, waiting for public transport, etc.), so it should be light and take a short time to play. _(ob3)_
 
-The fourth and final objective is to make the game suitable to be played in the context of a university lecture, used as an educational tool. The game could be distributed to students during the introductory lecture of the course, or it could be used as a tool to measure their knowledge retention after a lecture - for example, whether they understand the operation of the basic quantum gates. For this reason, it should have features that measure learners\' knowledge retention, such as a quiz.
+The fourth and final objective is to make the game **suitable to be played in the context of a university lecture, used as an educational tool**. The game could be distributed to students during the introductory lecture of the course, or it could be used as a tool to measure their knowledge retention after a lecture - for example, whether they understand the operation of the basic quantum gates. For this reason, it should have features that measure learners\' knowledge retention, such as a quiz. _(ob4)_
 
 ## Thesis Structure
 
