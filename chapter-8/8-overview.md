@@ -1,4 +1,8 @@
-# Overview
+# Methodology Overview, Conclusions and Future Work
+
+## Methodology Overview
+
+### Research Objectives
 
 The aim of this thesis was to develop an educational game for mobile devices, which will introduce learners to the basic principles of Quantum Computing. The main objectives of the thesis were:
 
@@ -8,27 +12,19 @@ The aim of this thesis was to develop an educational game for mobile devices, wh
 
 3. The game should be short and require no additional equipment beyond a mobile phone, making it an effective learning tool that can be utilized during a university lecture or when students have limited time.
 
-From literature review, we concluded the following:
+### Development Process and Evaluation
 
-1. The game should belong to the Puzzle genre, as games of this kind have simple rules and mechanisms, they enhance the information retention and the majority of educational games - related to quantum computing - belong to this category.
+The five components of educational game design that should be considered, according to the literature, are:
 
-2. In order for the game to be attractive, easy to use and enjoyable, it should include elements and techniques of Game Based Learning, such as:
-   - Adaptivity
-   - Graceful Failure
-   - Incentive System
-   - Information Visualization with interactive graphic elements
-   - Musical Score
-   - Narratives
+1. Mechanics
 
-3. There are few educational mobile applications related to quantum computing and most of them are no longer available.
+2. Narrative
 
-4. The Quantum Computing theory presented in the game will include concepts such as:
-   - Quantum Bits
-   - Quantum Registers
-   - Quantum Gates: Pauli-X, Pauli-Y, Pauli-Z, Pauli-Z, Hadamard
-   - Superposition
+3. Aesthetics
 
-We decided to develop the application with the cross-platform framework Flutter and the Flame Game Engine, after comparing the available programming languages, frameworks and game engines. The application is a variant of the classic arcade game _Space Invaders_ and consists of 30 levels. It is a combination of Puzzle and Shooter game, where the player controls a spaceship, which moves horizontally and launches missiles upwards. The goal of each level is to destroy the asteroids on the screen.
+4. Technology
+
+5. Pedagogy
 
 The development of the application followed a Waterfall model, which consists of the following stages:
 
@@ -54,4 +50,34 @@ The evaluation of the application was carried out using a mix of methods:
 
 4. **Focus Group**: qualitative feedback and validation of questionnaire results
 
-Overall, the evaluation process was successful and provided valuable feedback that will be used to improve the game in the future. The research objectives are met, and the game can be considered a successful educational tool, that also provides an enjoyable gaming experience and boosts information retention. The game should be further expanded to include more levels, more complex puzzles, and additional features to enhance user experience and introduce more advanced concepts of quantum computing. The game should also be tested with a larger sample size to validate the findings.
+## Conclusions
+
+### Literature Review Conclusions
+
+From literature review, we concluded the following:
+
+1. The game should belong to the Puzzle genre, as games of this kind have simple rules and mechanisms, they enhance the information retention and the majority of educational games - related to quantum computing - belong to this category.
+
+2. In order for the game to be attractive, easy to use and enjoyable, it should include elements and techniques of Game Based Learning, such as:
+   - Adaptivity
+   - Graceful Failure
+   - Incentive System
+   - Information Visualization with interactive graphic elements
+   - Musical Score
+   - Narratives
+
+3. There are few educational mobile applications related to quantum computing and most of them are no longer available.
+
+4. The Quantum Computing theory presented in the game will include concepts such as:
+   - Quantum Bits
+   - Quantum Registers
+   - Quantum Gates: Pauli-X, Pauli-Y, Pauli-Z, Pauli-Z, Hadamard
+   - Superposition
+
+### Evaluation Conclusions
+
+The research objectives are met, and the game can be considered a successful educational tool, that also provides an enjoyable gaming experience and boosts information retention. Game duration is short, and it can be played on a mobile phone without any additional equipment, so the game is suitable for use in the context of university lecture, as a supplementary educational tool. The results of the questionnaires and the focus group are mutually supportive and confirm our findings.
+
+## Future Work
+
+The evaluation process provided valuable feedback that can be used to improve the game in the future. The game should be further expanded to include more levels, more complex puzzles, and additional features to enhance user experience and introduce more advanced concepts of quantum computing. Extra slides could be added to the tutorial level to provide more detailed explanations of the concepts presented in the game. The levels could be grouped into categories based on the concepts they cover, allowing players to focus on specific areas of quantum computing. Audio elements could be added to enhance the gaming experience, such as sound effects for actions and background music. Social features could be implemented to allow players to share their progress and achievements with friends, or to compete against each other in a leaderboard, with caution to ensure that the game remains educational and does not become overly competitive. The game could also be translated into other languages to reach a wider audience. Finally, the game should be evaluated with a larger sample size to further validate the findings and investigate if it can be used as an effective educational tool in a wider context.
