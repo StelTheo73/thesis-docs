@@ -27,7 +27,6 @@ from: markdown
 
 input-files:
   - 0-frontmatter/0-frontmatter.md
-  - 0-summary/0-summary.md
   - chapter-1/1-introduction.md
   - chapter-2/2-literature-review.md
   - chapter-3/3-GBL.md
@@ -48,7 +47,6 @@ template: templates/eisvogel.tex
 reference-location: block # block, section, or document
 resource-path:
   - .
-  - 0-summary
   - chapter-1
   - chapter-2
   - chapter-3

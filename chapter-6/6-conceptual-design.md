@@ -10,7 +10,7 @@ According to _Kalmpourtzis_ [-@kalmpourtzis_edu_game_design], the five component
 
 ### Genre Selection & Mechanics Definition (Mechanics)
 
-The first step in designing the game was to determine the genre. Based on the findings in Chapter 2, we decided to make a puzzle game, as it is suitable for increasing information retention while allowing for simple mechanisms.
+The first step in designing the game was to determine the genre. Based on the findings in Chapter 2, we decided to make a puzzle game, as it is suitable for increasing knowledge retention while allowing for simple mechanisms.
 
 We reasoned that a 2D shooting game, combined with a puzzle game, could have simple mechanisms, especially if the effect of gravity or other external factors on the missiles is not taken into account. This thinking led us to the decision to create a game with missiles being launched into space from a spaceship. We immediately thought that there was a similar computer game that we could use as a blueprint: _Space Invaders_^[https://en.wikipedia.org/wiki/Space_Invaders]
 
@@ -89,5 +89,3 @@ Also, the quiz-related screens and the \'Tutorial\' screen were partially implem
 In the last week of December, Greek language support was added and the \'Tutorial\' screen was finalized. Also, quiz questions were created, and the \'Quiz\', \'Quiz Form\', \'Quiz Results\' and \'Quiz History\' screens were finalized. The alpha version of our application was ready.
 
 In the following days, several bugs were fixed, and UI issues were addressed after the application was tested by 2 regular users. In addition, the \'Settings\' screen was finalized, and some missing translations were added. Finally, the project was restructured a bit, and some performance issues were fixed.
-
-The application code has been published in the following GitHub repository: https://github.com/StelTheo73/qubity/. The application is available as an APK (for installation on Android devices) at the following link: https://github.com/StelTheo73/qubity/blob/main/release/.

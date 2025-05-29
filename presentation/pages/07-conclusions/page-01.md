@@ -28,7 +28,7 @@
         The incentive system was effective, enhancing motivation.
       </li>
       <li class='check'>
-        The game has a positive impact on information retention.
+        The game has a positive impact on knowledge retention.
       </li>
     </ul>
   </div>
