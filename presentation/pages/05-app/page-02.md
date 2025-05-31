@@ -6,11 +6,10 @@
   <div>
     <h6>Onboarding</h6>
     <div class='video-wrapper grey-shadow rounded-xl'>
-      <SlidevVideo autoplay controls>
+      <SlidevVideo autoplay controls class='rounded-xl'>
         <source
           src='../../assets/videos/onboarding.webm'
           type='video/webm'
-          class='rounded-xl'
         />
       </SlidevVideo>
     </div>
@@ -18,7 +17,7 @@
   <div v-click='+1'>
     <h6>Tutorial</h6>
     <div class='video-wrapper grey-shadow rounded-xl'>
-      <SlidevVideo v-click autoplay controls>
+      <SlidevVideo v-click autoplay controls class='rounded-xl'>
         <source
           src='../../assets/videos/tutorial.webm'
           type='video/webm'
@@ -30,7 +29,7 @@
   <div v-click='+2'>
     <h6>Gameplay</h6>
     <div class='video-wrapper grey-shadow rounded-xl'>
-      <SlidevVideo v-click autoplay controls>
+      <SlidevVideo v-click autoplay controls class='rounded-xl'>
         <source
           src='../../assets/videos/gameplay.webm'
           type='video/webm'

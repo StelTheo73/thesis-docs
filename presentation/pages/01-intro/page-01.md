@@ -5,7 +5,7 @@
 <div class='section-wrapper'>
   <h1>Main Objective</h1>
   <p>
-    The main objective of this thesis is to create an enjoyable, interactive and engaging
+    The main objective of this thesis is to create an enjoyable, simple and engaging
     educational mobile game to introduce fundamental quantum computing concepts
     to university students.
   </p>

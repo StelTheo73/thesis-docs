@@ -1,6 +1,6 @@
 # Conclusions
 
-<p class='slide-subtitle'>Key Findings</p>
+<p class='slide-subtitle'>Key Findings & Future Work</p>
 
 <div class='section-wrapper'>
   <div class='text-wrapper grey-shadow rounded-md'>
@@ -40,14 +40,17 @@
     :enter="{ y: 0 }"
   >
     <ul class='flex-list none'>
-      <li class='warn'>
-        The game should be extended with more challenging puzzles.
+      <li class='work'>
+        More challenging puzzles and more information about superposition.
       </li>
-      <li class='warn'>
-        Sound effects and background music should be added to enhance immersion.
+      <li class='work'>
+        Sound effects and background music to enhance immersion.
       </li>
-      <li class='warn'>
-        More information about superposition should be provided.
+      <li class='work'>
+        Social features to enhance engagement.
+      </li>
+      <li class='work'>
+        Translation of the game into other languages to reach a wider audience.
       </li>
     </ul>
   </div>

@@ -15,7 +15,6 @@
     <li v-click='+3'><p>Limited number of playable educational games for mobile devices</p>
       <ul>
         <li>Only 1 of the mobile games is still playable</li>
-        <li>Strengthens our desire to create a mobile game</li>
       </ul>
     </li>
   </ol>

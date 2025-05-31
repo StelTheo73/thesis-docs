@@ -81,6 +81,11 @@ li.warn::before {
   content: '⚠️';
 }
 
+li.work::before {
+  padding-right: 0.5em;
+  content: '🛠️';
+}
+
 /* Links ================================== */
 /* ======================================== */
 .ref-link {
