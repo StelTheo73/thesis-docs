@@ -22,19 +22,9 @@ The five components of educational game design that should be considered, accord
 
 5. Pedagogy
 
-The development of the application followed a Waterfall model, which consists of the following stages:
+The development of the application followed was an iterative process, as shown in _Figure 8.1_ and discussed in _Chapter 6_.
 
-1. Conceptual Design
-
-2. Wireframe for a Game Level
-
-3. Application Structure Definition
-
-4. Prototype Implementation
-
-5. Prototype Evaluation and Improvements (Loop between 4 and 5)
-
-6. Application Implementation
+![Design & Development Process.](chapter-8/image001_design_flow.png){#fig:fig801 height=50%}
 
 The source code of the application has been published on _GitHub_^[https://github.com/StelTheo73/qubity] under the _GNU General Public License v3.0_ License. The application is available as an _APK_^[https://github.com/StelTheo73/qubity/blob/main/release], for installation on Android devices.
 

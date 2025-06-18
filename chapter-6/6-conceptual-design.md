@@ -2,7 +2,7 @@
 
 Having explored the available educational games for quantum computers, studied GBL techniques and the basic theory around quantum computers, and chosen the framework and game engine we will use to develop the application, it is time to discuss the process that was followed to design the game up to the creation of the early prototype. Furthermore, in the last section of this chapter we will present the development timeline. _Figure 6.1_ shows the process of conceptual design and implementation of the application prototype.
 
-![Design & Prototype Creation Flow.](chapter-6/image001_design_flow.png){#fig:fig601 height=50%}
+![Design & Development Process.](chapter-6/image001_design_flow.png){#fig:fig601 height=50%}
 
 ## Conceptual Design Process
 
@@ -22,7 +22,7 @@ Finally, once the ship is in the correct position, the player must launch missil
 
 ### Game-Based Learning Elements Selection (Narratives, Aesthetics)
 
-First, we decided to use narratives to introduce the theory and rules of the game, specifically overlays that appear at the beginning of certain levels and give the student the information needed to complete the level.
+First, we decided to use narratives to introduce the theory and rules of the game, specifically overlays that appear at the beginning of certain levels and give the student the information needed to complete the level. This approach is used in many educational games, as it allows the player to learn the rules of the game while playing. We also decided to use a Tutorial Level that would introduce some player to the basic concepts and the game mechanics.
 
 We then decided to create an incentive system to increase the student\'s motivation. Based on the games we found in the literature, we decided to introduce a scoring system that awarded 1 to 3 stars for successfully completing a level. To get all 3 stars, the player must complete each level with the least number of moves. We also thought it would be good to give the player new spaceships as they progressed through the game to increase motivation and engagement. We also decided not to use a leaderboard to avoid frustration or discrimination, as discussed in Chapter 3.
 
@@ -30,7 +30,7 @@ Finally, we decided to adopt the graceful failure approach to allow users to exp
 
 ### Educational Content Selection (Pedagogy)
 
-Together with the definition of the mechanics and the choice of the GBL elements to be used in the game, it was decided which aspects of the basic theory of quantum computing - introduced in Chapter 4 - would be presented in the game. We decided to introduce the concepts of qubit, quantum register and quantum gate at a tutorial level, as these are the most basic concepts. Next, we decided to introduce Pauli gates (Pauli-X, Pauli-Y and Pauli-Z). We decided that the first levels should have registers with one qubit. After the player has become familiar with the operation of these gates, we will introduce the concept of superposition for one-bit registers. Later, when the player also understands superposition, we will use registers with two qubits. There, the player will have to combine their previous knowledge to solve the puzzles.
+Together with the definition of the mechanics and the choice of the GBL elements to be used in the game, it was decided which aspects of the basic theory of quantum computing – introduced in Chapter 4 – would be presented in the game. We decided to introduce the concepts of qubit, quantum register, and quantum gate at the Tutorial Level, as these are the most basic concepts. Next, we decided to introduce Pauli gates (Pauli-X, Pauli-Y, and Pauli-Z). Our decision to focus on these specific concepts was based on our literature review, where we found that they are commonly included in multiple educational games. This prevalence suggests that these topics are both fundamental and approachable for learners, making them effective for introductory educational purposes. We decided that the first levels should have registers with one qubit. After the player has become familiar with the operation of these gates, we will introduce the concept of superposition for one-bit registers. Later, when the player also understands superposition, we will use registers with two qubits. There, the player will have to combine their previous knowledge to solve the puzzles.
 
 ## Development Process
 
