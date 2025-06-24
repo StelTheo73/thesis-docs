@@ -1,44 +1,28 @@
 # Literature Review
-
-<p class='slide-subtitle'>Literature Review Outcomes (2/2)</p>
+<p class='slide-subtitle'>Conclusions (1/3)</p>
 
 <div class='section-wrapper'>
-  <ol class='ol-flex' start=3>
-    <li><p>Quantum Computing concepts to include in the game</p>
-      <ul>
-        <li v-click='+1'>Quantum Bits</li>
-        <li v-click='+1'>Quantum Registers</li>
-        <li v-click='+2'>Quantum Gates: Pauli-X, Pauli-Y, Pauli-Z, Hadamard</li>
-        <li v-click='+2'>Superposition</li>
-      </ul>
-    </li>
-    <li v-click='+3'><p>Limited number of playable educational games for mobile devices</p>
-      <ul>
-        <li>Only 1 of the mobile games is still playable</li>
-      </ul>
-    </li>
-  </ol>
-</div>
-
-<div v-click='+3' class='img-wrapper grey-shadow rounded-md'>
-  <img src='../../assets/games_per_platform.png' class='rounded-md'/>
+  <div class='text-wrapper'>
+    <ul>
+      <li>Game Genre: puzzle: simple mechanics, knowledge retention</li>
+      <li>Very few educational games for mobile devices are still playable</li>
+      <li>List of GBL elements, techniques and common pitfalls</li>
+      <li>List of mechanics used in similar educational games</li>
+    </ul>
+  </div>
+  <!-- TODO: Add image of educational games per genre -->
 </div>
 
 <style>
-  ol > li > p {
+  p {
     font-weight: bold;
     font-size: larger;
     text-decoration: underline;
   }
 
-  .img-wrapper {
-    width: max-content;
-    position: absolute;
-    right: 15%;
-    bottom: 9%;
-  }
-
-  img {
-    width: 450px;
+  .section-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
   }
 </style>

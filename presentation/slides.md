@@ -33,8 +33,18 @@ layout: pageBar
 src: ./pages/01-intro/page-02.md
 ---
 
+---
+layout: pageBar
+src: ./pages/01-intro/page-03.md
+---
+
 <!-- Literature Review ========== -->
 <!-- =========================== -->
+---
+layout: pageBar
+src: ./pages/02-literature-review/page-00.md
+---
+
 ---
 layout: pageBar
 src: ./pages/02-literature-review/page-01.md
@@ -50,40 +60,14 @@ layout: pageBar
 src: ./pages/02-literature-review/page-03.md
 ---
 
-<!-- Tech Stack ========== -->
-<!-- =========================== -->
 ---
 layout: pageBar
-src: ./pages/03-tech-stack/page-01.md
----
-
-<!-- Design & Development ====== -->
-<!-- =========================== -->
----
-layout: pageBar
-src: ./pages/04-design-development/page-01.md
+src: ./pages/02-literature-review/page-04.md
 ---
 
 ---
 layout: pageBar
-src: ./pages/04-design-development/page-02.md
----
-
----
-layout: pageBar
-src: ./pages/04-design-development/page-03.md
----
-
-<!-- App Presentation ========== -->
-<!-- =========================== -->
----
-layout: pageBar
-src: ./pages/05-app/page-01.md
----
-
----
-layout: pageBar
-src: ./pages/05-app/page-02.md
+src: ./pages/02-literature-review/page-05.md
 ---
 
 <!-- Evaluation ================ -->

@@ -1,48 +1,43 @@
-# Literature Review
+# Design & Development Process
 
-<p class='slide-subtitle'>Literature Review Outcomes (1/2)</p>
+<p class='slide-subtitle'>Overview (3/3)</p>
 
 <div class='section-wrapper'>
-  <ol class='ol-flex'>
-    <li><p>Genre choice: Puzzle Game</p>
-      <ul>
-        <li v-click>Have simple mechanics and rules</li>
-        <li v-click>Information retention boost</li>
-        <li v-click>Majority of existing games are Puzzle games</li>
-      </ul>
-    </li>
-    <li v-click='+4'><p>GBL Elements and Techniques</p>
-      <ul>
-        <li v-click='+5'>Adaptivity</li>
-        <li v-click='+5'>Graceful Failure</li>
-        <li v-click='+6'>Incentive System</li>
-        <li v-click='+6'>Information Visualization with interactive graphic elements</li>
-        <li v-click='+7'>Musical Score</li>
-        <li v-click='+7'>Narratives</li>
-      </ul>
-    </li>
-  </ol>
-</div>
-
-<div v-click='+3' class='img-wrapper grey-shadow rounded-md'>
-  <img src='../../assets/games_per_genre.png' class='rounded-md'/>
+  <div class='image-wrapper grey-shadow bg-white-smoke rounded-md'>
+    <img src='../../assets/images/design/design_flow.png'/>
+  </div>
+  <div class='text-wrapper'>
+    <p>3. Mechanics:<br>
+      - Research for similar educational games<br>
+      - Listing of game mechanics used in similar educational games<br>
+      - Classification of games per genre<br>
+      - Research for most suitable genre for our game<br>
+    </p>
+    <p>4. Narratives & Aesthetics:<br>
+      - Research for Game Based Learning (GBL)<br>
+      - Listing of GBL elements used in similar educational games<br>
+    </p>
+  </div>
 </div>
 
 <style>
-  ol > li > p {
-    font-weight: bold;
-    font-size: larger;
-    text-decoration: underline;
+  .section-wrapper {
+    border: 1px solid black;
+    margin-top: -2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
-  .img-wrapper {
-    width: max-content;
-    position: absolute;
-    left: 10%;
-    bottom: 9%;
+  .text-wrapper {
+    border: 1px solid green;
   }
 
-  img {
-    width: 450px;
+  .image-wrapper {
+    border: 1px solid red;
+  }
+
+  .image-wrapper img {
+    height: 500px;
   }
 </style>

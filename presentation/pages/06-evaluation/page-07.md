@@ -16,13 +16,13 @@
       <ul class='text-wrapper none'>
         <h2>Strengths</h2>
         <li class='check'>
-          Simple mechanics that helped players focus on the game.
+          Simple mechanics.
         </li>
         <li class='check'>
           Effective incentive system, enhanced motivation and engagement.
         </li>
         <li class='check'>
-          Suitable for users with no prior experience in the field.
+          Suitable for users with no prior knowledge.
         </li>
         <li class='check'>
           Clear and predictable navigation.
@@ -42,13 +42,13 @@
           Low immersion due to lack of background music and sound effects.
         </li>
         <li class='warn'>
-          Some players found the game too easy and suggested adding more challenging puzzles.
+          Very few challenging puzzles.
         </li>
         <li class='warn'>
-          Some players requested more explanation around the concept of superposition.
+          More information about superposition.
         </li>
         <li class='warn'>
-          Hints for difficult puzzles were suggested.
+          Hints for difficult puzzles.
         </li>
       </ul>
     </div>
@@ -74,12 +74,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: max-content;
-    max-width: 400px;
+    height: 350px;
+    width: 450px;
     padding: 1em;
   }
 
   .text-wrapper h2 {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
+  }
+
+  ul li {
+    margin-bottom: 1em;
   }
 </style>

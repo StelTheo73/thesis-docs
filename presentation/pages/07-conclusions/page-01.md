@@ -6,10 +6,19 @@
   <div class='text-wrapper grey-shadow rounded-md'>
     <ul class='flex-list none'>
       <li class='check'>
-        The game is an effective learning tool and successfully introduces quantum computing concepts.
+        Effective learning tool.
       </li>
       <li class='check'>
-        The average time to complete the game was 18 minutes, making the game suitable to be used as an educational tool during a university lecture.
+        Average completion time: 18 minutes.
+      </li>
+      <li class='check'>
+        Suitable for users with no prior experience in the field.
+      </li>
+      <li class='check'>
+        Effective incentive system, enhances motivation and engagement.
+      </li>
+      <li class='check'>
+        Positive impact on knowledge retention.
       </li>
     </ul>
   </div>
@@ -21,27 +30,11 @@
     :enter="{ y: 0 }"
   >
     <ul class='flex-list none'>
-      <li class='check'>
-        The game is suitable for users with no prior experience in the field.
-      </li>
-      <li class='check'>
-        The incentive system was effective, enhancing motivation.
-      </li>
-      <li class='check'>
-        The game has a positive impact on knowledge retention.
-      </li>
-    </ul>
-  </div>
-  <div
-    class='text-wrapper grey-shadow rounded-md'
-    v-click='+2'
-    v-motion
-    :initial="{ y: -80 }"
-    :enter="{ y: 0 }"
-  >
-    <ul class='flex-list none'>
       <li class='work'>
-        More challenging puzzles and more information about superposition.
+        More challenging puzzles.
+      </li>
+      <li class='work'>
+        More information about superposition.
       </li>
       <li class='work'>
         Sound effects and background music to enhance immersion.
@@ -50,7 +43,7 @@
         Social features to enhance engagement.
       </li>
       <li class='work'>
-        Translation of the game into other languages to reach a wider audience.
+        Translation to more languages.
       </li>
     </ul>
   </div>
@@ -68,8 +61,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: max-content;
-    max-width: 300px;
+    height: 450px;
+    width: 450px;
     padding: 1em;
+  }
+
+  ul li {
+    margin-bottom: 1em;
   }
 </style>
