@@ -7,7 +7,7 @@
     <div class='image-wrapper grey-shadow bg-white-smoke rounded-md'>
       <img src='../../assets/images/design/design_flow.png'/>
     </div>
-    <span>Figure 1: Educational Game Design, Kalmpourtzis (2018).<Link class='ref-link' to=''>[1]</Link></span>
+    <span>Figure 1: Educational Game Design.<Link class='ref-link' to=''>[1]</Link></span>
   </div>
 </div>
 
