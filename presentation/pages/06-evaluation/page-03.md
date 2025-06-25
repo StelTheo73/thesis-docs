@@ -26,7 +26,7 @@
     <div class='img-wrapper grey-shadow bg-white-smoke rounded-md'>
       <img src='../../assets/average_gain.png' class='rounded-md'/>
     </div>
-    <span>Figure 2: Average Normalized Gain Formula.</span>
+    <span>Figure 5: Average Normalized Gain Formula.</span>
   </div>
 </div>
 

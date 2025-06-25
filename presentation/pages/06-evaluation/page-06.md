@@ -28,7 +28,7 @@
     <div class='img-wrapper grey-shadow rounded-md'>
       <img src='../../assets/images/evaluation/guess.png' class='rounded-md'/>
     </div>
-    <span>Figure 3: GUESS-18 Subscale Score.</span>
+    <span>Figure 6: GUESS-18 Subscale Score.</span>
   </div>
   <div
     class='text-wrapper grey-shadow rounded-md'

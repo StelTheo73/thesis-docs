@@ -18,16 +18,30 @@
         <strong>Graceful Failure</strong>: Allowing mistakes without immediate penalty or negative feedback.
       </li>
       <li v-click='+4' class='fade-out-vclick'>
-        <strong>Incentive System</strong>: Awarding 1 to 3 stars based on performance (number of gates and missiles used)
-      .</li>
+        <strong>Incentive System</strong>: Awarding 1 to 3 stars based on performance.
+      </li>
       <li v-click='+4' class='fade-out-vclick'>
         <strong>Incentive System</strong>: Unlocking new spaceships to boost motivation and engagement.
       </li>
       <li v-click='+4' class='fade-out-vclick'>
-        <strong>Incentive System</strong>: No leaderboard to prevent frustration or discrimination among players (Dominguez et all. 2013).
+        <strong>Incentive System</strong>: No leaderboard to prevent frustration and discrimination (Dominguez et all. 2013).
         <Link class='ref-link' to=''>[2]</Link>
       </li>
     </ul>
+  </div>
+  <div class='img-group'>
+    <div class='img-caption-wrapper' v-click='+2'>
+      <div class='image-wrapper grey-shadow bg-white-smoke rounded-xl'>
+        <img class='rounded-xl' src='../../assets/images/design/theory_slide.jpg'/>
+      </div>
+      <span>Figure 2: Narrative.</span>
+    </div>
+    <div class='img-caption-wrapper' v-click='+4'>
+      <div class='image-wrapper grey-shadow bg-white-smoke rounded-xl'>
+        <img class='rounded-xl' src='../../assets/images/design/score_and_reward.jpg'/>
+      </div>
+      <span>Figure 3: Incentive System.</span>
+    </div>
   </div>
 </div>
 
@@ -38,8 +52,26 @@
   }
 
   .section-wrapper {
+    position: absolute;
+    top: 20%;
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: space-evenly;
+    align-items: center;
   }
+
+  .image-wrapper img {
+    max-width: 220px;
+  }
+
+  .img-group {
+    display: flex;
+    min-height: 500px;
+    width: 220px;
+  }
+
+  .img-group .img-caption-wrapper.slidev-vclick-prior {
+    display: none;
+  }
+
 </style>
