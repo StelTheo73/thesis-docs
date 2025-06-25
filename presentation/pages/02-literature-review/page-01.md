@@ -11,7 +11,7 @@
   </div>
   <div class='text-wrapper'>
     <div class='card grey-shadow rounded-md fade-out-vclick' v-after='+1'>
-      <h4>1. Technology: Flutter Framework & Flame Game Engine</h4>
+      <h4><strong>1. Technology: Flutter Framework & Flame Game Engine</strong></h4>
       <ul class=''>
         <li>Single codebase</li>
         <li>Scalability - Wider target audience</li>
@@ -22,7 +22,7 @@
       </ul>
     </div>
     <div class='card grey-shadow rounded-md fade-out-vclick' v-click='+1'>
-      <h4>2. Pedagogy</h4>
+      <h4><strong>2. Pedagogy</strong></h4>
       <ul class=''>
         <li>Research for quantum mechanics concepts</li>
         <li>Research for similar educational games to define educational content</li>

@@ -11,7 +11,7 @@
   </div>
   <div class='text-wrapper'>
     <div class='card grey-shadow rounded-md fade-out-vclick' v-after='+1'>
-      <h4>3. Mechanics</h4>
+      <h4><strong>3. Mechanics</strong></h4>
       <ul class=''>
         <li>Research for similar educational games</li>
         <li>Game mechanics used in similar educational games</li>
@@ -20,7 +20,7 @@
       </ul>
     </div>
     <div class='card grey-shadow rounded-md fade-out-vclick' v-click='+1'>
-      <h4>4. Narratives & Aesthetics</h4>
+      <h4><strong>4. Narratives & Aesthetics</strong></h4>
       <ul class=''>
         <li>Research for Game Based Learning (GBL)</li>
         <li>GBL elements used in similar educational games</li>
