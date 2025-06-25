@@ -3,12 +3,12 @@
 <p class='slide-subtitle'>Name, Objective and Demo</p>
 
 <div class='section-wrapper'>
-  <div class='text-wrapper'>
+  <div class='text-wrapper grey-shadow rounded-md'>
     <p>
       <strong>Name</strong>: <em>Qubity</em>.
     </p>
     <p>
-      <strong>Genre</strong>: Combination, 2D Puzzle and Shooter game.
+      <strong>Genre</strong>: Combination, Puzzle and Shooter game.
     </p>
     <p>
       <strong>Main Objective</strong>: Destroy all the asteroids on the screen.
@@ -35,7 +35,7 @@
   }
 
   .text-wrapper {
-    padding: 0.5em;
+    padding: 1em;
     height: max-content;
     display: flex;
     flex-direction: column;

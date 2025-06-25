@@ -3,21 +3,22 @@
 
 <div class='section-wrapper'>
   <div class='text-wrapper'>
-    <ul>
-      <li>Game Genre: puzzle: simple mechanics, knowledge retention</li>
-      <li>Very few educational games for mobile devices are still playable</li>
-      <li>List of GBL elements, techniques and common pitfalls</li>
-      <li>List of mechanics used in similar educational games</li>
+    <h2>General Conclusions</h2>
+    <ul class='flex-list'>
+      <li>Game Genre <span class='fast-forward'/> Puzzle <span class='fast-forward'/> simple mechanics, knowledge retention.</li>
+      <li>Very few educational games for mobile devices are still playable.</li>
+      <li>Quantum Computing concepts in other educational games.</li>
+      <li>GBL elements, techniques and common pitfalls.</li>
+      <li>Mechanics used in similar educational games.</li>
     </ul>
   </div>
-  <!-- TODO: Add image of educational games per genre -->
+  <!-- TODO: Add image of educational games per genre ? -->
 </div>
 
 <style>
-  p {
-    font-weight: bold;
-    font-size: larger;
+  h2 {
     text-decoration: underline;
+    margin-bottom: 1em;
   }
 
   .section-wrapper {

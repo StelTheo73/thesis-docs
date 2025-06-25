@@ -31,7 +31,7 @@
   >
     <ul class='flex-list none'>
       <li class='work'>
-        More challenging puzzles.
+        More challenging puzzles - More levels.
       </li>
       <li class='work'>
         More information about superposition.
@@ -43,7 +43,7 @@
         Social features to enhance engagement.
       </li>
       <li class='work'>
-        Translation to more languages.
+        Support for more than 2 languages.
       </li>
     </ul>
   </div>

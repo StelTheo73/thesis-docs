@@ -1,0 +1,13 @@
+li.warn::before {
+  padding-right: 0.5em;
+  content: '⚠️';
+}
+
+li.work::before {
+  padding-right: 0.5em;
+  content: '🛠️';
+}
+
+span.fast-forward::before {
+  content: '⏩';
+}

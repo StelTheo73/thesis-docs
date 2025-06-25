@@ -3,8 +3,8 @@
 
 <div class='section-wrapper'>
   <div class='text-wrapper'>
-    <p>Quantum Computing concepts that will be covered by the game</p>
-    <ul>
+    <h2>Quantum Computing Concepts</h2>
+    <ul class='flex-list'>
       <li>Quantum Bits</li>
       <li>Quantum Registers</li>
       <li>Quantum Gates: Pauli-X, Pauli-Y, Pauli-Z, Hadamard</li>
@@ -14,10 +14,9 @@
 </div>
 
 <style>
-  p {
-    font-weight: bold;
-    font-size: larger;
+  h2 {
     text-decoration: underline;
+    margin-bottom: 1em;
   }
 
   .section-wrapper {

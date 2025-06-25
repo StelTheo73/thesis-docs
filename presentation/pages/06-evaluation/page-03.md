@@ -18,7 +18,7 @@
       Each question has 4 possible answers, with only one correct answer.
     </li>
   </ul>
-  <hr v-click='+1' class="divider"/>
+  <hr v-click='+1' class='divider-2'/>
   <p v-click='+1'>
     To measure the effectiveness of the game as a learning tool, we used the <em>Average Normalized Gain</em><Link class='ref-link' to=''>[3]</Link><Link class='ref-link' to=''>[4]</Link> metric:
   </p>

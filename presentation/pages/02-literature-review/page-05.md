@@ -3,22 +3,23 @@
 
 <div class='section-wrapper'>
   <div class='text-wrapper'>
-    <p>GBL Elements that will be utilized by the game:</p>
-    <ul>
-      <li>Narratives via overlays to introduce theory and game rules</li>
-      <li>Graceful failure approach allowing mistakes without immediate penalty</li>
-      <li>Incentive System: awarding 1 to 3 stars based on performance (number of gates and missiles used)</li>
-      <li>Incentive System: Unlocking new spaceships to boost motivation and engagement</li>
-      <li>Incentive System: No leaderboard to prevent frustration or discrimination among players (Dominguez et all. 2013) <Link class='ref-link' to=''>[2]</Link></li>
+    <h2>GBL Elements</h2>
+    <ul class='flex-list'>
+      <li v-click='+1' class='fade-out-vclick'><strong>Learning Mechanics</strong>: Linking quantum computing concepts to game mechanics.</li>
+      <li v-click='+1' class='fade-out-vclick'><strong>Assessment Mechanics</strong>: Introduction of quiz to measure learning outcomes.</li>
+      <li v-click='+2' class='fade-out-vclick'><strong>Narratives</strong>: Overlays to introduce theory and game rules.</li>
+      <li v-click='+3' class='fade-out-vclick'><strong>Graceful Failure</strong>: Allowing mistakes without immediate penalty or negative feedback.</li>
+      <li v-click='+4' class='fade-out-vclick'><strong>Incentive System</strong>: Awarding 1 to 3 stars based on performance (number of gates and missiles used).</li>
+      <li v-click='+4' class='fade-out-vclick'><strong>Incentive System</strong>: Unlocking new spaceships to boost motivation and engagement.</li>
+      <li v-click='+4' class='fade-out-vclick'><strong>Incentive System</strong>: No leaderboard to prevent frustration or discrimination among players (Dominguez et all. 2013). <Link class='ref-link' to=''>[2]</Link></li>
     </ul>
   </div>
 </div>
 
 <style>
-  p {
-    font-weight: bold;
-    font-size: larger;
+  h2 {
     text-decoration: underline;
+    margin-bottom: 1em;
   }
 
   .section-wrapper {

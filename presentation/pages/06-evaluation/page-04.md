@@ -6,19 +6,39 @@
   <div class='grey-shadow rounded-md'>
     <ul class='flex-list none'>
       <li class='check mb2'>
-        Pre Test average score of 17% --> Post Test average score of 75%.
+        <span>
+          Pre Test Average Score: <strong>17%</strong>.<br>
+          Post Test Average Score: <strong>75%</strong>.
+        </span>
+        <span class='fast-forward'></span>
+        <span>
+          Significant improvement in scores after playing the game.
+        </span>
       </li>
       <li class='check mb2'>
-        Paired t-test showed that the difference between Pre and Post Test average scores is significant (p-value < 0.001).
+        <span>Paired t-test: <strong>p-value < 0.001</strong></span>
+        <span class='fast-forward'></span>
+        <span>
+          Difference between average scores is significant.
+        </span>
       </li>
       <li class='check mb2'>
-        <em>Average Normalized Gain</em> of 0.7, well above the 0.25 effectiveness threshold.<Link class='ref-link' to=''>[3]</Link><Link class='ref-link' to=''>[4]</Link>
+        <span>Average Normalized Gain: <strong>0.7</strong>.</span>
+        <span class='fast-forward'></span>
+        <span>
+          Well above the 0.25 effectiveness threshold.
+          <Link class='ref-link' to=''>[3]</Link><Link class='ref-link' to=''>[4]</Link>
+        </span>
       </li>
       <li class='check mb2'>
-        All participants scored more than the Pre Test in the second Post Test (retention test), but lower than the first Post Test.
+        <span>Retention Test Average Score: <strong>55%</strong>.</span>
+        <span class='fast-forward'></span>
+        <span>Players retained knowledge effectively.</span>
       </li>
       <li class='warn'>
-        Higher Post Test scores (90% and above) linked to participants with strong background in Physics and Computer Science.
+        <span>Positive correlation between <strong>higher scores</strong> and <strong>academic background</strong>.</span>
+        <span class='fast-forward'></span>
+        <span>Strong background in Physics and Computer Science.</span>
       </li>
     </ul>
   </div>
@@ -39,6 +59,30 @@
   }
 
   li.mb2 {
-    margin-bottom: 2em;
+    margin-bottom: 0.7em;
+  }
+
+  li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+  }
+
+  li > span:nth-child(1) {
+    min-width: 300px;
+    max-width: 300px;
+  }
+
+  li > span:nth-child(2) {
+    min-width: 50px;
+    max-width: 50px;
+    text-align: center;
+  }
+
+  li > span:nth-child(3) {
+    min-width: 300px;
+    max-width: 300px;
   }
 </style>
