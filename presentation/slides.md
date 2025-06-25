@@ -1,6 +1,8 @@
 ---
 theme: hep
 transition: slide-left
+title: 'Qubity'
+favicon: 'assets/images/favicon.ico'
 preTitle: 'Design and Development of Digital Learning Game'
 preDate: '09/03/2025'
 authors:
