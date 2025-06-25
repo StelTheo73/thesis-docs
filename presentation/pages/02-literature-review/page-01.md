@@ -3,8 +3,11 @@
 <p class='slide-subtitle'>Overview (2/3)</p>
 
 <div class='section-wrapper'>
-  <div class='image-wrapper grey-shadow bg-white-smoke rounded-md'>
-    <img src='../../assets/images/design/design_flow.png'/>
+  <div class='img-caption-wrapper'>
+    <div class='image-wrapper grey-shadow bg-white-smoke rounded-md'>
+      <img src='../../assets/images/design/design_flow.png'/>
+    </div>
+    <span>Figure 1: Educational Game Design, Kalmpourtzis (2018).<Link class='ref-link' to=''>[1]</Link></span>
   </div>
   <div class='text-wrapper'>
     <div class='card grey-shadow rounded-md fade-out-vclick' v-after='+1'>

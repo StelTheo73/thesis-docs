@@ -24,8 +24,11 @@
       </li>
     </ul>
   </div>
-  <div class='img-wrapper grey-shadow rounded-md'>
-    <img src='../../assets/images/evaluation/guess.png' class='rounded-md'/>
+  <div class='img-caption-wrapper'>
+    <div class='img-wrapper grey-shadow rounded-md'>
+      <img src='../../assets/images/evaluation/guess.png' class='rounded-md'/>
+    </div>
+    <span>Figure 3: GUESS-18 Subscale Score.</span>
   </div>
   <div
     class='text-wrapper grey-shadow rounded-md'
@@ -55,7 +58,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
     column-gap: 20px;
   }
 

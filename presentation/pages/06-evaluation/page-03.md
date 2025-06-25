@@ -22,8 +22,11 @@
   <p v-click='+1'>
     To measure the effectiveness of the game as a learning tool, we used the <em>Average Normalized Gain</em><Link class='ref-link' to=''>[3]</Link><Link class='ref-link' to=''>[4]</Link> metric:
   </p>
-  <div v-click='+1' class='img-wrapper grey-shadow bg-white-smoke rounded-md'>
-    <img src='../../assets/average_gain.png' class='rounded-md'/>
+  <div v-click='+1' class='img-caption-wrapper'>
+    <div class='img-wrapper grey-shadow bg-white-smoke rounded-md'>
+      <img src='../../assets/average_gain.png' class='rounded-md'/>
+    </div>
+    <span>Figure 2: Average Normalized Gain Formula.</span>
   </div>
 </div>
 
@@ -33,9 +36,6 @@
   }
 
   .img-wrapper {
-    width: max-content;
-    position: absolute;
-    left: 30%;
     padding: 0.5em;
   }
 </style>

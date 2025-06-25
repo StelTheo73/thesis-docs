@@ -25,7 +25,7 @@
           Suitable for users with no prior knowledge.
         </li>
         <li class='check'>
-          Clear and predictable navigation.
+          Predictable navigation.
         </li>
       </ul>
     </div>
@@ -42,7 +42,7 @@
           Low immersion due to lack of background music and sound effects.
         </li>
         <li class='warn'>
-          Very few challenging puzzles.
+          Lack of challenging puzzles.
         </li>
         <li class='warn'>
           More information about superposition.
