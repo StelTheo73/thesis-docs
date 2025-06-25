@@ -3,28 +3,18 @@
 <p class='slide-subtitle'>Main Objective & Motivation</p>
 
 <div class='section-wrapper'>
-  <h1>Main Objective</h1>
+  <h2><strong>Main Objective</strong></h2>
   <p>
     Create an enjoyable, simple and engaging
     educational mobile game to introduce fundamental quantum computing concepts
     to university students.
   </p>
   <hr class='divider-2'>
-  <h1>Motivation</h1>
-  <ul>
-    <li>
-      <p>
-        Quantum Computers process information and solve complex problems
-        exponentially faster than classical computers.
-      </p>
-    </li>
-    <li>
-      <p>
-        Quantum Computing represents a new era of computer science with applications
-        in Artificial Intelligence, Machine Learning, Cryptography and more.
-      </p>
-    </li>
-  </ul>
+  <h2><strong>Motivation</strong></h2>
+  <p>
+    Quantum Computing represents a new era of computer science with applications
+    in Artificial Intelligence, Machine Learning, Cryptography and more.
+  </p>
 </div>
 
 <style>
@@ -40,8 +30,12 @@
     width: 70%;
   }
 
-  /* Override slidev slide for objective paragraph */
-  .section-wrapper p:nth-child(2) {
+  .section-wrapper h2 {
+    margin-bottom: 1em;
+  }
+
+  /* Override slidev style for our paragraphs */
+  .section-wrapper p {
     opacity: 1 !important;
   }
 </style>

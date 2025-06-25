@@ -1,6 +1,6 @@
 # Application Presentation
 
-<p class='slide-subtitle'>Name, Objective and Demo</p>
+<p class='slide-subtitle'>Name, Overview and Demo</p>
 
 <div class='section-wrapper'>
   <div class='text-wrapper grey-shadow rounded-md'>
