@@ -15,7 +15,7 @@
         Having already chosen the technologies we will use, we proceeded with the design process around 3 dimensions: Pedagogy, Mechanics, and Aesthetics-Narratives.
       </p>
     </div>
-    <hr class='divider' v-click='+1'/>
+    <hr class='divider-2' v-click='+1'/>
     <div class='section-2'
       v-click='+1'
       v-motion

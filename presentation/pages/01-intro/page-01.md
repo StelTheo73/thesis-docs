@@ -9,7 +9,7 @@
     educational mobile game to introduce fundamental quantum computing concepts
     to university students.
   </p>
-  <hr class='divider'>
+  <hr class='divider-2'>
   <h1>Motivation</h1>
   <ul>
     <li>

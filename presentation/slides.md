@@ -4,14 +4,14 @@ transition: slide-left
 title: 'Qubity'
 favicon: 'assets/images/favicon.ico'
 preTitle: 'Design and Development of Digital Learning Game'
-preDate: '09/03/2025'
+preDate: '03/07/2025'
 authors:
   - Theofilou Stylianos: []
 meeting: 'Department of Electrical and Computer Engineering, University of Patras'
 ---
 
 <footer>
-  <hr class='divider'/>
+  <hr class='divider-1'/>
   <div class='footer-flex'>
     <span>
       <PoweredBySlidev/>
