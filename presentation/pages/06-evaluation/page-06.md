@@ -5,11 +5,11 @@
 <div class='section-wrapper'>
 
   <div
-    class='text-wrapper grey-shadow rounded-md'
+    class='text-wrapper grey-shadow rounded-md fade-out-vclick hide-before-click-vclick'
     v-click='+1'
     v-motion
-    :initial="{ x: +80 }"
-    :enter="{ x: 0 }"
+    :initial='{ x: +80 }'
+    :enter='{ x: 0 }'
   >
     <ul class='flex-list none'>
       <h2>Strengths</h2>
@@ -29,10 +29,10 @@
   </div>
   <div
     class='text-wrapper grey-shadow rounded-md'
-    v-click='+1'
+    v-click='+2'
     v-motion
-    :initial="{ x: -80 }"
-    :enter="{ x: 0 }"
+    :initial='{ x: -80 }'
+    :enter='{ x: 0 }'
   >
     <ul class='flex-list none'>
       <h2>Weak Spots</h2>

@@ -7,7 +7,7 @@
 
   <div class='results-wrapper'>
     <div
-      class='grey-shadow rounded-md'
+      class='grey-shadow rounded-md fade-out-vclick hide-before-click-vclick'
       v-click='+1'
       v-motion
       :initial="{ y: -80 }"

@@ -85,3 +85,8 @@ li.check::before {
   color: gray;
   opacity: 0.3 !important;
 }
+
+/* Override previous style to hide elements before 1st click */
+.fade-out-vclick.slidev-vclick-hidden.hide-before-click-vclick {
+  opacity: 0 !important;
+}

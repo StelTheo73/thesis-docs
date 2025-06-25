@@ -3,7 +3,7 @@
 <p class='slide-subtitle'>Key Findings & Future Work</p>
 
 <div class='section-wrapper'>
-  <div class='text-wrapper grey-shadow rounded-md'>
+  <div class='text-wrapper grey-shadow rounded-md fade-out-vclick' v-after>
     <ul class='flex-list none'>
       <li class='check'>
         Effective learning tool.
