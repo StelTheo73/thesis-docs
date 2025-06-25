@@ -1,5 +1,5 @@
 # Literature Review
-<p class='slide-subtitle'>Conclusions (3/3)</p>
+<p class='slide-subtitle'>Findings (3/3)</p>
 
 <div class='section-wrapper'>
   <div class='text-wrapper'>

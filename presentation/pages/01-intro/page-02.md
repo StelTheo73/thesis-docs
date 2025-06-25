@@ -6,14 +6,10 @@
   <ol>
     <li>Aimed at university students with no prior knowledge of Quantum Mechanics.</li>
     <li>Simple game mechanics and rules.</li>
-    <li>Suitable to be used as an educational tool, in the context of a university lecture.
+    <li>Suitable for use as an educational tool in university lecture.
       <ul class='list-abc'>
-        <li>
-          Short duration.
-        </li>
-        <li>
-          Include a tool to measure knowledge retention.
-        </li>
+        <li>Short duration.</li>
+        <li>Includes a tool to measure knowledge retention.</li>
       </ul>
     </li>
   </ol>

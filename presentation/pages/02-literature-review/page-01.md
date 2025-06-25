@@ -7,24 +7,29 @@
     <img src='../../assets/images/design/design_flow.png'/>
   </div>
   <div class='text-wrapper'>
-    <p>1. Technology: Flutter Framework & Flame Game Engine<br>
-      - Single codebase<br>
-      - Scalability - Wider target audience<br>
-      - Lower development cost<br>
-      - Lower maintenance cost<br>
-      - Balance between performance and cost<br>
-      - Libraries for quantum circuits simulation<br>
-    </p>
-    <p>2. Pedagogy:<br>
-      - Research for quantum mechanics concepts<br>
-      - Research for similar educational games to define educational content<br>
-    </p>
+    <div class='card grey-shadow rounded-md fade-out-vclick' v-after='+1'>
+      <h4>1. Technology: Flutter Framework & Flame Game Engine</h4>
+      <ul class=''>
+        <li>Single codebase</li>
+        <li>Scalability - Wider target audience</li>
+        <li>Lower development cost</li>
+        <li>Lower maintenance cost</li>
+        <li>Balance between performance and cost</li>
+        <li>Libraries for quantum circuits simulation</li>
+      </ul>
+    </div>
+    <div class='card grey-shadow rounded-md fade-out-vclick' v-click='+1'>
+      <h4>2. Pedagogy</h4>
+      <ul class=''>
+        <li>Research for quantum mechanics concepts</li>
+        <li>Research for similar educational games to define educational content</li>
+      </ul>
+    </div>
   </div>
 </div>
 
 <style>
   .section-wrapper {
-    border: 1px solid black;
     margin-top: -2em;
     display: flex;
     flex-direction: row;
@@ -32,14 +37,18 @@
   }
 
   .text-wrapper {
-    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 
-  .image-wrapper {
-    border: 1px solid red;
+  .text-wrapper .card {
+    margin: 1em;
+    padding: 1em;
   }
 
   .image-wrapper img {
     height: 500px;
+    padding: 0.5em;
   }
 </style>

@@ -18,5 +18,6 @@
 
   .image-wrapper img {
     height: 500px;
+    padding: 0.5em;
   }
 </style>

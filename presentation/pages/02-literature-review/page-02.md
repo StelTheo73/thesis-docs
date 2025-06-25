@@ -7,22 +7,27 @@
     <img src='../../assets/images/design/design_flow.png'/>
   </div>
   <div class='text-wrapper'>
-    <p>3. Mechanics:<br>
-      - Research for similar educational games<br>
-      - Listing of game mechanics used in similar educational games<br>
-      - Classification of games per genre<br>
-      - Research for most suitable genre for our game<br>
-    </p>
-    <p>4. Narratives & Aesthetics:<br>
-      - Research for Game Based Learning (GBL)<br>
-      - Listing of GBL elements used in similar educational games<br>
-    </p>
+    <div class='card grey-shadow rounded-md fade-out-vclick' v-after='+1'>
+      <h4>3. Mechanics</h4>
+      <ul class=''>
+        <li>Research for similar educational games</li>
+        <li>Game mechanics used in similar educational games</li>
+        <li>Classification of games per genre</li>
+        <li>Research for most suitable genre for our game</li>
+      </ul>
+    </div>
+    <div class='card grey-shadow rounded-md fade-out-vclick' v-click='+1'>
+      <h4>4. Narratives & Aesthetics</h4>
+      <ul class=''>
+        <li>Research for Game Based Learning (GBL)</li>
+        <li>GBL elements used in similar educational games</li>
+      </ul>
+    </div>
   </div>
 </div>
 
 <style>
   .section-wrapper {
-    border: 1px solid black;
     margin-top: -2em;
     display: flex;
     flex-direction: row;
@@ -30,14 +35,18 @@
   }
 
   .text-wrapper {
-    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 
-  .image-wrapper {
-    border: 1px solid red;
+  .text-wrapper .card {
+    margin: 1em;
+    padding: 1em;
   }
 
   .image-wrapper img {
     height: 500px;
+    padding: 0.5em;
   }
 </style>

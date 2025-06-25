@@ -11,7 +11,7 @@
       <strong>Genre</strong>: Combination, Puzzle and Shooter game.
     </p>
     <p>
-      <strong>Main Objective</strong>: Destroy all the asteroids on the screen.
+      <strong>Main Objective</strong>: Destroy the asteroids.
     </p>
   </div>
   <div class='video-wrapper grey-shadow rounded-xl' v-click='+1'>
