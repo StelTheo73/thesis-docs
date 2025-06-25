@@ -3,7 +3,7 @@
 
 <div class='section-wrapper'>
   <div class='text-wrapper'>
-    <p>Quantum Computing concepts that the game will cover:</p>
+    <p>Quantum Computing concepts that will be covered by the game</p>
     <ul>
       <li>Quantum Bits</li>
       <li>Quantum Registers</li>
