@@ -2,6 +2,7 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
-  "buildCommand": "npm run build",
+  "installCommand": "corepack enable && yarn set version 4.9.2 && yarn install",
+  "buildCommand": "yarn slidev build",
   "outputDirectory": "dist"
 }
