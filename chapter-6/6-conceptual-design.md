@@ -16,7 +16,7 @@ We reasoned that a 2D shooting game, combined with a puzzle game, could have sim
 
 We then had to decide which element of the game was appropriate to introduce the concepts of quantum computing. We could control 3 variables, the position of the spaceship, the position of the enemy spaceships and the state of the missiles. In terms of controlling the state of the missiles, we thought the game would be similar to Tetris, which is still a puzzle game, but it can get tedious and eventually distract the players from the learning objective, as they have a limited time to manipulate the state of the missiles, so they may randomly affect them, with no time to recall the knowledge they have gained. After rejecting the missile state control, we considered the spaceship position control and decided to control our own spaceship rather than the opposing spaceship.
 
-Based on the above, we decided to control the spaceship not with a traditional joystick, but by acting on the spaceship with quantum gates. We decided to have distinct locations where the spaceship, and therefore the targets, could be found, and to encode each location with qubit states. In this way we match the position of the spaceship to the state of a quantum register. The player chooses the gate they want and places it at a specific location. Placing the gate at the specific location will change the value of the register, thus affecting the position of the spaceship.
+Based on the above, we decided to control the spaceship not with a traditional joystick, but with quantum gates. We decided to have distinct locations where the spaceship, and therefore the targets, could be found, and to encode each location with qubit states. In this way we match the position of the spaceship to the state of a quantum register. The player chooses the gate they want and places it at a specific location. Placing the gate at this location will change the state of the respective qubit, thus affecting the position of the spaceship.
 
 Finally, once the ship is in the correct position, the player must launch missiles to destroy the targets. That requires implementing a moving graphical element and defining the equations of motion in two-dimensional space.
 
@@ -44,7 +44,7 @@ A prototype level (wireframe) was then designed in _diagrams.net_^[https://app.d
 
 ### Application Structure
 
-_Figure 6.3_ shows the structure that was chosen for the application.
+_Figure 6.3_ shows the structure of the application.
 
 ![Application Structure & Navigation Flow.](chapter-6/image002_app_structure.png){#fig:fig603 height=50%}
 
@@ -66,9 +66,9 @@ The final layout and functionality of the screens will be presented in Appendix 
 
 ![Development Timeline.](chapter-6/image004_development_timeline.png){#fig:fig604 height=80%}
 
-Development of the game began in November 2024. The game developed is called _Qubity_ and, as mentioned before, is a variant of the arcade video game _Space Invaders_. Google\'s _Material Design 3_^[https://m3.material.io] and _Flame Game Engine_^[https://flame-engine.org/] were user to create the graphical elements of the application. The spaceships, asteroids, gates and several other bitmaps used to create the sprite components of the game are from _Freepik_^[https://www.freepik.com/]. The background image was created by _ChatGPT_^[https://chatgpt.com/] and was slightly modified.
+Development of the game began in November 2024. The game developed is called _Qubity_ and, as mentioned before, is a variant of the arcade video game _Space Invaders_. Google\'s _Material Design 3_^[https://m3.material.io] and _Flame Game Engine_^[https://flame-engine.org/] were used to create the graphical elements of the application. The spaceships, asteroids, gates and several other bitmaps used to create the sprite components of the game are from _Freepik_^[https://www.freepik.com/]. The background image was created by _ChatGPT_^[https://chatgpt.com/] and was slightly modified.
 
-The first step was the creation of 30 scenarios (puzzles) to form the levels of the game. The first 17 levels have a single qubit and the available gates are Pauli-X, Pauli-Y, Pauli-Z and Hadamard. The remaining 13 levels have a two qubits and the available gates are Pauli-X, Pauli-Z and Hadamard. In each level there are 2, 4, or 8 different states in which the spaceship can be in, depending on the number of qubits and the available gates, as described in the previous sections. Each scenario consists of the initial state of the qubits (initial position of the spaceship), the target state (positions of the target asteroids), the available gates and the minimum number of gates to be used to solve the puzzle. The scenarios are encoded in a YAML file in a manner that is human-readable while allowing for easy addition of new levels.
+The first step was the creation of 30 scenarios (puzzles) to form the levels of the game. The first 17 levels have a single qubit register and the available gates are Pauli-X, Pauli-Y, Pauli-Z and Hadamard. The remaining 13 levels have a register with two qubits and the available gates are Pauli-X, Pauli-Z and Hadamard. In each level there are 2, 4, or 8 different states in which the spaceship can be in, depending on the number of qubits and the available gates, as described in the previous sections. Each scenario consists of the initial state of the qubits (initial position of the spaceship), the target state (positions of the target asteroids), the available gates and the minimum number of gates to be used to solve the puzzle. The scenarios are encoded in a YAML file in a manner that is human-readable while allowing for easy addition of new levels.
 
 ![Screenshot from Level 30.](chapter-6/image005_level_30.jpg){#fig:fig605 height=50%}
 
