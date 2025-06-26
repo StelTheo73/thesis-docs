@@ -38,6 +38,7 @@ input-files:
   - chapter-A-appendix-A/A-game-screens.md
   - chapter-A-appendix-B/A-quiz-questions.md
   - chapter-A-appendix-C/A-questionnaires.md
+  - 0-summary/0-summary.md
   - bibliography/bibliography.md
 
 log-file: log/pdf.log.json
@@ -58,6 +59,7 @@ resource-path:
   - chapter-A-appendix-A
   - chapter-A-appendix-B
   - chapter-A-appendix-C
+  - 0-summary
 standalone: true
 to: pdf
 top-level-division: chapter # part, chapter, section, or default:
