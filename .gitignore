@@ -1,4 +1,5 @@
 thesis-markdown/
+.vscode/settings.json
 
 # Libre office temp files
 *.~*.*#
