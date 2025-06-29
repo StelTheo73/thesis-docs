@@ -9,7 +9,7 @@
     <li>Suitable for use as an educational tool in university lecture.
       <ul class='list-abc'>
         <li>Short duration.</li>
-        <li>Includes a tool to measure knowledge retention.</li>
+        <li>Includes a tool to measure learning outcomes.</li>
       </ul>
     </li>
   </ol>

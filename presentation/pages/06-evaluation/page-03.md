@@ -1,37 +1,33 @@
 # Evaluation
 
-<p class='slide-subtitle'>Pre-Post Tests 1/2: Preparation </p>
+<p class='slide-subtitle'>Pre-Post Tests 1/2: Average Normalized Gain</p>
 
 <div class='section-wrapper'>
-  <h2>Quiz Preparation</h2>
-  <ul class='flex-list'>
-    <li>
-      Creation of quiz repository with candidate questions.<Link class='ref-link' to=''>[3]</Link><Link class='ref-link' to=''>[4]</Link>
-    </li>
-    <li>
-      Selection of questions based on difficulty and relevance to game content.
-    </li>
-    <li>
-      Quiz consists of 12 questions, 3 theoretical and 9 related to quantum gates operations.
-    </li>
-    <li>
-      Each question has 4 possible answers, with only one correct answer.
-    </li>
-  </ul>
-  <hr v-click='+1' class='divider-2'/>
-  <p v-click='+1'>
-    To measure the effectiveness of the game as a learning tool, we used the <em>Average Normalized Gain</em><Link class='ref-link' to=''>[3]</Link><Link class='ref-link' to=''>[4]</Link> metric:
+  <p>
+    Measurement of learning tool effectiveness:
   </p>
-  <div v-click='+1' class='img-caption-wrapper'>
+  <div class='img-caption-wrapper'>
     <div class='img-wrapper grey-shadow bg-white-smoke rounded-md'>
       <img src='../../assets/average_gain.png' class='rounded-md'/>
     </div>
-    <span>Figure 5: Average Normalized Gain Formula.</span>
+    <span>
+      Figure 5: Average Normalized Gain Formula.
+      <Link class='ref-link' to=''>[3]</Link><Link class='ref-link' to=''>[4]</Link>
+    </span>
   </div>
 </div>
 
 <style>
+  .section-wrapper {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
   h2 {
+
     margin-bottom: 0.5em;
   }
 

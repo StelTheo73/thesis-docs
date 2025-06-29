@@ -19,7 +19,7 @@
       <div class='video-wrapper grey-shadow rounded-xl'>
         <SlidevVideo v-click autoplay controls class='rounded-xl'>
           <source
-            src='../../assets/videos/gameplay.webm'
+            src='../../assets/videos/gameplay_short.mp4'
             type='video/webm'
             class='rounded-xl'
           />

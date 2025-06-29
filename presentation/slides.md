@@ -72,11 +72,6 @@ layout: pageBar
 src: ./pages/02-literature-review/page-05.md
 ---
 
----
-layout: pageBar
-src: ./pages/02-literature-review/page-06.md
----
-
 <!-- Evaluation ================ -->
 <!-- =========================== -->
 ---

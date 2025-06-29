@@ -19,7 +19,7 @@
           Simple mechanics.
         </li>
         <li class='check'>
-          Effective incentive system, enhanced motivation and engagement.
+          Effective incentive system.
         </li>
         <li class='check'>
           Suitable for users with no prior knowledge.

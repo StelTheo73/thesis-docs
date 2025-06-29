@@ -15,7 +15,7 @@
         Suitable for users with no prior experience in the field.
       </li>
       <li class='check'>
-        Effective incentive system, enhances motivation and engagement.
+        Effective incentive system.
       </li>
       <li class='check'>
         Positive impact on knowledge retention.

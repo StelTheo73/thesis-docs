@@ -15,7 +15,6 @@
       <ul class=''>
         <li>Research for similar educational games</li>
         <li>Game mechanics used in similar educational games</li>
-        <li>Classification of games per genre</li>
         <li>Research for most suitable genre for our game</li>
       </ul>
     </div>

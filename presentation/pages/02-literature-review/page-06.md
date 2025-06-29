@@ -5,21 +5,8 @@
   <div class='text-wrapper'>
     <!-- <h2>Quantum Computing concepts linked to Mechanics</h2> -->
     <ul class='flex-list'>
-      <li v-click='+1' class='fade-out-vclick fade-out-vclick'>
-        <strong>Spaceship Position</strong>: Spaceship can move horizontally between discrete positions.
-      </li>
-      <li v-click='+1' class='fade-out-vclick fade-out-vclick'>
-        <strong>Spaceship Position</strong>: Controlled by the state of a quantum register.
-      </li>
-      <li v-click='+2' class='fade-out-vclick fade-out-vclick'>
-        <strong>Quantum Register</strong>: 1 or 2 qubits.
-      </li>
-      <li v-click='+2' class='fade-out-vclick fade-out-vclick'>
-        <strong>Quantum Register</strong>: The state of each qubit can be altered with Quantum Gates
-      </li>
-      <li v-click='+3' class='fade-out-vclick fade-out-vclick'>
-        <strong>Target Position</strong>: The target state for the Quantum Register
-      </li>
+      <li v-after class='fade-out-vclick'>Puzzle Mechanics</li>
+      <li v-after class='fade-out-vclick'>Shooter Mechanics</li>
     </ul>
   </div>
   <div class='img-caption-wrapper'>
