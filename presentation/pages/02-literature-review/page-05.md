@@ -25,7 +25,7 @@
       </li>
       <li v-click='+3' class='fade-out-vclick'>
         <strong>Incentive System</strong>: No leaderboard to prevent frustration and discrimination.
-        <Link class='ref-link' to=''>[2]</Link>
+        <Link class='ref-link' to='20'>[2]</Link>
       </li>
     </ul>
   </div>

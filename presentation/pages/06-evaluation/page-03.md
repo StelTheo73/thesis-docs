@@ -12,7 +12,7 @@
     </div>
     <span>
       Figure 5: Average Normalized Gain Formula.
-      <Link class='ref-link' to=''>[3]</Link><Link class='ref-link' to=''>[4]</Link>
+      <Link class='ref-link' to='20'>[3]</Link><Link class='ref-link' to='20'>[4]</Link>
     </span>
   </div>
 </div>

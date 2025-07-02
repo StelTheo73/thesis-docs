@@ -27,7 +27,7 @@
         <span class='fast-forward'></span>
         <span>
           Well above the 0.25 effectiveness threshold.
-          <Link class='ref-link' to=''>[3]</Link><Link class='ref-link' to=''>[4]</Link>
+          <Link class='ref-link' to='20'>[3]</Link><Link class='ref-link' to='20'>[4]</Link>
         </span>
       </li>
       <li class='check mb2 fade-out-vclick' v-click='+3'>
