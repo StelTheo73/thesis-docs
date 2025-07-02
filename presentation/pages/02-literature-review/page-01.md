@@ -14,7 +14,6 @@
       <h4><strong>1. Technology: Flutter Framework & Flame Game Engine</strong></h4>
       <ul class=''>
         <li>Single codebase</li>
-        <li>Scalability - Wider target audience</li>
         <li>Lower development cost</li>
         <li>Lower maintenance cost</li>
         <li>Balance between performance and cost</li>
