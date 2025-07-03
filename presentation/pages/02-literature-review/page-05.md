@@ -34,7 +34,7 @@
       <div class='image-wrapper grey-shadow bg-white-smoke rounded-xl'>
         <img class='rounded-xl' src='../../assets/images/design/theory_slide.jpg'/>
       </div>
-      <span>Figure 2: Narrative.</span>
+      <span>Figure 2: Narratives.</span>
     </div>
     <div class='img-caption-wrapper' v-click='+3'>
       <div class='image-wrapper grey-shadow bg-white-smoke rounded-xl'>

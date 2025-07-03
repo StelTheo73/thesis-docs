@@ -5,8 +5,8 @@
 <div class='section-wrapper'>
   <h2><strong>Main Objective</strong></h2>
   <p>
-    Create an enjoyable, simple and interactive
-    educational mobile game to introduce fundamental quantum computing concepts
+    Create a simple and enjoyable educational mobile game
+    to introduce fundamental quantum computing concepts
     to university students.
   </p>
   <hr class='divider-2'>
