@@ -13,7 +13,7 @@
   <h2><strong>Motivation</strong></h2>
   <p>
     Quantum Computing represents a new era of computer science with applications
-    in Artificial Intelligence, Machine Learning, Cryptography and more.
+    in Artificial Intelligence, Machine Learning, Cybersecurity and more.
   </p>
 </div>
 

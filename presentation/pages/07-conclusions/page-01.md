@@ -15,7 +15,7 @@
         Suitable for users with no prior experience in the field.
       </li>
       <li class='check'>
-        Effective incentive system.
+        Simple mechanics and effective incentive system.
       </li>
       <li class='check'>
         Positive impact on knowledge retention.
@@ -37,13 +37,13 @@
         More information about superposition.
       </li>
       <li class='work'>
+        Hints for difficult levels.
+      </li>
+      <li class='work'>
         Sound effects and background music to enhance immersion.
       </li>
       <li class='work'>
-        Social features to enhance engagement.
-      </li>
-      <li class='work'>
-        Support for more than 2 languages.
+        Social features.
       </li>
     </ul>
   </div>
