@@ -9,9 +9,6 @@
     <div
       class='grey-shadow rounded-md fade-out-vclick hide-before-click-vclick'
       v-click='+1'
-      v-motion
-      :initial="{ y: -80 }"
-      :enter="{ y: 0 }"
     >
       <ul class='text-wrapper none'>
         <h2>Strengths</h2>
@@ -32,9 +29,6 @@
     <div
       class='grey-shadow rounded-md'
       v-click='+2'
-      v-motion
-      :initial="{ y: -80 }"
-      :enter="{ y: 0 }"
     >
       <ul class='text-wrapper none'>
         <h2>Weak Spots</h2>

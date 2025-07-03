@@ -18,9 +18,6 @@
     </li>
     <li
       v-click='+5'
-      v-motion
-      :initial="{ y: -80 }"
-      :enter="{ y: 0 }"
     >
       <p><strong>Narratives & Aesthetics:</strong> GBL Elements Selection</p>
       <ul>

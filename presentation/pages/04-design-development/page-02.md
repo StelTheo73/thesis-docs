@@ -18,9 +18,6 @@
     <hr class='divider-2' v-click='+1'/>
     <div class='section-2'
       v-click='+1'
-      v-motion
-      :initial="{ y: -80 }"
-      :enter="{ y: 0 }"
     >
       <ol class='ol-flex'>
         <li><p><strong>Pedagogy:</strong> Quantum Computing concepts to include in the game</p>

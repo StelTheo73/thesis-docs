@@ -25,9 +25,6 @@
   <div
     class='text-wrapper grey-shadow rounded-md'
     v-click='+1'
-    v-motion
-    :initial="{ y: -80 }"
-    :enter="{ y: 0 }"
   >
     <ul class='flex-list none'>
       <li class='work'>

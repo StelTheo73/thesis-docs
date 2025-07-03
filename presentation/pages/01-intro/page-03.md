@@ -14,19 +14,11 @@
       <strong>Main Objective</strong>: Destroy the asteroids.
     </p>
   </div>
-  <div class='video-section'>
-    <div class='video-caption-wrapper' v-click='+1'>
-      <div class='video-wrapper grey-shadow rounded-xl'>
-        <SlidevVideo v-click autoplay controls class='rounded-xl'>
-          <source
-            src='../../assets/videos/gameplay_short.mp4'
-            type='video/webm'
-            class='rounded-xl'
-          />
-        </SlidevVideo>
-      </div>
-      <span>Video 1: Demo</span>
+  <div class='img-caption-wrapper'>
+    <div class='img-wrapper grey-shadow bg-white-smoke rounded-md'>
+      <img src='../../assets/level-30.png' class='rounded-md'/>
     </div>
+    <span>Video 1: Demo</span>
   </div>
 </div>
 
@@ -49,7 +41,7 @@
     justify-content: center;
   }
 
-  .video-wrapper {
+  .img-wrapper {
     max-width: 220px;
   }
 </style>
