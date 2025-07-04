@@ -950,7 +950,12 @@ $if(titlepage)$
       $endif$
       \vskip 2em
       \Large
-      \textbf{\uppercase{$school$}\\ \uppercase{Τμήμα $department$}}
+      \textbf{
+        \uppercase{$school$}\\
+        \uppercase{Τμήμα $department$}\\
+        \uppercase{Τομέας $division$}\\
+        \uppercase{Εργαστήριο $lab$}
+      }
       \vskip 4em
       \setstretch{1}
         % \vfill
@@ -1004,7 +1009,7 @@ $endif$
   \vskip 2.5em
   \textsf{παρουσιάστηκε δημόσια και εξετάστηκε στο τμήμα $department$ στις}\\
   \vskip 0.5em
-  \texttt{.... / .... / ....}
+  \texttt{$presentation-date$}
 
   \Large
   \begin{multicols}{2}
@@ -1012,6 +1017,7 @@ $endif$
     \vskip 3.5em
     \textsf{$supervisor$} \\
 
+    \columnbreak
     \textsf{Ο Διευθυντής του Τομέα} \\
     \vskip 3.5em
     \textsf{$director$} \\
